@@ -28,8 +28,10 @@ from typing import Any
 
 import yaml
 
-CONFIG_ROOT = Path(__file__).resolve().parents[2] / "configs"
-BUILDING_TYPE_ROOT = CONFIG_ROOT / "building_types"
+#: Shipped profiles live inside the package, so they survive a non-editable
+#: install.  Point ``--config-root`` at your own directory to override or add
+#: types without touching the package.
+BUILDING_TYPE_ROOT = Path(__file__).resolve().parent / "profiles"
 
 BASE_PROFILE_NAME = "generic"
 

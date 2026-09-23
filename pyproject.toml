@@ -44,7 +44,7 @@ Issues = "https://github.com/JIMMY081105/Buildings-Generation/issues"
 where = ["src"]
 
 [tool.setuptools.package-data]
-buildingsgen = ["py.typed"]
+buildingsgen = ["py.typed", "profiles/*.yaml"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

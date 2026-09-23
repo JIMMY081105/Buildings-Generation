@@ -7,7 +7,7 @@ A reading order, and the reasoning behind the boundaries.
 ```
 buildingsgen run building.usd --type factory
         │
-        ├── config.load_profile("factory")          configs/building_types/*.yaml
+        ├── config.load_profile("factory")          buildingsgen/profiles/*.yaml
         │
         ├── pipeline.connect_storeys
         │     ├── voxel.bake.bake_stage(source)     colliders → occupancy cache

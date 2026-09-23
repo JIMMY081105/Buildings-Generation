@@ -27,7 +27,7 @@ check that refuses everything.
 ### 2. Do not move a threshold to make something pass
 
 If a threshold is wrong, say what it should be, why, and what it changes. Then
-change it in `configs/building_types/generic.yaml`, where the diff is visible.
+change it in `src/buildingsgen/profiles/generic.yaml`, where the diff is visible.
 
 Profiles may only tighten; the loader enforces it. The body proxy
 (`StandabilityV1`) cannot be changed from a profile at all — it raises.
@@ -50,7 +50,7 @@ themselves, generously.
 
 | Change | File |
 |---|---|
-| A new building type | `configs/building_types/<name>.yaml` — no code |
+| A new building type | `src/buildingsgen/profiles/<name>.yaml` — no code |
 | A new gate | `acceptance/gates.py`, add to `ALL_GATES`, document in `docs/acceptance-gates.md` |
 | Stair geometry | `stairs/spec.py` for dimensions, `stairs/asset.py` for geometry |
 | Anything derived from upstream | note it in `docs/provenance.md` with what changed and why |

@@ -1,6 +1,7 @@
 # Adding a building type
 
-A building type is one YAML file in `configs/building_types/`. No code changes.
+A building type is one YAML file in `src/buildingsgen/profiles/`, or in any
+directory you pass as `--config-root`. No code changes either way.
 
 ```yaml
 name: hospital            # must match the filename
@@ -97,8 +98,9 @@ ProfileError: profile 'lax' loosens ['min_reachable_area_per_storey_m2']
 relative to 'generic'; a threshold may only be tightened by a profile
 ```
 
-Loosening is not forbidden — it is forbidden *quietly*. Change `generic.yaml`,
-where the diff is visible and the reason has to be written down.
+Loosening is not forbidden — it is forbidden *quietly*. Change
+`src/buildingsgen/profiles/generic.yaml`, where the diff is visible and the
+reason has to be written down.
 
 ## The rule about the body
 

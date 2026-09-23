@@ -97,7 +97,7 @@ humanoid policy can traverse it.
 ## Building types
 
 ```yaml
-# configs/building_types/factory.yaml
+# src/buildingsgen/profiles/factory.yaml
 name: factory
 extends: generic
 stair:
@@ -112,8 +112,8 @@ acceptance:
   max_unreachable_standable_component_m2: 3.0
 ```
 
-Shipped: `generic`, `house`, `factory`, `school`, `warehouse`, `office`. Adding
-one is a YAML file — see [docs/building-types.md](docs/building-types.md).
+Shipped in `src/buildingsgen/profiles/`: `generic`, `house`, `factory`, `school`,
+`warehouse`, `office`. Adding one is a YAML file — see [docs/building-types.md](docs/building-types.md).
 
 Two things a profile may **not** do:
 
@@ -214,7 +214,7 @@ src/buildingsgen/
     voxel/              grid, rasteriser, cache format, Standability V1
     acceptance/         gate results, context, the seven gates, runner
     fixtures/           synthetic buildings, with and without defects
-configs/building_types/ generic, house, factory, school, warehouse, office
+    profiles/           generic, house, factory, school, warehouse, office
 docs/                   architecture, building-types, acceptance-gates, provenance
 ```
 
