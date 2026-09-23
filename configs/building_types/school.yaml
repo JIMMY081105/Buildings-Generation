@@ -1,0 +1,35 @@
+name: school
+extends: generic
+description: >
+  Teaching buildings: long double-loaded corridors, wide egress stairs, many
+  doors off one circulation spine.  The corridor, not the room, is what a
+  navigation policy spends its time in, so the route-length check matters more
+  here than anywhere else.
+source_corpus: "educational / institutional subset of a multi-type USD corpus"
+
+stair:
+  # Egress stairs are shallow and usually switchback.
+  families: [u_shaped, straight, l_shaped]
+  preferred_riser_m: 0.160
+  min_riser_m: 0.150
+  max_riser_m: 0.175
+  min_going_m: 0.28
+  max_going_m: 0.32
+  width_m: 1.40
+  min_width_m: 1.20
+  handrail: double
+
+storeys:
+  min_storey_height_m: 3.00
+  max_storey_height_m: 4.50
+  min_storey_floor_area_m2: 60.0
+  name_hints: [floor, storey, story, level, wing]
+
+acceptance:
+  min_reachable_area_per_storey_m2: 30.0
+  max_unreachable_standable_component_m2: 3.0
+  # Egress clear width.
+  min_doorway_clear_width_m: 0.90
+  # A corridor building that needs 1.6x the straight-line distance is already
+  # unusual; past that the plan is a maze and the stair is in the wrong place.
+  max_geodesic_to_euclidean_ratio: 1.6

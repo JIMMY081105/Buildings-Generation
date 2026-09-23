@@ -1,0 +1,44 @@
+# The base profile.  Every other building type inherits from this one and may
+# only *tighten* an acceptance threshold; the loader rejects a profile that
+# loosens one.  Change a number here only with a written reason - four of the
+# six below exist because a laxer version of the same check once passed a
+# building that a humanoid could not actually traverse.
+name: generic
+description: >
+  Type-agnostic defaults.  Use this when the corpus label is unknown or the
+  building does not resemble a dwelling, a plant or a campus building.
+source_corpus: ""
+
+stair:
+  families: [straight, l_shaped, u_shaped]
+  # 0.175 m is the riser the search starts from; the accepted riser is
+  # storey_height / riser_count and must land inside [min, max].
+  preferred_riser_m: 0.175
+  min_riser_m: 0.150
+  # Hard ceiling: the pinned body proxy refuses a support step above 0.20 m,
+  # so a riser at or above it cannot be climbed regardless of profile.
+  max_riser_m: 0.190
+  min_going_m: 0.26
+  max_going_m: 0.30
+  # Blondel comfort relation, 2 x riser + going.
+  blondel_target_m: 0.63
+  width_m: 1.00
+  min_width_m: 0.90
+  handrail: single
+  even_risers_for_u_shaped: true
+
+storeys:
+  min_storey_height_m: 2.70
+  max_storey_height_m: 6.00
+  max_slab_thickness_m: 0.60
+  min_storey_floor_area_m2: 8.0
+  name_hints: [floor, storey, story, level]
+  expected_storey_count: null
+
+acceptance:
+  min_reachable_area_per_storey_m2: 15.0
+  max_unreachable_standable_component_m2: 4.0
+  min_doorway_clear_width_m: 0.60
+  max_geodesic_to_euclidean_ratio: 2.0
+  min_top_clearance_coverage: 0.90
+  min_voxel_agreement: 1.0

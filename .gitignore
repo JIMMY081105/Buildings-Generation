@@ -1,0 +1,31 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.env
+
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Pipeline output.  Everything under here is reproducible from configs + inputs.
+out/
+runs/
+*.log
+
+# Baked voxel caches: large regenerable binaries.  Manifests stay, arrays go.
+**/*.scene_geometry_v1/*.npy
+
+# Source building corpora and generated stair assets are inputs/artifacts,
+# not source code.  Point at them with --source / --asset-root instead.
+assets/
+corpora/
+*.usdz
+
+.DS_Store
+.idea/
+.vscode/

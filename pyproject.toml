@@ -1,0 +1,64 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "buildingsgen"
+version = "0.1.0"
+description = "Generate, connect and accept multi-storey simulation-ready buildings of any type"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Yixing Ma" }]
+keywords = ["usd", "openusd", "procedural-generation", "staircase", "robotics", "humanoid", "voxel"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Topic :: Scientific/Engineering",
+]
+
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "trimesh>=4.0",
+    "usd-core>=23.11",
+    "PyYAML>=6.0",
+]
+
+[project.optional-dependencies]
+# Figures for the acceptance report.
+figures = ["matplotlib>=3.7"]
+# Staircase asset synthesis.  Infinigen pulls in Blender's `bpy`; it is only
+# needed by `buildingsgen.stairs.infinigen_backend`, never by the gates.
+stairs = ["bpy>=4.2", "coacd>=1.0"]
+dev = ["pytest>=7.4", "ruff>=0.5"]
+
+[project.scripts]
+buildingsgen = "buildingsgen.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/JIMMY081105/Buildings-Generation"
+Issues = "https://github.com/JIMMY081105/Buildings-Generation/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+buildingsgen = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = ["ignore::DeprecationWarning"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "SIM"]
+# B008: several public functions default to StandabilityV1(), a frozen
+# dataclass.  The rule exists for mutable defaults; an immutable one is the
+# clearest way to say "the pinned body proxy unless you say otherwise".
+ignore = ["B905", "B008"]

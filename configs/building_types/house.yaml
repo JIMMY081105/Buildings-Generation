@@ -1,0 +1,24 @@
+name: house
+extends: generic
+description: >
+  Two- to three-storey dwellings.  Rooms are small, doorways are the binding
+  constraint rather than the stair, and an L- or U-shaped flight often fits
+  where a straight one does not.
+source_corpus: "procedural / retrieved residential USD scenes"
+
+stair:
+  families: [straight, l_shaped, u_shaped]
+  preferred_riser_m: 0.175
+  width_m: 0.90
+  min_width_m: 0.80
+  handrail: single
+
+storeys:
+  min_storey_height_m: 2.70
+  max_storey_height_m: 3.60
+  min_storey_floor_area_m2: 20.0
+
+acceptance:
+  # A dwelling storey that only offers 15 m^2 around the stair is a landing,
+  # not a floor a policy can be trained on.
+  min_reachable_area_per_storey_m2: 20.0

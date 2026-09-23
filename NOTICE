@@ -1,0 +1,37 @@
+Buildings-Generation
+Copyright 2026 Yixing Ma
+
+Licensed under the Apache License, Version 2.0.  See LICENSE.
+
+This product contains code derived from the following upstream projects.  Each
+derived module names its origin in its header docstring; `docs/provenance.md`
+lists every file and what was changed.
+
+--------------------------------------------------------------------------------
+NVIDIA ProtoMotions
+  https://github.com/NVlabs/ProtoMotions
+  SPDX-FileCopyrightText: Copyright (c) 2025-2026 NVIDIA CORPORATION & AFFILIATES
+  SPDX-License-Identifier: Apache-2.0
+
+  Derived here:
+    src/buildingsgen/voxel/grid.py         aligned 5 cm / 10 cm cache grid spec
+    src/buildingsgen/voxel/rasterize.py    conservative equal-size voxel splat
+    src/buildingsgen/voxel/standability.py pinned Standability V1 semantics
+    src/buildingsgen/voxel/cache.py        .scene_geometry_v1 cache layout
+
+--------------------------------------------------------------------------------
+Infinigen (Princeton Vision & Learning Lab)
+  https://github.com/princeton-vl/infinigen
+  SPDX-License-Identifier: BSD-3-Clause
+
+  Used, not vendored.  `src/buildingsgen/stairs/infinigen_backend.py` imports
+  Infinigen's staircase factories at runtime and subclasses them with two
+  corrections described in that module and in docs/provenance.md.  Install
+  Infinigen separately; this repository ships none of its code or assets.
+
+--------------------------------------------------------------------------------
+Pixar OpenUSD
+  https://github.com/PixarAnimationStudios/OpenUSD
+  SPDX-License-Identifier: Apache-2.0 (modified)
+
+  Used as a dependency (`usd-core`); no OpenUSD source is vendored here.

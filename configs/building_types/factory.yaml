@@ -1,0 +1,36 @@
+name: factory
+extends: generic
+description: >
+  Industrial halls, machine shops and workshops.  Storeys are tall, mezzanines
+  are common, and the floor plate is mostly open - so the stair, not the
+  doorways, decides whether the upper level is usable.  Steeper industrial
+  flights are allowed, but never past the pinned 0.20 m support step.
+source_corpus: "industrial subset of a multi-type USD scene corpus"
+
+stair:
+  # Industrial straight runs and switchbacks; an L-shaped flight around
+  # machinery is rare enough not to be worth searching for first.
+  families: [straight, u_shaped]
+  preferred_riser_m: 0.185
+  min_riser_m: 0.165
+  max_riser_m: 0.195
+  min_going_m: 0.26
+  max_going_m: 0.30
+  width_m: 1.20
+  min_width_m: 1.00
+  handrail: double
+
+storeys:
+  min_storey_height_m: 3.20
+  max_storey_height_m: 6.00
+  max_slab_thickness_m: 0.80
+  min_storey_floor_area_m2: 40.0
+
+acceptance:
+  # Open plate: if only 25 m^2 is reachable from the stair, the mezzanine is
+  # walled off from the work area and the scene is not what it looks like.
+  min_reachable_area_per_storey_m2: 25.0
+  # Machinery leaves genuine dead corners, but a 3 m^2 island the stair cannot
+  # reach still means a missing route.
+  max_unreachable_standable_component_m2: 3.0
+  min_doorway_clear_width_m: 0.90

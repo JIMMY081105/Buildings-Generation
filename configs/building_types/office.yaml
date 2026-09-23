@@ -1,0 +1,27 @@
+name: office
+extends: generic
+description: >
+  Office floors: a core with the stair, open plate or cellular rooms around it.
+  Storey heights are uniform, which makes a single stair design reusable across
+  every level of the same building.
+source_corpus: "commercial / office subset of a multi-type USD corpus"
+
+stair:
+  families: [u_shaped, straight]
+  preferred_riser_m: 0.170
+  min_riser_m: 0.155
+  max_riser_m: 0.180
+  min_going_m: 0.28
+  max_going_m: 0.31
+  width_m: 1.20
+  min_width_m: 1.10
+  handrail: double
+
+storeys:
+  min_storey_height_m: 3.00
+  max_storey_height_m: 4.20
+  min_storey_floor_area_m2: 50.0
+
+acceptance:
+  min_reachable_area_per_storey_m2: 30.0
+  min_doorway_clear_width_m: 0.80
