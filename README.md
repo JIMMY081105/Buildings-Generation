@@ -72,20 +72,48 @@ re-checked after every write.
 
 ---
 
-## What the stages produce
+## Generated scenes
 
-|  |  |
+Every image below is a Cycles render of a building this pipeline produced —
+storeys detected from geometry, flight designed and placed by the connect stage,
+the result baked and put through the gates. The stair family is a line in a YAML
+profile; the placement search and the acceptance gates are identical across all
+three.
+
+| | | |
+|---|---|---|
+| <img src="docs/media/scenes/stair_straight.jpg" width="250"> | <img src="docs/media/scenes/stair_l_shaped.jpg" width="250"> | <img src="docs/media/scenes/stair_u_shaped.jpg" width="250"> |
+| **straight** | **l_shaped** | **u_shaped** |
+
+<img src="docs/media/scenes/cutaway_overview.jpg" width="760">
+
+*A two-storey building with the upper slab cut away: furniture, fixtures and the
+connecting flight in context. The stair is not dropped into an empty shell — it
+is placed into a furnished storey and must still clear the body proxy.*
+
+| | |
 |---|---|
-| <img src="docs/media/figures/01_stair_bridges_both_storeys_1_l.png" width="380"> | **`connect`** — the designed flight, rasterised and re-flooded to prove it actually bridges both storeys. A pose is not accepted on geometry alone: the stair is baked into the grid and the walkable set recomputed. |
-| <img src="docs/media/figures/02_stair_and_signed_clearance_3_s300.png" width="380"> | **`bake`** — occupancy plus the signed-clearance field. Clearance is what makes a 0.25 m × 1.60 m body proxy checkable without a simulator. |
-| <img src="docs/media/figures/03_voxel_3d_whole_building_4_s270.png" width="380"> | **`bake`** — a whole building at 5 cm. ~0.5–1.1 M occupied voxels for a two-storey house. |
-| <img src="docs/media/figures/06_two_storey_occupancy_slices_1_l.png" width="380"> | **`scan`** — horizontal slices. Storeys come from a histogram of walkable heights, not from prim names. |
-| <img src="docs/media/figures/07_u_shaped_stair_2_u.png" width="380"> | A U-shaped flight with its mid-flight landing. The family is a profile setting; the placement search and the gates are unchanged. |
-| <img src="docs/media/figures/08_double_height_space_3_s300.png" width="380"> | A double-height space — one of the structures that a 2.5D representation cannot encode at all. |
+| <img src="docs/media/scenes/eyelevel_approach.jpg" width="370"> | <img src="docs/media/scenes/upper_arrival.jpg" width="370"> |
+| **Eye level, approaching the flight** — the camera sits at 1.62 m, the height of the body proxy the gates use. | **Upper-storey arrival** — where G6 measures the last rise and G7 asks whether the storey is actually usable from it. |
+
+### What the gates see
+
+<table>
+<tr>
+<td width="50%"><img src="docs/media/scenes/pair_beauty.jpg" width="370"></td>
+<td width="50%"><img src="docs/media/scenes/pair_collision.jpg" width="370"></td>
+</tr>
+<tr><td><b>Render</b></td><td><b>Collision geometry</b></td></tr>
+</table>
+
+The same viewpoint, shaded and as colliders. Acceptance runs on the right-hand
+image, never the left: a scene can look finished and still be built from convex
+hulls that turn a staircase into a ramp. Each render in this repository is
+produced alongside its collision counterpart for exactly that reason.
 
 ### Why the cache is 3D, not a height map
 
-<img src="docs/media/figures/04_why_a_heightmap_cannot_work.png" width="760">
+<img src="docs/media/why_not_heightmap.jpg" width="760">
 
 A 2.5D height field stores one surface per `(x, y)` cell. In these buildings
 **17–21 % of occupied columns carry two or more vertical solid spans** — a stair
@@ -98,19 +126,6 @@ are not *approximated* by a height map; they are unrepresentable in it.
 | `2_u` | 45,082 | 7,874 (17.5 %) | 11 |
 | `3_s300` | 65,668 | 13,651 (20.8 %) | 14 |
 | `4_s270` | 72,897 | 12,450 (17.1 %) | 13 |
-
-### A defect that renders do not show
-
-<img src="docs/media/figures/05_floor_fix_before_after_all_four.png" width="760">
-
-Exactly one floor per building had received the "static + exact triangle mesh +
-every instance collidable" pass — and *which* floor varied, while the export
-README claimed it for the whole building. On the unpatched floor the furniture
-was still dynamic with convex-hull collision, so it was excluded from the static
-bake entirely and the floor came out nearly bare. Repairing it through a
-root-layer overlay moved occupancy by −0.4 % to +9.1 % and took all four
-buildings to 100 % exact colliders, which is what lets the bake be called exact
-rather than a preview.
 
 ---
 
