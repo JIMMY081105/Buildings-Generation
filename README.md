@@ -17,6 +17,12 @@ buildingsgen scan  building.usd --type factory  # what storeys does it have?
 buildingsgen run   building.usd --type factory  # connect, bake, accept
 ```
 
+<p align="center">
+  <img src="docs/media/teaser_stair_ascent.gif" width="640" alt="A humanoid policy climbing a flight this pipeline designed, placed and accepted">
+</p>
+<p align="center"><em>A humanoid policy climbing a flight this pipeline designed, placed, baked and accepted.<br>
+Geometry from this repository; policy trained separately in ProtoMotions&nbsp;/&nbsp;PARC.</em></p>
+
 ---
 
 ## Why this exists
@@ -66,6 +72,48 @@ re-checked after every write.
 
 ---
 
+## What the stages produce
+
+|  |  |
+|---|---|
+| <img src="docs/media/figures/01_stair_bridges_both_storeys_1_l.png" width="380"> | **`connect`** — the designed flight, rasterised and re-flooded to prove it actually bridges both storeys. A pose is not accepted on geometry alone: the stair is baked into the grid and the walkable set recomputed. |
+| <img src="docs/media/figures/02_stair_and_signed_clearance_3_s300.png" width="380"> | **`bake`** — occupancy plus the signed-clearance field. Clearance is what makes a 0.25 m × 1.60 m body proxy checkable without a simulator. |
+| <img src="docs/media/figures/03_voxel_3d_whole_building_4_s270.png" width="380"> | **`bake`** — a whole building at 5 cm. ~0.5–1.1 M occupied voxels for a two-storey house. |
+| <img src="docs/media/figures/06_two_storey_occupancy_slices_1_l.png" width="380"> | **`scan`** — horizontal slices. Storeys come from a histogram of walkable heights, not from prim names. |
+| <img src="docs/media/figures/07_u_shaped_stair_2_u.png" width="380"> | A U-shaped flight with its mid-flight landing. The family is a profile setting; the placement search and the gates are unchanged. |
+| <img src="docs/media/figures/08_double_height_space_3_s300.png" width="380"> | A double-height space — one of the structures that a 2.5D representation cannot encode at all. |
+
+### Why the cache is 3D, not a height map
+
+<img src="docs/media/figures/04_why_a_heightmap_cannot_work.png" width="760">
+
+A 2.5D height field stores one surface per `(x, y)` cell. In these buildings
+**17–21 % of occupied columns carry two or more vertical solid spans** — a stair
+under a landing, a mezzanine over a floor, a double-height void. Those columns
+are not *approximated* by a height map; they are unrepresentable in it.
+
+| building | occupied columns | columns with ≥ 2 spans | max spans in one column |
+|---|---:|---:|---:|
+| `1_l` | 38,313 | 6,551 (17.1 %) | 11 |
+| `2_u` | 45,082 | 7,874 (17.5 %) | 11 |
+| `3_s300` | 65,668 | 13,651 (20.8 %) | 14 |
+| `4_s270` | 72,897 | 12,450 (17.1 %) | 13 |
+
+### A defect that renders do not show
+
+<img src="docs/media/figures/05_floor_fix_before_after_all_four.png" width="760">
+
+Exactly one floor per building had received the "static + exact triangle mesh +
+every instance collidable" pass — and *which* floor varied, while the export
+README claimed it for the whole building. On the unpatched floor the furniture
+was still dynamic with convex-hull collision, so it was excluded from the static
+bake entirely and the floor came out nearly bare. Repairing it through a
+root-layer overlay moved occupancy by −0.4 % to +9.1 % and took all four
+buildings to 100 % exact colliders, which is what lets the bake be called exact
+rather than a preview.
+
+---
+
 ## The acceptance gates
 
 | Gate | Question | Negative control |
@@ -91,6 +139,34 @@ two an "average riser" silently skips, and the two that break.
 Geometric acceptance only: no contact dynamics, no balance, no actuation. A PASS
 says the building is not disqualified by its geometry. It does not say a
 humanoid policy can traverse it.
+
+### What happened when a policy was trained
+
+The gates stop at geometry on purpose. Separately, humanoid policies were
+trained in ProtoMotions / PARC on buildings this pipeline produced — the
+empirical half of the claim the gates refuse to make. Click any frame to play.
+
+|  |  |
+|---|---|
+| [<img src="docs/media/posters/stair_ascent.jpg" width="330">](docs/media/videos/stair_ascent.mp4) | **Stair ascent.** The policy climbs a generated flight end to end. This is the motion G5 and G6 are built to predict the *possibility* of, and nothing more. |
+| [<img src="docs/media/posters/crate_ascent.jpg" width="330">](docs/media/videos/crate_ascent.mp4) | **Crate ascent.** Same body proxy, different support geometry — a check that the acceptance envelope is not overfitted to stairs. |
+| [<img src="docs/media/posters/crate_traverse_hand.jpg" width="330">](docs/media/videos/crate_traverse_hand.mp4) | **Traverse using the hands.** Contact outside the feet, which no geometric gate in this repository models. |
+| [<img src="docs/media/posters/stair_first_tread_corrected.jpg" width="330">](docs/media/videos/stair_first_tread_corrected.mp4) | **The first-tread defect, before and after.** Tread plates authored with the *underside* on the riser grid put 0.228–0.242 m into the first rise against a 0.20 m limit. Two attempts on the same building, one per side of the fix. |
+
+#### Failures, kept on purpose
+
+A policy that only ever appears to succeed has not been shown to be measuring
+anything. These two are from the same corpus and are not cherry-picked out.
+
+|  |  |
+|---|---|
+| [<img src="docs/media/posters/failure_crate_ascent.jpg" width="330">](docs/media/videos/failure_crate_ascent.mp4) | **Crate ascent, checkpoint 122.** Fails on a factory floor. |
+| [<img src="docs/media/posters/failure_traverse.jpg" width="330">](docs/media/videos/failure_traverse.mp4) | **Traverse, checkpoint 152.** Same building, same failure mode. |
+
+Neither building was disqualified by the geometric gates, and both policies
+failed on them. That gap is exactly what "a PASS does not say a humanoid policy
+can traverse it" means in practice.
+
 
 ---
 
