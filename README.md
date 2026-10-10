@@ -18,10 +18,12 @@ buildingsgen run   building.usd --type factory  # connect, bake, accept
 ```
 
 <p align="center">
-  <img src="docs/media/teaser_stair_ascent.gif" width="640" alt="A humanoid policy climbing a flight this pipeline designed, placed and accepted">
+  <img src="docs/media/orbit_turntable.gif" width="680" alt="A 360 degree turntable of a two-storey building this pipeline connected, baked and accepted">
 </p>
-<p align="center"><em>A humanoid policy climbing a flight this pipeline designed, placed, baked and accepted.<br>
-Geometry from this repository; policy trained separately in ProtoMotions&nbsp;/&nbsp;PARC.</em></p>
+<p align="center"><em>A building this pipeline connected, baked and accepted — upper-storey walls and
+ceilings dropped so the flight and the floor it serves stay visible.<br>
+<a href="docs/media/orbit_turntable.mp4">Full-resolution video</a> ·
+<a href="docs/media/teaser_stair_ascent.gif">a humanoid policy climbing one of these flights</a></em></p>
 
 ---
 
