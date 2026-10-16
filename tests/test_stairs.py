@@ -71,7 +71,7 @@ def test_traversal_path_ends_on_the_upper_landing():
 def test_turning_families_change_direction(family):
     spec = design_stair(3.0, load_profile("generic").stair, family=family)
     path = np.asarray(traversal_path(spec), dtype=float)
-    spread_x = path[:, 0].ptp()
+    spread_x = np.ptp(path[:, 0])
     if family == "straight":
         assert spread_x == pytest.approx(0.0)
         assert spec.turn_after_riser is None
