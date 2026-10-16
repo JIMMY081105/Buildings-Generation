@@ -322,7 +322,7 @@ pip install -e ".[figures]"    # + matplotlib for report figures
 pip install -e ".[stairs]"     # + Blender/Infinigen for detailed stair assets
 ```
 
-Core needs only `numpy`, `scipy`, `trimesh`, `usd-core` and `PyYAML`. The
+Core needs only `numpy`, `scipy`, `trimesh`, `rtree`, `usd-core` and `PyYAML`. The
 dependency-light stair backend (`buildingsgen.stairs.asset`) is pure OpenUSD
 and is what the tests use; Infinigen is optional and gives richer assets
 through the same interface.
