@@ -1,0 +1,4 @@
+# The generation snapshot is published byte-for-byte; its MANIFEST.json pins
+# every file's SHA-256.  Line-ending conversion on checkout would change those
+# bytes, so git must leave them alone.
+generation/** -text

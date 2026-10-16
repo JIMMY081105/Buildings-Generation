@@ -35,3 +35,18 @@ Pixar OpenUSD
   SPDX-License-Identifier: Apache-2.0 (modified)
 
   Used as a dependency (`usd-core`); no OpenUSD source is vendored here.
+
+--------------------------------------------------------------------------------
+Generation snapshot (generation/)
+
+  Scripts published verbatim from the workspaces that generated the buildings;
+  generation/MANIFEST.json records each file's origin and SHA-256.  They call,
+  without vendoring:
+    MolmoSpaces (Allen Institute for AI)   source scenes and object packages,
+        https://huggingface.co/datasets/allenai/molmospaces -- downloaded at run
+        time; no scene or asset is redistributed here.
+    Infinigen (BSD-3-Clause) and Blender `bpy` (GPL-2.0-or-later)
+        staircase synthesis.
+    NVIDIA Isaac Sim                       PhysX validation and RTX rendering.
+    NVIDIA ProtoMotions (Apache-2.0)       simulator geometry modules, imported
+        at run time and not included in generation/.

@@ -1,0 +1,2568 @@
+{
+ "schema": "BuildingsGenerationSnapshotManifestV1",
+ "description": "Verbatim snapshot of the scripts that generated the residential (house) and industrial (factory) buildings. Every file is byte-identical to its origin; 'contract' records whether a frozen contract manifest from the original run lists the same SHA-256.",
+ "file_count": 256,
+ "total_bytes": 2563592,
+ "contract_verified_count": 107,
+ "files": [
+  {
+   "path": "generation/factory/sourcing/adapt_stair_asset_coverage.py",
+   "bytes": 4375,
+   "sha256": "a57673bc96fb9e1257914391bb80b5cfcbc6d6d786346bd9a051bfecbc9d80ac",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/adapt_stair_asset_coverage.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/analyze_installed_scenes.py",
+   "bytes": 11406,
+   "sha256": "0ae1c568ac8bcbb87cb850c7413a095e5a8cd55c11e2e37138050cd0efea872b",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/analyze_installed_scenes.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/audit_factory10_post_repair_industrial_identity.py",
+   "bytes": 10838,
+   "sha256": "d3f0924f955797f8655460aa05e6f95779c0b4932d9b5865cbcb9a30a5d859d3",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/audit_factory10_post_repair_industrial_identity.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/audit_factory_stair_assets.py",
+   "bytes": 4670,
+   "sha256": "5c66b3b248bab8d1e3812e26813eea7e28af7007b6b67aa00283301f6f1b8155",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/audit_factory_stair_assets.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/audit_object_dependencies.py",
+   "bytes": 2850,
+   "sha256": "670e3469005a255a59183c41e5958930aadd6503c87771a2939a447cd4cc7a88",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/audit_object_dependencies.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/augment_doorway_cache.py",
+   "bytes": 6551,
+   "sha256": "e5d48e7593a67127b0bb647425416339c53dce52b814c7c95365de7e29c1576c",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/augment_doorway_cache.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/bind_factory_compile_inputs.py",
+   "bytes": 6079,
+   "sha256": "0b5a4ee548ed4b683830000b9c06d05fed4f241fa12e89adcf0953d5df2144a5",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/bind_factory_compile_inputs.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/build_factory10_final_source_decision.py",
+   "bytes": 6720,
+   "sha256": "e8071329c5c5cd2c34bbadee163199a94c920155d912e0b0c0421b03dc1d0cd3",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/build_factory10_final_source_decision.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/build_factory_pair_catalog.py",
+   "bytes": 11386,
+   "sha256": "a44e8f53bd14e4c84d850a9554533f58de3931f7e4b276718d2fbe36a9fa8e4e",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/build_factory_pair_catalog.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/build_geometry_validation_scene_union.py",
+   "bytes": 4297,
+   "sha256": "2fa823210af213af1fc1e42a27d1676a6b8cdc6d8a26573286c95f33ff365682",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/build_geometry_validation_scene_union.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/build_molmospaces_subset_inventory.py",
+   "bytes": 4718,
+   "sha256": "77c33ded2200588fdc359a62e0e73c4bca9fe0705b41d5e0dc7743736e7cc068",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/build_molmospaces_subset_inventory.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/build_predependency_geometry_cache.py",
+   "bytes": 3691,
+   "sha256": "dc93f1c62599374d8e404ab8144a7d26aa8276f7e92f241eefb3925e77dde909",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/build_predependency_geometry_cache.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/build_prefilter_package_selection.py",
+   "bytes": 3217,
+   "sha256": "9bcda431ab295dfa708a4d4b810fee9494ba476f4289304f483b2ccc6afa32ba",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/build_prefilter_package_selection.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/build_scene_source_decision.py",
+   "bytes": 5269,
+   "sha256": "7fc90f85724f45e7136e5616146fda5ab1dff5beac3bb84ac97a85b2a0437714",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/build_scene_source_decision.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/build_selected_screen.py",
+   "bytes": 2737,
+   "sha256": "b25974e35d1810a6ab783e9330290ff3a487caac1d9dda934c9f8fd9c4d762e2",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/build_selected_screen.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/candidate_geometry_summary.py",
+   "bytes": 1442,
+   "sha256": "1db8dcfc8f9d86c2134c54112a1129f561b240e88211317e5ca2da57294c0e6d",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/candidate_geometry_summary.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/combine_official_scene_selections.py",
+   "bytes": 2423,
+   "sha256": "9a6e6ac644fcf2f428f93598fab164070a4245258e668d56de737a717cb8204e",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/combine_official_scene_selections.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/discover_scene_object_dependencies.py",
+   "bytes": 4761,
+   "sha256": "779477b8ab2f2b970149db70a67d9e1a298ea63d837e0e8a74c3d11615a7b0ef",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/discover_scene_object_dependencies.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/download_extract_official_packages.py",
+   "bytes": 9318,
+   "sha256": "0c5f19f91aa7ef16ce38a69d7536061677857271a9ab006c4bdd276a885783bf",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/download_extract_official_packages.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/download_official_object_packages.py",
+   "bytes": 4877,
+   "sha256": "be3d46ce9fe0bbe4b553ca832e26b470eeac9036f5ab410aea56e7863b395220",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/download_official_object_packages.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/extract_geometry_only_object_layers.py",
+   "bytes": 6045,
+   "sha256": "14eac39ae4ebb84a3a525bbb4da032561760541cf719615c329097be6b7f8e70",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/extract_geometry_only_object_layers.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/extract_screening_scene_layers.py",
+   "bytes": 5631,
+   "sha256": "91538002c8b2f103286629bd4eed96aa6b01f87820418813e9e0e0605f37d3f5",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/extract_screening_scene_layers.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/extract_verify_object_package_bundle.py",
+   "bytes": 3754,
+   "sha256": "c65fb830ac37cd077bf162234f5a372ad714fd728e4f9b6f54d687cc15a46226",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/extract_verify_object_package_bundle.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/filter_strict_factory_pairs.py",
+   "bytes": 3526,
+   "sha256": "3cf4857f701f53282d4c64e5fd60681786095dd23f28d2cb85d509d26b1b7593",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/filter_strict_factory_pairs.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/inspect_extract_stair.py",
+   "bytes": 3208,
+   "sha256": "30e9cb98493d81c44192b382e32714d2d281c56339e5bb15820ca22724d639c7",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/inspect_extract_stair.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/make_available_stair_coverage.py",
+   "bytes": 3927,
+   "sha256": "cbb016a13603613634ae62187cb8b59aa1b079c391b85aa11558bdf30b0d448b",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/make_available_stair_coverage.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/make_factory_geometry_cache_inputs.py",
+   "bytes": 2711,
+   "sha256": "33d15c3c60e6aa1faf14c42aa5ca260ed00243587c3cfc382545faf813539048",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/make_factory_geometry_cache_inputs.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/make_selected_geometry_cache_inputs.py",
+   "bytes": 2488,
+   "sha256": "393c8cd4418272f3954a173e0ea67d9db7e34f6393efab8bbfb66faa3f8dffda",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/make_selected_geometry_cache_inputs.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/make_stair_height_variant.py",
+   "bytes": 3410,
+   "sha256": "522dd24a7ab1271e2d88313c99b5bade8d0f63a7730110da498687ffe66b36db",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/make_stair_height_variant.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/materialize_geometry_only_object_overlay.py",
+   "bytes": 4588,
+   "sha256": "9c9ffb8ca98b9a8226a8813e3295fd3524e1e4c9107b53cd1d5ebc8c27957052",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/materialize_geometry_only_object_overlay.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/materialize_object_overlay.py",
+   "bytes": 7785,
+   "sha256": "b735748368bfa149183e79c9bea14cc6f4b831d1ba579837c51eaa6477b6c9bc",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/materialize_object_overlay.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/prefilter_a3_necessary_pairs.py",
+   "bytes": 7866,
+   "sha256": "267ee8b152ef52fc17264c3645fe1b636907a6d306efbb0517d46ae67c056c71",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/prefilter_a3_necessary_pairs.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/prefilter_strict_factory_sources.py",
+   "bytes": 5723,
+   "sha256": "535f7fd60d4987f921ce00e6f2a49460f2449d30e35d8380ea0ad49c29d7e6cf",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/prefilter_strict_factory_sources.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/run_a4_exact_combined184.sh",
+   "bytes": 2629,
+   "sha256": "8e7ea6d465a78e652487e7ee95d4fe8bc90ce95fa37aece94c7e559fd36f6d04",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/run_a4_exact_combined184.sh",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/run_a4_sharded.py",
+   "bytes": 14930,
+   "sha256": "e69e1d43d506d822aeb87bf2acf22083a30f6888a3f1054b219f30d2517464db",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/run_a4_sharded.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/run_doorway_cache.sh",
+   "bytes": 1481,
+   "sha256": "2e0f2290aa395e83634cf931387618365426b3242a1e92c1b21de56c4bd18984",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/run_doorway_cache.sh",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/run_doorway_cache_combined184.sh",
+   "bytes": 1795,
+   "sha256": "2c6772cac5fa617d87879e78c9a904193db9802e24b1d98adb9daaa151d7f45c",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/run_doorway_cache_combined184.sh",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/run_in_isaacsim.py",
+   "bytes": 610,
+   "sha256": "da5772b1c66fd2ff84ec5e05761e15802e27c5e190230c76eeb66ac74cade8e2",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/run_in_isaacsim.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/sample_official_scene_metadata.py",
+   "bytes": 13666,
+   "sha256": "f32f0a89be7b6a62cd9180597fca4c84723e5485400f3248d19a4f60a04c3752",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/sample_official_scene_metadata.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/select_missing_object_packages.py",
+   "bytes": 3009,
+   "sha256": "c7f7f178c7c5c252460ac8e03e98e4d050154faa725bd8aa81da04afb2ff30c4",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/select_missing_object_packages.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/select_official_factory_candidates.py",
+   "bytes": 3309,
+   "sha256": "2742d2cfb78d5e7360125d3c05fda589dffd0a0f139accaa2ab94b4c347b2b46",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/select_official_factory_candidates.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/strict_factory_source_review.py",
+   "bytes": 10092,
+   "sha256": "a7086566f7e776fa0ac828068d40cf5831ef873f2d3191aa18cc2c31ac91e944",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/strict_factory_source_review.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/subset_selection_from_log.py",
+   "bytes": 1979,
+   "sha256": "97f970b5d716fea39f6c3fe332d68dcaa84c020e8aebd752b15d0ae284125932",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/subset_selection_from_log.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/upgrade_geometry_only_overlay_to_full.py",
+   "bytes": 6457,
+   "sha256": "824a859d807e763ce3b8ce75dc10dc81d0e5a2c9364f476c480cbacd50a45a3c",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/upgrade_geometry_only_overlay_to_full.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/verify_canonical_scene_cache.py",
+   "bytes": 4638,
+   "sha256": "85ce14e8e463b86f68a2385140ff557dec381380568e63fcaf60c1548fbde9ca",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/verify_canonical_scene_cache.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/verify_doorway_cache.py",
+   "bytes": 3822,
+   "sha256": "b09cb357a4980be078e4afa705ddc70f41f51161540bf4262c7fa70ad85651e3",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/verify_doorway_cache.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/verify_factory_delivery.py",
+   "bytes": 2698,
+   "sha256": "3f2972831e9167833c3a541997b41627f250a4be415137abd500d5290bb9dd6e",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/verify_factory_delivery.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/verify_full_scene_extraction.py",
+   "bytes": 5627,
+   "sha256": "5604848d363e004e5499e02452aec9b669f285565a9a7e601f646ff4c53b92e4",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/verify_full_scene_extraction.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/verify_results_manifest.py",
+   "bytes": 3801,
+   "sha256": "e3f67c570dc51f0f6f1885cd1e871502cc13298b1c9f7c6e7963680e88de3b56",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/verify_results_manifest.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sourcing/verify_screening_scene_layers.py",
+   "bytes": 3248,
+   "sha256": "ab150672fc466771f79bdbee3c6e3b7127091674f0c050307df9cb3a3bd86c2d",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/verify_screening_scene_layers.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/stacked_factory10/audit_strict_body_radius10.py",
+   "bytes": 8384,
+   "sha256": "bce24da5ce8c9052b3de8c98c9feddc75c69ff2cd111bf625cffcd1675fc84fc",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact10/audit_strict_body_radius10.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\exact10_chain\\audit_strict_body_radius10.py"
+   }
+  },
+  {
+   "path": "generation/factory/stacked_factory10/build_multistorey_graphs10.py",
+   "bytes": 13422,
+   "sha256": "91058992b2e1c7acbad06913d4bb4ced2a2fbafa1b39edeb7c2d74dc006edebf",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact10/build_multistorey_graphs10.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\exact10_chain\\build_multistorey_graphs10.py"
+   }
+  },
+  {
+   "path": "generation/factory/stacked_factory10/collision_door_audit10.py",
+   "bytes": 35008,
+   "sha256": "c89ab87c4f49e8199f8308c0ffd361a488aa18807ec8ff246c3cea3199c054f7",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact10/collision_door_audit10.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\exact10_chain\\collision_door_audit10.py"
+   }
+  },
+  {
+   "path": "generation/factory/stacked_factory10/compile_a5_variants10.py",
+   "bytes": 19087,
+   "sha256": "5f6260bbf1fffa9ac4d5aaf313f2c3aee0b60891c3b9a4f23b39c13b408834dc",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact10/compile_a5_variants10.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\exact10_chain\\compile_a5_variants10.py"
+   }
+  },
+  {
+   "path": "generation/factory/stacked_factory10/finalize_batch10_release.py",
+   "bytes": 7543,
+   "sha256": "871115a14c7aab6cdc77d2a8ed96045ca2a0fe2c9fba1f239c4b1552c35ab9e5",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact10/finalize_batch10_release.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\exact10_chain\\finalize_batch10_release.py"
+   }
+  },
+  {
+   "path": "generation/factory/stacked_factory10/finalize_h1_after_a40.py",
+   "bytes": 9640,
+   "sha256": "7b260b9bd0095c394d3cd7ad6aaa6f4d3659ad97deb78813c12029ac07c02b2f",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact10/finalize_h1_after_a40.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\exact10_chain\\finalize_h1_after_a40.py"
+   }
+  },
+  {
+   "path": "generation/factory/stacked_factory10/finalize_stage_b_a40_isaac.py",
+   "bytes": 9110,
+   "sha256": "81f5f751a4cbd907cc0cff989491954cae3aab8fa0b0a8953559b68834d9564d",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact10/finalize_stage_b_a40_isaac.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\exact10_chain\\finalize_stage_b_a40_isaac.py"
+   }
+  },
+  {
+   "path": "generation/factory/stacked_factory10/gate7_global_graph10.py",
+   "bytes": 12996,
+   "sha256": "3175143cef452c7fc32bf0054d81eb5c347c03219e27f835fed3f1465be4330e",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact10/gate7_global_graph10.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\exact10_chain\\gate7_global_graph10.py"
+   }
+  },
+  {
+   "path": "generation/factory/stacked_factory10/make_floorplans_factory.py",
+   "bytes": 25359,
+   "sha256": "9ed9651a32b79e0af9cf4f830423b24f2b6b148ca9d5e35f3ea419e51f2b2d47",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact10/make_floorplans_factory.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\exact10_chain\\make_floorplans_factory.py"
+   }
+  },
+  {
+   "path": "generation/factory/stacked_factory10/prepare_manifest.py",
+   "bytes": 3805,
+   "sha256": "d89ffa3854d6f19c53c087bd01c667f6501931bdb636ab4df4cb8d5f33c32307",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact10/prepare_manifest.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\exact10_chain\\prepare_manifest.py"
+   }
+  },
+  {
+   "path": "generation/factory/stacked_factory10/prepare_post10_inputs.py",
+   "bytes": 9157,
+   "sha256": "b785f91313a744b50ae67b934a526fedfbcabfb1bb637ec4b4c17d965b508e54",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact10/prepare_post10_inputs.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\exact10_chain\\prepare_post10_inputs.py"
+   }
+  },
+  {
+   "path": "generation/factory/stacked_factory10/run_g25_exact10.py",
+   "bytes": 8123,
+   "sha256": "8c39160e484eaefeafe2a7a946dfa39b9e265d24b76be23b55a273012c917fa9",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact10/run_g25_exact10.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\exact10_chain\\run_g25_exact10.py"
+   }
+  },
+  {
+   "path": "generation/factory/stacked_factory10/run_stage_b10_cpu.py",
+   "bytes": 69424,
+   "sha256": "b8f107e7ba44013a4a15e6ed792ab1d2f96f19a7a6aabcf42d15dd4b8df1fdbf",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact10/run_stage_b10_cpu.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\exact10_chain\\run_stage_b10_cpu.py"
+   }
+  },
+  {
+   "path": "generation/factory/stacked_factory10/stage_d10_a40_contract.py",
+   "bytes": 15406,
+   "sha256": "035b147dcc5eb3a3504a97d8f2c271258425fbdb12b7700e6e4eaa8fa9f32e28",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact10/stage_d10_a40_contract.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\exact10_chain\\stage_d10_a40_contract.py"
+   }
+  },
+  {
+   "path": "generation/factory/stacked_factory10/summarize_graph_cycle_repair10.py",
+   "bytes": 4996,
+   "sha256": "d946868f7c3efb975f7339a196e0b884ce961bc5bddd5041d7d980f6a4308c80",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact10/summarize_graph_cycle_repair10.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\exact10_chain\\summarize_graph_cycle_repair10.py"
+   }
+  },
+  {
+   "path": "generation/factory/tiled_factory80/STAIR_PLACEMENT_RULE_FACTORY80.json",
+   "bytes": 3736,
+   "sha256": "2a0550cbc0a79cc2f96202e2e10ec8974f6ec6deca2f0e71960a9a95aa2974da",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/STAIR_PLACEMENT_RULE_FACTORY80.json",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/bounded_support/bounded_surface_raster.py",
+   "bytes": 1990,
+   "sha256": "12c9aaada30d6df6145e9d32a096f8c02e2a4a4cc634acd33048a60c0cb330ce",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/current_world_bounded_support_20261015_R1/bounded_surface_raster.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/bounded_support/bounded_world_resources.py",
+   "bytes": 4356,
+   "sha256": "5138a03906527b10dba9b695d4ebdced778237b44a8cc5c295e81e073c3801f8",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/current_world_bounded_support_20261015_R1/bounded_world_resources.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/bounded_support/run_bounded_current_world_support.py",
+   "bytes": 17918,
+   "sha256": "e55525152093a9da728d3e5b5d1a61544589c1cce753ac71ec34eebb97d5c4bf",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/current_world_bounded_support_20261015_R1/run_bounded_current_world_support.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/bounded_support/stat_hash_cache.py",
+   "bytes": 1294,
+   "sha256": "d65de5898ee0ba54f8c9303fe83c7e0f9e31da68f9f9a318bb6ba5027d523d72",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/current_world_bounded_support_20261015_R1/stat_hash_cache.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/build_factory80_overlay.py",
+   "bytes": 34990,
+   "sha256": "f005569b78434e618a71f623e310cea3e422f06320d092a8d24fa3ded2d220ad",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/build_factory80_overlay.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/equipment_density/apply_owned_density_overlay.py",
+   "bytes": 30196,
+   "sha256": "b7ce12650d6208b84d53e6da1c69891f9a759422028ebcbe8c0c105186eb3c4d",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/density_overlay_20261015_R5_EXECUTION_R2/apply_owned_density_overlay.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/equipment_density/density_rows.py",
+   "bytes": 9542,
+   "sha256": "c63ae48602c8e112efbcb34c968d55899a9084e406f889056268cc01362c0156",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/density_overlay_20261015_R5_EXECUTION_R2/density_rows.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/equipment_density/prepare_owned_disabled_wall_purpose_overlay.py",
+   "bytes": 13360,
+   "sha256": "bca83428b5b90c443abfcf87cde481009746cc47a7de6d0eefaae1709ec2c2cd",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/density_overlay_20261015_R5_EXECUTION_R2/prepare_owned_disabled_wall_purpose_overlay.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/equipment_density/stage_d_material_binding.py",
+   "bytes": 11346,
+   "sha256": "dabe319982045ffa0ff54ca419c79cd4530286a132fdd89ea4bf371434cc4ae3",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/density_overlay_20261015_R5_EXECUTION_R2/stage_d_material_binding.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/equipment_density/stat_hash_cache.py",
+   "bytes": 1294,
+   "sha256": "d65de5898ee0ba54f8c9303fe83c7e0f9e31da68f9f9a318bb6ba5027d523d72",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/density_overlay_20261015_R5_EXECUTION_R2/stat_hash_cache.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/factory80_corrected_tile_seams_batch_v1.py",
+   "bytes": 7465,
+   "sha256": "d8a54f0a86704084f43c117443d84396645a549d82fbad84cb95d987ac891097",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/factory80_corrected_tile_seams_batch_v1.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/factory80_cpu_gates_v3.py",
+   "bytes": 8695,
+   "sha256": "32a01b69e2262b8e29c753693c02b779387719027fcb8c1dd345a08d3dcd0b00",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/factory80_cpu_gates_v3.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/factory80_deploy_measured_wall_partition_v1.py",
+   "bytes": 4493,
+   "sha256": "b9f0af34efa5bd47a9dc7b11a8c5b580c64d10e9f8791609b454a56fa1f0c5bf",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/factory80_deploy_measured_wall_partition_v1.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/factory80_execute_candidate.py",
+   "bytes": 37516,
+   "sha256": "77cb172db3ae552def7ff251bc4d9679a70502315a29937971d09ec9141465de",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/factory80_execute_candidate.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/factory80_graph_stair_distances_v1.py",
+   "bytes": 4396,
+   "sha256": "412d1cd38022ff5bda92b2d323e9ae1055365df606964309f68ff0ae6663efd6",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/factory80_graph_stair_distances_v1.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/factory80_prepare_isaac_inputs.py",
+   "bytes": 9037,
+   "sha256": "ba6f1a9f5b760677fb1270c27e777d09fcb183d7f5f6d7d3153d1edade5f3fd8",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/factory80_prepare_isaac_inputs.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/factory80_record_stair_placement_basis.py",
+   "bytes": 5345,
+   "sha256": "0f79a105542d260c6b38258353eb8cf7682b46fd2085f79d9504da1bfcc5ff61",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/factory80_record_stair_placement_basis.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/factory80_stage2_cross_storey.py",
+   "bytes": 11606,
+   "sha256": "46bd353f91d680f3ba3aa92ab9df72c14de40248db3fda1348c094f9a48ac34c",
+   "origin": "Scenesmith-code-study/final_training_validation/factory80_stage2_cross_storey.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/factory80_stage2_navigation.py",
+   "bytes": 25343,
+   "sha256": "84aac6cc0b564a83b3a7d2e2d8c0aa4a657fe577cde799f45b2d415cf491bed8",
+   "origin": "Scenesmith-code-study/final_training_validation/factory80_stage2_navigation.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/factory80_tile_seams_v1.py",
+   "bytes": 10406,
+   "sha256": "32315b33539b1b71c6fef8a0496d1e2fdc17310295c14daea6d026ad19017bf8",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/factory80_tile_seams_v1.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/factory80_tile_seams_v2.py",
+   "bytes": 11996,
+   "sha256": "9edd928f0b292c935b9ac06e81fa0ad3da8892b0f6ad42f50f7b4aeb11c740bf",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/factory80_tile_seams_v2.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/factory80_wall_partition_equivalence_fixture_v1.py",
+   "bytes": 11997,
+   "sha256": "e06a7bb30b60afb19141a657c3ac47e43e89714f20d399b65c50a422dd1f9a62",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/factory80_wall_partition_equivalence_fixture_v1.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/factory80_whitelist.py",
+   "bytes": 3514,
+   "sha256": "f8903a2fe6526c77575be5fba4990d4134f85e9b5de1c317ea3adb7a717eb81c",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/factory80_whitelist.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/factory80_whitelist_audit.py",
+   "bytes": 1676,
+   "sha256": "2eea7501cebc2efb0915dcfb9010dbaed05f094dd51f638b552d8ab689fd74f1",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/factory80_whitelist_audit.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/factory80_whitelist_compound_fixture.py",
+   "bytes": 8587,
+   "sha256": "a1796e3882954fbac0454752b974884287a2cca3ca8e624b08ab6dfb7fb77290",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/factory80_whitelist_compound_fixture.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/factory80_whitelist_fragment.py",
+   "bytes": 7144,
+   "sha256": "874dc0ede10a9ce2c9bf97631b309582b539564ed995d5aab8c6531598791417",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/factory80_whitelist_fragment.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/factory80_whitelist_generate_native.py",
+   "bytes": 2582,
+   "sha256": "a3bd38d877f097b35318561245cec3b84cdf7091ba9c4b4d6a894abab436911c",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/factory80_whitelist_generate_native.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/factory80_whitelist_native_adapter.py",
+   "bytes": 6451,
+   "sha256": "e38b6c6394d31927fd5b17917d9c7cfdb3649dbaf5c45480a71b99af56db4b30",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/factory80_whitelist_native_adapter.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/factory80_whitelist_portable.py",
+   "bytes": 3515,
+   "sha256": "4d87004d9ccc2ab51d7c5b50241b188a5c62cb5888edbc1434c11e1c9c1655a0",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/factory80_whitelist_portable.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/factory80_whitelist_prepare.py",
+   "bytes": 9317,
+   "sha256": "bf110f044c827c658280d22a816b1c08fe378772f8fe57fed454377e89bf2458",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/factory80_whitelist_prepare.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/factory80_whitelist_publish_portable.py",
+   "bytes": 3116,
+   "sha256": "9136040d516ff7a7cf556d94d129f43059aa221a4a652dbf7c7fd0005d3816f9",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/factory80_whitelist_publish_portable.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/gate_extension_builder_smoke_v1.py",
+   "bytes": 3355,
+   "sha256": "ef14071adbd3f131b4550709359ada313cb105f0d55df6adec5d3e60e8951ed3",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/gate_extension_builder_smoke_v1.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/gate_extension_controls_v1.py",
+   "bytes": 11059,
+   "sha256": "81b5a9ad10dc875436b2d078f06551956375bcb1947bda84a9caa6cf5bcf4f55",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/gate_extension_controls_v1.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/gate_extension_g13_multistair_v1.py",
+   "bytes": 13160,
+   "sha256": "787773e30f2ea68674fe2da723aefbfcff25492e05ced21bfcdb8be3073dae0d",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/gate_extension_g13_multistair_v1.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/gate_extension_multistair_builder_v1.py",
+   "bytes": 16962,
+   "sha256": "22bf6f0ab7a6a3141c9555ced843e09ba630636cec55f99636c21e4527a39014",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/gate_extension_multistair_builder_v1.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/gate_extension_nstorey_v1.py",
+   "bytes": 9533,
+   "sha256": "763ba394152c6b3858e2fb8b7b0628622966342583de8f6a6485e6bfa9b7e826",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/gate_extension_nstorey_v1.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/gate_extension_path_refinement_smoke_v1.py",
+   "bytes": 2548,
+   "sha256": "16300b46bb98f8396af180c4e60a94d528dd4b63c046e228f0c2743fcc133e90",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/gate_extension_path_refinement_smoke_v1.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/lighting_authoring/PROTOCOL.md",
+   "bytes": 8660,
+   "sha256": "509974797fcd03101f8a9a91e50714e4eacff0478321811d94530a43be42af52",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/l2_current_render_only_author_20261015_R5/PROTOCOL.md",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/lighting_authoring/R3_ACTUAL_FAILURE_AND_METADATA_COPY_PROTOCOL.md",
+   "bytes": 2302,
+   "sha256": "2382a62d6cdc948e3c8ae25d446bfd92fad330a16747f2ad59545321a28913c4",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/l2_current_render_only_author_20261015_R5/R3_ACTUAL_FAILURE_AND_METADATA_COPY_PROTOCOL.md",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/lighting_authoring/R4_NORMALIZER_SOURCE_PROTOCOL.md",
+   "bytes": 3287,
+   "sha256": "dfba07c3696e5c1fffa4fba607f37b2e530cb586be1822c4bcdbe0a2b3712afc",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/l2_current_render_only_author_20261015_R5/R4_NORMALIZER_SOURCE_PROTOCOL.md",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/lighting_authoring/author_render_only_layer.py",
+   "bytes": 34696,
+   "sha256": "ce557d162312cc27157cb562e9a4a55c1e86a00bd1a81aa7fd263201a49ea11d",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/l2_current_render_only_author_20261015_R5/author_render_only_layer.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/lighting_authoring/execution_core.py",
+   "bytes": 7113,
+   "sha256": "77142169e5add621e40cf363e0029eb87552abaf9efee49732575b87a3b222c2",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/l2_current_render_only_author_20261015_R5/execution_core.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/lighting_authoring/l1_l2_render_support.py",
+   "bytes": 6978,
+   "sha256": "d8dd38f437ec98d1f6f579710421714c65302fc5fff4ce6ee3d49a078eec9f3c",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/l2_current_render_only_author_20261015_R5/l1_l2_render_support.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/lighting_authoring/read_actual_root_author_bindings.py",
+   "bytes": 3639,
+   "sha256": "2bb8c4c79925af553c4b2d2ddeb7ebdc9787cee0a7d54acba5ee99fd39732f15",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/l2_current_render_only_author_20261015_R5/read_actual_root_author_bindings.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/lighting_authoring/stat_hash_cache.py",
+   "bytes": 1294,
+   "sha256": "d65de5898ee0ba54f8c9303fe83c7e0f9e31da68f9f9a318bb6ba5027d523d72",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/l2_current_render_only_author_20261015_R5/stat_hash_cache.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/lighting_capture/current_l2_cpu_inputs.py",
+   "bytes": 8951,
+   "sha256": "67feea905a384f91d77898f09047fe9edf270729f87f8c3f9c482b0b6867527e",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/current_all_l2_20261015_R2/current_l2_cpu_inputs.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/lighting_capture/current_l2_gpu_capture.py",
+   "bytes": 6097,
+   "sha256": "994bd25e4ec8a1d36a3a62b6673471cce687d4a662ce251d1949853246d3cc75",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/current_all_l2_20261015_R2/current_l2_gpu_capture.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/lighting_capture/current_l2_image_checks.py",
+   "bytes": 7235,
+   "sha256": "7549d1b8bf70d8c9031e567ade8ac347b3a9569fd604707c48fefa586b44ca91",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/current_all_l2_20261015_R2/current_l2_image_checks.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/lighting_capture/current_l2_inputs_contract.py",
+   "bytes": 2678,
+   "sha256": "23efd4c610a2b477eb383ec686539600d323580382519c76073fc67a8fd2a2d7",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/current_all_l2_20261015_R2/current_l2_inputs_contract.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/lighting_capture/current_l2_serial.py",
+   "bytes": 10337,
+   "sha256": "a7b2246f14525e87042cc28b0df282118d8f675764169657dc353d88d7f923c0",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/current_all_l2_20261015_R2/current_l2_serial.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/lighting_capture/reuse_current_l2_cpu_metadata.py",
+   "bytes": 3761,
+   "sha256": "154bb7d3079c0561c6cad01d19388964fadf96e9065829c25b71ef9f1651e9eb",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/current_all_l2_20261015_R2/reuse_current_l2_cpu_metadata.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/multistair_routes/current_full_m_source_binding.py",
+   "bytes": 1067,
+   "sha256": "f8b6d454101321bed4c5ab32186cb51c48a3c29d240596c06159bc7e0102a73d",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/current_multistair_cpu_20261015_R2/current_full_m_source_binding.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/multistair_routes/current_multistair_cpu.py",
+   "bytes": 20354,
+   "sha256": "bdd7ceab9e8630874886e66462b4d6b147b3f0d980765e47d7ef77b246791620",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/current_multistair_cpu_20261015_R2/current_multistair_cpu.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/multistair_routes/current_multistair_queue.py",
+   "bytes": 8370,
+   "sha256": "1b36f82f278569f7cb2e3fb82e885f5cfff035ec81fa084dd53ac8fa168daecf",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/current_multistair_cpu_20261015_R2/current_multistair_queue.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/multistair_routes/deploy_current_multistair_cpu.py",
+   "bytes": 6035,
+   "sha256": "a30ec2cdaa38afa0a67f10b192c5d6c2c8488dbb8c53d4d00c19c66522abd74c",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/current_multistair_cpu_20261015_R2/deploy_current_multistair_cpu.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/multistair_routes/multistair_cpu_contract.py",
+   "bytes": 4339,
+   "sha256": "1a994e72a8df352f6a392fa6c07cb61eaef846e6f21e8c1c6edd4d69ade573d5",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/current_multistair_cpu_20261015_R2/multistair_cpu_contract.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/multistair_routes/native_path_cpu_projection.py",
+   "bytes": 4064,
+   "sha256": "e5919bbf5e4632107463b45469be3079f6d9e832d7eefd7a6c55d59593811314",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/current_multistair_cpu_20261015_R2/native_path_cpu_projection.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/multistair_routes/test_multistair_cpu_contract.py",
+   "bytes": 4716,
+   "sha256": "e412bf57f9aa32c476df9c69dd6c73be8f14216a00ee2a9c4749640131bd87aa",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/current_multistair_cpu_20261015_R2/test_multistair_cpu_contract.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/observe_factory80_isaac.py",
+   "bytes": 8046,
+   "sha256": "ef35caeb24e079694e1b0e676a96c3e8ef6115683e09c69edceead3e9d76e497",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/observe_factory80_isaac.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/plan_factory80_tiling.py",
+   "bytes": 3775,
+   "sha256": "d1f55fd688173c89dba4857e1730f10e88076098f0480d4a6b2e986462e917f2",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/plan_factory80_tiling.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/refine_factory80_source_pairing.py",
+   "bytes": 4393,
+   "sha256": "72ff599fbf8134c8e740cba638dba88dfdc04bbea9f54f85f038adf2ad8e7fb5",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/refine_factory80_source_pairing.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/render_factory80_isaac.py",
+   "bytes": 6730,
+   "sha256": "2c7c0a6dc2a8fbf30a9038b2199e3f8ce000e64a97a9a49fe9fb5ec5eab0c4e1",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/render_factory80_isaac.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/scene_expansion_composed_stream.py",
+   "bytes": 7780,
+   "sha256": "b6046979db7a03781631020df2f3f141c3b12688f0897a4a392d391160cf7dd9",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/scene_expansion_composed_stream.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/scene_expansion_equipment_probe.py",
+   "bytes": 1716,
+   "sha256": "dfb9c3be7319df052a42085bb4ff15eaf09ff85ec67f53a60683c4ed0fca3988",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/scene_expansion_equipment_probe.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/scene_expansion_extract_objects.py",
+   "bytes": 2800,
+   "sha256": "dbfdc00ed004f5e930930fe7a312cb9f0db93ef390a2922016456cad222a26a0",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/scene_expansion_extract_objects.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/scene_expansion_extract_ready.py",
+   "bytes": 3347,
+   "sha256": "b41dfbcdd96d5f6d82502a22774c89060dc8dcd475490dca84e82eaa17910eae",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/scene_expansion_extract_ready.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/scene_expansion_link_present_objects.py",
+   "bytes": 1588,
+   "sha256": "3f85206716092ffb98c79b3324102b81d7b8d2b555b79f5d805deca67d1ee739",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/scene_expansion_link_present_objects.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/scene_expansion_machine_bounds.py",
+   "bytes": 7496,
+   "sha256": "70de48b8e73aaea6d7a41505f49e93d3b519bc57e990c3d451a0c43675114346",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/scene_expansion_machine_bounds.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/scene_expansion_missing_equipment_geometry.py",
+   "bytes": 680,
+   "sha256": "6d07597c19bbd97f5fd7ba6b70ffd0539a7a7ebb6d9898c7d334e82d514e414f",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/scene_expansion_missing_equipment_geometry.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/scene_expansion_objects_ready.py",
+   "bytes": 3822,
+   "sha256": "050cf513223ab8b0a9d96a8de4facc36d74db033a0ae2b88018eb753432716a7",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/scene_expansion_objects_ready.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/scene_expansion_publish.py",
+   "bytes": 1984,
+   "sha256": "8c160dce3b844f9e8bfc33b630e4f78a7acdb549c2c3b3d768afa102454a7d4a",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/scene_expansion_publish.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/scene_expansion_remote.py",
+   "bytes": 3410,
+   "sha256": "23a5e291a81c0bfdf64cc53222e03eb446d4e6237d90487c19e5ca7a53c8944a",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/scene_expansion_remote.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/scene_expansion_verify_objects.py",
+   "bytes": 3834,
+   "sha256": "2f813892f455eeab6429c64efc4153646ae2dc9babc475d69479e459904346bc",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/scene_expansion_verify_objects.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/tiled_factory80/scene_expansion_zstd.py",
+   "bytes": 3209,
+   "sha256": "452d5e1cf31c2d499e9b3f61f76d6584cf17970c95c3fce318d5da38b5bb06c9",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/scene_expansion_zstd.py",
+   "contract": null
+  },
+  {
+   "path": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+   "bytes": 68908,
+   "sha256": "76ae349136eda0e47985e7b8261612f63513d6222966c260819424a925eda0c0",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/FROZEN_CONTRACT_SOURCES.json",
+   "contract": null
+  },
+  {
+   "path": "generation/house/navigation_repair/SOURCE_SNAPSHOT.json",
+   "bytes": 1618,
+   "sha256": "5d12cd5bf4d76fb06a1e2bb21e9570c21bf7a7f12cf5ee688032fc24013f01fb",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/supplemental_sources_r1/SOURCE_SNAPSHOT.json",
+   "contract": {
+    "manifest": "generation/house/navigation_repair/SOURCE_SNAPSHOT.json",
+    "sha256_matches": null,
+    "note": "present in the snapshot directory but not hashed by its SOURCE_SNAPSHOT.json"
+   }
+  },
+  {
+   "path": "generation/house/navigation_repair/apply_residual_navigation_repair_iterative_v4.py",
+   "bytes": 25454,
+   "sha256": "284c55115ebc368eb950751d534910f7b96583c09f6336ce9828e563dde0f161",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/supplemental_sources_r1/apply_residual_navigation_repair_iterative_v4.py",
+   "contract": {
+    "manifest": "generation/house/navigation_repair/SOURCE_SNAPSHOT.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\reference_repairs\\apply_residual_navigation_repair_iterative_v4.py"
+   }
+  },
+  {
+   "path": "generation/house/navigation_repair/build_multistorey_graphs.py",
+   "bytes": 18280,
+   "sha256": "2de93512abf6127bb3becc2f04c4d9c7414bcb1d98fe6bf8c8d2aa79cad501c5",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/supplemental_sources_r1/build_multistorey_graphs.py",
+   "contract": {
+    "manifest": "generation/house/navigation_repair/SOURCE_SNAPSHOT.json",
+    "sha256_matches": null,
+    "note": "present in the snapshot directory but not hashed by its SOURCE_SNAPSHOT.json"
+   }
+  },
+  {
+   "path": "generation/house/navigation_repair/build_multistorey_graphs48.py",
+   "bytes": 20128,
+   "sha256": "c92da7e649883cc4da3d5de2a67ef72f40de682fca821c45e12d20629bb30e22",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/supplemental_sources_r1/build_multistorey_graphs48.py",
+   "contract": {
+    "manifest": "generation/house/navigation_repair/SOURCE_SNAPSHOT.json",
+    "sha256_matches": null,
+    "note": "present in the snapshot directory but not hashed by its SOURCE_SNAPSHOT.json"
+   }
+  },
+  {
+   "path": "generation/house/navigation_repair/diagnose_closed_doors_and_min_cut.py",
+   "bytes": 26170,
+   "sha256": "dc8eeb8b8b43220e324c77d05f31caa82672a0728eab020d7f8fbf59df5c3bd8",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/supplemental_sources_r1/diagnose_closed_doors_and_min_cut.py",
+   "contract": {
+    "manifest": "generation/house/navigation_repair/SOURCE_SNAPSHOT.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\reference_repairs\\diagnose_closed_doors_and_min_cut.py"
+   }
+  },
+  {
+   "path": "generation/house/navigation_repair/diagnose_g25_failures.py",
+   "bytes": 37509,
+   "sha256": "1d09631429eceac4134bf429d9b43c8952d374fdef504cbddea91d10685f6a5b",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/supplemental_sources_r1/diagnose_g25_failures.py",
+   "contract": {
+    "manifest": "generation/house/navigation_repair/SOURCE_SNAPSHOT.json",
+    "sha256_matches": null,
+    "note": "present in the snapshot directory but not hashed by its SOURCE_SNAPSHOT.json"
+   }
+  },
+  {
+   "path": "generation/house/navigation_repair/precompute_storey_scratch48.py",
+   "bytes": 11685,
+   "sha256": "a5064b4c16c1888dbb1979ebc814bd01eee6f98bbfa93b759c8d97b379a811dc",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/supplemental_sources_r1/precompute_storey_scratch48.py",
+   "contract": {
+    "manifest": "generation/house/navigation_repair/SOURCE_SNAPSHOT.json",
+    "sha256_matches": null,
+    "note": "present in the snapshot directory but not hashed by its SOURCE_SNAPSHOT.json"
+   }
+  },
+  {
+   "path": "generation/house/navigation_repair/repair_navigation_colliders.py",
+   "bytes": 26590,
+   "sha256": "12ac34b413a8a7e16aa029a22c2c701b4dddf82caac9e925d85e45e57a06c67d",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/supplemental_sources_r1/repair_navigation_colliders.py",
+   "contract": {
+    "manifest": "generation/house/navigation_repair/SOURCE_SNAPSHOT.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\reference_repairs\\repair_navigation_colliders.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/acceptance_gates.py",
+   "bytes": 17924,
+   "sha256": "5fe3a2d0843ae0516e3ef6dacd2b3a05034a2af8924580c2d9a2e00755f77346",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/acceptance_gates.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\acceptance_gates.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/assemble_h1_delivery.py",
+   "bytes": 17042,
+   "sha256": "00967f72db84e12255c20b79c4882c78da363115b24606ed0b459a4f79ae5983",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/assemble_h1_delivery.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\assemble_h1_delivery.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/audit_h1_hold.py",
+   "bytes": 3572,
+   "sha256": "34e0dc12b05cb0d8fd92a9c548e63654f7ff32fcaf60358d134bbd2d5555ac8f",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/audit_h1_hold.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\audit_h1_hold.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/audit_packaged_geometry.py",
+   "bytes": 4081,
+   "sha256": "8532cc3074d5e3354a957a2fa48f595224e4ff3230ca53c9b6469012682a34d4",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/audit_packaged_geometry.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\audit_packaged_geometry.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/batch_execution_contract.py",
+   "bytes": 12512,
+   "sha256": "d3961cf9f0e305e222344e36813d38806f30fec58a12a9b0db5cb9d98d08f46c",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/batch_execution_contract.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\batch_execution_contract.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/build_building.py",
+   "bytes": 25979,
+   "sha256": "62857328367c97595193cadf1db41c68b5db6fb1dc403f2b9601e72467c6a797",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/build_building.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\build_building.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/build_scene_geometry_cache.py",
+   "bytes": 3247,
+   "sha256": "6ef285aeea8d55a9520707a66a126b182196c0c2edece2535e5862a72eecad64",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/build_scene_geometry_cache.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\build_scene_geometry_cache.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/build_selected_batch.py",
+   "bytes": 10032,
+   "sha256": "5517179f7d2f440ba6e1d259a1be3834e8d8aeffa2b7de535189c7283c37d3ef",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/build_selected_batch.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\build_selected_batch.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/collision_render_isolation.py",
+   "bytes": 5184,
+   "sha256": "cb407fbae235ebf9aefdc2373379a8aaa2cd0188f38746af4381a747a87e4d78",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/collision_render_isolation.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\collision_render_isolation.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/compile_a5_batch.py",
+   "bytes": 63275,
+   "sha256": "c13dbda2fa694ba8008608f3534d5fbf66ce1fcd8f3a16d4839a13db0b3765c3",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/compile_a5_batch.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\compile_a5_batch.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/dependency_policy.py",
+   "bytes": 2793,
+   "sha256": "9606ce340ce3b89afaddd99dc0c13c3191c091ba32e8cb6d7e4aaaadfcb1eecd",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/dependency_policy.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\dependency_policy.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/door_collision_policy.py",
+   "bytes": 12091,
+   "sha256": "1667de2a0b553513bc5845e93880d95e806bda647db795bde4364af9e11008bf",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/door_collision_policy.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\door_collision_policy.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/doorway_clearance.py",
+   "bytes": 19549,
+   "sha256": "8a8ffd5d78d1ff6439386394d2df3eedc07e4b2a4dda6a9b85e0c3a5e9df630c",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/doorway_clearance.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\doorway_clearance.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/enrich_scene_geometry_cache.py",
+   "bytes": 1885,
+   "sha256": "d3fcaead90437f485a28c1b7ea8258ed2662b5aeb3c20b8900a414b9f3e32f89",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/enrich_scene_geometry_cache.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\enrich_scene_geometry_cache.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/expanded_pool_inventory.py",
+   "bytes": 4359,
+   "sha256": "50c6a0d1114ad9a3197cbb74e5daf89e985d228a9a5b06a3bb2776928bf91886",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/expanded_pool_inventory.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\expanded_pool_inventory.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/extract_expanded_dependencies.py",
+   "bytes": 6608,
+   "sha256": "c46d13370c54fff4a2cae06f8a5141248e7e11af3af0c0f3bc94421afa40d2ac",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/extract_expanded_dependencies.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\extract_expanded_dependencies.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/finalize_doorway_v2_evidence.py",
+   "bytes": 8502,
+   "sha256": "05ca0b0961c74d2a21d310c2bf6b345c6b63123b372732e326ca15b587fbb747",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/finalize_doorway_v2_evidence.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\finalize_doorway_v2_evidence.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/finalize_h1_gpu_job.py",
+   "bytes": 4724,
+   "sha256": "0b5d3c69556c1cabe6444898ab869b813759729b2344d8bcde44e270865cf91a",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/finalize_h1_gpu_job.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\finalize_h1_gpu_job.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/finalize_h1_review.py",
+   "bytes": 11280,
+   "sha256": "4e4425508a0d9b887651e6395f82033719da3674fad93a738b89bf1f5873ce21",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/finalize_h1_review.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\finalize_h1_review.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/floor_collider_contract.py",
+   "bytes": 8585,
+   "sha256": "5d46aa2c771d9326599980d6baba2d4bbb559f17b4930cce4d27a22952f2d225",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/floor_collider_contract.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\floor_collider_contract.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/freeze_a5_decisions.py",
+   "bytes": 9588,
+   "sha256": "8638aa1d8fefbe042ac7261e50171c1fa3776323f706f878240e2a7407729aec",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/freeze_a5_decisions.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\freeze_a5_decisions.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/inspect_door_panel_colliders.py",
+   "bytes": 8692,
+   "sha256": "45a28895c784d07597968765efe4569d8de9857d7ac8d27e71a36bb15163952e",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/inspect_door_panel_colliders.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\inspect_door_panel_colliders.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/install_expanded_objects.py",
+   "bytes": 5535,
+   "sha256": "60cce13a69a4170a83c3260335928f579396e59e45ba2618830aa2b2b89f2f6c",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/install_expanded_objects.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\install_expanded_objects.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/install_expanded_scenes.py",
+   "bytes": 6239,
+   "sha256": "b3246f43bee5ea385f03a53d6e5609610ece77f52386c47a628230fb7d423c35",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/install_expanded_scenes.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\install_expanded_scenes.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/make_floorplans.py",
+   "bytes": 24948,
+   "sha256": "69e9a339139e77c61e72be6fd6b76ff02996b00ebd7294a70f03a4e111f144f1",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/make_floorplans.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\make_floorplans.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/normalize_building_physics.py",
+   "bytes": 9665,
+   "sha256": "4f154fd954e9e6eb790cae6ccafb80f8066a905248eb284321f8bf6cadb20c4d",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/normalize_building_physics.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\normalize_building_physics.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/normalize_selected_batch.py",
+   "bytes": 3704,
+   "sha256": "1112636227340b7f887f1a18eba9850342046840c0cafccc287383f4840a3026",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/normalize_selected_batch.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\normalize_selected_batch.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/pair_scenes.py",
+   "bytes": 23705,
+   "sha256": "0b919b678414acffab8f262ebf32b08d18bb7b33506dc96e3f20abc26a26f58d",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/pair_scenes.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\pair_scenes.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/pick_placement.py",
+   "bytes": 26950,
+   "sha256": "664938ce4ece07f323bdaf3035877b00f9d3aed64ac8cb028f1af666e2a25f5f",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/pick_placement.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\pick_placement.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/pipeline_contract.py",
+   "bytes": 3521,
+   "sha256": "efb8f86c07cd1c017df93d335f4d0c3e1ca90c707bdb3583bdf97cfdabde05ad",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/pipeline_contract.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\pipeline_contract.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/prepare_manifest.py",
+   "bytes": 8737,
+   "sha256": "c327c89117cfc5d7c637e46bb84395caff448a4c0771c25416a08b364779639e",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/prepare_manifest.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\prepare_manifest.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/prepare_next_batch_stage_a.py",
+   "bytes": 9723,
+   "sha256": "314d4634d2398798369cbb9b92cc2d6f35cc343f2bdb0195aa4e441c13633dc2",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/prepare_next_batch_stage_a.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\prepare_next_batch_stage_a.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/reachability_gate.py",
+   "bytes": 9553,
+   "sha256": "15dbece29deecc06896cd460bd2696e0e61f43f1c09504e05a62689c03e48067",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/reachability_gate.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\reachability_gate.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/regenerate_repaired_stair_assets.sh",
+   "bytes": 3216,
+   "sha256": "a56c36f98434cfd9b6752b70cbe42f969d79efd105cd94916aab100d6ca017d6",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/regenerate_repaired_stair_assets.sh",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\regenerate_repaired_stair_assets.sh"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/resume_object_install.py",
+   "bytes": 2049,
+   "sha256": "9c8142481b306a12f7c8df40d9ffd7b822c23b7c019d2a2c0e66008afbbc7e80",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/resume_object_install.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\resume_object_install.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/run_expanded_cpu_a1_a5.py",
+   "bytes": 18846,
+   "sha256": "8c69bd6c9781cd296803aeebeffc747b7c0b54ac4e1334a6da03d41a41d2776c",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/run_expanded_cpu_a1_a5.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\run_expanded_cpu_a1_a5.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/run_g25_batch.py",
+   "bytes": 3607,
+   "sha256": "1bb01013d4cb2faf327bdd474d74d75b0a4964cec19f04daf5b6b619321528d4",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/run_g25_batch.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\run_g25_batch.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/run_h1_cpu_gates.py",
+   "bytes": 6022,
+   "sha256": "0725309aa2cd568ffff6f080f59ba9d912282c97a74921d725cced68d9027d09",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/run_h1_cpu_gates.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\run_h1_cpu_gates.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/run_next_batch_a4.py",
+   "bytes": 4931,
+   "sha256": "0c16e2fb14f0723177fafdd358a6a248603602bd99a4e4f0b25789760e9493bd",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/run_next_batch_a4.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\run_next_batch_a4.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/stair_rise_contract.py",
+   "bytes": 6015,
+   "sha256": "a03587a02e4d05e79aa8e02e7763f307e0276cdf2cea899c99dd486e35322d6f",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/stair_rise_contract.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\stair_rise_contract.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/test_a5_compiler.py",
+   "bytes": 16306,
+   "sha256": "f93a57a06989ab8d6bd00cfebe746bac93517afca4b848bfede0072de6ac27fa",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/test_a5_compiler.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\test_a5_compiler.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/test_doorway_clearance.py",
+   "bytes": 2824,
+   "sha256": "2e017315d07bcf837677bed5825b27d1911546b881cbd10af24ddab3ec04a2c5",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/test_doorway_clearance.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\test_doorway_clearance.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/test_freeze_a5_decisions.py",
+   "bytes": 4834,
+   "sha256": "82cbe89f1c8679ecee34e0bda9fc45d39ca6e4ef53b2399cefde9ef689fc68a0",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/test_freeze_a5_decisions.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\test_freeze_a5_decisions.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/test_stage_a_pipeline.py",
+   "bytes": 8645,
+   "sha256": "601e260e0f0d91908724a2d817220b6dfb2b079284de7da81530e239dd130c3a",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/test_stage_a_pipeline.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\test_stage_a_pipeline.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/validate_building_isaac.py",
+   "bytes": 39948,
+   "sha256": "63d74178d75be4cb5f4f57850579b3bc6a7fdfe1f090595b01afbfe9ce146ed8",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/validate_building_isaac.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\validate_building_isaac.py"
+   }
+  },
+  {
+   "path": "generation/house/pipeline/verify_expanded_a5_package.py",
+   "bytes": 9539,
+   "sha256": "aeb455e1c292ff7719cbdeb7f5f51254f2555baa7e59c5190e0c11caae30cf42",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/pipeline/verify_expanded_a5_package.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\verify_expanded_a5_package.py"
+   }
+  },
+  {
+   "path": "generation/house/release54/assemble_release54.py",
+   "bytes": 15693,
+   "sha256": "2f60ea72c489f9f00a1e6b9944854528b738a797b3c799f466f2e63b051438d4",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact54/assemble_release54.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\unify54\\assemble_release54.py"
+   }
+  },
+  {
+   "path": "generation/house/release54/build_multistorey_graphs54.py",
+   "bytes": 13283,
+   "sha256": "77079491818b61b46b4cd1e801f211a11f9c66522b4a0e841c7da3225cb78e0f",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact54/build_multistorey_graphs54.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\unify54\\build_multistorey_graphs54.py"
+   }
+  },
+  {
+   "path": "generation/house/release54/compress_usd54.py",
+   "bytes": 2587,
+   "sha256": "fe94952e0d38025c0b800ae14d10545540e1928ac2821f86cda8fd3ae2943b1c",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact54/compress_usd54.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\unify54\\compress_usd54.py"
+   }
+  },
+  {
+   "path": "generation/house/release54/gate_global_graph54.py",
+   "bytes": 14519,
+   "sha256": "7158503a0a66db7b21eb4a5371eccb918c4b0ab7980c7093ea2aaf19c7fef413",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact54/gate_global_graph54.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\unify54\\gate_global_graph54.py"
+   }
+  },
+  {
+   "path": "generation/house/release54/prepare_exact54_inputs.py",
+   "bytes": 9053,
+   "sha256": "cc88f7e4efbe8b8565c36f421e70c2d4330a7c73edfcd205fc0686b972205eaa",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact54/prepare_exact54_inputs.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\unify54\\prepare_exact54_inputs.py"
+   }
+  },
+  {
+   "path": "generation/house/release54/prepare_usd_flat54.py",
+   "bytes": 2879,
+   "sha256": "4af119ef007fcb7a94eaf2a852ea9f17a7c194e8a465d2da2a99f8b7e8ded6a0",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact54/prepare_usd_flat54.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\unify54\\prepare_usd_flat54.py"
+   }
+  },
+  {
+   "path": "generation/house/release54/record_gate_integrity54.py",
+   "bytes": 2974,
+   "sha256": "b68d71ef35e2864f5cc098b7878dc657364435628453f90beb852e5986e0ed30",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact54/record_gate_integrity54.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\unify54\\record_gate_integrity54.py"
+   }
+  },
+  {
+   "path": "generation/house/release54/run_g25_exact54.py",
+   "bytes": 7712,
+   "sha256": "4d77db2f80ccbb1518cc782fce07180e7a24a58905a367f1b611938bc64bfeb8",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact54/run_g25_exact54.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\unify54\\run_g25_exact54.py"
+   }
+  },
+  {
+   "path": "generation/house/release54/unify54_audit.py",
+   "bytes": 24373,
+   "sha256": "7636ed87cf1e96dc6f9e64ee89da1ce4155fb17ff2a9acf1a4a3e51e52a1873f",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact54/unify54_audit.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\unify54\\unify54_audit.py"
+   }
+  },
+  {
+   "path": "generation/house/release54/unify54_open_doors.py",
+   "bytes": 17744,
+   "sha256": "75207a73419bd2576b7b5de1ce055ecabaab3de4566e5fdb2e6dfe7f7322f485",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact54/unify54_open_doors.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\unify54\\unify54_open_doors.py"
+   }
+  },
+  {
+   "path": "generation/house/release54/verify_f54_layout.py",
+   "bytes": 9486,
+   "sha256": "e888c925ea3f5129f47c67e36c0a2cbae635a6bfc55c8ed619b41da58d4d5a21",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact54/verify_f54_layout.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\unify54\\verify_f54_layout.py"
+   }
+  },
+  {
+   "path": "generation/house/release54/verify_installed_f54.py",
+   "bytes": 4306,
+   "sha256": "6033a777e2d9b6d5704ae0a5b4ea0b1f195cb4678aad6bb91e24ef77da0c1484",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact54/verify_installed_f54.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\unify54\\verify_installed_f54.py"
+   }
+  },
+  {
+   "path": "generation/house/release54/verify_release54.py",
+   "bytes": 5786,
+   "sha256": "0f5d9b78c0da13cff03d12475778ec98b42024b55212e9134eed3867bacb668d",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact54/verify_release54.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\unify54\\verify_release54.py"
+   }
+  },
+  {
+   "path": "generation/house/rendering/launch_orbit_final_20261010.sh",
+   "bytes": 870,
+   "sha256": "6a931ab95f3e9b369296fc57e6ff092ccd96fa1cd06e055672ea04633adc0f02",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/scripts/launch_orbit_final_20261010.sh",
+   "contract": null
+  },
+  {
+   "path": "generation/house/rendering/render_orbit_isaac_demo_20261009.py",
+   "bytes": 5843,
+   "sha256": "6f476f9a4f43207361db9148a8b9c5d23410a392d62523ba69b4065d536fc3b0",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/scripts/render_orbit_isaac_demo_20261009.py",
+   "contract": null
+  },
+  {
+   "path": "generation/house/stair_diversity/assemble_cap8_observed_palette_v2_20261007.py",
+   "bytes": 2902,
+   "sha256": "75dc3cef7f8a2d6045c942b66ffdefb104f29cda79c7553edb90b9d45e28b3b9",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/scripts/assemble_cap8_observed_palette_v2_20261007.py",
+   "contract": null
+  },
+  {
+   "path": "generation/house/stair_diversity/bake_cap8_material_on_saved_mesh_v3_ab_20261008.py",
+   "bytes": 8674,
+   "sha256": "0a6fa44a230cc1f8039546e775758cbbfcad37d6cda79f516a4a550d6f12ced9",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/scripts/bake_cap8_material_on_saved_mesh_v3_ab_20261008.py",
+   "contract": null
+  },
+  {
+   "path": "generation/house/stair_diversity/cap8_ab_material_policy_r1_20261007.py",
+   "bytes": 2178,
+   "sha256": "ab3745371813460df4ad292716c5b2541798c3a5561b0dcce0cc3d8e5d6604f1",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/scripts/cap8_ab_material_policy_r1_20261007.py",
+   "contract": null
+  },
+  {
+   "path": "generation/house/stair_diversity/cap8_ab_material_policy_v2_r565_20261008.py",
+   "bytes": 2317,
+   "sha256": "a1eea9e64f0d1ed70f695acd04b770b73d31467746ff51339496fad55b06aadb",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/scripts/cap8_ab_material_policy_v2_r565_20261008.py",
+   "contract": null
+  },
+  {
+   "path": "generation/house/stair_diversity/evidence_common.py",
+   "bytes": 1327,
+   "sha256": "223a3e67e6e8a0d3e29f68467903db86a6b634d12924f5deb8c2ac558e5d96cb",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/diversity54_20260908/scripts/evidence_common.py",
+   "contract": null
+  },
+  {
+   "path": "generation/house/stair_diversity/generate_staircase_diversity_v2.py",
+   "bytes": 30125,
+   "sha256": "e1a2f21608101c8809f62d0088bff8e2e49fa4003c3648bd491d2ccb15981d42",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/scripts/generate_staircase_diversity_v2.py",
+   "contract": null
+  },
+  {
+   "path": "generation/house/stair_diversity/generate_staircase_diversity_v3.py",
+   "bytes": 30935,
+   "sha256": "47fd647ef8b89ab08caeee947fb1604c08ff7fe6bd1e05402189e3bb2d2c490d",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/diversity54_20260908/scripts/generate_staircase_diversity_v3.py",
+   "contract": null
+  },
+  {
+   "path": "generation/house/stair_diversity/generate_staircase_native_base.py",
+   "bytes": 29398,
+   "sha256": "87b417258f36458f898cb9f5fa971f6f8b5388f72b3df8edebfcc3ac1cfc39bd",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/diversity54_20260908/scripts/generate_staircase_native_base.py",
+   "contract": null
+  },
+  {
+   "path": "generation/house/stair_diversity/native_material_bake_only_v2.py",
+   "bytes": 4397,
+   "sha256": "ee79ece0a15341db5e13e2d48b1c19ebacadb0c6b57ada4be1df1e20bbe1f92f",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/scripts/native_material_bake_only_v2.py",
+   "contract": null
+  },
+  {
+   "path": "generation/house/stair_diversity/native_material_bake_only_v4.py",
+   "bytes": 1915,
+   "sha256": "a5d6fa2b4bbaf9d08a5f13c438e13b52f997b08503121da11866561fa6db361a",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/scripts/native_material_bake_only_v4.py",
+   "contract": null
+  },
+  {
+   "path": "generation/house/stair_diversity/native_material_bake_only_v5.py",
+   "bytes": 8196,
+   "sha256": "fb2ddad85d849a0563ab6f01be1b4fe8c0b7530f338087f9fb05a2f8e3cf9bd7",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/scripts/native_material_bake_only_v5.py",
+   "contract": null
+  },
+  {
+   "path": "generation/house/stair_diversity/native_preview_surface_semantics_v2.py",
+   "bytes": 6221,
+   "sha256": "f0c0e507b04c160c120ba3c80d80b7aae1cbaad1110e4e038d59642989e730d8",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/scripts/native_preview_surface_semantics_v2.py",
+   "contract": null
+  },
+  {
+   "path": "generation/house/stair_diversity/native_style_overrides.py",
+   "bytes": 4907,
+   "sha256": "1c0bca1d6ac3d29d1b8c7fd058abeaa29999f4f5a5000ae315131daa88c203c9",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/diversity54_20260908/scripts/native_style_overrides.py",
+   "contract": null
+  },
+  {
+   "path": "generation/house/stair_diversity/plan_signature_diversity_v1.py",
+   "bytes": 15524,
+   "sha256": "bfee2c595f96e6a153790da1470e704c5e0691418b08892141ef35acf0fa8748",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/diversity54_20260908/scripts/plan_signature_diversity_v1.py",
+   "contract": null
+  },
+  {
+   "path": "generation/house/stair_diversity/portfolio_allocator_v2.py",
+   "bytes": 19180,
+   "sha256": "39cf9c905e64f4bea87877031a93661dbcec7064e8d570c013fcecde3682b4f0",
+   "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/diversity54_20260908/scripts/portfolio_allocator_v2.py",
+   "contract": null
+  },
+  {
+   "path": "generation/house/stairs/audit_staircase_usd.py",
+   "bytes": 13845,
+   "sha256": "308fa8872004787b2f1799a18f57c1a83f7991b4bd994bc0a3238eb423d985f1",
+   "origin": "/cephfs/shared/yixing/outputs/building_batch_20260819/release_r4/scripts/audit_staircase_usd.py",
+   "contract": {
+    "manifest": "generation/house/stairs/release_manifest.json",
+    "sha256_matches": true
+   }
+  },
+  {
+   "path": "generation/house/stairs/contracts/frozen_h1_authorized_batch.json",
+   "bytes": 15698,
+   "sha256": "d99a5c1672d436bd8fbe5af07682442de78fcad54bbd26dd8996864db857b25e",
+   "origin": "/cephfs/shared/yixing/outputs/building_batch_20260819/release_r4/contracts/frozen_h1_authorized_batch.json",
+   "contract": {
+    "manifest": "generation/house/stairs/release_manifest.json",
+    "sha256_matches": true
+   }
+  },
+  {
+   "path": "generation/house/stairs/contracts/h1_decisions.json",
+   "bytes": 2794,
+   "sha256": "33b5c6e50e511c328e7b9a7bc1e1a021c925d4dbb6da757ba408681aae4cb17c",
+   "origin": "/cephfs/shared/yixing/outputs/building_batch_20260819/release_r4/contracts/h1_decisions.json",
+   "contract": {
+    "manifest": "generation/house/stairs/release_manifest.json",
+    "sha256_matches": true
+   }
+  },
+  {
+   "path": "generation/house/stairs/contracts/manifest.json",
+   "bytes": 9220,
+   "sha256": "f77783ecefc4a3c1ca57fe5bb4a1130382007474cc1ef44e1b420390f78b8c7e",
+   "origin": "/cephfs/shared/yixing/outputs/building_batch_20260819/release_r4/contracts/manifest.json",
+   "contract": {
+    "manifest": "generation/house/stairs/release_manifest.json",
+    "sha256_matches": true
+   }
+  },
+  {
+   "path": "generation/house/stairs/contracts/post_h1_execution_plan.json",
+   "bytes": 2988,
+   "sha256": "8ead778c221ea0489a64eb3e7e09b9a948c93d73903b2fd49572456ec40abeb6",
+   "origin": "/cephfs/shared/yixing/outputs/building_batch_20260819/release_r4/contracts/post_h1_execution_plan.json",
+   "contract": {
+    "manifest": "generation/house/stairs/release_manifest.json",
+    "sha256_matches": true
+   }
+  },
+  {
+   "path": "generation/house/stairs/generate_staircase.py",
+   "bytes": 29398,
+   "sha256": "87b417258f36458f898cb9f5fa971f6f8b5388f72b3df8edebfcc3ac1cfc39bd",
+   "origin": "/cephfs/shared/yixing/outputs/building_batch_20260819/release_r4/scripts/generate_staircase.py",
+   "contract": {
+    "manifest": "generation/house/stairs/release_manifest.json",
+    "sha256_matches": true
+   }
+  },
+  {
+   "path": "generation/house/stairs/make_tex128.py",
+   "bytes": 1925,
+   "sha256": "283334317f244030cdeff72ebb4c34edc7dc5a71006fb0d4a40bb9c2cfb3b5d4",
+   "origin": "/cephfs/shared/yixing/outputs/building_batch_20260819/release_r4/scripts/make_tex128.py",
+   "contract": {
+    "manifest": "generation/house/stairs/release_manifest.json",
+    "sha256_matches": true
+   }
+  },
+  {
+   "path": "generation/house/stairs/promote_stage_b_surface_fix.py",
+   "bytes": 9123,
+   "sha256": "9c0fb1d8e4b7eb611670aed3c0deccff36879d738d7ceb5ac3261cd3a54b6ed0",
+   "origin": "/cephfs/shared/yixing/outputs/building_batch_20260819/release_r4/scripts/promote_stage_b_surface_fix.py",
+   "contract": {
+    "manifest": "generation/house/stairs/release_manifest.json",
+    "sha256_matches": true
+   }
+  },
+  {
+   "path": "generation/house/stairs/release_manifest.json",
+   "bytes": 2577,
+   "sha256": "8e5d6398be6d4b2114c2fac4edccfea0c85a5299c2446e4a08141417bc9bf8d7",
+   "origin": "/cephfs/shared/yixing/outputs/building_batch_20260819/release_r4/release_manifest.json",
+   "contract": null
+  },
+  {
+   "path": "generation/house/stairs/run_stage_b_assets.py",
+   "bytes": 12866,
+   "sha256": "52bfbbe00a0ecf808d5da6e03a2bd348bc980d6a73baa01038764455024f8c9f",
+   "origin": "/cephfs/shared/yixing/outputs/building_batch_20260819/release_r4/scripts/run_stage_b_assets.py",
+   "contract": {
+    "manifest": "generation/house/stairs/release_manifest.json",
+    "sha256_matches": true
+   }
+  },
+  {
+   "path": "generation/house/stairs/run_stage_b_r2.sbatch",
+   "bytes": 1518,
+   "sha256": "6cab7f49ae9e368059d8a6a9874eecb43037cb3f5f32a42aa77129941707ba52",
+   "origin": "/cephfs/shared/yixing/outputs/building_batch_20260819/release_r4/scripts/run_stage_b_r2.sbatch",
+   "contract": {
+    "manifest": "generation/house/stairs/release_manifest.json",
+    "sha256_matches": true
+   }
+  },
+  {
+   "path": "generation/house/stairs/stair_rise_contract.py",
+   "bytes": 6015,
+   "sha256": "a03587a02e4d05e79aa8e02e7763f307e0276cdf2cea899c99dd486e35322d6f",
+   "origin": "/cephfs/shared/yixing/outputs/building_batch_20260819/release_r4/scripts/stair_rise_contract.py",
+   "contract": {
+    "manifest": "generation/house/stairs/release_manifest.json",
+    "sha256_matches": true
+   }
+  },
+  {
+   "path": "generation/house/stairs/submit_stage_b_r2_once.sh",
+   "bytes": 1196,
+   "sha256": "47f7b50fcb7784ae5e745081ab00a0056bdb77ed1f3ecb34dde368d70f6bd7f2",
+   "origin": "/cephfs/shared/yixing/outputs/building_batch_20260819/release_r4/scripts/submit_stage_b_r2_once.sh",
+   "contract": {
+    "manifest": "generation/house/stairs/release_manifest.json",
+    "sha256_matches": true
+   }
+  },
+  {
+   "path": "generation/house/stairs/watch_and_submit_stage_b_r2.sh",
+   "bytes": 914,
+   "sha256": "78cac5f824ce4ab604c94f709396742eb0d6fcbca2a463ad3b395ccd20b2c608",
+   "origin": "/cephfs/shared/yixing/outputs/building_batch_20260819/release_r4/scripts/watch_and_submit_stage_b_r2.sh",
+   "contract": {
+    "manifest": "generation/house/stairs/release_manifest.json",
+    "sha256_matches": true
+   }
+  },
+  {
+   "path": "generation/house/validation/G25_SPEC.md",
+   "bytes": 3046,
+   "sha256": "5ce145f34cedfb8df4c5b51d6d1b1b2d7030b8e70bd368349896c321f984e2a1",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/validation/G25_SPEC.md",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\G25_SPEC.md"
+   }
+  },
+  {
+   "path": "generation/house/validation/final_summary.py",
+   "bytes": 2919,
+   "sha256": "b4bb3f6e5c89016ba2503bb5369a7deb88915afa70c5ac485bc3c8b9e44d5ef8",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/validation/final_summary.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\final_summary.py"
+   }
+  },
+  {
+   "path": "generation/house/validation/gate13_geometry_audit.py",
+   "bytes": 47499,
+   "sha256": "81ef3b9f18b68cde636e78277a3523f952baea7cff741a6b05489081a3d40e58",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/validation/gate13_geometry_audit.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\gate13_geometry_audit.py"
+   }
+  },
+  {
+   "path": "generation/house/validation/gate1_structural.py",
+   "bytes": 6531,
+   "sha256": "2a8eec6dafc6861cca63f38e56e821472921acaab7fc0edd74b6f12412bdec2a",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/validation/gate1_structural.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\gate1_structural.py"
+   }
+  },
+  {
+   "path": "generation/house/validation/gate25_storey_navigation.py",
+   "bytes": 30404,
+   "sha256": "6409af5ef1f5bcc326c6ecd97e6e1ca689a3d3204dc4520f1e7827b06ce085ff",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/validation/gate25_storey_navigation.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\gate25_storey_navigation.py"
+   }
+  },
+  {
+   "path": "generation/house/validation/gate2_cache_integrity.py",
+   "bytes": 5803,
+   "sha256": "2551efb82055dc196b2913196076dbca660c6117ae0ed865122889a6c37ef13f",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/validation/gate2_cache_integrity.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\gate2_cache_integrity.py"
+   }
+  },
+  {
+   "path": "generation/house/validation/gate3_component_diagnosis.py",
+   "bytes": 6364,
+   "sha256": "45b2867e29dd40f8ad11cfe67bb2a22198abbd72416dacf90614089ec268aa6c",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/validation/gate3_component_diagnosis.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\gate3_component_diagnosis.py"
+   }
+  },
+  {
+   "path": "generation/house/validation/gate3_usd_voxel_consistency.py",
+   "bytes": 16118,
+   "sha256": "9700c588449eadb6ca81998c627179d4e76c6489b5910cc39cc33664d9c0c092",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/validation/gate3_usd_voxel_consistency.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\gate3_usd_voxel_consistency.py"
+   }
+  },
+  {
+   "path": "generation/house/validation/gate3b_structural_connectivity.py",
+   "bytes": 10153,
+   "sha256": "b23c49f22716d966af4b9bc798f1f5da1877a20e258ec78bee0bff45f5c52045",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/validation/gate3b_structural_connectivity.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\gate3b_structural_connectivity.py"
+   }
+  },
+  {
+   "path": "generation/house/validation/gate3c_investigate_regions.py",
+   "bytes": 8298,
+   "sha256": "6e1859f40e34f17e94ffc411f1dec44c7896f04a602ce2e90a7f86f7d7a956eb",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/validation/gate3c_investigate_regions.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\gate3c_investigate_regions.py"
+   }
+  },
+  {
+   "path": "generation/house/validation/gate4_visual_audit.py",
+   "bytes": 20464,
+   "sha256": "8a72fb7b9b8604341c274c0d60602654d4bbaf3deea7103d12b0548cdbc2f035",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/validation/gate4_visual_audit.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\gate4_visual_audit.py"
+   }
+  },
+  {
+   "path": "generation/house/validation/gate6_stair_reachability.py",
+   "bytes": 11534,
+   "sha256": "819a722c48b34900f9331c6b7419dd891762acb9994e79ed45827810f589cb7f",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/validation/gate6_stair_reachability.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\gate6_stair_reachability.py"
+   }
+  },
+  {
+   "path": "generation/house/validation/gate7_global_graph.py",
+   "bytes": 46732,
+   "sha256": "b6d3b4fb2d7c5c63c37d70ce52b0ad9e9ecb8da99de5f2ed798256cec5f342d6",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/validation/gate7_global_graph.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\gate7_global_graph.py"
+   }
+  },
+  {
+   "path": "generation/house/validation/gate7_global_graph48.py",
+   "bytes": 25484,
+   "sha256": "167f3b9e160d21add0bdebb17acfea4bbb0c93f326f66abce968494e54cdd682",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/validation/gate7_global_graph48.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\gate7_global_graph48.py"
+   }
+  },
+  {
+   "path": "generation/house/validation/gate7_global_graph50.py",
+   "bytes": 12301,
+   "sha256": "879016961dc9f581995d8c8d6d895f689c923bd3364dcacc58ce02e3e8fa131f",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/validation/gate7_global_graph50.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\gate7_global_graph50.py"
+   }
+  },
+  {
+   "path": "generation/house/validation/pick_placement_v2.py",
+   "bytes": 27082,
+   "sha256": "7ef30ee31ddcf4ea7df129aa9fbebcd9a8841962a00d319614a1133c49bae515",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/validation/pick_placement_v2.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\pick_placement_v2.py"
+   }
+  },
+  {
+   "path": "generation/house/validation/test_gate25_storey_navigation.py",
+   "bytes": 1614,
+   "sha256": "1a5940525e3e8e6e87a680746ca854205834ae127b9684b7282bbfc1c1027ece",
+   "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/validation/test_gate25_storey_navigation.py",
+   "contract": {
+    "manifest": "generation/house/FROZEN_CONTRACT_SOURCES.json",
+    "sha256_matches": true,
+    "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\test_gate25_storey_navigation.py"
+   }
+  }
+ ],
+ "excluded": [
+  {
+   "file": "run_capacity_reassessment_h1.py",
+   "group": "house/pipeline",
+   "reason": "point-cloud policy-input capacity reassessment; a training interface, out of scope"
+  },
+  {
+   "file": "gate12_graph_token_capacity.py",
+   "group": "house/validation",
+   "reason": "graph-token packing / capacity for a learned policy's input; a training interface, out of scope"
+  },
+  {
+   "file": "gate12_graph_token_capacity48.py",
+   "group": "house/validation",
+   "reason": "graph-token packing / capacity for a learned policy's input; a training interface, out of scope"
+  },
+  {
+   "file": "gate12_graph_token_capacity_batch.py",
+   "group": "house/validation",
+   "reason": "graph-token packing / capacity for a learned policy's input; a training interface, out of scope"
+  },
+  {
+   "file": "gate14_graph_token_release.py",
+   "group": "house/validation",
+   "reason": "graph-token packing / capacity for a learned policy's input; a training interface, out of scope"
+  },
+  {
+   "file": "gate14_graph_token_release48.py",
+   "group": "house/validation",
+   "reason": "graph-token packing / capacity for a learned policy's input; a training interface, out of scope"
+  },
+  {
+   "file": "gate5_runtime_smoke.py",
+   "group": "house/validation",
+   "reason": "drives the ProtoMotions training runtime backend ('configured exactly as training would'); out of scope"
+  },
+  {
+   "file": "gate5_runtime_smoke_v2.py",
+   "group": "house/validation",
+   "reason": "drives the ProtoMotions training runtime backend ('configured exactly as training would'); out of scope"
+  },
+  {
+   "file": "assess_graph_token_capacity54.py",
+   "group": "house/release54",
+   "reason": "graph-token packing / capacity for a learned policy's input; a training interface, out of scope"
+  },
+  {
+   "file": "release_graph_tokens54.py",
+   "group": "house/release54",
+   "reason": "graph-token packing / capacity for a learned policy's input; a training interface, out of scope"
+  },
+  {
+   "file": "cleanup_remote_transfer54.py",
+   "group": "house/release54",
+   "reason": "cluster transfer clean-up; operations, not generation"
+  },
+  {
+   "file": "generate_staircase_diversity_v4.py .. _v7.py",
+   "group": "house/stair_diversity",
+   "reason": "v4 (140 kB) imports the campaign's batch orchestration, GPU-lease and gate runners; v5-v7 are source-bound wrappers of v4 that only widen the width-probe bound"
+  },
+  {
+   "file": "simulator/*.py (5 files)",
+   "group": "house",
+   "reason": "NVIDIA ProtoMotions runtime modules (scene_geometry_cache, standability, storey bands, topology); upstream code, imported as a dependency, not redistributed"
+  },
+  {
+   "file": "official_download.py",
+   "group": "factory/sourcing",
+   "reason": "verbatim copy of the MolmoSpaces downloader (allenai/molmospaces); use upstream"
+  },
+  {
+   "file": "augment_parc_storage_crate.py",
+   "group": "factory/sourcing",
+   "reason": "PARC prop insertion or PARC-bound delivery packaging; out of scope"
+  },
+  {
+   "file": "select_parc_crate_placement.py",
+   "group": "factory/sourcing",
+   "reason": "PARC prop insertion or PARC-bound delivery packaging; out of scope"
+  },
+  {
+   "file": "probe_floor1_platform_assets.py",
+   "group": "factory/sourcing",
+   "reason": "PARC prop insertion or PARC-bound delivery packaging; out of scope"
+  },
+  {
+   "file": "run_factory10_stageb_cpu_r3_parc.sh",
+   "group": "factory/sourcing",
+   "reason": "PARC prop insertion or PARC-bound delivery packaging; out of scope"
+  },
+  {
+   "file": "assemble_factory10_delivery.py",
+   "group": "factory/sourcing",
+   "reason": "PARC prop insertion or PARC-bound delivery packaging; out of scope"
+  },
+  {
+   "file": "assemble_factory10_final_delivery.py",
+   "group": "factory/sourcing",
+   "reason": "PARC prop insertion or PARC-bound delivery packaging; out of scope"
+  },
+  {
+   "file": "transfer_*.py",
+   "group": "factory/sourcing",
+   "reason": "data transfer, GPU scheduling and shared-card hold; operations, not generation"
+  },
+  {
+   "file": "split_transfer_artifact.py",
+   "group": "factory/sourcing",
+   "reason": "data transfer, GPU scheduling and shared-card hold; operations, not generation"
+  },
+  {
+   "file": "assemble_verified_transfer.py",
+   "group": "factory/sourcing",
+   "reason": "data transfer, GPU scheduling and shared-card hold; operations, not generation"
+  },
+  {
+   "file": "bundle_verified_object_packages.py",
+   "group": "factory/sourcing",
+   "reason": "data transfer, GPU scheduling and shared-card hold; operations, not generation"
+  },
+  {
+   "file": "a40_full_idle_hold.sh",
+   "group": "factory/sourcing",
+   "reason": "data transfer, GPU scheduling and shared-card hold; operations, not generation"
+  },
+  {
+   "file": "run_factory10_*.sh",
+   "group": "factory/sourcing",
+   "reason": "data transfer, GPU scheduling and shared-card hold; operations, not generation"
+  },
+  {
+   "file": "resume_factory10_post_after_scratch.sh",
+   "group": "factory/sourcing",
+   "reason": "data transfer, GPU scheduling and shared-card hold; operations, not generation"
+  },
+  {
+   "file": "diagnose_*.py",
+   "group": "factory/sourcing",
+   "reason": "one-off diagnosis and campaign book-keeping"
+  },
+  {
+   "file": "compare_*.py",
+   "group": "factory/sourcing",
+   "reason": "one-off diagnosis and campaign book-keeping"
+  },
+  {
+   "file": "summarize_*.py",
+   "group": "factory/sourcing",
+   "reason": "one-off diagnosis and campaign book-keeping"
+  },
+  {
+   "file": "inspect_json_shape.py",
+   "group": "factory/sourcing",
+   "reason": "one-off diagnosis and campaign book-keeping"
+  },
+  {
+   "file": "record_h1_decision10_autonomous.py",
+   "group": "factory/sourcing",
+   "reason": "one-off diagnosis and campaign book-keeping"
+  },
+  {
+   "file": "make_protected_judgments_comparison.py",
+   "group": "factory/sourcing",
+   "reason": "one-off diagnosis and campaign book-keeping"
+  },
+  {
+   "file": "audit_stageb_v1_exclusion.py",
+   "group": "factory/sourcing",
+   "reason": "one-off diagnosis and campaign book-keeping"
+  },
+  {
+   "file": "audit_factory10_strict_mincut.py",
+   "group": "factory/sourcing",
+   "reason": "one-off diagnosis and campaign book-keeping"
+  },
+  {
+   "file": "prepare_factory10_final_a40_rerun.py",
+   "group": "factory/sourcing",
+   "reason": "one-off diagnosis and campaign book-keeping"
+  },
+  {
+   "file": "generate_parc_site_evidence.py",
+   "group": "factory/stacked_factory10",
+   "reason": "PARC site evidence; out of scope"
+  },
+  {
+   "file": "prove_transformer_readable10.py",
+   "group": "factory/stacked_factory10",
+   "reason": "graph-token packing / capacity for a learned policy's input; a training interface, out of scope"
+  },
+  {
+   "file": "gate12_graph_token_capacity10.py",
+   "group": "factory/stacked_factory10",
+   "reason": "graph-token packing / capacity for a learned policy's input; a training interface, out of scope"
+  },
+  {
+   "file": "gate14_graph_token_release.py",
+   "group": "factory/stacked_factory10",
+   "reason": "graph-token packing / capacity for a learned policy's input; a training interface, out of scope"
+  },
+  {
+   "file": "gate14_graph_token_release10.py",
+   "group": "factory/stacked_factory10",
+   "reason": "graph-token packing / capacity for a learned policy's input; a training interface, out of scope"
+  },
+  {
+   "file": "assess_graph_token_capacity10.py",
+   "group": "factory/stacked_factory10",
+   "reason": "graph-token packing / capacity for a learned policy's input; a training interface, out of scope"
+  },
+  {
+   "file": "scene_expansion_bulk_remote.py",
+   "group": "factory/tiled_factory80",
+   "reason": "bulk transfer, shutdown guard, milestone publication and archive re-hashing; operations, not generation"
+  },
+  {
+   "file": "scene_expansion_critical_remote.py",
+   "group": "factory/tiled_factory80",
+   "reason": "bulk transfer, shutdown guard, milestone publication and archive re-hashing; operations, not generation"
+  },
+  {
+   "file": "scene_expansion_milestone_remote.py",
+   "group": "factory/tiled_factory80",
+   "reason": "bulk transfer, shutdown guard, milestone publication and archive re-hashing; operations, not generation"
+  },
+  {
+   "file": "scene_expansion_progress_summary.py",
+   "group": "factory/tiled_factory80",
+   "reason": "bulk transfer, shutdown guard, milestone publication and archive re-hashing; operations, not generation"
+  },
+  {
+   "file": "scene_expansion_whole_raw_remote.py",
+   "group": "factory/tiled_factory80",
+   "reason": "bulk transfer, shutdown guard, milestone publication and archive re-hashing; operations, not generation"
+  },
+  {
+   "file": "scene_expansion_object_completion_audit.py",
+   "group": "factory/tiled_factory80",
+   "reason": "bulk transfer, shutdown guard, milestone publication and archive re-hashing; operations, not generation"
+  },
+  {
+   "file": "factory80_stage3_physics.py",
+   "group": "factory/tiled_factory80",
+   "reason": "spawns a humanoid (G1) in the factory through ProtoMotions; humanoid execution is out of scope"
+  },
+  {
+   "file": "factory80_stage3_scene_load.py",
+   "group": "factory/tiled_factory80",
+   "reason": "spawns a humanoid (G1) in the factory through ProtoMotions; humanoid execution is out of scope"
+  },
+  {
+   "file": "factory80_whitelist_complete_assets.py",
+   "group": "factory/tiled_factory80",
+   "reason": "batch queueing, retry and stop control around the whitelist generator"
+  },
+  {
+   "file": "factory80_whitelist_selected_fragment.py",
+   "group": "factory/tiled_factory80",
+   "reason": "batch queueing, retry and stop control around the whitelist generator"
+  },
+  {
+   "file": "factory80_whitelist_batch_*.py",
+   "group": "factory/tiled_factory80",
+   "reason": "batch queueing, retry and stop control around the whitelist generator"
+  },
+  {
+   "file": "factory80_whitelist_retry_*.py",
+   "group": "factory/tiled_factory80",
+   "reason": "batch queueing, retry and stop control around the whitelist generator"
+  },
+  {
+   "file": "factory80_whitelist_stop.py",
+   "group": "factory/tiled_factory80",
+   "reason": "batch queueing, retry and stop control around the whitelist generator"
+  },
+  {
+   "file": "factory80_cpu_owner_*.py",
+   "group": "factory/tiled_factory80",
+   "reason": "process supervision, memory isolation, read-only probes and report publication"
+  },
+  {
+   "file": "factory80_cpu_ram_*.py",
+   "group": "factory/tiled_factory80",
+   "reason": "process supervision, memory isolation, read-only probes and report publication"
+  },
+  {
+   "file": "factory80_cpu_serial_pipeline_v*.py",
+   "group": "factory/tiled_factory80",
+   "reason": "process supervision, memory isolation, read-only probes and report publication"
+  },
+  {
+   "file": "factory80_*readonly*.py",
+   "group": "factory/tiled_factory80",
+   "reason": "process supervision, memory isolation, read-only probes and report publication"
+  },
+  {
+   "file": "factory80_*readback*.py",
+   "group": "factory/tiled_factory80",
+   "reason": "process supervision, memory isolation, read-only probes and report publication"
+  },
+  {
+   "file": "factory80_root_*.py",
+   "group": "factory/tiled_factory80",
+   "reason": "process supervision, memory isolation, read-only probes and report publication"
+  },
+  {
+   "file": "factory80_pilot_*.py",
+   "group": "factory/tiled_factory80",
+   "reason": "process supervision, memory isolation, read-only probes and report publication"
+  },
+  {
+   "file": "~250 further campaign scripts",
+   "group": "factory/tiled_factory80",
+   "reason": "process supervision, memory isolation, read-only probes and report publication"
+  },
+  {
+   "file": "equipment_density/industrial_source_geometry_v1.json (2.0 MB)",
+   "group": "factory/tiled_factory80",
+   "reason": "run data rather than code; regenerated by the scripts that produce them"
+  },
+  {
+   "file": "TILING_PLAN.json (4.3 MB)",
+   "group": "factory/tiled_factory80",
+   "reason": "run data rather than code; regenerated by the scripts that produce them"
+  },
+  {
+   "file": "SCENE_EXPANSION_600.json (6.4 MB)",
+   "group": "factory/tiled_factory80",
+   "reason": "run data rather than code; regenerated by the scripts that produce them"
+  }
+ ]
+}

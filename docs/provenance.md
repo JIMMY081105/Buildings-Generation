@@ -8,6 +8,8 @@ Every module is in one of three categories. Keeping them separate is what makes
    interface or a specific correction is not. Each is listed below with what
    changed and why.
 3. **New here** — the connection pipeline, the profile system, the gates.
+4. **Snapshot** — `generation/`, the generator scripts as they ran, published
+   byte for byte and documented in §4.
 
 ---
 
@@ -18,6 +20,10 @@ Every module is in one of three categories. Keeping them separate is what makes
 | [Infinigen](https://github.com/princeton-vl/infinigen) | BSD-3-Clause | `stairs/infinigen_backend.py` imports its staircase factories at call time and subclasses them. No Infinigen source or asset is in this repository. Optional dependency. |
 | [OpenUSD](https://github.com/PixarAnimationStudios/OpenUSD) | Apache-2.0 (modified) | `usd-core` dependency for stage composition, geometry and physics schemas. |
 | trimesh, numpy, scipy | MIT / BSD | Voxelisation, distance transforms, connected components. |
+| [MolmoSpaces](https://huggingface.co/datasets/allenai/molmospaces) | see the dataset card | Source scenes and object packages for both generators. Downloaded by `generation/` scripts; no scene or asset is in this repository. |
+| [Blender](https://www.blender.org) `bpy` | GPL-2.0-or-later | Runtime for Infinigen's staircase factories in `generation/`. Not vendored. |
+| [NVIDIA Isaac Sim](https://developer.nvidia.com/isaac/sim) | NVIDIA licence | PhysX validation and RTX rendering in `generation/`. Not vendored. |
+| ProtoMotions `simulator/base_simulator/` | Apache-2.0 | `scene_geometry_cache`, `standability`, `scene_storey_bands`, `free_space_topology`, `multistorey_topology` are imported by `generation/` gates. Not vendored there. |
 
 ---
 
@@ -83,9 +89,31 @@ triangle count and AABB so the deletion is auditable rather than implicit.
 
 | Value | Where | Why it is fixed |
 |---|---|---|
-| body radius 0.25 m | `StandabilityV1` | Humanoid shoulder/hip half-width used by the originating project's policies. |
+| body radius 0.25 m | `StandabilityV1` | Shoulder/hip half-width of the human-scale body proxy; fixed across the project. |
 | body height 1.60 m | `StandabilityV1` | 32 cells at 5 cm. |
 | support step 0.20 m | `StandabilityV1` | Maximum single step the body proxy admits; also the ceiling on any riser. |
 | minimum component 1.00 m² | `StandabilityV1` | 400 cells; below this a "region" is not somewhere a body can turn around. |
 | voxel 5 cm / 10 cm | `voxel/grid.py` | Cache format; caches at other resolutions are not comparable. |
 | Blondel target 0.63 m | profile, editable | `2 × riser + going`; the comfort relation, per building type. |
+
+---
+
+## 4. Generation snapshot
+
+`generation/` holds the scripts that generated the residential and industrial
+buildings, copied byte for byte from the workspaces they ran in on 2026-10-16.
+They are neither derived nor rewritten here, and they are not part of the
+`buildingsgen` package.
+
+- `generation/MANIFEST.json` gives each file's size, SHA-256 and origin path,
+  and lists every omitted file with the reason for omitting it.
+- 107 files also appear in a frozen contract manifest written by the original
+  run (`house/FROZEN_CONTRACT_SOURCES.json`, `house/stairs/release_manifest.json`,
+  `house/navigation_repair/SOURCE_SNAPSHOT.json`) with the same SHA-256.
+- `tests/test_generation_snapshot.py` re-hashes the tree in CI and fails on a
+  changed byte or an unlisted file.
+
+Upstream code that the original workspaces contained is omitted rather than
+redistributed: the MolmoSpaces downloader (`official_download.py`, a copy
+of MolmoSpaces' `download.py`) and the five ProtoMotions simulator modules
+listed above.

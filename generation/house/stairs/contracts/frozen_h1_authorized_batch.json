@@ -1,0 +1,443 @@
+{
+  "authorization_contract_version": 1,
+  "status": "FROZEN_H1_AUTHORIZED_BATCH",
+  "frozen_utc": "2026-08-20T05:13:34.843732+00:00",
+  "h1_manifest": "E:\\AI_AGENT_WORKSPACE\\EVIDENCE\\reports\\building_batch_20260819\\h1\\manifest.json",
+  "h1_manifest_sha256": "f77783ecefc4a3c1ca57fe5bb4a1130382007474cc1ef44e1b420390f78b8c7e",
+  "human_decision": "E:\\AI_AGENT_WORKSPACE\\EVIDENCE\\reports\\building_batch_20260819\\h1\\h1_decisions.json",
+  "human_decision_sha256": "33b5c6e50e511c328e7b9a7bc1e1a021c925d4dbb6da757ba408681aae4cb17c",
+  "batch_generation_authorized": true,
+  "automatic_batch_generation_authorized": true,
+  "authorized_building_count": 10,
+  "authorized_buildings": [
+    {
+      "manifest": {
+        "BID": "home_train98_train74_lshaped_h320",
+        "floor1": "train_98_ceiling",
+        "floor2": "train_74_ceiling",
+        "kind": "l_shaped",
+        "height_m": 3.2,
+        "x0": 2.57,
+        "y0": 1.6599999679939426,
+        "x1": 6.888155288696289,
+        "y1": 5.740492702903,
+        "rotation_deg": 0,
+        "room": "room_0_visual_0",
+        "scene_type": "home",
+        "prior_human_approved": false,
+        "strict_collider_normalization_pass": false,
+        "post_A5_build_blocked": true,
+        "strict_collider_failed_gates": [
+          "all_authored_tread_colliders_normalized",
+          "combined_tread_collider_contains_all_boxes",
+          "combined_tread_collider_is_static_closed_triangle_mesh",
+          "source_tread_collision_prims_deactivated"
+        ],
+        "dependency_gate_pass": true,
+        "candidate_dependency_decision": "PASS",
+        "critical_missing_dependency_count": 0,
+        "critical_dependency_categories": []
+      },
+      "placement": {
+        "rect": [
+          2.57,
+          1.6599999679939426,
+          6.888155288696289,
+          5.740492702903
+        ],
+        "rotation_deg": 0
+      },
+      "h1_placement_approved": true,
+      "build_and_gpu_evidence_authorized": true,
+      "gpu_spatial_review_required_before_final_placement_approval": true,
+      "final_placement_approved": false,
+      "h1_decision": "approved_conditional",
+      "h1_condition_contract_id": "STAGE_B_REGENERATE_STRICT_COLLIDER_OR_RETURN_A4",
+      "h1_binding_conditions": [
+        "regenerate the staircase from the generator in Stage B",
+        "pass strict collider normalization before Stage C",
+        "pass G19-G23 at C+ like every other candidate",
+        "on failure return to A4; do not repair forward or substitute a cached asset",
+        "retain and report the candidate if it fails"
+      ]
+    },
+    {
+      "manifest": {
+        "BID": "home_train98_train74_ushaped_h320",
+        "floor1": "train_98_ceiling",
+        "floor2": "train_74_ceiling",
+        "kind": "u_shaped",
+        "height_m": 3.2,
+        "x0": 2.57,
+        "y0": 1.5499999679939427,
+        "x1": 5.558536357879639,
+        "y1": 5.74009849208757,
+        "rotation_deg": 0,
+        "room": "room_0_visual_0",
+        "scene_type": "home",
+        "prior_human_approved": false,
+        "strict_collider_normalization_pass": false,
+        "post_A5_build_blocked": true,
+        "strict_collider_failed_gates": [
+          "all_authored_tread_colliders_normalized",
+          "combined_tread_collider_contains_all_boxes",
+          "combined_tread_collider_is_static_closed_triangle_mesh",
+          "source_tread_collision_prims_deactivated"
+        ],
+        "dependency_gate_pass": true,
+        "candidate_dependency_decision": "PASS",
+        "critical_missing_dependency_count": 0,
+        "critical_dependency_categories": []
+      },
+      "placement": {
+        "rect": [
+          2.57,
+          1.5499999679939427,
+          5.558536357879639,
+          5.74009849208757
+        ],
+        "rotation_deg": 0
+      },
+      "h1_placement_approved": true,
+      "build_and_gpu_evidence_authorized": true,
+      "gpu_spatial_review_required_before_final_placement_approval": true,
+      "final_placement_approved": false,
+      "h1_decision": "approved_conditional",
+      "h1_condition_contract_id": "STAGE_B_REGENERATE_STRICT_COLLIDER_OR_RETURN_A4",
+      "h1_binding_conditions": [
+        "regenerate the staircase from the generator in Stage B",
+        "pass strict collider normalization before Stage C",
+        "pass G19-G23 at C+ like every other candidate",
+        "on failure return to A4; do not repair forward or substitute a cached asset",
+        "retain and report the candidate if it fails"
+      ]
+    },
+    {
+      "manifest": {
+        "BID": "home_train107_train20_ushaped_h300",
+        "floor1": "train_107_ceiling",
+        "floor2": "train_20_ceiling",
+        "kind": "u_shaped",
+        "height_m": 3.0,
+        "x0": 0.5,
+        "y0": 7.92999996799315,
+        "x1": 4.901209831237793,
+        "y1": 10.91853608745421,
+        "rotation_deg": 90,
+        "room": "room_4_visual_0",
+        "scene_type": "home",
+        "prior_human_approved": false,
+        "strict_collider_normalization_pass": true,
+        "post_A5_build_blocked": false,
+        "strict_collider_failed_gates": [],
+        "dependency_gate_pass": true,
+        "candidate_dependency_decision": "PASS",
+        "critical_missing_dependency_count": 0,
+        "critical_dependency_categories": []
+      },
+      "placement": {
+        "rect": [
+          0.5,
+          7.92999996799315,
+          4.901209831237793,
+          10.91853608745421
+        ],
+        "rotation_deg": 90
+      },
+      "h1_placement_approved": true,
+      "build_and_gpu_evidence_authorized": true,
+      "gpu_spatial_review_required_before_final_placement_approval": true,
+      "final_placement_approved": false,
+      "h1_decision": "approved",
+      "h1_condition_contract_id": null,
+      "h1_binding_conditions": []
+    },
+    {
+      "manifest": {
+        "BID": "home_train74_train98_lshaped_h300",
+        "floor1": "train_74_ceiling",
+        "floor2": "train_98_ceiling",
+        "kind": "l_shaped",
+        "height_m": 3.0,
+        "x0": 1.6400000000000001,
+        "y0": 0.8899999679939428,
+        "x1": 5.982991352081299,
+        "y1": 4.71696327346727,
+        "rotation_deg": 180,
+        "room": "room_0_visual_0",
+        "scene_type": "home",
+        "prior_human_approved": false,
+        "strict_collider_normalization_pass": true,
+        "post_A5_build_blocked": false,
+        "strict_collider_failed_gates": [],
+        "dependency_gate_pass": true,
+        "candidate_dependency_decision": "PASS",
+        "critical_missing_dependency_count": 0,
+        "critical_dependency_categories": []
+      },
+      "placement": {
+        "rect": [
+          1.6400000000000001,
+          0.8899999679939428,
+          5.982991352081299,
+          4.71696327346727
+        ],
+        "rotation_deg": 180
+      },
+      "h1_placement_approved": true,
+      "build_and_gpu_evidence_authorized": true,
+      "gpu_spatial_review_required_before_final_placement_approval": true,
+      "final_placement_approved": false,
+      "h1_decision": "approved",
+      "h1_condition_contract_id": null,
+      "h1_binding_conditions": []
+    },
+    {
+      "manifest": {
+        "BID": "home_train76_train123_straight_h300",
+        "floor1": "train_76_ceiling",
+        "floor2": "train_123_ceiling",
+        "kind": "straight",
+        "height_m": 3.0,
+        "x0": 6.25,
+        "y0": 1.6999999679939426,
+        "x1": 7.872324883937836,
+        "y1": 6.68548242229387,
+        "rotation_deg": 0,
+        "room": "room_0_visual_0",
+        "scene_type": "home",
+        "prior_human_approved": false,
+        "strict_collider_normalization_pass": true,
+        "post_A5_build_blocked": false,
+        "strict_collider_failed_gates": [],
+        "dependency_gate_pass": true,
+        "candidate_dependency_decision": "PASS",
+        "critical_missing_dependency_count": 0,
+        "critical_dependency_categories": []
+      },
+      "placement": {
+        "rect": [
+          6.25,
+          1.6999999679939426,
+          7.872324883937836,
+          6.68548242229387
+        ],
+        "rotation_deg": 0
+      },
+      "h1_placement_approved": true,
+      "build_and_gpu_evidence_authorized": true,
+      "gpu_spatial_review_required_before_final_placement_approval": true,
+      "final_placement_approved": false,
+      "h1_decision": "approved",
+      "h1_condition_contract_id": null,
+      "h1_binding_conditions": []
+    },
+    {
+      "manifest": {
+        "BID": "home_train92_train96_straight_h300",
+        "floor1": "train_92_ceiling",
+        "floor2": "train_96_ceiling",
+        "kind": "straight",
+        "height_m": 3.0,
+        "x0": 0.5,
+        "y0": 4.579999967993329,
+        "x1": 2.1223248839378357,
+        "y1": 9.565482422293256,
+        "rotation_deg": 0,
+        "room": "room_0_visual_0",
+        "scene_type": "home",
+        "prior_human_approved": false,
+        "strict_collider_normalization_pass": true,
+        "post_A5_build_blocked": false,
+        "strict_collider_failed_gates": [],
+        "dependency_gate_pass": true,
+        "candidate_dependency_decision": "PASS",
+        "critical_missing_dependency_count": 0,
+        "critical_dependency_categories": []
+      },
+      "placement": {
+        "rect": [
+          0.5,
+          4.579999967993329,
+          2.1223248839378357,
+          9.565482422293256
+        ],
+        "rotation_deg": 0
+      },
+      "h1_placement_approved": true,
+      "build_and_gpu_evidence_authorized": true,
+      "gpu_spatial_review_required_before_final_placement_approval": true,
+      "final_placement_approved": false,
+      "h1_decision": "approved",
+      "h1_condition_contract_id": null,
+      "h1_binding_conditions": []
+    },
+    {
+      "manifest": {
+        "BID": "home_train84_train105_straight_h270",
+        "floor1": "train_84_ceiling",
+        "floor2": "train_105_ceiling",
+        "kind": "straight",
+        "height_m": 2.7,
+        "x0": 8.57,
+        "y0": 1.7699999679939427,
+        "x1": 10.192324883937836,
+        "y1": 6.091953979911057,
+        "rotation_deg": 0,
+        "room": "room_1_visual_0",
+        "scene_type": "home",
+        "prior_human_approved": false,
+        "strict_collider_normalization_pass": true,
+        "post_A5_build_blocked": false,
+        "strict_collider_failed_gates": [],
+        "dependency_gate_pass": true,
+        "candidate_dependency_decision": "PASS",
+        "critical_missing_dependency_count": 0,
+        "critical_dependency_categories": []
+      },
+      "placement": {
+        "rect": [
+          8.57,
+          1.7699999679939427,
+          10.192324883937836,
+          6.091953979911057
+        ],
+        "rotation_deg": 0
+      },
+      "h1_placement_approved": true,
+      "build_and_gpu_evidence_authorized": true,
+      "gpu_spatial_review_required_before_final_placement_approval": true,
+      "final_placement_approved": false,
+      "h1_decision": "approved",
+      "h1_condition_contract_id": null,
+      "h1_binding_conditions": []
+    },
+    {
+      "manifest": {
+        "BID": "home_train84_train115_straight_h270",
+        "floor1": "train_84_ceiling",
+        "floor2": "train_115_ceiling",
+        "kind": "straight",
+        "height_m": 2.7,
+        "x0": 11.25,
+        "y0": 7.669999967993943,
+        "x1": 12.872324883937836,
+        "y1": 11.991953979911056,
+        "rotation_deg": 0,
+        "room": "room_0_visual_0",
+        "scene_type": "home",
+        "prior_human_approved": false,
+        "strict_collider_normalization_pass": true,
+        "post_A5_build_blocked": false,
+        "strict_collider_failed_gates": [],
+        "dependency_gate_pass": true,
+        "candidate_dependency_decision": "PASS",
+        "critical_missing_dependency_count": 0,
+        "critical_dependency_categories": []
+      },
+      "placement": {
+        "rect": [
+          11.25,
+          7.669999967993943,
+          12.872324883937836,
+          11.991953979911056
+        ],
+        "rotation_deg": 0
+      },
+      "h1_placement_approved": true,
+      "build_and_gpu_evidence_authorized": true,
+      "gpu_spatial_review_required_before_final_placement_approval": true,
+      "final_placement_approved": false,
+      "h1_decision": "approved",
+      "h1_condition_contract_id": null,
+      "h1_binding_conditions": []
+    },
+    {
+      "manifest": {
+        "BID": "home_train84_train22_straight_h270",
+        "floor1": "train_84_ceiling",
+        "floor2": "train_22_ceiling",
+        "kind": "straight",
+        "height_m": 2.7,
+        "x0": 11.25,
+        "y0": 4.8399999679939425,
+        "x1": 12.872324883937836,
+        "y1": 9.161953979911058,
+        "rotation_deg": 0,
+        "room": "room_0_visual_0",
+        "scene_type": "home",
+        "prior_human_approved": false,
+        "strict_collider_normalization_pass": true,
+        "post_A5_build_blocked": false,
+        "strict_collider_failed_gates": [],
+        "dependency_gate_pass": true,
+        "candidate_dependency_decision": "PASS",
+        "critical_missing_dependency_count": 0,
+        "critical_dependency_categories": []
+      },
+      "placement": {
+        "rect": [
+          11.25,
+          4.8399999679939425,
+          12.872324883937836,
+          9.161953979911058
+        ],
+        "rotation_deg": 0
+      },
+      "h1_placement_approved": true,
+      "build_and_gpu_evidence_authorized": true,
+      "gpu_spatial_review_required_before_final_placement_approval": true,
+      "final_placement_approved": false,
+      "h1_decision": "approved",
+      "h1_condition_contract_id": null,
+      "h1_binding_conditions": []
+    },
+    {
+      "manifest": {
+        "BID": "home_train96_train20_straight_h270",
+        "floor1": "train_96_ceiling",
+        "floor2": "train_20_ceiling",
+        "kind": "straight",
+        "height_m": 2.7,
+        "x0": 0.55,
+        "y0": 6.429999967993942,
+        "x1": 2.1723248839378355,
+        "y1": 10.751953979911058,
+        "rotation_deg": 0,
+        "room": "room_0_visual_0",
+        "scene_type": "home",
+        "prior_human_approved": false,
+        "strict_collider_normalization_pass": true,
+        "post_A5_build_blocked": false,
+        "strict_collider_failed_gates": [],
+        "dependency_gate_pass": true,
+        "candidate_dependency_decision": "PASS",
+        "critical_missing_dependency_count": 0,
+        "critical_dependency_categories": []
+      },
+      "placement": {
+        "rect": [
+          0.55,
+          6.429999967993942,
+          2.1723248839378355,
+          10.751953979911058
+        ],
+        "rotation_deg": 0
+      },
+      "h1_placement_approved": true,
+      "build_and_gpu_evidence_authorized": true,
+      "gpu_spatial_review_required_before_final_placement_approval": true,
+      "final_placement_approved": false,
+      "h1_decision": "approved",
+      "h1_condition_contract_id": null,
+      "h1_binding_conditions": []
+    }
+  ],
+  "rejected_building_count": 0,
+  "rejected_buildings": [],
+  "delivery_location": "E:\\AI_AGENT_WORKSPACE\\PRODUCTS\\04_buildings\\Final_Physics_Export\\batch_20260819",
+  "camera_pose_contract_sha256": "b29e2874fd2026f6674128f600d34c6606465502056b91bd6a2f145b4822ee2a",
+  "failed_candidates_must_be_retained": true,
+  "C2_clipping_route": "RETURN_TO_A4",
+  "Cplus_required_before_D": true
+}

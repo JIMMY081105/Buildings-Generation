@@ -59,6 +59,12 @@ themselves, generously.
 or voxels. Keep it that way; it is why the gates can be tested on synthetic
 arrays without a scene.
 
+`generation/` is a record, not a codebase: do not edit it. A fix to a generator
+belongs in `src/buildingsgen` or in a new, separately described run.
+`tests/test_generation_snapshot.py` fails on any changed byte. Adding a newer
+snapshot means adding the files *and* their `MANIFEST.json` rows with origin
+paths, never re-hashing an edited file in place.
+
 ## Commits
 
 Say what changed and what it means for a measurement. "fix gate 4" is not as

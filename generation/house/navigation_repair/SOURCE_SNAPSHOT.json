@@ -1,0 +1,24 @@
+{
+  "schema": "Residential54SupplementalRepairSourceSnapshotV1",
+  "status": "PASS",
+  "rows": [
+    {
+      "source": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\reference_repairs\\repair_navigation_colliders.py",
+      "snapshot": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\supplemental_sources_r1\\repair_navigation_colliders.py",
+      "bytes": 26590,
+      "sha256": "12ac34b413a8a7e16aa029a22c2c701b4dddf82caac9e925d85e45e57a06c67d"
+    },
+    {
+      "source": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\reference_repairs\\apply_residual_navigation_repair_iterative_v4.py",
+      "snapshot": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\supplemental_sources_r1\\apply_residual_navigation_repair_iterative_v4.py",
+      "bytes": 25454,
+      "sha256": "284c55115ebc368eb950751d534910f7b96583c09f6336ce9828e563dde0f161"
+    },
+    {
+      "source": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\reference_repairs\\diagnose_closed_doors_and_min_cut.py",
+      "snapshot": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\supplemental_sources_r1\\diagnose_closed_doors_and_min_cut.py",
+      "bytes": 26170,
+      "sha256": "dc8eeb8b8b43220e324c77d05f31caa82672a0728eab020d7f8fbf59df5c3bd8"
+    }
+  ]
+}

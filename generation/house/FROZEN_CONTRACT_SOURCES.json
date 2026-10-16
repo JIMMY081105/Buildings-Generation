@@ -1,0 +1,1240 @@
+{
+  "generated_at_utc": "2026-09-08T09:02:17.340749+00:00",
+  "note": "Snapshot of existing working-tree content, including pre-existing edits; not a clean-git assertion.",
+  "rows": [
+    {
+      "bytes": 17924,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\acceptance_gates.py",
+      "sha256": "5fe3a2d0843ae0516e3ef6dacd2b3a05034a2af8924580c2d9a2e00755f77346",
+      "snapshot": {
+        "bytes": 17924,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\acceptance_gates.py",
+        "sha256": "5fe3a2d0843ae0516e3ef6dacd2b3a05034a2af8924580c2d9a2e00755f77346"
+      }
+    },
+    {
+      "bytes": 17042,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\assemble_h1_delivery.py",
+      "sha256": "00967f72db84e12255c20b79c4882c78da363115b24606ed0b459a4f79ae5983",
+      "snapshot": {
+        "bytes": 17042,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\assemble_h1_delivery.py",
+        "sha256": "00967f72db84e12255c20b79c4882c78da363115b24606ed0b459a4f79ae5983"
+      }
+    },
+    {
+      "bytes": 3572,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\audit_h1_hold.py",
+      "sha256": "34e0dc12b05cb0d8fd92a9c548e63654f7ff32fcaf60358d134bbd2d5555ac8f",
+      "snapshot": {
+        "bytes": 3572,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\audit_h1_hold.py",
+        "sha256": "34e0dc12b05cb0d8fd92a9c548e63654f7ff32fcaf60358d134bbd2d5555ac8f"
+      }
+    },
+    {
+      "bytes": 4081,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\audit_packaged_geometry.py",
+      "sha256": "8532cc3074d5e3354a957a2fa48f595224e4ff3230ca53c9b6469012682a34d4",
+      "snapshot": {
+        "bytes": 4081,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\audit_packaged_geometry.py",
+        "sha256": "8532cc3074d5e3354a957a2fa48f595224e4ff3230ca53c9b6469012682a34d4"
+      }
+    },
+    {
+      "bytes": 12512,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\batch_execution_contract.py",
+      "sha256": "d3961cf9f0e305e222344e36813d38806f30fec58a12a9b0db5cb9d98d08f46c",
+      "snapshot": {
+        "bytes": 12512,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\batch_execution_contract.py",
+        "sha256": "d3961cf9f0e305e222344e36813d38806f30fec58a12a9b0db5cb9d98d08f46c"
+      }
+    },
+    {
+      "bytes": 25979,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\build_building.py",
+      "sha256": "62857328367c97595193cadf1db41c68b5db6fb1dc403f2b9601e72467c6a797",
+      "snapshot": {
+        "bytes": 25979,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\build_building.py",
+        "sha256": "62857328367c97595193cadf1db41c68b5db6fb1dc403f2b9601e72467c6a797"
+      }
+    },
+    {
+      "bytes": 3247,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\build_scene_geometry_cache.py",
+      "sha256": "6ef285aeea8d55a9520707a66a126b182196c0c2edece2535e5862a72eecad64",
+      "snapshot": {
+        "bytes": 3247,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\build_scene_geometry_cache.py",
+        "sha256": "6ef285aeea8d55a9520707a66a126b182196c0c2edece2535e5862a72eecad64"
+      }
+    },
+    {
+      "bytes": 10032,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\build_selected_batch.py",
+      "sha256": "5517179f7d2f440ba6e1d259a1be3834e8d8aeffa2b7de535189c7283c37d3ef",
+      "snapshot": {
+        "bytes": 10032,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\build_selected_batch.py",
+        "sha256": "5517179f7d2f440ba6e1d259a1be3834e8d8aeffa2b7de535189c7283c37d3ef"
+      }
+    },
+    {
+      "bytes": 5184,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\collision_render_isolation.py",
+      "sha256": "cb407fbae235ebf9aefdc2373379a8aaa2cd0188f38746af4381a747a87e4d78",
+      "snapshot": {
+        "bytes": 5184,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\collision_render_isolation.py",
+        "sha256": "cb407fbae235ebf9aefdc2373379a8aaa2cd0188f38746af4381a747a87e4d78"
+      }
+    },
+    {
+      "bytes": 63275,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\compile_a5_batch.py",
+      "sha256": "c13dbda2fa694ba8008608f3534d5fbf66ce1fcd8f3a16d4839a13db0b3765c3",
+      "snapshot": {
+        "bytes": 63275,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\compile_a5_batch.py",
+        "sha256": "c13dbda2fa694ba8008608f3534d5fbf66ce1fcd8f3a16d4839a13db0b3765c3"
+      }
+    },
+    {
+      "bytes": 2793,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\dependency_policy.py",
+      "sha256": "9606ce340ce3b89afaddd99dc0c13c3191c091ba32e8cb6d7e4aaaadfcb1eecd",
+      "snapshot": {
+        "bytes": 2793,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\dependency_policy.py",
+        "sha256": "9606ce340ce3b89afaddd99dc0c13c3191c091ba32e8cb6d7e4aaaadfcb1eecd"
+      }
+    },
+    {
+      "bytes": 12091,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\door_collision_policy.py",
+      "sha256": "1667de2a0b553513bc5845e93880d95e806bda647db795bde4364af9e11008bf",
+      "snapshot": {
+        "bytes": 12091,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\door_collision_policy.py",
+        "sha256": "1667de2a0b553513bc5845e93880d95e806bda647db795bde4364af9e11008bf"
+      }
+    },
+    {
+      "bytes": 19549,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\doorway_clearance.py",
+      "sha256": "8a8ffd5d78d1ff6439386394d2df3eedc07e4b2a4dda6a9b85e0c3a5e9df630c",
+      "snapshot": {
+        "bytes": 19549,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\doorway_clearance.py",
+        "sha256": "8a8ffd5d78d1ff6439386394d2df3eedc07e4b2a4dda6a9b85e0c3a5e9df630c"
+      }
+    },
+    {
+      "bytes": 1885,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\enrich_scene_geometry_cache.py",
+      "sha256": "d3fcaead90437f485a28c1b7ea8258ed2662b5aeb3c20b8900a414b9f3e32f89",
+      "snapshot": {
+        "bytes": 1885,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\enrich_scene_geometry_cache.py",
+        "sha256": "d3fcaead90437f485a28c1b7ea8258ed2662b5aeb3c20b8900a414b9f3e32f89"
+      }
+    },
+    {
+      "bytes": 4359,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\expanded_pool_inventory.py",
+      "sha256": "50c6a0d1114ad9a3197cbb74e5daf89e985d228a9a5b06a3bb2776928bf91886",
+      "snapshot": {
+        "bytes": 4359,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\expanded_pool_inventory.py",
+        "sha256": "50c6a0d1114ad9a3197cbb74e5daf89e985d228a9a5b06a3bb2776928bf91886"
+      }
+    },
+    {
+      "bytes": 6608,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\extract_expanded_dependencies.py",
+      "sha256": "c46d13370c54fff4a2cae06f8a5141248e7e11af3af0c0f3bc94421afa40d2ac",
+      "snapshot": {
+        "bytes": 6608,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\extract_expanded_dependencies.py",
+        "sha256": "c46d13370c54fff4a2cae06f8a5141248e7e11af3af0c0f3bc94421afa40d2ac"
+      }
+    },
+    {
+      "bytes": 8502,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\finalize_doorway_v2_evidence.py",
+      "sha256": "05ca0b0961c74d2a21d310c2bf6b345c6b63123b372732e326ca15b587fbb747",
+      "snapshot": {
+        "bytes": 8502,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\finalize_doorway_v2_evidence.py",
+        "sha256": "05ca0b0961c74d2a21d310c2bf6b345c6b63123b372732e326ca15b587fbb747"
+      }
+    },
+    {
+      "bytes": 4724,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\finalize_h1_gpu_job.py",
+      "sha256": "0b5d3c69556c1cabe6444898ab869b813759729b2344d8bcde44e270865cf91a",
+      "snapshot": {
+        "bytes": 4724,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\finalize_h1_gpu_job.py",
+        "sha256": "0b5d3c69556c1cabe6444898ab869b813759729b2344d8bcde44e270865cf91a"
+      }
+    },
+    {
+      "bytes": 11280,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\finalize_h1_review.py",
+      "sha256": "4e4425508a0d9b887651e6395f82033719da3674fad93a738b89bf1f5873ce21",
+      "snapshot": {
+        "bytes": 11280,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\finalize_h1_review.py",
+        "sha256": "4e4425508a0d9b887651e6395f82033719da3674fad93a738b89bf1f5873ce21"
+      }
+    },
+    {
+      "bytes": 8585,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\floor_collider_contract.py",
+      "sha256": "5d46aa2c771d9326599980d6baba2d4bbb559f17b4930cce4d27a22952f2d225",
+      "snapshot": {
+        "bytes": 8585,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\floor_collider_contract.py",
+        "sha256": "5d46aa2c771d9326599980d6baba2d4bbb559f17b4930cce4d27a22952f2d225"
+      }
+    },
+    {
+      "bytes": 9588,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\freeze_a5_decisions.py",
+      "sha256": "8638aa1d8fefbe042ac7261e50171c1fa3776323f706f878240e2a7407729aec",
+      "snapshot": {
+        "bytes": 9588,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\freeze_a5_decisions.py",
+        "sha256": "8638aa1d8fefbe042ac7261e50171c1fa3776323f706f878240e2a7407729aec"
+      }
+    },
+    {
+      "bytes": 8692,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\inspect_door_panel_colliders.py",
+      "sha256": "45a28895c784d07597968765efe4569d8de9857d7ac8d27e71a36bb15163952e",
+      "snapshot": {
+        "bytes": 8692,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\inspect_door_panel_colliders.py",
+        "sha256": "45a28895c784d07597968765efe4569d8de9857d7ac8d27e71a36bb15163952e"
+      }
+    },
+    {
+      "bytes": 5535,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\install_expanded_objects.py",
+      "sha256": "60cce13a69a4170a83c3260335928f579396e59e45ba2618830aa2b2b89f2f6c",
+      "snapshot": {
+        "bytes": 5535,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\install_expanded_objects.py",
+        "sha256": "60cce13a69a4170a83c3260335928f579396e59e45ba2618830aa2b2b89f2f6c"
+      }
+    },
+    {
+      "bytes": 6239,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\install_expanded_scenes.py",
+      "sha256": "b3246f43bee5ea385f03a53d6e5609610ece77f52386c47a628230fb7d423c35",
+      "snapshot": {
+        "bytes": 6239,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\install_expanded_scenes.py",
+        "sha256": "b3246f43bee5ea385f03a53d6e5609610ece77f52386c47a628230fb7d423c35"
+      }
+    },
+    {
+      "bytes": 24948,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\make_floorplans.py",
+      "sha256": "69e9a339139e77c61e72be6fd6b76ff02996b00ebd7294a70f03a4e111f144f1",
+      "snapshot": {
+        "bytes": 24948,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\make_floorplans.py",
+        "sha256": "69e9a339139e77c61e72be6fd6b76ff02996b00ebd7294a70f03a4e111f144f1"
+      }
+    },
+    {
+      "bytes": 9665,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\normalize_building_physics.py",
+      "sha256": "4f154fd954e9e6eb790cae6ccafb80f8066a905248eb284321f8bf6cadb20c4d",
+      "snapshot": {
+        "bytes": 9665,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\normalize_building_physics.py",
+        "sha256": "4f154fd954e9e6eb790cae6ccafb80f8066a905248eb284321f8bf6cadb20c4d"
+      }
+    },
+    {
+      "bytes": 3704,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\normalize_selected_batch.py",
+      "sha256": "1112636227340b7f887f1a18eba9850342046840c0cafccc287383f4840a3026",
+      "snapshot": {
+        "bytes": 3704,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\normalize_selected_batch.py",
+        "sha256": "1112636227340b7f887f1a18eba9850342046840c0cafccc287383f4840a3026"
+      }
+    },
+    {
+      "bytes": 23705,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\pair_scenes.py",
+      "sha256": "0b919b678414acffab8f262ebf32b08d18bb7b33506dc96e3f20abc26a26f58d",
+      "snapshot": {
+        "bytes": 23705,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\pair_scenes.py",
+        "sha256": "0b919b678414acffab8f262ebf32b08d18bb7b33506dc96e3f20abc26a26f58d"
+      }
+    },
+    {
+      "bytes": 26950,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\pick_placement.py",
+      "sha256": "664938ce4ece07f323bdaf3035877b00f9d3aed64ac8cb028f1af666e2a25f5f",
+      "snapshot": {
+        "bytes": 26950,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\pick_placement.py",
+        "sha256": "664938ce4ece07f323bdaf3035877b00f9d3aed64ac8cb028f1af666e2a25f5f"
+      }
+    },
+    {
+      "bytes": 3521,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\pipeline_contract.py",
+      "sha256": "efb8f86c07cd1c017df93d335f4d0c3e1ca90c707bdb3583bdf97cfdabde05ad",
+      "snapshot": {
+        "bytes": 3521,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\pipeline_contract.py",
+        "sha256": "efb8f86c07cd1c017df93d335f4d0c3e1ca90c707bdb3583bdf97cfdabde05ad"
+      }
+    },
+    {
+      "bytes": 8737,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\prepare_manifest.py",
+      "sha256": "c327c89117cfc5d7c637e46bb84395caff448a4c0771c25416a08b364779639e",
+      "snapshot": {
+        "bytes": 8737,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\prepare_manifest.py",
+        "sha256": "c327c89117cfc5d7c637e46bb84395caff448a4c0771c25416a08b364779639e"
+      }
+    },
+    {
+      "bytes": 9723,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\prepare_next_batch_stage_a.py",
+      "sha256": "314d4634d2398798369cbb9b92cc2d6f35cc343f2bdb0195aa4e441c13633dc2",
+      "snapshot": {
+        "bytes": 9723,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\prepare_next_batch_stage_a.py",
+        "sha256": "314d4634d2398798369cbb9b92cc2d6f35cc343f2bdb0195aa4e441c13633dc2"
+      }
+    },
+    {
+      "bytes": 9553,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\reachability_gate.py",
+      "sha256": "15dbece29deecc06896cd460bd2696e0e61f43f1c09504e05a62689c03e48067",
+      "snapshot": {
+        "bytes": 9553,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\reachability_gate.py",
+        "sha256": "15dbece29deecc06896cd460bd2696e0e61f43f1c09504e05a62689c03e48067"
+      }
+    },
+    {
+      "bytes": 2049,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\resume_object_install.py",
+      "sha256": "9c8142481b306a12f7c8df40d9ffd7b822c23b7c019d2a2c0e66008afbbc7e80",
+      "snapshot": {
+        "bytes": 2049,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\resume_object_install.py",
+        "sha256": "9c8142481b306a12f7c8df40d9ffd7b822c23b7c019d2a2c0e66008afbbc7e80"
+      }
+    },
+    {
+      "bytes": 18750,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\run_capacity_reassessment_h1.py",
+      "sha256": "7f3cfef71c41c40ef6e850f88774aaea737679e7798e1e3d47921db734a6a2c5",
+      "snapshot": {
+        "bytes": 18750,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\run_capacity_reassessment_h1.py",
+        "sha256": "7f3cfef71c41c40ef6e850f88774aaea737679e7798e1e3d47921db734a6a2c5"
+      }
+    },
+    {
+      "bytes": 18846,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\run_expanded_cpu_a1_a5.py",
+      "sha256": "8c69bd6c9781cd296803aeebeffc747b7c0b54ac4e1334a6da03d41a41d2776c",
+      "snapshot": {
+        "bytes": 18846,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\run_expanded_cpu_a1_a5.py",
+        "sha256": "8c69bd6c9781cd296803aeebeffc747b7c0b54ac4e1334a6da03d41a41d2776c"
+      }
+    },
+    {
+      "bytes": 3607,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\run_g25_batch.py",
+      "sha256": "1bb01013d4cb2faf327bdd474d74d75b0a4964cec19f04daf5b6b619321528d4",
+      "snapshot": {
+        "bytes": 3607,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\run_g25_batch.py",
+        "sha256": "1bb01013d4cb2faf327bdd474d74d75b0a4964cec19f04daf5b6b619321528d4"
+      }
+    },
+    {
+      "bytes": 6022,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\run_h1_cpu_gates.py",
+      "sha256": "0725309aa2cd568ffff6f080f59ba9d912282c97a74921d725cced68d9027d09",
+      "snapshot": {
+        "bytes": 6022,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\run_h1_cpu_gates.py",
+        "sha256": "0725309aa2cd568ffff6f080f59ba9d912282c97a74921d725cced68d9027d09"
+      }
+    },
+    {
+      "bytes": 4931,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\run_next_batch_a4.py",
+      "sha256": "0c16e2fb14f0723177fafdd358a6a248603602bd99a4e4f0b25789760e9493bd",
+      "snapshot": {
+        "bytes": 4931,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\run_next_batch_a4.py",
+        "sha256": "0c16e2fb14f0723177fafdd358a6a248603602bd99a4e4f0b25789760e9493bd"
+      }
+    },
+    {
+      "bytes": 6015,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\stair_rise_contract.py",
+      "sha256": "a03587a02e4d05e79aa8e02e7763f307e0276cdf2cea899c99dd486e35322d6f",
+      "snapshot": {
+        "bytes": 6015,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\stair_rise_contract.py",
+        "sha256": "a03587a02e4d05e79aa8e02e7763f307e0276cdf2cea899c99dd486e35322d6f"
+      }
+    },
+    {
+      "bytes": 16306,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\test_a5_compiler.py",
+      "sha256": "f93a57a06989ab8d6bd00cfebe746bac93517afca4b848bfede0072de6ac27fa",
+      "snapshot": {
+        "bytes": 16306,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\test_a5_compiler.py",
+        "sha256": "f93a57a06989ab8d6bd00cfebe746bac93517afca4b848bfede0072de6ac27fa"
+      }
+    },
+    {
+      "bytes": 2824,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\test_doorway_clearance.py",
+      "sha256": "2e017315d07bcf837677bed5825b27d1911546b881cbd10af24ddab3ec04a2c5",
+      "snapshot": {
+        "bytes": 2824,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\test_doorway_clearance.py",
+        "sha256": "2e017315d07bcf837677bed5825b27d1911546b881cbd10af24ddab3ec04a2c5"
+      }
+    },
+    {
+      "bytes": 4834,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\test_freeze_a5_decisions.py",
+      "sha256": "82cbe89f1c8679ecee34e0bda9fc45d39ca6e4ef53b2399cefde9ef689fc68a0",
+      "snapshot": {
+        "bytes": 4834,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\test_freeze_a5_decisions.py",
+        "sha256": "82cbe89f1c8679ecee34e0bda9fc45d39ca6e4ef53b2399cefde9ef689fc68a0"
+      }
+    },
+    {
+      "bytes": 8645,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\test_stage_a_pipeline.py",
+      "sha256": "601e260e0f0d91908724a2d817220b6dfb2b079284de7da81530e239dd130c3a",
+      "snapshot": {
+        "bytes": 8645,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\test_stage_a_pipeline.py",
+        "sha256": "601e260e0f0d91908724a2d817220b6dfb2b079284de7da81530e239dd130c3a"
+      }
+    },
+    {
+      "bytes": 39948,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\validate_building_isaac.py",
+      "sha256": "63d74178d75be4cb5f4f57850579b3bc6a7fdfe1f090595b01afbfe9ce146ed8",
+      "snapshot": {
+        "bytes": 39948,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\validate_building_isaac.py",
+        "sha256": "63d74178d75be4cb5f4f57850579b3bc6a7fdfe1f090595b01afbfe9ce146ed8"
+      }
+    },
+    {
+      "bytes": 9539,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\verify_expanded_a5_package.py",
+      "sha256": "aeb455e1c292ff7719cbdeb7f5f51254f2555baa7e59c5190e0c11caae30cf42",
+      "snapshot": {
+        "bytes": 9539,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\verify_expanded_a5_package.py",
+        "sha256": "aeb455e1c292ff7719cbdeb7f5f51254f2555baa7e59c5190e0c11caae30cf42"
+      }
+    },
+    {
+      "bytes": 3216,
+      "group": "pipeline",
+      "path": "E:\\AI_AGENT_WORKSPACE\\SOURCE\\Building_Staircase_Pipeline\\BUILDINGS\\batch_20260826_a5_release_r1\\scripts\\regenerate_repaired_stair_assets.sh",
+      "sha256": "a56c36f98434cfd9b6752b70cbe42f969d79efd105cd94916aab100d6ca017d6",
+      "snapshot": {
+        "bytes": 3216,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\pipeline\\regenerate_repaired_stair_assets.sh",
+        "sha256": "a56c36f98434cfd9b6752b70cbe42f969d79efd105cd94916aab100d6ca017d6"
+      }
+    },
+    {
+      "bytes": 16133,
+      "group": "validation",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\gate12_graph_token_capacity.py",
+      "sha256": "39cd2736bba21d980ff691363738fe76570235304bde9e8af3eca2da02150474",
+      "snapshot": {
+        "bytes": 16133,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\validation\\gate12_graph_token_capacity.py",
+        "sha256": "39cd2736bba21d980ff691363738fe76570235304bde9e8af3eca2da02150474"
+      }
+    },
+    {
+      "bytes": 16361,
+      "group": "validation",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\gate12_graph_token_capacity48.py",
+      "sha256": "d4ff238650ce53d729e4ad4907065c7a8ee5ec162e5587cf051f1ff2f0e79eb4",
+      "snapshot": {
+        "bytes": 16361,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\validation\\gate12_graph_token_capacity48.py",
+        "sha256": "d4ff238650ce53d729e4ad4907065c7a8ee5ec162e5587cf051f1ff2f0e79eb4"
+      }
+    },
+    {
+      "bytes": 11466,
+      "group": "validation",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\gate12_graph_token_capacity_batch.py",
+      "sha256": "1ab3d8000b535af21bac9ac6a7cba8c76ad36cd9a3d809392020770759933c2a",
+      "snapshot": {
+        "bytes": 11466,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\validation\\gate12_graph_token_capacity_batch.py",
+        "sha256": "1ab3d8000b535af21bac9ac6a7cba8c76ad36cd9a3d809392020770759933c2a"
+      }
+    },
+    {
+      "bytes": 47499,
+      "group": "validation",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\gate13_geometry_audit.py",
+      "sha256": "81ef3b9f18b68cde636e78277a3523f952baea7cff741a6b05489081a3d40e58",
+      "snapshot": {
+        "bytes": 47499,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\validation\\gate13_geometry_audit.py",
+        "sha256": "81ef3b9f18b68cde636e78277a3523f952baea7cff741a6b05489081a3d40e58"
+      }
+    },
+    {
+      "bytes": 16386,
+      "group": "validation",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\gate14_graph_token_release.py",
+      "sha256": "5620b34c6a92f98c41a8348b4f1194c791446fbd7ee5941974548e0b93e0463a",
+      "snapshot": {
+        "bytes": 16386,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\validation\\gate14_graph_token_release.py",
+        "sha256": "5620b34c6a92f98c41a8348b4f1194c791446fbd7ee5941974548e0b93e0463a"
+      }
+    },
+    {
+      "bytes": 14353,
+      "group": "validation",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\gate14_graph_token_release48.py",
+      "sha256": "bc6ee1e9a2c860650c0bc73c814317057d06ced3e858799ad0666bdee792e2ae",
+      "snapshot": {
+        "bytes": 14353,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\validation\\gate14_graph_token_release48.py",
+        "sha256": "bc6ee1e9a2c860650c0bc73c814317057d06ced3e858799ad0666bdee792e2ae"
+      }
+    },
+    {
+      "bytes": 6531,
+      "group": "validation",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\gate1_structural.py",
+      "sha256": "2a8eec6dafc6861cca63f38e56e821472921acaab7fc0edd74b6f12412bdec2a",
+      "snapshot": {
+        "bytes": 6531,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\validation\\gate1_structural.py",
+        "sha256": "2a8eec6dafc6861cca63f38e56e821472921acaab7fc0edd74b6f12412bdec2a"
+      }
+    },
+    {
+      "bytes": 30404,
+      "group": "validation",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\gate25_storey_navigation.py",
+      "sha256": "6409af5ef1f5bcc326c6ecd97e6e1ca689a3d3204dc4520f1e7827b06ce085ff",
+      "snapshot": {
+        "bytes": 30404,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\validation\\gate25_storey_navigation.py",
+        "sha256": "6409af5ef1f5bcc326c6ecd97e6e1ca689a3d3204dc4520f1e7827b06ce085ff"
+      }
+    },
+    {
+      "bytes": 5803,
+      "group": "validation",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\gate2_cache_integrity.py",
+      "sha256": "2551efb82055dc196b2913196076dbca660c6117ae0ed865122889a6c37ef13f",
+      "snapshot": {
+        "bytes": 5803,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\validation\\gate2_cache_integrity.py",
+        "sha256": "2551efb82055dc196b2913196076dbca660c6117ae0ed865122889a6c37ef13f"
+      }
+    },
+    {
+      "bytes": 6364,
+      "group": "validation",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\gate3_component_diagnosis.py",
+      "sha256": "45b2867e29dd40f8ad11cfe67bb2a22198abbd72416dacf90614089ec268aa6c",
+      "snapshot": {
+        "bytes": 6364,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\validation\\gate3_component_diagnosis.py",
+        "sha256": "45b2867e29dd40f8ad11cfe67bb2a22198abbd72416dacf90614089ec268aa6c"
+      }
+    },
+    {
+      "bytes": 16118,
+      "group": "validation",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\gate3_usd_voxel_consistency.py",
+      "sha256": "9700c588449eadb6ca81998c627179d4e76c6489b5910cc39cc33664d9c0c092",
+      "snapshot": {
+        "bytes": 16118,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\validation\\gate3_usd_voxel_consistency.py",
+        "sha256": "9700c588449eadb6ca81998c627179d4e76c6489b5910cc39cc33664d9c0c092"
+      }
+    },
+    {
+      "bytes": 10153,
+      "group": "validation",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\gate3b_structural_connectivity.py",
+      "sha256": "b23c49f22716d966af4b9bc798f1f5da1877a20e258ec78bee0bff45f5c52045",
+      "snapshot": {
+        "bytes": 10153,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\validation\\gate3b_structural_connectivity.py",
+        "sha256": "b23c49f22716d966af4b9bc798f1f5da1877a20e258ec78bee0bff45f5c52045"
+      }
+    },
+    {
+      "bytes": 8298,
+      "group": "validation",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\gate3c_investigate_regions.py",
+      "sha256": "6e1859f40e34f17e94ffc411f1dec44c7896f04a602ce2e90a7f86f7d7a956eb",
+      "snapshot": {
+        "bytes": 8298,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\validation\\gate3c_investigate_regions.py",
+        "sha256": "6e1859f40e34f17e94ffc411f1dec44c7896f04a602ce2e90a7f86f7d7a956eb"
+      }
+    },
+    {
+      "bytes": 20464,
+      "group": "validation",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\gate4_visual_audit.py",
+      "sha256": "8a72fb7b9b8604341c274c0d60602654d4bbaf3deea7103d12b0548cdbc2f035",
+      "snapshot": {
+        "bytes": 20464,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\validation\\gate4_visual_audit.py",
+        "sha256": "8a72fb7b9b8604341c274c0d60602654d4bbaf3deea7103d12b0548cdbc2f035"
+      }
+    },
+    {
+      "bytes": 24411,
+      "group": "validation",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\gate5_runtime_smoke.py",
+      "sha256": "693dc5afc785711cb1ccc6eda5678e0f5c21bcbb5974e83d7bf0c8259dcbcab0",
+      "snapshot": {
+        "bytes": 24411,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\validation\\gate5_runtime_smoke.py",
+        "sha256": "693dc5afc785711cb1ccc6eda5678e0f5c21bcbb5974e83d7bf0c8259dcbcab0"
+      }
+    },
+    {
+      "bytes": 11534,
+      "group": "validation",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\gate6_stair_reachability.py",
+      "sha256": "819a722c48b34900f9331c6b7419dd891762acb9994e79ed45827810f589cb7f",
+      "snapshot": {
+        "bytes": 11534,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\validation\\gate6_stair_reachability.py",
+        "sha256": "819a722c48b34900f9331c6b7419dd891762acb9994e79ed45827810f589cb7f"
+      }
+    },
+    {
+      "bytes": 46732,
+      "group": "validation",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\gate7_global_graph.py",
+      "sha256": "b6d3b4fb2d7c5c63c37d70ce52b0ad9e9ecb8da99de5f2ed798256cec5f342d6",
+      "snapshot": {
+        "bytes": 46732,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\validation\\gate7_global_graph.py",
+        "sha256": "b6d3b4fb2d7c5c63c37d70ce52b0ad9e9ecb8da99de5f2ed798256cec5f342d6"
+      }
+    },
+    {
+      "bytes": 25484,
+      "group": "validation",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\gate7_global_graph48.py",
+      "sha256": "167f3b9e160d21add0bdebb17acfea4bbb0c93f326f66abce968494e54cdd682",
+      "snapshot": {
+        "bytes": 25484,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\validation\\gate7_global_graph48.py",
+        "sha256": "167f3b9e160d21add0bdebb17acfea4bbb0c93f326f66abce968494e54cdd682"
+      }
+    },
+    {
+      "bytes": 12301,
+      "group": "validation",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\gate7_global_graph50.py",
+      "sha256": "879016961dc9f581995d8c8d6d895f689c923bd3364dcacc58ce02e3e8fa131f",
+      "snapshot": {
+        "bytes": 12301,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\validation\\gate7_global_graph50.py",
+        "sha256": "879016961dc9f581995d8c8d6d895f689c923bd3364dcacc58ce02e3e8fa131f"
+      }
+    },
+    {
+      "bytes": 3046,
+      "group": "validation",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\G25_SPEC.md",
+      "sha256": "5ce145f34cedfb8df4c5b51d6d1b1b2d7030b8e70bd368349896c321f984e2a1",
+      "snapshot": {
+        "bytes": 3046,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\validation\\G25_SPEC.md",
+        "sha256": "5ce145f34cedfb8df4c5b51d6d1b1b2d7030b8e70bd368349896c321f984e2a1"
+      }
+    },
+    {
+      "bytes": 2919,
+      "group": "validation",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\final_summary.py",
+      "sha256": "b4bb3f6e5c89016ba2503bb5369a7deb88915afa70c5ac485bc3c8b9e44d5ef8",
+      "snapshot": {
+        "bytes": 2919,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\validation\\final_summary.py",
+        "sha256": "b4bb3f6e5c89016ba2503bb5369a7deb88915afa70c5ac485bc3c8b9e44d5ef8"
+      }
+    },
+    {
+      "bytes": 1614,
+      "group": "validation",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\test_gate25_storey_navigation.py",
+      "sha256": "1a5940525e3e8e6e87a680746ca854205834ae127b9684b7282bbfc1c1027ece",
+      "snapshot": {
+        "bytes": 1614,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\validation\\test_gate25_storey_navigation.py",
+        "sha256": "1a5940525e3e8e6e87a680746ca854205834ae127b9684b7282bbfc1c1027ece"
+      }
+    },
+    {
+      "bytes": 27082,
+      "group": "validation",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\pick_placement_v2.py",
+      "sha256": "7ef30ee31ddcf4ea7df129aa9fbebcd9a8841962a00d319614a1133c49bae515",
+      "snapshot": {
+        "bytes": 27082,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\validation\\pick_placement_v2.py",
+        "sha256": "7ef30ee31ddcf4ea7df129aa9fbebcd9a8841962a00d319614a1133c49bae515"
+      }
+    },
+    {
+      "bytes": 45689,
+      "group": "simulator",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\protomotions\\simulator\\base_simulator\\standability.py",
+      "sha256": "6c120102d4d11829db2882a73ce2db1cde590c95d271c493a5e261413e2f3e7f",
+      "snapshot": {
+        "bytes": 45689,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\simulator\\standability.py",
+        "sha256": "6c120102d4d11829db2882a73ce2db1cde590c95d271c493a5e261413e2f3e7f"
+      }
+    },
+    {
+      "bytes": 25336,
+      "group": "simulator",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\protomotions\\simulator\\base_simulator\\scene_geometry_cache.py",
+      "sha256": "713b96c5b97421b33543975e1b2c237a9ef07d43a3fc2a3250e897022b4ffe64",
+      "snapshot": {
+        "bytes": 25336,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\simulator\\scene_geometry_cache.py",
+        "sha256": "713b96c5b97421b33543975e1b2c237a9ef07d43a3fc2a3250e897022b4ffe64"
+      }
+    },
+    {
+      "bytes": 11897,
+      "group": "simulator",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\protomotions\\simulator\\base_simulator\\scene_storey_bands.py",
+      "sha256": "a3d1e73423097b9f17aa68684ca25524054532059e4c0691d683d94fe291bbcd",
+      "snapshot": {
+        "bytes": 11897,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\simulator\\scene_storey_bands.py",
+        "sha256": "a3d1e73423097b9f17aa68684ca25524054532059e4c0691d683d94fe291bbcd"
+      }
+    },
+    {
+      "bytes": 36978,
+      "group": "simulator",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\protomotions\\simulator\\base_simulator\\multistorey_topology.py",
+      "sha256": "8562a45fb2703cbbe1bd55156de99c5f892d4a10f9f2d016cff202c2211eca19",
+      "snapshot": {
+        "bytes": 36978,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\simulator\\multistorey_topology.py",
+        "sha256": "8562a45fb2703cbbe1bd55156de99c5f892d4a10f9f2d016cff202c2211eca19"
+      }
+    },
+    {
+      "bytes": 48672,
+      "group": "simulator",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\protomotions\\simulator\\base_simulator\\free_space_topology.py",
+      "sha256": "0c7388a135062033e0612ae6df32423fac87dad90b2a0fc6382508f512541fdc",
+      "snapshot": {
+        "bytes": 48672,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\simulator\\free_space_topology.py",
+        "sha256": "0c7388a135062033e0612ae6df32423fac87dad90b2a0fc6382508f512541fdc"
+      }
+    },
+    {
+      "bytes": 15693,
+      "group": "exact54",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\unify54\\assemble_release54.py",
+      "sha256": "2f60ea72c489f9f00a1e6b9944854528b738a797b3c799f466f2e63b051438d4",
+      "snapshot": {
+        "bytes": 15693,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\exact54\\assemble_release54.py",
+        "sha256": "2f60ea72c489f9f00a1e6b9944854528b738a797b3c799f466f2e63b051438d4"
+      }
+    },
+    {
+      "bytes": 8439,
+      "group": "exact54",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\unify54\\assess_graph_token_capacity54.py",
+      "sha256": "55d820c5612718452bdfff79e8ffefa19d5704a4bcca9b6e8d14816df9d8504b",
+      "snapshot": {
+        "bytes": 8439,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\exact54\\assess_graph_token_capacity54.py",
+        "sha256": "55d820c5612718452bdfff79e8ffefa19d5704a4bcca9b6e8d14816df9d8504b"
+      }
+    },
+    {
+      "bytes": 13283,
+      "group": "exact54",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\unify54\\build_multistorey_graphs54.py",
+      "sha256": "77079491818b61b46b4cd1e801f211a11f9c66522b4a0e841c7da3225cb78e0f",
+      "snapshot": {
+        "bytes": 13283,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\exact54\\build_multistorey_graphs54.py",
+        "sha256": "77079491818b61b46b4cd1e801f211a11f9c66522b4a0e841c7da3225cb78e0f"
+      }
+    },
+    {
+      "bytes": 1042,
+      "group": "exact54",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\unify54\\cleanup_remote_transfer54.py",
+      "sha256": "65b6a364e8cadfa3022ad49470a8c39c298ce203143d531999cfcab4c5f17c67",
+      "snapshot": {
+        "bytes": 1042,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\exact54\\cleanup_remote_transfer54.py",
+        "sha256": "65b6a364e8cadfa3022ad49470a8c39c298ce203143d531999cfcab4c5f17c67"
+      }
+    },
+    {
+      "bytes": 2587,
+      "group": "exact54",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\unify54\\compress_usd54.py",
+      "sha256": "fe94952e0d38025c0b800ae14d10545540e1928ac2821f86cda8fd3ae2943b1c",
+      "snapshot": {
+        "bytes": 2587,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\exact54\\compress_usd54.py",
+        "sha256": "fe94952e0d38025c0b800ae14d10545540e1928ac2821f86cda8fd3ae2943b1c"
+      }
+    },
+    {
+      "bytes": 14519,
+      "group": "exact54",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\unify54\\gate_global_graph54.py",
+      "sha256": "7158503a0a66db7b21eb4a5371eccb918c4b0ab7980c7093ea2aaf19c7fef413",
+      "snapshot": {
+        "bytes": 14519,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\exact54\\gate_global_graph54.py",
+        "sha256": "7158503a0a66db7b21eb4a5371eccb918c4b0ab7980c7093ea2aaf19c7fef413"
+      }
+    },
+    {
+      "bytes": 9053,
+      "group": "exact54",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\unify54\\prepare_exact54_inputs.py",
+      "sha256": "cc88f7e4efbe8b8565c36f421e70c2d4330a7c73edfcd205fc0686b972205eaa",
+      "snapshot": {
+        "bytes": 9053,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\exact54\\prepare_exact54_inputs.py",
+        "sha256": "cc88f7e4efbe8b8565c36f421e70c2d4330a7c73edfcd205fc0686b972205eaa"
+      }
+    },
+    {
+      "bytes": 2879,
+      "group": "exact54",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\unify54\\prepare_usd_flat54.py",
+      "sha256": "4af119ef007fcb7a94eaf2a852ea9f17a7c194e8a465d2da2a99f8b7e8ded6a0",
+      "snapshot": {
+        "bytes": 2879,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\exact54\\prepare_usd_flat54.py",
+        "sha256": "4af119ef007fcb7a94eaf2a852ea9f17a7c194e8a465d2da2a99f8b7e8ded6a0"
+      }
+    },
+    {
+      "bytes": 2974,
+      "group": "exact54",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\unify54\\record_gate_integrity54.py",
+      "sha256": "b68d71ef35e2864f5cc098b7878dc657364435628453f90beb852e5986e0ed30",
+      "snapshot": {
+        "bytes": 2974,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\exact54\\record_gate_integrity54.py",
+        "sha256": "b68d71ef35e2864f5cc098b7878dc657364435628453f90beb852e5986e0ed30"
+      }
+    },
+    {
+      "bytes": 18560,
+      "group": "exact54",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\unify54\\release_graph_tokens54.py",
+      "sha256": "ee8b1e4b8e30356123a1d6d2ec6239545a7a80adb205a363b2702c33270527cd",
+      "snapshot": {
+        "bytes": 18560,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\exact54\\release_graph_tokens54.py",
+        "sha256": "ee8b1e4b8e30356123a1d6d2ec6239545a7a80adb205a363b2702c33270527cd"
+      }
+    },
+    {
+      "bytes": 7712,
+      "group": "exact54",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\unify54\\run_g25_exact54.py",
+      "sha256": "4d77db2f80ccbb1518cc782fce07180e7a24a58905a367f1b611938bc64bfeb8",
+      "snapshot": {
+        "bytes": 7712,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\exact54\\run_g25_exact54.py",
+        "sha256": "4d77db2f80ccbb1518cc782fce07180e7a24a58905a367f1b611938bc64bfeb8"
+      }
+    },
+    {
+      "bytes": 24373,
+      "group": "exact54",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\unify54\\unify54_audit.py",
+      "sha256": "7636ed87cf1e96dc6f9e64ee89da1ce4155fb17ff2a9acf1a4a3e51e52a1873f",
+      "snapshot": {
+        "bytes": 24373,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\exact54\\unify54_audit.py",
+        "sha256": "7636ed87cf1e96dc6f9e64ee89da1ce4155fb17ff2a9acf1a4a3e51e52a1873f"
+      }
+    },
+    {
+      "bytes": 17744,
+      "group": "exact54",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\unify54\\unify54_open_doors.py",
+      "sha256": "75207a73419bd2576b7b5de1ce055ecabaab3de4566e5fdb2e6dfe7f7322f485",
+      "snapshot": {
+        "bytes": 17744,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\exact54\\unify54_open_doors.py",
+        "sha256": "75207a73419bd2576b7b5de1ce055ecabaab3de4566e5fdb2e6dfe7f7322f485"
+      }
+    },
+    {
+      "bytes": 9486,
+      "group": "exact54",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\unify54\\verify_f54_layout.py",
+      "sha256": "e888c925ea3f5129f47c67e36c0a2cbae635a6bfc55c8ed619b41da58d4d5a21",
+      "snapshot": {
+        "bytes": 9486,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\exact54\\verify_f54_layout.py",
+        "sha256": "e888c925ea3f5129f47c67e36c0a2cbae635a6bfc55c8ed619b41da58d4d5a21"
+      }
+    },
+    {
+      "bytes": 4306,
+      "group": "exact54",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\unify54\\verify_installed_f54.py",
+      "sha256": "6033a777e2d9b6d5704ae0a5b4ea0b1f195cb4678aad6bb91e24ef77da0c1484",
+      "snapshot": {
+        "bytes": 4306,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\exact54\\verify_installed_f54.py",
+        "sha256": "6033a777e2d9b6d5704ae0a5b4ea0b1f195cb4678aad6bb91e24ef77da0c1484"
+      }
+    },
+    {
+      "bytes": 5786,
+      "group": "exact54",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\unify54\\verify_release54.py",
+      "sha256": "0f5d9b78c0da13cff03d12475778ec98b42024b55212e9134eed3867bacb668d",
+      "snapshot": {
+        "bytes": 5786,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\exact54\\verify_release54.py",
+        "sha256": "0f5d9b78c0da13cff03d12475778ec98b42024b55212e9134eed3867bacb668d"
+      }
+    },
+    {
+      "bytes": 8032,
+      "group": "exact10",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\exact10_chain\\assess_graph_token_capacity10.py",
+      "sha256": "f7c513d65dec64a0667233da61e0039af8278111309bdc5aec4d5d39b13351ce",
+      "snapshot": {
+        "bytes": 8032,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\exact10\\assess_graph_token_capacity10.py",
+        "sha256": "f7c513d65dec64a0667233da61e0039af8278111309bdc5aec4d5d39b13351ce"
+      }
+    },
+    {
+      "bytes": 8384,
+      "group": "exact10",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\exact10_chain\\audit_strict_body_radius10.py",
+      "sha256": "bce24da5ce8c9052b3de8c98c9feddc75c69ff2cd111bf625cffcd1675fc84fc",
+      "snapshot": {
+        "bytes": 8384,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\exact10\\audit_strict_body_radius10.py",
+        "sha256": "bce24da5ce8c9052b3de8c98c9feddc75c69ff2cd111bf625cffcd1675fc84fc"
+      }
+    },
+    {
+      "bytes": 13422,
+      "group": "exact10",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\exact10_chain\\build_multistorey_graphs10.py",
+      "sha256": "91058992b2e1c7acbad06913d4bb4ced2a2fbafa1b39edeb7c2d74dc006edebf",
+      "snapshot": {
+        "bytes": 13422,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\exact10\\build_multistorey_graphs10.py",
+        "sha256": "91058992b2e1c7acbad06913d4bb4ced2a2fbafa1b39edeb7c2d74dc006edebf"
+      }
+    },
+    {
+      "bytes": 35008,
+      "group": "exact10",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\exact10_chain\\collision_door_audit10.py",
+      "sha256": "c89ab87c4f49e8199f8308c0ffd361a488aa18807ec8ff246c3cea3199c054f7",
+      "snapshot": {
+        "bytes": 35008,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\exact10\\collision_door_audit10.py",
+        "sha256": "c89ab87c4f49e8199f8308c0ffd361a488aa18807ec8ff246c3cea3199c054f7"
+      }
+    },
+    {
+      "bytes": 19087,
+      "group": "exact10",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\exact10_chain\\compile_a5_variants10.py",
+      "sha256": "5f6260bbf1fffa9ac4d5aaf313f2c3aee0b60891c3b9a4f23b39c13b408834dc",
+      "snapshot": {
+        "bytes": 19087,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\exact10\\compile_a5_variants10.py",
+        "sha256": "5f6260bbf1fffa9ac4d5aaf313f2c3aee0b60891c3b9a4f23b39c13b408834dc"
+      }
+    },
+    {
+      "bytes": 7543,
+      "group": "exact10",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\exact10_chain\\finalize_batch10_release.py",
+      "sha256": "871115a14c7aab6cdc77d2a8ed96045ca2a0fe2c9fba1f239c4b1552c35ab9e5",
+      "snapshot": {
+        "bytes": 7543,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\exact10\\finalize_batch10_release.py",
+        "sha256": "871115a14c7aab6cdc77d2a8ed96045ca2a0fe2c9fba1f239c4b1552c35ab9e5"
+      }
+    },
+    {
+      "bytes": 9640,
+      "group": "exact10",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\exact10_chain\\finalize_h1_after_a40.py",
+      "sha256": "7b260b9bd0095c394d3cd7ad6aaa6f4d3659ad97deb78813c12029ac07c02b2f",
+      "snapshot": {
+        "bytes": 9640,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\exact10\\finalize_h1_after_a40.py",
+        "sha256": "7b260b9bd0095c394d3cd7ad6aaa6f4d3659ad97deb78813c12029ac07c02b2f"
+      }
+    },
+    {
+      "bytes": 9110,
+      "group": "exact10",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\exact10_chain\\finalize_stage_b_a40_isaac.py",
+      "sha256": "81f5f751a4cbd907cc0cff989491954cae3aab8fa0b0a8953559b68834d9564d",
+      "snapshot": {
+        "bytes": 9110,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\exact10\\finalize_stage_b_a40_isaac.py",
+        "sha256": "81f5f751a4cbd907cc0cff989491954cae3aab8fa0b0a8953559b68834d9564d"
+      }
+    },
+    {
+      "bytes": 17266,
+      "group": "exact10",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\exact10_chain\\gate12_graph_token_capacity10.py",
+      "sha256": "a5dc13fe66912370b748b054f75f5be935dda5251245e2b456ff4b02038d1119",
+      "snapshot": {
+        "bytes": 17266,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\exact10\\gate12_graph_token_capacity10.py",
+        "sha256": "a5dc13fe66912370b748b054f75f5be935dda5251245e2b456ff4b02038d1119"
+      }
+    },
+    {
+      "bytes": 16386,
+      "group": "exact10",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\exact10_chain\\gate14_graph_token_release.py",
+      "sha256": "5620b34c6a92f98c41a8348b4f1194c791446fbd7ee5941974548e0b93e0463a",
+      "snapshot": {
+        "bytes": 16386,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\exact10\\gate14_graph_token_release.py",
+        "sha256": "5620b34c6a92f98c41a8348b4f1194c791446fbd7ee5941974548e0b93e0463a"
+      }
+    },
+    {
+      "bytes": 18613,
+      "group": "exact10",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\exact10_chain\\gate14_graph_token_release10.py",
+      "sha256": "465ad8a61de634c98ecb5e258c56dc0872724d4df489713e502318a60c9200c4",
+      "snapshot": {
+        "bytes": 18613,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\exact10\\gate14_graph_token_release10.py",
+        "sha256": "465ad8a61de634c98ecb5e258c56dc0872724d4df489713e502318a60c9200c4"
+      }
+    },
+    {
+      "bytes": 12996,
+      "group": "exact10",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\exact10_chain\\gate7_global_graph10.py",
+      "sha256": "3175143cef452c7fc32bf0054d81eb5c347c03219e27f835fed3f1465be4330e",
+      "snapshot": {
+        "bytes": 12996,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\exact10\\gate7_global_graph10.py",
+        "sha256": "3175143cef452c7fc32bf0054d81eb5c347c03219e27f835fed3f1465be4330e"
+      }
+    },
+    {
+      "bytes": 19103,
+      "group": "exact10",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\exact10_chain\\generate_parc_site_evidence.py",
+      "sha256": "95a7f98c04da7c13d9024bd2d5cf3c0c8c688b3f351a8f5072a2786c3eb0139a",
+      "snapshot": {
+        "bytes": 19103,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\exact10\\generate_parc_site_evidence.py",
+        "sha256": "95a7f98c04da7c13d9024bd2d5cf3c0c8c688b3f351a8f5072a2786c3eb0139a"
+      }
+    },
+    {
+      "bytes": 25359,
+      "group": "exact10",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\exact10_chain\\make_floorplans_factory.py",
+      "sha256": "9ed9651a32b79e0af9cf4f830423b24f2b6b148ca9d5e35f3ea419e51f2b2d47",
+      "snapshot": {
+        "bytes": 25359,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\exact10\\make_floorplans_factory.py",
+        "sha256": "9ed9651a32b79e0af9cf4f830423b24f2b6b148ca9d5e35f3ea419e51f2b2d47"
+      }
+    },
+    {
+      "bytes": 3805,
+      "group": "exact10",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\exact10_chain\\prepare_manifest.py",
+      "sha256": "d89ffa3854d6f19c53c087bd01c667f6501931bdb636ab4df4cb8d5f33c32307",
+      "snapshot": {
+        "bytes": 3805,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\exact10\\prepare_manifest.py",
+        "sha256": "d89ffa3854d6f19c53c087bd01c667f6501931bdb636ab4df4cb8d5f33c32307"
+      }
+    },
+    {
+      "bytes": 9157,
+      "group": "exact10",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\exact10_chain\\prepare_post10_inputs.py",
+      "sha256": "b785f91313a744b50ae67b934a526fedfbcabfb1bb637ec4b4c17d965b508e54",
+      "snapshot": {
+        "bytes": 9157,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\exact10\\prepare_post10_inputs.py",
+        "sha256": "b785f91313a744b50ae67b934a526fedfbcabfb1bb637ec4b4c17d965b508e54"
+      }
+    },
+    {
+      "bytes": 16493,
+      "group": "exact10",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\exact10_chain\\prove_transformer_readable10.py",
+      "sha256": "b1f875770a206029a16c9d70317787d0af47c5574d76ed8bae12677b05fd3eff",
+      "snapshot": {
+        "bytes": 16493,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\exact10\\prove_transformer_readable10.py",
+        "sha256": "b1f875770a206029a16c9d70317787d0af47c5574d76ed8bae12677b05fd3eff"
+      }
+    },
+    {
+      "bytes": 8123,
+      "group": "exact10",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\exact10_chain\\run_g25_exact10.py",
+      "sha256": "8c39160e484eaefeafe2a7a946dfa39b9e265d24b76be23b55a273012c917fa9",
+      "snapshot": {
+        "bytes": 8123,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\exact10\\run_g25_exact10.py",
+        "sha256": "8c39160e484eaefeafe2a7a946dfa39b9e265d24b76be23b55a273012c917fa9"
+      }
+    },
+    {
+      "bytes": 69424,
+      "group": "exact10",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\exact10_chain\\run_stage_b10_cpu.py",
+      "sha256": "b8f107e7ba44013a4a15e6ed792ab1d2f96f19a7a6aabcf42d15dd4b8df1fdbf",
+      "snapshot": {
+        "bytes": 69424,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\exact10\\run_stage_b10_cpu.py",
+        "sha256": "b8f107e7ba44013a4a15e6ed792ab1d2f96f19a7a6aabcf42d15dd4b8df1fdbf"
+      }
+    },
+    {
+      "bytes": 15406,
+      "group": "exact10",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\exact10_chain\\stage_d10_a40_contract.py",
+      "sha256": "035b147dcc5eb3a3504a97d8f2c271258425fbdb12b7700e6e4eaa8fa9f32e28",
+      "snapshot": {
+        "bytes": 15406,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\exact10\\stage_d10_a40_contract.py",
+        "sha256": "035b147dcc5eb3a3504a97d8f2c271258425fbdb12b7700e6e4eaa8fa9f32e28"
+      }
+    },
+    {
+      "bytes": 4996,
+      "group": "exact10",
+      "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\factory10_20260905\\exact10_chain\\summarize_graph_cycle_repair10.py",
+      "sha256": "d946868f7c3efb975f7339a196e0b884ce961bc5bddd5041d7d980f6a4308c80",
+      "snapshot": {
+        "bytes": 4996,
+        "path": "E:\\Researches\\code study\\Scenesmith-code-study\\ProtoMotions-main\\.codex-work\\diversity54_20260908\\evidence\\frozen_sources\\exact10\\summarize_graph_cycle_repair10.py",
+        "sha256": "d946868f7c3efb975f7339a196e0b884ce961bc5bddd5041d7d980f6a4308c80"
+      }
+    }
+  ],
+  "schema": "Residential54FrozenContractSourcesV1",
+  "status": "PASS"
+}

@@ -1,0 +1,95 @@
+{
+  "status": "H1_AUTHORIZED_EXECUTION_PLAN",
+  "candidate_count": 10,
+  "stage_B_dedup_key": [
+    "height_mm",
+    "kind"
+  ],
+  "stage_B_assets": [
+    {
+      "height_mm": 270,
+      "height_m": 2.7,
+      "kind": "straight"
+    },
+    {
+      "height_mm": 300,
+      "height_m": 3.0,
+      "kind": "l_shaped"
+    },
+    {
+      "height_mm": 300,
+      "height_m": 3.0,
+      "kind": "straight"
+    },
+    {
+      "height_mm": 300,
+      "height_m": 3.0,
+      "kind": "u_shaped"
+    },
+    {
+      "height_mm": 320,
+      "height_m": 3.2,
+      "kind": "l_shaped"
+    },
+    {
+      "height_mm": 320,
+      "height_m": 3.2,
+      "kind": "u_shaped"
+    }
+  ],
+  "stage_C_buildings": [
+    "home_train98_train74_lshaped_h320",
+    "home_train98_train74_ushaped_h320",
+    "home_train107_train20_ushaped_h300",
+    "home_train74_train98_lshaped_h300",
+    "home_train76_train123_straight_h300",
+    "home_train92_train96_straight_h300",
+    "home_train84_train105_straight_h270",
+    "home_train84_train115_straight_h270",
+    "home_train84_train22_straight_h270",
+    "home_train96_train20_straight_h270"
+  ],
+  "stage_C2_rule": "wall or furniture clipping => RETURN_TO_A4; never advance to D",
+  "stage_Cplus_required_gates": [
+    "G19_zero_rigid_body_api",
+    "G20_all_approximation_none",
+    "G21_per_floor_parity",
+    "G22_collider_bounds_match_vertex_union",
+    "G23_voxel_bake_clean"
+  ],
+  "stage_D_camera_pose_contract_sha256": "b29e2874fd2026f6674128f600d34c6606465502056b91bd6a2f145b4822ee2a",
+  "stage_D_camera_views": [
+    "01_overview",
+    "02_stairwell",
+    "03_arrival",
+    "04_eyelevel",
+    "05_topdown"
+  ],
+  "stage_D_concurrency": 6,
+  "batch_generation_authorized": true,
+  "automatic_batch_generation_authorized": true,
+  "frozen_manifest": "E:\\AI_AGENT_WORKSPACE\\EVIDENCE\\reports\\building_batch_20260819\\h1\\frozen_h1_authorized_batch.json",
+  "frozen_manifest_sha256": "d99a5c1672d436bd8fbe5af07682442de78fcad54bbd26dd8996864db857b25e",
+  "human_decision": "E:\\AI_AGENT_WORKSPACE\\EVIDENCE\\reports\\building_batch_20260819\\h1\\h1_decisions.json",
+  "human_decision_sha256": "33b5c6e50e511c328e7b9a7bc1e1a021c925d4dbb6da757ba408681aae4cb17c",
+  "approved_building_count": 10,
+  "approved_conditional_BIDs": [
+    "home_train98_train74_lshaped_h320",
+    "home_train98_train74_ushaped_h320"
+  ],
+  "scene_input_capacity": {
+    "face_capacity": 1156,
+    "boundary_segment_capacity": 15300,
+    "max_boundary_segment_length_m": 1.0,
+    "boundary_simplification_tolerance_m": 0.05,
+    "overflow_policy": "error",
+    "baseline_fixed_building_face_counts": {
+      "1_l": 598,
+      "2_u": 613,
+      "3_s300": 921,
+      "4_s270": 1156
+    },
+    "prohibited_face_capacity": 520,
+    "post_batch_rule": "recompute the maximum face count across every new passing building; raise face_capacity above 1156 if required and report the new maximum"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "authorization_contract_version": 2,
+  "gate": "H1_A5_PLACEMENT",
+  "status": "APPROVED",
+  "authorization_source": "explicit_user_message",
+  "authorization_source_artifact": "C:\\Users\\User\\.codex\\attachments\\02dae481-3263-4e7c-83b9-e05f873df7ea\\pasted-text.txt",
+  "authorization_source_sha256": "315418570a8b72c37ed41ab646a927d84abc82437e06a856e4bc9facc60b00aa",
+  "h1_manifest_sha256": "f77783ecefc4a3c1ca57fe5bb4a1130382007474cc1ef44e1b420390f78b8c7e",
+  "delivery_location_confirmed": "E:\\AI_AGENT_WORKSPACE\\PRODUCTS\\04_buildings\\Final_Physics_Export\\batch_20260819",
+  "batch_generation_authorized": true,
+  "automatic_batch_generation_authorized": true,
+  "stair_asset_dedup_key": ["height_mm", "kind"],
+  "G22_correction_accepted": true,
+  "G22b_defect_observed_in_project": false,
+  "decisions": [
+    {
+      "BID": "home_train98_train74_lshaped_h320",
+      "decision": "approved_conditional",
+      "condition_contract_id": "STAGE_B_REGENERATE_STRICT_COLLIDER_OR_RETURN_A4",
+      "binding_conditions": [
+        "regenerate the staircase from the generator in Stage B",
+        "pass strict collider normalization before Stage C",
+        "pass G19-G23 at C+ like every other candidate",
+        "on failure return to A4; do not repair forward or substitute a cached asset",
+        "retain and report the candidate if it fails"
+      ],
+      "notes": "H1 placement approved conditionally; new l_shaped 3.2 m asset"
+    },
+    {
+      "BID": "home_train98_train74_ushaped_h320",
+      "decision": "approved_conditional",
+      "condition_contract_id": "STAGE_B_REGENERATE_STRICT_COLLIDER_OR_RETURN_A4",
+      "binding_conditions": [
+        "regenerate the staircase from the generator in Stage B",
+        "pass strict collider normalization before Stage C",
+        "pass G19-G23 at C+ like every other candidate",
+        "on failure return to A4; do not repair forward or substitute a cached asset",
+        "retain and report the candidate if it fails"
+      ],
+      "notes": "H1 placement approved conditionally; new u_shaped 3.2 m asset"
+    },
+    {"BID": "home_train107_train20_ushaped_h300", "decision": "approved", "notes": ""},
+    {"BID": "home_train74_train98_lshaped_h300", "decision": "approved", "notes": ""},
+    {"BID": "home_train76_train123_straight_h300", "decision": "approved", "notes": ""},
+    {"BID": "home_train92_train96_straight_h300", "decision": "approved", "notes": ""},
+    {"BID": "home_train84_train105_straight_h270", "decision": "approved", "notes": ""},
+    {"BID": "home_train84_train115_straight_h270", "decision": "approved", "notes": ""},
+    {"BID": "home_train84_train22_straight_h270", "decision": "approved", "notes": ""},
+    {"BID": "home_train96_train20_straight_h270", "decision": "approved", "notes": ""}
+  ]
+}

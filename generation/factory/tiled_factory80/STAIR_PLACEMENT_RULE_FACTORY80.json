@@ -1,0 +1,37 @@
+{
+  "schema": "Factory80StairPlacementRuleV1",
+  "scope": "First six two-storey pilots; planning rule, never a replacement gate",
+  "work_state": "RULE_DECLARED_BEFORE_BUILDING_AUTHORING",
+  "verification_state": "ACTUAL_GEOMETRY_AND_WALK_DISTANCES_PENDING",
+  "area_rule": {
+    "service_area_m2_per_stair": 2000,
+    "minimum_stairs_per_two_storey_factory": 2,
+    "formula": "M = max(2, ceil(planned_mezzanine_physical_area_m2 / 2000))",
+    "area_definition": "Union area of upper-storey tile footprints before cutting measured stair openings; physical area, not standable area",
+    "pilots": [
+      {"building": "factory80_001", "grid_n": 3, "planned_upper_area_m2": 1680, "M": 2},
+      {"building": "factory80_002", "grid_n": 4, "planned_upper_area_m2": 2940, "M": 2},
+      {"building": "factory80_003", "grid_n": 5, "planned_upper_area_m2": 4200, "M": 3},
+      {"building": "factory80_004", "grid_n": 3, "planned_upper_area_m2": 1680, "M": 2},
+      {"building": "factory80_005", "grid_n": 4, "planned_upper_area_m2": 2940, "M": 2},
+      {"building": "factory80_006", "grid_n": 5, "planned_upper_area_m2": 4200, "M": 3}
+    ]
+  },
+  "basis": {
+    "primary_source_title": "UK Approved Document B, Volume 2, buildings other than dwellings",
+    "primary_source_url": "https://assets.publishing.service.gov.uk/media/67d022edf5520788b54eeeda/Approved_Document_B_volume_2_-_Buildings_other_than_dwellings_2019_edition_incorporating_2020_and_2022_amendments_collated_with_2025_2026_and_2029_amendments.pdf",
+    "sections_examined": "Printed page 14, Table 2.1; paragraphs 2.3 and 2.6-2.7; PDF page index 25. Text examined; other pages were not comprehensively read.",
+    "source_facts_paraphrased": "The table distinguishes normal industrial premises, with 25 m for a single direction and 45 m when alternatives are available, from higher fire hazard cases with shorter limits. Occupancy and layout also matter. Direct distance is not interchangeable with measured route distance.",
+    "inference": "The 2000 m2 service area is our disclosed layout heuristic, chosen near a 45 m square area scale. The document does not prescribe one stair per 2000 m2, and a square area scale does not establish a 45 m walk-distance bound.",
+    "cannot_support": "No UK fire-code compliance, occupancy determination, emergency egress certification, or actual maximum travel distance is established. No gate threshold is changed."
+  },
+  "position_rule": {
+    "x": "Distribute target arrivals at width * i/(M+1), then select the nearest centre of a 10 m column bay; ties deterministic",
+    "orientation": "Rotate the native traversal exit to world -Y so the final landing is supplied by the mezzanine slab",
+    "y": "Measure native transformed shaft bounds. At that X interval find the continuous mezzanine strip depth in 21 m cell increments. Set arrival Y = max(4 m, strip_depth/2 - actual_forward_shaft_extent/2).",
+    "openings": "Cut the actual shaft envelope with 0.35 m side clearance, terminating at the native measured final-riser interface; the top traversal endpoint remains 5 mm on the slab side",
+    "clearance_work": "Clear only root-overlay machinery whose actual bounding box intersects the measured stair/approach/egress envelope; preserve every removed instance and source hash in AUTHORING.json",
+    "validation": "Original clipping, approach, egress, support, G25, G8 and Standability thresholds remain authoritative. Actual graph walk-distance statistics will be reported descriptively if the graph is available."
+  },
+  "cannot_support": "This declaration assigns stair count and placement before candidate authoring. It does not prove those positions are physically usable, connected, compliant, or accepted."
+}
