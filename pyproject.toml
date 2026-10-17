@@ -21,6 +21,9 @@ dependencies = [
     "numpy>=1.24",
     "scipy>=1.10",
     "trimesh>=4.0",
+    # trimesh's closest-point query (Gate 3) builds an R-tree and imports
+    # `rtree` lazily; without it the gate raises instead of measuring.
+    "rtree>=1.0",
     "usd-core>=23.11",
     "PyYAML>=6.0",
 ]

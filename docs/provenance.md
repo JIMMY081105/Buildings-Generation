@@ -20,6 +20,7 @@ Every module is in one of three categories. Keeping them separate is what makes
 | [Infinigen](https://github.com/princeton-vl/infinigen) | BSD-3-Clause | `stairs/infinigen_backend.py` imports its staircase factories at call time and subclasses them. No Infinigen source or asset is in this repository. Optional dependency. |
 | [OpenUSD](https://github.com/PixarAnimationStudios/OpenUSD) | Apache-2.0 (modified) | `usd-core` dependency for stage composition, geometry and physics schemas. |
 | trimesh, numpy, scipy | MIT / BSD | Voxelisation, distance transforms, connected components. |
+| [rtree](https://github.com/Toblerity/rtree) | MIT | Spatial index behind trimesh's closest-point query in Gate 3. |
 | [MolmoSpaces](https://huggingface.co/datasets/allenai/molmospaces) | see the dataset card | Source scenes and object packages for both generators. Downloaded by `generation/` scripts; no scene or asset is in this repository. |
 | [Blender](https://www.blender.org) `bpy` | GPL-2.0-or-later | Runtime for Infinigen's staircase factories in `generation/`. Not vendored. |
 | [NVIDIA Isaac Sim](https://developer.nvidia.com/isaac/sim) | NVIDIA licence | PhysX validation and RTX rendering in `generation/`. Not vendored. |
