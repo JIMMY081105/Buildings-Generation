@@ -7,6 +7,7 @@
     buildingsgen bake    STAGE  CACHE           rasterise a stage
     buildingsgen accept  --workspace DIR        run the gates
     buildingsgen run     SOURCE --type factory  connect, bake, accept
+    buildingsgen demo    [--defect narrow_slot] all of it on a synthetic house
 
 Every subcommand prints a human summary and writes a machine-readable record
 under the workspace, so a result can be cited later without rerunning it.
@@ -18,9 +19,11 @@ import argparse
 import json
 import sys
 from pathlib import Path
+from typing import get_args
 
 from .acceptance.runner import summarise
 from .config import available_profiles, load_profile
+from .fixtures.synthetic import Defect, build_synthetic_building
 from .pipeline import (
     Workspace,
     accept_building,
@@ -62,6 +65,35 @@ def _workspace(args, source: Path | None) -> Workspace:
 def _ground(args) -> float | None:
     value = args.ground_z
     return None if value != value else float(value)  # NaN means "no terrain"
+
+
+DEMO_DEFECTS = get_args(Defect)
+
+
+def _demo(out: Path, defect: str | None) -> int:
+    """Run scan -> connect -> bake -> accept on a synthetic house.
+
+    Without a defect every gate should pass.  With one, the building must be
+    rejected - by the connect stage or by a gate.  A refusal from connect is
+    the expected outcome only when a defect was injected; on the clean house it
+    is a bug and is raised as such.
+    """
+    name = defect or "clean"
+    out.mkdir(parents=True, exist_ok=True)
+    source = out / f"{name}.usda"
+    build_synthetic_building(source, defect=defect)
+    print(f"synthetic house: {source}" + (f"  (defect: {defect})" if defect else ""))
+    workspace = Workspace(root=out / name, name=name)
+    try:
+        record = run_all(source, workspace, load_profile("house"), keep_going=True)
+    except RuntimeError as error:
+        if defect is None:
+            raise
+        print(f"REJECTED before acceptance: {error}")
+        return 1
+    print(summarise(record["acceptance"]))
+    print(f"evidence: {workspace.root / 'evidence'}")
+    return 0 if record["acceptance"]["status"] == "PASS" else 1
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -106,7 +138,22 @@ def main(argv: list[str] | None = None) -> int:
     run.add_argument("--keep-going", action="store_true")
     _add_common(run)
 
+    demo = sub.add_parser(
+        "demo", help="build a synthetic two-storey house and run every stage on it",
+    )
+    demo.add_argument(
+        "--out", type=Path, default=Path("out") / "demo",
+        help="directory for the building, overlay, cache and evidence (default: out/demo)",
+    )
+    demo.add_argument(
+        "--defect", choices=DEMO_DEFECTS, default=None,
+        help="inject one known fault; the building must then be rejected",
+    )
+
     args = parser.parse_args(argv)
+
+    if args.command == "demo":
+        return _demo(args.out, args.defect)
 
     if args.command == "types":
         for name in available_profiles(getattr(args, "config_root", None)):
