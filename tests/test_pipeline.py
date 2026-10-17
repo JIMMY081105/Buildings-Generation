@@ -7,8 +7,11 @@ bake -> accept as one thing, so CI runs them even though a unit sweep does not.
 
 from __future__ import annotations
 
+import json
+
 import pytest
 
+from buildingsgen.cli import DEMO_DEFECTS, main
 from buildingsgen.config import load_profile
 from buildingsgen.fixtures.synthetic import build_synthetic_building
 from buildingsgen.pipeline import Workspace, connect_storeys, run_all, scan_building
@@ -128,3 +131,29 @@ def test_a_factory_profile_runs_on_a_factory_shaped_building(tmp_path):
         for result in record["acceptance"]["results"]
         for failure in result["failures"]
     ]
+
+
+def _demo_acceptance(out):
+    return json.loads((out / "evidence" / "acceptance.json").read_text(encoding="utf-8"))
+
+
+def test_the_demo_passes_on_the_clean_house(tmp_path):
+    assert main(["demo", "--out", str(tmp_path)]) == 0
+    acceptance = _demo_acceptance(tmp_path / "clean")
+    assert acceptance["status"] == "PASS"
+    assert acceptance["gates_run"] == acceptance["gates_total"]
+
+
+@pytest.mark.parametrize("defect", DEMO_DEFECTS)
+def test_the_demo_rejects_every_known_defect(tmp_path, capsys, defect):
+    """Every defect the fixtures can inject must make the demo exit non-zero."""
+
+    assert main(["demo", "--out", str(tmp_path), "--defect", defect]) == 1
+    printed = capsys.readouterr().out
+    evidence = tmp_path / defect / "evidence" / "acceptance.json"
+    if evidence.is_file():
+        # Reached the gates: one of them must have said no.
+        assert _demo_acceptance(tmp_path / defect)["status"] == "FAIL"
+    else:
+        # Refused earlier, by scan or connect, and said why.
+        assert "REJECTED before acceptance" in printed

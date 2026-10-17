@@ -43,3 +43,10 @@ def test_an_unknown_type_fails_loudly():
 def test_a_family_the_profile_disables_fails_loudly():
     with pytest.raises(Exception, match="not enabled"):
         main(["stairs", "--rise", "3.5", "--type", "factory", "--family", "l_shaped"])
+
+
+def test_the_demo_refuses_a_defect_the_fixtures_cannot_build(tmp_path, capsys):
+    with pytest.raises(SystemExit) as stop:
+        main(["demo", "--out", str(tmp_path), "--defect", "missing_wall"])
+    assert stop.value.code == 2
+    assert "narrow_slot" in capsys.readouterr().err

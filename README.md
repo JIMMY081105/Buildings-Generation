@@ -1,5 +1,7 @@
 # Buildings-Generation
 
+[![ci](https://github.com/JIMMY081105/Buildings-Generation/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/JIMMY081105/Buildings-Generation/actions/workflows/ci.yml)
+
 **Simulation-ready multi-storey buildings in two styles — residential and
 industrial — with storey connection and falsifiable geometric acceptance.**
 
@@ -30,6 +32,27 @@ detects storeys from geometry, designs and places staircases, bakes a 5 cm
 occupancy cache and runs seven acceptance gates, each paired with a negative
 control that is executed and must fail. Every result is reported with what was
 measured, what would have failed, and what it does not support.
+
+## Quick start
+
+No external data is needed: the demo builds a synthetic two-storey house and
+puts it through scan, connect, bake and all seven gates.
+
+```bash
+pip install -e ".[dev]"
+buildingsgen demo                          # clean house: every gate PASS, exit 0
+buildingsgen demo --defect narrow_slot     # 0.30 m slot on the upper storey: G7 FAIL, exit 1
+```
+
+The second command is the point. The same pipeline, given one known fault, has
+to reject the building; `--defect sealed_opening` and `--defect low_headroom`
+are refused earlier, at the connect stage. Each run writes its stages, cache and
+evidence to `out/demo/<clean|defect>/`, with the verdict in
+`evidence/acceptance.json`.
+
+To read further: §2 for the method, [docs/architecture.md](docs/architecture.md)
+for the code's reading order, and [generation/README.md](generation/README.md)
+for the generators.
 
 ## Contents
 
@@ -336,6 +359,7 @@ buildingsgen stairs  --rise 3.4 --type school --out stair.usda
 buildingsgen connect building.usd --type school --workspace out/school_a
 buildingsgen accept  --workspace out/school_a --stair-prim /World/Stair_0
 buildingsgen run     building.usd --type factory      # all of the above
+buildingsgen demo    [--defect narrow_slot]           # all of the above on a synthetic house
 ```
 
 Every subcommand writes a machine-readable record under the workspace, so a
