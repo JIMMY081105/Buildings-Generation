@@ -1,42 +1,58 @@
 # Generation snapshot
 
-The scripts that produced the residential (**house**) and industrial
-(**factory**) buildings, published **verbatim** as of 2026-10-16.
+The scripts that produced the residential (**house**), industrial
+(**factory**) and **museum** buildings: house and the factory pilots as of
+2026-10-16, the industrial Round 4 and the museums as of 2026-11-15.
 
 This directory is a research artefact, not a library. It is the code that ran,
-byte for byte, so that every number reported in the top-level README can be
-traced to the procedure that produced it. The installable, tested library is
+so that every number reported in the top-level README can be traced to the
+procedure that produced it. The installable, tested library is
 [`src/buildingsgen`](../src/buildingsgen); it re-implements the storey
 connection and acceptance logic in a portable form. The snapshot keeps the
 generators as they were.
 
-| | Residential (house) | Industrial (factory) |
-|---|---|---|
-| Directory | [`house/`](house/README.md) | [`factory/`](factory/README.md) |
-| Construction | two different single-storey scenes stacked, joined by one generated staircase | *stacked*: as residential, from industrially screened scenes; *tiled*: N×N scenes merged into one hall, with a partial mezzanine and several staircases |
-| Source scenes | MolmoSpaces (residential) | MolmoSpaces `holodeck-objaverse` (industrial screen) |
-| Staircases | Infinigen `straight` / `l_shaped` / `u_shaped` factories | the same factories under an industrial whitelist |
-| Released | 54 buildings | 10 stacked buildings; 6 tiled pilots (29 in scope, 0 READY) |
+| | Residential (house) | Industrial (factory) | Museum |
+|---|---|---|---|
+| Directory | [`house/`](house/README.md) | [`factory/`](factory/README.md) (pilots in [`archive/`](archive/factory_pilots/README.md)) | [`museum/`](museum/README.md) |
+| Construction | two different single-storey scenes stacked, joined by one generated staircase | N×N bay plan by function with a mezzanine, equipment from role pools, whitelisted metal staircases (pilots: stacked scenes; tiled scenes) | authored from a design spec: parametric shell, one of five grand-staircase families, furnished galleries |
+| Source scenes / assets | MolmoSpaces (residential) | MolmoSpaces `holodeck-objaverse`; NVIDIA SimReady, Industrial and Warehouse packs | Poly Haven, ambientCG, Smithsonian 3D, Cleveland Museum of Art open access; Infinigen architectural factories |
+| Staircases | Infinigen `straight` / `l_shaped` / `u_shaped` factories | the same factories under an industrial whitelist | helical, arc, imperial, three-flight well, cantilever (`staircase_core.py`) |
+| Released | 54 buildings | 27 halls (Round 4); 10 stacked pilot buildings | 29 buildings |
 
 ---
 
-## What "verbatim" means here
+## What "the code that ran" means here
 
 [`MANIFEST.json`](MANIFEST.json) lists every file with its size, SHA-256 and
 the path it was copied from. The copy step hashed each file at the source and
 again at the destination and aborted on any difference.
 
-107 of the 256 files are additionally listed in a **frozen contract manifest**
+`house/` and `archive/` are byte-identical to their origin. In `factory/` and
+`museum/` the original files carry round and revision numbers
+(`layout_v7.py`, `museum_nordic28.py`); they are published under role names
+(`hall_layout.py`, `museum_nordic.py`), and every occurrence of an old module
+name inside the files was replaced by the new one. Nothing else changed: the
+manifest keeps the mapping (`renamed_modules`) and each file's
+`original_sha256`, and substituting the old names back reproduces the original
+bytes exactly.
+
+107 of the 395 files are additionally listed in a **frozen contract manifest**
 written by the original run — [`house/FROZEN_CONTRACT_SOURCES.json`](house/FROZEN_CONTRACT_SOURCES.json)
 (112 rows), [`house/stairs/release_manifest.json`](house/stairs/release_manifest.json)
 (13 rows) and [`house/navigation_repair/SOURCE_SNAPSHOT.json`](house/navigation_repair/SOURCE_SNAPSHOT.json)
 (3 rows). For those, `contract.sha256_matches` is `true` only because the hash
 recorded at the time equals the hash of the file published here. The remaining
-149 files have no independent record; their hash is this snapshot's own.
+149 house and factory-pilot files have no independent record; their hash is
+this snapshot's own. The 40 industrial Round 4 files are the final runner, every
+tool it calls and the 14 helper modules those tools import; the tool hashes
+match those recorded in the `E2E_RESULT.json` of the READY buildings, and the
+19 earlier revisions recorded there are listed under `superseded`. The 99
+museum files were hashed at their origin when copied.
 
 `tests/test_generation_snapshot.py` re-hashes the tree on every CI run. It
-fails on a changed byte and on any file that is not in the manifest, and two
-negative controls in the same file show that it does.
+fails on a changed byte, on a file that is not in the manifest, on an edit
+beyond the renaming and on a missing rename entry, and four negative controls
+in the same file show that it does.
 
 ```bash
 pytest tests/test_generation_snapshot.py
@@ -54,6 +70,9 @@ exception:
   `/data/run01/...`) and to the originating workspace. They are left as they
   were; rewriting them would make the published code differ from the code
   that ran.
+- **Original file names.** Some runners compare tool hashes with those
+  recorded by earlier runs; re-running them on the original layout needs the
+  original names from `renamed_modules`.
 - **Sibling imports.** Scripts import each other by module name from their own
   directory, and some insert a second frozen directory into `sys.path`. Each
   directory therefore keeps the flat layout it had; the stage structure is

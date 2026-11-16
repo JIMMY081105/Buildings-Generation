@@ -1,0 +1,3551 @@
+{
+ "confirmed": [
+  {
+   "asset_id": "N_I_CornerRail_A1",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STRUCTURE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "M_23c0cfc4e06b4bd9a6b9b7d1b77fc37c",
+   "source": "MolmoSpaces",
+   "user_class": "DRESSING",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "Rafa\u0142 Link",
+   "asset_original_url": "https://sketchfab.com/3d-models/oranzeriaxml-23c0cfc4e06b4bd9a6b9b7d1b77fc37c",
+   "molmospaces_download": {
+    "package": "objaverse_obja_23c0cfc4e06b4bd9a6b9b7d1b77fc37c.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00010.tar",
+    "offset": 1247178752,
+    "size": 610349,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "M_da23635737e44da6a57a7323637e9bde",
+   "source": "MolmoSpaces",
+   "user_class": "STORAGE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "jefferson.engcivil16",
+   "asset_original_url": "https://sketchfab.com/3d-models/3d-estrutural-casa-fazenda-da23635737e44da6a57a7323637e9bde",
+   "molmospaces_download": {
+    "package": "objaverse_obja_da23635737e44da6a57a7323637e9bde.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00064.tar",
+    "offset": 761814528,
+    "size": 409418,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "N_I_Cardbox_B3",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_I_RackLong_A2",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "M_01858d5edc344ff4ab11d0edce645223",
+   "source": "MolmoSpaces",
+   "user_class": "MACHINE",
+   "license_bucket": "METADATA_ONLY_KNOWN_LICENSE",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": null,
+   "creator": "Stan",
+   "asset_original_url": "https://sketchfab.com/3d-models/sci-fi-machine-replicator-01858d5edc344ff4ab11d0edce645223",
+   "molmospaces_download": {
+    "package": "objaverse_obja_01858d5edc344ff4ab11d0edce645223.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00000.tar",
+    "offset": 931982848,
+    "size": 642845,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "M_f07c0b4e77454cd6acca537a8f4187c7",
+   "source": "MolmoSpaces",
+   "user_class": "MACHINE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "Lalo Cardosa",
+   "asset_original_url": "https://sketchfab.com/3d-models/penumatic-mechanism-f07c0b4e77454cd6acca537a8f4187c7",
+   "molmospaces_download": {
+    "package": "objaverse_obja_f07c0b4e77454cd6acca537a8f4187c7.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00070.tar",
+    "offset": 1702138368,
+    "size": 1342343,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "M_39b1c722361f419380919f67a82dc681",
+   "source": "MolmoSpaces",
+   "user_class": "MACHINE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "tommyysvensson",
+   "asset_original_url": "https://sketchfab.com/3d-models/irb1600idaw-39b1c722361f419380919f67a82dc681",
+   "molmospaces_download": {
+    "package": "objaverse_obja_39b1c722361f419380919f67a82dc681.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00016.tar",
+    "offset": 1765417472,
+    "size": 684676,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "M_129fb7392430401bbe0bc180c26f3044",
+   "source": "MolmoSpaces",
+   "user_class": "MACHINE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "24je4296",
+   "asset_original_url": "https://sketchfab.com/3d-models/industrial-robot-129fb7392430401bbe0bc180c26f3044",
+   "molmospaces_download": {
+    "package": "objaverse_obja_129fb7392430401bbe0bc180c26f3044.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00005.tar",
+    "offset": 1060436480,
+    "size": 3328398,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "N_I_WoodenCrate_A1",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_W_IBCTank_A01_PR_NVD_01",
+   "source": "NVIDIA Warehouse Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_I_WarehousePile_A5",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "M_fbf142c588cc4b57a143e524f5a0bc11",
+   "source": "MolmoSpaces",
+   "user_class": "MACHINE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "Keivan H",
+   "asset_original_url": "https://sketchfab.com/3d-models/kuka-fbf142c588cc4b57a143e524f5a0bc11",
+   "molmospaces_download": {
+    "package": "objaverse_obja_fbf142c588cc4b57a143e524f5a0bc11.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00074.tar",
+    "offset": 307468288,
+    "size": 1366103,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "M_504fd8dba7c44de3afb819f4a883ccaa",
+   "source": "MolmoSpaces",
+   "user_class": "MACHINE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "honzaJEnej",
+   "asset_original_url": "https://sketchfab.com/3d-models/robotic-arm-504fd8dba7c44de3afb819f4a883ccaa",
+   "molmospaces_download": {
+    "package": "objaverse_obja_504fd8dba7c44de3afb819f4a883ccaa.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00023.tar",
+    "offset": 1015107072,
+    "size": 365467,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "M_347d16f0dab4421d835492adb4956d05",
+   "source": "MolmoSpaces",
+   "user_class": "MACHINE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "bvbwork510524",
+   "asset_original_url": "https://sketchfab.com/3d-models/water-capsule-347d16f0dab4421d835492adb4956d05",
+   "molmospaces_download": {
+    "package": "objaverse_obja_347d16f0dab4421d835492adb4956d05.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00015.tar",
+    "offset": 773715968,
+    "size": 1514634,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "M_77326c45609b48c687ac76c611406c25",
+   "source": "MolmoSpaces",
+   "user_class": "DRESSING",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "CollinPatrick",
+   "asset_original_url": "https://sketchfab.com/3d-models/broken-bridge-77326c45609b48c687ac76c611406c25",
+   "molmospaces_download": {
+    "package": "objaverse_obja_77326c45609b48c687ac76c611406c25.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00034.tar",
+    "offset": 1833729536,
+    "size": 618821,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "N_I_RackLarge_A5",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_E_junctionbox",
+   "source": "NVIDIA USD Explorer Sample",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_W_Forklift_B01_PR_V_NVD_01",
+   "source": "NVIDIA Warehouse Assets Pack",
+   "user_class": "MACHINE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_I_Pallets_A3",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_I_Pallets_A1",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "M_2270059391764e93aa01ad5d6a3000c1",
+   "source": "MolmoSpaces",
+   "user_class": "MACHINE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "Interbotix",
+   "asset_original_url": "https://sketchfab.com/3d-models/widowx-mkii-robotic-arm-2270059391764e93aa01ad5d6a3000c1",
+   "molmospaces_download": {
+    "package": "objaverse_obja_2270059391764e93aa01ad5d6a3000c1.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00010.tar",
+    "offset": 446436864,
+    "size": 1816119,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "N_I_RackLarge_A9",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "M_f2500abd8bbb4c12905b8e00cf2499a8",
+   "source": "MolmoSpaces",
+   "user_class": "MACHINE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "Viktor Amarok Langevin",
+   "asset_original_url": "https://sketchfab.com/3d-models/tp2-mechanic-object-nand136-n01-va-langevin-f2500abd8bbb4c12905b8e00cf2499a8",
+   "molmospaces_download": {
+    "package": "objaverse_obja_f2500abd8bbb4c12905b8e00cf2499a8.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00071.tar",
+    "offset": 642644992,
+    "size": 2873397,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "N_I_RackSmall_A5",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "P_TANK_D2p0",
+   "source": "Procedural project-authored",
+   "user_class": "STORAGE",
+   "license_bucket": "PROJECT_AUTHORED_INTERNAL",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "M_fea6b5de87a343fb9e453c39f5cf1696",
+   "source": "MolmoSpaces",
+   "user_class": "MACHINE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "EPSAMX",
+   "asset_original_url": "https://sketchfab.com/3d-models/ensacadora-fea6b5de87a343fb9e453c39f5cf1696",
+   "molmospaces_download": {
+    "package": "objaverse_obja_fea6b5de87a343fb9e453c39f5cf1696.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00074.tar",
+    "offset": 2124677632,
+    "size": 277050,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "M_933646cfa22649abaa1922d34bdc41b4",
+   "source": "MolmoSpaces",
+   "user_class": "MACHINE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "ningss",
+   "asset_original_url": "https://sketchfab.com/3d-models/lite450-933646cfa22649abaa1922d34bdc41b4",
+   "molmospaces_download": {
+    "package": "objaverse_obja_933646cfa22649abaa1922d34bdc41b4.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00043.tar",
+    "offset": 528654848,
+    "size": 183568,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "M_9d0d63528aa249af96f103501bf94e40",
+   "source": "MolmoSpaces",
+   "user_class": "MACHINE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "EntropyNine",
+   "asset_original_url": "https://sketchfab.com/3d-models/kuka-mimic-9d0d63528aa249af96f103501bf94e40",
+   "molmospaces_download": {
+    "package": "objaverse_obja_9d0d63528aa249af96f103501bf94e40.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00046.tar",
+    "offset": 281288192,
+    "size": 2529497,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "M_c1193111c2e449939db3c592daac6654",
+   "source": "MolmoSpaces",
+   "user_class": "MACHINE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "FrikiWiki3d",
+   "asset_original_url": "https://sketchfab.com/3d-models/haas-tm-2p-c1193111c2e449939db3c592daac6654",
+   "molmospaces_download": {
+    "package": "objaverse_obja_c1193111c2e449939db3c592daac6654.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00057.tar",
+    "offset": 106803200,
+    "size": 403644,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "N_I_RackSmall_A6",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "P_TRUSS_9M",
+   "source": "Procedural project-authored",
+   "user_class": "STRUCTURE",
+   "license_bucket": "PROJECT_AUTHORED_INTERNAL",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "M_8412cac778034473ac18deeaafd01779",
+   "source": "MolmoSpaces",
+   "user_class": "MACHINE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "chrisstahlart",
+   "asset_original_url": "https://sketchfab.com/3d-models/generator-8412cac778034473ac18deeaafd01779",
+   "molmospaces_download": {
+    "package": "objaverse_obja_8412cac778034473ac18deeaafd01779.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00038.tar",
+    "offset": 1267904512,
+    "size": 3313204,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "N_I_RackLarge_A3",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_I_RackLarge_A2",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_I_RackLong_A1",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "M_64bf235933084a62a3bf7001b9d8da00",
+   "source": "MolmoSpaces",
+   "user_class": "MACHINE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "darkfrei",
+   "asset_original_url": "https://sketchfab.com/3d-models/animation-robot-11-64bf235933084a62a3bf7001b9d8da00",
+   "molmospaces_download": {
+    "package": "objaverse_obja_64bf235933084a62a3bf7001b9d8da00.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00029.tar",
+    "offset": 927626240,
+    "size": 228611,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "M_8e80addcf52f4880b9414c3fadc3c850",
+   "source": "MolmoSpaces",
+   "user_class": "MACHINE",
+   "license_bucket": "METADATA_ONLY_KNOWN_LICENSE",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": null,
+   "creator": "ananthswamy",
+   "asset_original_url": "https://api.sketchfab.com/v3/models/8e80addcf52f4880b9414c3fadc3c850",
+   "molmospaces_download": {
+    "package": "objaverse_obja_8e80addcf52f4880b9414c3fadc3c850.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00041.tar",
+    "offset": 1725370880,
+    "size": 2652293,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "M_e26be8de4f134c1bb9d8eafab0ad8720",
+   "source": "MolmoSpaces",
+   "user_class": "MACHINE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "EntropyNine",
+   "asset_original_url": "https://sketchfab.com/3d-models/test-robot-1-e26be8de4f134c1bb9d8eafab0ad8720",
+   "molmospaces_download": {
+    "package": "objaverse_obja_e26be8de4f134c1bb9d8eafab0ad8720.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00066.tar",
+    "offset": 1709090304,
+    "size": 1822275,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "N_I_WarehousePile_A6",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "M_05ace13ccbd048eb9c6c55ac3c3d8501",
+   "source": "MolmoSpaces",
+   "user_class": "DRESSING",
+   "license_bucket": "METADATA_ONLY_KNOWN_LICENSE",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": null,
+   "creator": "TheoClarke",
+   "asset_original_url": "https://sketchfab.com/3d-models/sci-fi-computer-console-05ace13ccbd048eb9c6c55ac3c3d8501",
+   "molmospaces_download": {
+    "package": "objaverse_obja_05ace13ccbd048eb9c6c55ac3c3d8501.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00001.tar",
+    "offset": 1457360384,
+    "size": 1167422,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "M_11b2bf7ec7824a32b5fe25e2c7eefd42",
+   "source": "MolmoSpaces",
+   "user_class": "STORAGE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "Kidney_02",
+   "asset_original_url": "https://sketchfab.com/3d-models/hl2-inspired-laundry-machine-1-11b2bf7ec7824a32b5fe25e2c7eefd42",
+   "molmospaces_download": {
+    "package": "objaverse_obja_11b2bf7ec7824a32b5fe25e2c7eefd42.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00005.tar",
+    "offset": 442934784,
+    "size": 3718996,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "M_d92b9b0aad144887b4d25479902b6f7b",
+   "source": "MolmoSpaces",
+   "user_class": "STORAGE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "Rodrigo.Puerres",
+   "asset_original_url": "https://sketchfab.com/3d-models/caja-d92b9b0aad144887b4d25479902b6f7b",
+   "molmospaces_download": {
+    "package": "objaverse_obja_d92b9b0aad144887b4d25479902b6f7b.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00064.tar",
+    "offset": 137703936,
+    "size": 148733,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "M_3af0451021dd4e3ca4d4c30d4ffd60dc",
+   "source": "MolmoSpaces",
+   "user_class": "STORAGE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "\u304d\u3044\u3077\u3089\u3093",
+   "asset_original_url": "https://sketchfab.com/3d-models/220525-apartment-3af0451021dd4e3ca4d4c30d4ffd60dc",
+   "molmospaces_download": {
+    "package": "objaverse_obja_3af0451021dd4e3ca4d4c30d4ffd60dc.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00017.tar",
+    "offset": 523824128,
+    "size": 364127,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "N_I_RackSmall_A9",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_W_ConveyorBelt_A01_PR_NVD_01",
+   "source": "NVIDIA Warehouse Assets Pack",
+   "user_class": "MACHINE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "M_161218a97ad64e609fc59f143bb67c88",
+   "source": "MolmoSpaces",
+   "user_class": "STORAGE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "pawinc",
+   "asset_original_url": "https://sketchfab.com/3d-models/emilcin-abduction-ufo-by-vegan-pete-161218a97ad64e609fc59f143bb67c88",
+   "molmospaces_download": {
+    "package": "objaverse_obja_161218a97ad64e609fc59f143bb67c88.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00006.tar",
+    "offset": 1139968512,
+    "size": 1450461,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "M_9df6da13eea144a9ba8f00026887ac53",
+   "source": "MolmoSpaces",
+   "user_class": "MACHINE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "moriyork",
+   "asset_original_url": "https://sketchfab.com/3d-models/robot-arm-9df6da13eea144a9ba8f00026887ac53",
+   "molmospaces_download": {
+    "package": "objaverse_obja_9df6da13eea144a9ba8f00026887ac53.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00046.tar",
+    "offset": 847505920,
+    "size": 1615357,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "N_I_WarehousePile_A7",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "M_b18e62dda2e04e97a95312bb6a284f1c",
+   "source": "MolmoSpaces",
+   "user_class": "DRESSING",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "omri_ha_muglob",
+   "asset_original_url": "https://sketchfab.com/3d-models/gpu-aiport-ground-power-unit-b18e62dda2e04e97a95312bb6a284f1c",
+   "molmospaces_download": {
+    "package": "objaverse_obja_b18e62dda2e04e97a95312bb6a284f1c.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00052.tar",
+    "offset": 758246912,
+    "size": 1966909,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "P_TANK_D1p6",
+   "source": "Procedural project-authored",
+   "user_class": "STORAGE",
+   "license_bucket": "PROJECT_AUTHORED_INTERNAL",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_I_Cardbox_D3",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_I_WarehousePile_A4",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "M_86caf03649104a5ba7a6443ac0663a0a",
+   "source": "MolmoSpaces",
+   "user_class": "MACHINE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "Donnevanhk",
+   "asset_original_url": "https://sketchfab.com/3d-models/brick-maker-86caf03649104a5ba7a6443ac0663a0a",
+   "molmospaces_download": {
+    "package": "objaverse_obja_86caf03649104a5ba7a6443ac0663a0a.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00039.tar",
+    "offset": 873081344,
+    "size": 330024,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "N_I_RackLong_A5",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "M_5bddb9b303ad4c448421aea21a1f6311",
+   "source": "MolmoSpaces",
+   "user_class": "DRESSING",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "tboiston",
+   "asset_original_url": "https://sketchfab.com/3d-models/big-ol-generator-5bddb9b303ad4c448421aea21a1f6311",
+   "molmospaces_download": {
+    "package": "objaverse_obja_5bddb9b303ad4c448421aea21a1f6311.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00026.tar",
+    "offset": 1751543808,
+    "size": 2366442,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "N_I_RackLong_A9",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "M_afb2b82a934f441ba5f71a90af7823ed",
+   "source": "MolmoSpaces",
+   "user_class": "MACHINE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "LunaticFlaw",
+   "asset_original_url": "https://sketchfab.com/3d-models/automaton-texturing-afb2b82a934f441ba5f71a90af7823ed",
+   "molmospaces_download": {
+    "package": "objaverse_obja_afb2b82a934f441ba5f71a90af7823ed.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00051.tar",
+    "offset": 1741112832,
+    "size": 2760641,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "P_TANK_D2p4",
+   "source": "Procedural project-authored",
+   "user_class": "STORAGE",
+   "license_bucket": "PROJECT_AUTHORED_INTERNAL",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_I_RackLong_A8",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "M_2c7c0f0b03314a7591bcdba960ce4306",
+   "source": "MolmoSpaces",
+   "user_class": "MACHINE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "Jesus Irizar",
+   "asset_original_url": "https://sketchfab.com/3d-models/irizar-agw-1-c-compact-version-2c7c0f0b03314a7591bcdba960ce4306",
+   "molmospaces_download": {
+    "package": "objaverse_obja_2c7c0f0b03314a7591bcdba960ce4306.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00013.tar",
+    "offset": 280951808,
+    "size": 1816232,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "M_ee5316d1e26640dcacdb0c9813eadc3f",
+   "source": "MolmoSpaces",
+   "user_class": "DRESSING",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "Sousinho",
+   "asset_original_url": "https://sketchfab.com/3d-models/electric-meter-ee5316d1e26640dcacdb0c9813eadc3f",
+   "molmospaces_download": {
+    "package": "objaverse_obja_ee5316d1e26640dcacdb0c9813eadc3f.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00070.tar",
+    "offset": 430161920,
+    "size": 1999755,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "M_bd5d5a1fdbc7470fab575738d1741a3d",
+   "source": "MolmoSpaces",
+   "user_class": "MACHINE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "bsichterman",
+   "asset_original_url": "https://sketchfab.com/3d-models/cryotube-bd5d5a1fdbc7470fab575738d1741a3d",
+   "molmospaces_download": {
+    "package": "objaverse_obja_bd5d5a1fdbc7470fab575738d1741a3d.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00055.tar",
+    "offset": 1932665856,
+    "size": 2044485,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "N_I_Cardbox_A2",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "M_2ccb9ed45a734a639d0ccfc6a1ebf6c4",
+   "source": "MolmoSpaces",
+   "user_class": "DRESSING",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "museoETSII",
+   "asset_original_url": "https://sketchfab.com/3d-models/rectificador-de-vapor-de-mercurio-2ccb9ed45a734a639d0ccfc6a1ebf6c4",
+   "molmospaces_download": {
+    "package": "objaverse_obja_2ccb9ed45a734a639d0ccfc6a1ebf6c4.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00013.tar",
+    "offset": 467902976,
+    "size": 2729604,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "M_771fcf3c9d7b450b9eaa763902b41622",
+   "source": "MolmoSpaces",
+   "user_class": "DRESSING",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "NaN_4aki",
+   "asset_original_url": "https://sketchfab.com/3d-models/rust-pipe-tank-771fcf3c9d7b450b9eaa763902b41622",
+   "molmospaces_download": {
+    "package": "objaverse_obja_771fcf3c9d7b450b9eaa763902b41622.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00034.tar",
+    "offset": 1771623424,
+    "size": 1832842,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "N_I_MetalFencing_A2",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "DRESSING",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_I_WoodenCrate_C1",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "P_TRUSS_6M",
+   "source": "Procedural project-authored",
+   "user_class": "STRUCTURE",
+   "license_bucket": "PROJECT_AUTHORED_INTERNAL",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "M_78895d416b2a41be9f700f92a12d79ec",
+   "source": "MolmoSpaces",
+   "user_class": "DRESSING",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "BStab",
+   "asset_original_url": "https://sketchfab.com/3d-models/armario-mecanico-78895d416b2a41be9f700f92a12d79ec",
+   "molmospaces_download": {
+    "package": "objaverse_obja_78895d416b2a41be9f700f92a12d79ec.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00035.tar",
+    "offset": 580421632,
+    "size": 790600,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "M_f09302a50d6e47198f533dfd6743dce8",
+   "source": "MolmoSpaces",
+   "user_class": "DRESSING",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "txiong",
+   "asset_original_url": "https://sketchfab.com/3d-models/aoi-v6-f09302a50d6e47198f533dfd6743dce8",
+   "molmospaces_download": {
+    "package": "objaverse_obja_f09302a50d6e47198f533dfd6743dce8.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00070.tar",
+    "offset": 1760302080,
+    "size": 1713803,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "M_bd738722878c4ba4bbe4fa1e4ba2b431",
+   "source": "MolmoSpaces",
+   "user_class": "MACHINE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "Artyom Scheredin",
+   "asset_original_url": "https://sketchfab.com/3d-models/manipulator-bd738722878c4ba4bbe4fa1e4ba2b431",
+   "molmospaces_download": {
+    "package": "objaverse_obja_bd738722878c4ba4bbe4fa1e4ba2b431.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00055.tar",
+    "offset": 1989636608,
+    "size": 1376319,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "N_I_RackSmall_A7",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_I_RackSmall_A1",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_I_RackLong_A6",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "M_f85f78194e69404888f8c6c40207c819",
+   "source": "MolmoSpaces",
+   "user_class": "STORAGE",
+   "license_bucket": "METADATA_ONLY_KNOWN_LICENSE",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": null,
+   "creator": "xetrybeck",
+   "asset_original_url": "https://api.sketchfab.com/v3/models/f85f78194e69404888f8c6c40207c819",
+   "molmospaces_download": {
+    "package": "objaverse_obja_f85f78194e69404888f8c6c40207c819.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00073.tar",
+    "offset": 222238208,
+    "size": 630226,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "N_I_RackSmallEmpty_A1",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "M_5037b5bea4bf4bd7bf53d581d478bd90",
+   "source": "MolmoSpaces",
+   "user_class": "DRESSING",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "LuddePudde",
+   "asset_original_url": "https://sketchfab.com/3d-models/industrial-toolbox-5037b5bea4bf4bd7bf53d581d478bd90",
+   "molmospaces_download": {
+    "package": "objaverse_obja_5037b5bea4bf4bd7bf53d581d478bd90.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00023.tar",
+    "offset": 953887232,
+    "size": 2463827,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "N_I_Cardbox_A1",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_W_StainlessSteelIBCTank_A01_PR_NVD_01",
+   "source": "NVIDIA Warehouse Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_I_Cardbox_B2",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_I_RackLong_A4",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "M_686634679a644787b2de748e8c28b747",
+   "source": "MolmoSpaces",
+   "user_class": "MACHINE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "Maxime66410",
+   "asset_original_url": "https://sketchfab.com/3d-models/scp-control-room-686634679a644787b2de748e8c28b747",
+   "molmospaces_download": {
+    "package": "objaverse_obja_686634679a644787b2de748e8c28b747.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00030.tar",
+    "offset": 1052272640,
+    "size": 803352,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "N_I_RackSmall_A8",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_I_MetalFencing_A3",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "DRESSING",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_I_RackSmallEmpty_A2",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "M_d0b95c089b814984934af45c1b8223aa",
+   "source": "MolmoSpaces",
+   "user_class": "STORAGE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "KrayDay",
+   "asset_original_url": "https://sketchfab.com/3d-models/industrial-barrel-big-d0b95c089b814984934af45c1b8223aa",
+   "molmospaces_download": {
+    "package": "objaverse_obja_d0b95c089b814984934af45c1b8223aa.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00061.tar",
+    "offset": 1388242432,
+    "size": 278964,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "N_I_RampLong_A1",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "DRESSING",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "M_5a9434fade0d47dca6afd6adedbbba70",
+   "source": "MolmoSpaces",
+   "user_class": "MACHINE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "Gabrielle C\u00f4t\u00e9",
+   "asset_original_url": "https://sketchfab.com/3d-models/tp-2-music-box-5a9434fade0d47dca6afd6adedbbba70",
+   "molmospaces_download": {
+    "package": "objaverse_obja_5a9434fade0d47dca6afd6adedbbba70.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00026.tar",
+    "offset": 947290624,
+    "size": 533732,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "M_1cdd1db557b8428892af4773bdada913",
+   "source": "MolmoSpaces",
+   "user_class": "DRESSING",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "the_table",
+   "asset_original_url": "https://sketchfab.com/3d-models/spaceship-corridor-1cdd1db557b8428892af4773bdada913",
+   "molmospaces_download": {
+    "package": "objaverse_obja_1cdd1db557b8428892af4773bdada913.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00008.tar",
+    "offset": 1134972416,
+    "size": 2476777,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "M_100bb912e7b345348bd34cfbe6a488e9",
+   "source": "MolmoSpaces",
+   "user_class": "MACHINE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "pedrina.riccardo",
+   "asset_original_url": "https://sketchfab.com/3d-models/generatore-elettrico-100bb912e7b345348bd34cfbe6a488e9",
+   "molmospaces_download": {
+    "package": "objaverse_obja_100bb912e7b345348bd34cfbe6a488e9.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00004.tar",
+    "offset": 1535770112,
+    "size": 1200756,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "M_3191125f65534f54820145e1bb64c74a",
+   "source": "MolmoSpaces",
+   "user_class": "MACHINE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "FrikiWiki3d",
+   "asset_original_url": "https://sketchfab.com/3d-models/haas-umc-750-3191125f65534f54820145e1bb64c74a",
+   "molmospaces_download": {
+    "package": "objaverse_obja_3191125f65534f54820145e1bb64c74a.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00014.tar",
+    "offset": 1197789184,
+    "size": 486922,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "N_I_Cardbox_D1",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "M_2bfb7b6c9bfd450884a6eaa82410a840",
+   "source": "MolmoSpaces",
+   "user_class": "DRESSING",
+   "license_bucket": "METADATA_ONLY_KNOWN_LICENSE",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": null,
+   "creator": "Thunder",
+   "asset_original_url": "https://api.sketchfab.com/v3/models/2bfb7b6c9bfd450884a6eaa82410a840",
+   "molmospaces_download": {
+    "package": "objaverse_obja_2bfb7b6c9bfd450884a6eaa82410a840.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00012.tar",
+    "offset": 2141489664,
+    "size": 1988094,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "N_I_Cardbox_C2",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_I_Pallets_A4",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "M_80ae6fd2e8f24415be5e1680237e73ce",
+   "source": "MolmoSpaces",
+   "user_class": "DRESSING",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "Nicolas Gutierrez",
+   "asset_original_url": "https://sketchfab.com/3d-models/halo-4-cryo-chamber-diorama-80ae6fd2e8f24415be5e1680237e73ce",
+   "molmospaces_download": {
+    "package": "objaverse_obja_80ae6fd2e8f24415be5e1680237e73ce.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00037.tar",
+    "offset": 1298228736,
+    "size": 1935569,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "N_I_Cardbox_C3",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_I_WoodenCrate_B2",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_W_ConveyorBelt_A02_PR_NVD_01",
+   "source": "NVIDIA Warehouse Assets Pack",
+   "user_class": "MACHINE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_I_RackLarge_A4",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_I_RackLongEmpty_A2",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_I_Cardbox_A3",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "M_aa6923a3a31340c4a3ea8f65ee45fd68",
+   "source": "MolmoSpaces",
+   "user_class": "DRESSING",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "Plague",
+   "asset_original_url": "https://sketchfab.com/3d-models/generator-with-annotations-aa6923a3a31340c4a3ea8f65ee45fd68",
+   "molmospaces_download": {
+    "package": "objaverse_obja_aa6923a3a31340c4a3ea8f65ee45fd68.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00050.tar",
+    "offset": 327455744,
+    "size": 1344312,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "N_E_ground_junction_box",
+   "source": "NVIDIA USD Explorer Sample",
+   "user_class": "DRESSING",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_I_Pallet_B1",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "M_1bf2ac5bf98b494aa0976698a1c635ee",
+   "source": "MolmoSpaces",
+   "user_class": "DRESSING",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "lucasgjandrey",
+   "asset_original_url": "https://sketchfab.com/3d-models/transmissor-scifi-1bf2ac5bf98b494aa0976698a1c635ee",
+   "molmospaces_download": {
+    "package": "objaverse_obja_1bf2ac5bf98b494aa0976698a1c635ee.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00008.tar",
+    "offset": 563302912,
+    "size": 1267521,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "M_d225389de8c24d1c9cf7102c740eccf9",
+   "source": "MolmoSpaces",
+   "user_class": "MACHINE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "Daniel_Bakunin",
+   "asset_original_url": "https://sketchfab.com/3d-models/game-asset-generator-d225389de8c24d1c9cf7102c740eccf9",
+   "molmospaces_download": {
+    "package": "objaverse_obja_d225389de8c24d1c9cf7102c740eccf9.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00062.tar",
+    "offset": 143160320,
+    "size": 1324828,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "N_I_RackSmall_A4",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "M_cfc37d0aff454f29a27c8ab3325f445b",
+   "source": "MolmoSpaces",
+   "user_class": "DRESSING",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "Arghanion's PuzzleBox",
+   "asset_original_url": "https://sketchfab.com/3d-models/rusted-industrial-water-tank-cfc37d0aff454f29a27c8ab3325f445b",
+   "molmospaces_download": {
+    "package": "objaverse_obja_cfc37d0aff454f29a27c8ab3325f445b.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00061.tar",
+    "offset": 815889920,
+    "size": 2192122,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "N_I_MetalFencing_A1",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "DRESSING",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "M_8c66093ab50d4f54be665b6f0699e2ef",
+   "source": "MolmoSpaces",
+   "user_class": "STORAGE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "stharun2407",
+   "asset_original_url": "https://sketchfab.com/3d-models/water-tank-8c66093ab50d4f54be665b6f0699e2ef",
+   "molmospaces_download": {
+    "package": "objaverse_obja_8c66093ab50d4f54be665b6f0699e2ef.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00041.tar",
+    "offset": 304694784,
+    "size": 247839,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "M_5c7ba4bab60d48f5803bedd75dbc07f6",
+   "source": "MolmoSpaces",
+   "user_class": "STORAGE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "Van 't Wout",
+   "asset_original_url": "https://sketchfab.com/3d-models/lr86-3bd-plw-80-60-15-hoh-103-5c7ba4bab60d48f5803bedd75dbc07f6",
+   "molmospaces_download": {
+    "package": "objaverse_obja_5c7ba4bab60d48f5803bedd75dbc07f6.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00026.tar",
+    "offset": 2132665344,
+    "size": 312208,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "M_c07a679eadb64c15b26cb063b8a736ae",
+   "source": "MolmoSpaces",
+   "user_class": "MACHINE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "Batuhan13",
+   "asset_original_url": "https://sketchfab.com/3d-models/generator-trailer-c07a679eadb64c15b26cb063b8a736ae",
+   "molmospaces_download": {
+    "package": "objaverse_obja_c07a679eadb64c15b26cb063b8a736ae.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00056.tar",
+    "offset": 1903440384,
+    "size": 1619597,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "M_c9e685c4affd40c9ab4ce2fea549b7ce",
+   "source": "MolmoSpaces",
+   "user_class": "MACHINE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "Patrick Gallagher",
+   "asset_original_url": "https://sketchfab.com/3d-models/robotic-arm-c9e685c4affd40c9ab4ce2fea549b7ce",
+   "molmospaces_download": {
+    "package": "objaverse_obja_c9e685c4affd40c9ab4ce2fea549b7ce.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00059.tar",
+    "offset": 1337596416,
+    "size": 1760655,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "M_90dceee838b74104b2bdae09255e40a3",
+   "source": "MolmoSpaces",
+   "user_class": "MACHINE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "Alpie",
+   "asset_original_url": "https://sketchfab.com/3d-models/cabinado3d-90dceee838b74104b2bdae09255e40a3",
+   "molmospaces_download": {
+    "package": "objaverse_obja_90dceee838b74104b2bdae09255e40a3.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00042.tar",
+    "offset": 1060261888,
+    "size": 588284,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "N_E_vehicle_hanger",
+   "source": "NVIDIA USD Explorer Sample",
+   "user_class": "DRESSING",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_I_RackSmall_A2",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "M_37d55c97fa644126874452996f73ec84",
+   "source": "MolmoSpaces",
+   "user_class": "MACHINE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "AlexGuerra",
+   "asset_original_url": "https://sketchfab.com/3d-models/encartonadora-37d55c97fa644126874452996f73ec84",
+   "molmospaces_download": {
+    "package": "objaverse_obja_37d55c97fa644126874452996f73ec84.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00016.tar",
+    "offset": 679839744,
+    "size": 819796,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "M_9920b87c6cdd4e08a28976e6ba366b3b",
+   "source": "MolmoSpaces",
+   "user_class": "MACHINE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "DanishWin",
+   "asset_original_url": "https://sketchfab.com/3d-models/industrial-gas-cylinder-machine-9920b87c6cdd4e08a28976e6ba366b3b",
+   "molmospaces_download": {
+    "package": "objaverse_obja_9920b87c6cdd4e08a28976e6ba366b3b.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00044.tar",
+    "offset": 2130157056,
+    "size": 1258236,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "M_50b265158cc545e4803a7f3209a103b9",
+   "source": "MolmoSpaces",
+   "user_class": "DRESSING",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "ISF&T",
+   "asset_original_url": "https://sketchfab.com/3d-models/aus-tinyh-8mv2-25-09-20-50b265158cc545e4803a7f3209a103b9",
+   "molmospaces_download": {
+    "package": "objaverse_obja_50b265158cc545e4803a7f3209a103b9.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00023.tar",
+    "offset": 1239474176,
+    "size": 757472,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "M_3cc9a6b649194a2ba0c698dc345e2205",
+   "source": "MolmoSpaces",
+   "user_class": "DRESSING",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "TadenStar",
+   "asset_original_url": "https://sketchfab.com/3d-models/helicarrier-bay-from-reference-practical-work-3cc9a6b649194a2ba0c698dc345e2205",
+   "molmospaces_download": {
+    "package": "objaverse_obja_3cc9a6b649194a2ba0c698dc345e2205.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00017.tar",
+    "offset": 1678700032,
+    "size": 1922624,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "N_I_RackLarge_A6",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_I_WarehousePile_A2",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_W_Forklift_A01_PR_V_NVD_01",
+   "source": "NVIDIA Warehouse Assets Pack",
+   "user_class": "MACHINE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_I_WoodenCrate_A2",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "M_5bb667c4aedd4d4a988aa7d142190adc",
+   "source": "MolmoSpaces",
+   "user_class": "DRESSING",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "Duplo A Solu\u00e7\u00f5es em Engenharia",
+   "asset_original_url": "https://sketchfab.com/3d-models/galpao-comercial-5bb667c4aedd4d4a988aa7d142190adc",
+   "molmospaces_download": {
+    "package": "objaverse_obja_5bb667c4aedd4d4a988aa7d142190adc.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00026.tar",
+    "offset": 1668699136,
+    "size": 749054,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "N_E_KukaArm1",
+   "source": "NVIDIA USD Explorer Sample",
+   "user_class": "MACHINE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "M_48028077e5b04abbae54d6f88cc9b396",
+   "source": "MolmoSpaces",
+   "user_class": "DRESSING",
+   "license_bucket": "METADATA_ONLY_KNOWN_LICENSE",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": null,
+   "creator": "ILDST",
+   "asset_original_url": "https://api.sketchfab.com/v3/models/48028077e5b04abbae54d6f88cc9b396",
+   "molmospaces_download": {
+    "package": "objaverse_obja_48028077e5b04abbae54d6f88cc9b396.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00021.tar",
+    "offset": 50306560,
+    "size": 385659,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "N_I_Cardbox_C1",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "M_e5e6703e7788417e9761eb4dc516de5a",
+   "source": "MolmoSpaces",
+   "user_class": "MACHINE",
+   "license_bucket": "METADATA_ONLY_KNOWN_LICENSE",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": null,
+   "creator": "jacuo777",
+   "asset_original_url": "https://api.sketchfab.com/v3/models/e5e6703e7788417e9761eb4dc516de5a",
+   "molmospaces_download": {
+    "package": "objaverse_obja_e5e6703e7788417e9761eb4dc516de5a.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00067.tar",
+    "offset": 1745631232,
+    "size": 1855322,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "M_4843c9a5c0414be38c2d019d80cdaf15",
+   "source": "MolmoSpaces",
+   "user_class": "DRESSING",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "r3engenhariafoz",
+   "asset_original_url": "https://sketchfab.com/3d-models/estrutural-portico-4843c9a5c0414be38c2d019d80cdaf15",
+   "molmospaces_download": {
+    "package": "objaverse_obja_4843c9a5c0414be38c2d019d80cdaf15.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00021.tar",
+    "offset": 238538240,
+    "size": 346792,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "P_CABLE_TRAY_3M",
+   "source": "Procedural project-authored",
+   "user_class": "STRUCTURE",
+   "license_bucket": "PROJECT_AUTHORED_INTERNAL",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_E_s_pedestal",
+   "source": "NVIDIA USD Explorer Sample",
+   "user_class": "DRESSING",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_E_Safety_Gate",
+   "source": "NVIDIA USD Explorer Sample",
+   "user_class": "DRESSING",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_I_WarehousePile_A3",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "M_89d9b1875b7b49b08bec7b697f8b59f4",
+   "source": "MolmoSpaces",
+   "user_class": "STORAGE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "jacek2",
+   "asset_original_url": "https://sketchfab.com/3d-models/p07701-d02-89d9b1875b7b49b08bec7b697f8b59f4",
+   "molmospaces_download": {
+    "package": "objaverse_obja_89d9b1875b7b49b08bec7b697f8b59f4.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00040.tar",
+    "offset": 729448960,
+    "size": 182531,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "M_d7a5f83635e44554b78e17ddeef94247",
+   "source": "MolmoSpaces",
+   "user_class": "MACHINE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "KendeMrena",
+   "asset_original_url": "https://sketchfab.com/3d-models/heating-machine-d7a5f83635e44554b78e17ddeef94247",
+   "molmospaces_download": {
+    "package": "objaverse_obja_d7a5f83635e44554b78e17ddeef94247.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00063.tar",
+    "offset": 1383433216,
+    "size": 1963774,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "M_7751621b3aa64f53bc54e0d397b82b87",
+   "source": "MolmoSpaces",
+   "user_class": "DRESSING",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "JoDanMo",
+   "asset_original_url": "https://sketchfab.com/3d-models/cama-necropsia-7751621b3aa64f53bc54e0d397b82b87",
+   "molmospaces_download": {
+    "package": "objaverse_obja_7751621b3aa64f53bc54e0d397b82b87.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00034.tar",
+    "offset": 1898774016,
+    "size": 274259,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "N_I_WoodenCrate_B1",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_I_Pallets_A5",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_I_Pallets_A2",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_I_Pallet_C1",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_E_hood",
+   "source": "NVIDIA USD Explorer Sample",
+   "user_class": "DRESSING",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_I_RackLong_A7",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_I_Pallet_A1",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_I_RampShort_A1",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "DRESSING",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_I_RackSmall_A3",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_I_RackLong_A3",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "M_08d3e2e9b7dd4b2db6bb98ccc8b36f32",
+   "source": "MolmoSpaces",
+   "user_class": "MACHINE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "Myjato",
+   "asset_original_url": "https://sketchfab.com/3d-models/low-poly-robot-arm-animated-08d3e2e9b7dd4b2db6bb98ccc8b36f32",
+   "molmospaces_download": {
+    "package": "objaverse_obja_08d3e2e9b7dd4b2db6bb98ccc8b36f32.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00002.tar",
+    "offset": 1346311680,
+    "size": 250811,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "N_I_Cardbox_B1",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_W_ConveyorBelt_A06_PR_NVD_01",
+   "source": "NVIDIA Warehouse Assets Pack",
+   "user_class": "DRESSING",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_I_RackLarge_A7",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "M_65df992aac564d0d8718788967842221",
+   "source": "MolmoSpaces",
+   "user_class": "DRESSING",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "Steel Frame Solutions Limited",
+   "asset_original_url": "https://sketchfab.com/3d-models/r-shed-65df992aac564d0d8718788967842221",
+   "molmospaces_download": {
+    "package": "objaverse_obja_65df992aac564d0d8718788967842221.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00029.tar",
+    "offset": 1607531008,
+    "size": 197798,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "M_21a79117cd9e476e8bb49f92517495df",
+   "source": "MolmoSpaces",
+   "user_class": "MACHINE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "_k_o_b_e_",
+   "asset_original_url": "https://sketchfab.com/3d-models/robot-arm-21a79117cd9e476e8bb49f92517495df",
+   "molmospaces_download": {
+    "package": "objaverse_obja_21a79117cd9e476e8bb49f92517495df.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00009.tar",
+    "offset": 2087092224,
+    "size": 1487995,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "N_I_RackLongEmpty_A1",
+   "source": "NVIDIA Industrial Assets Pack",
+   "user_class": "STORAGE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "M_e8e4671463fd4bb68fdf3495debb5380",
+   "source": "MolmoSpaces",
+   "user_class": "MACHINE",
+   "license_bucket": "CC_BY_4_API_MATCH",
+   "license_code_from_metadata": "by",
+   "license_code_from_API": "by",
+   "creator": "Arion Digital",
+   "asset_original_url": "https://sketchfab.com/3d-models/robot-manufacturing-arm-e8e4671463fd4bb68fdf3495debb5380",
+   "molmospaces_download": {
+    "package": "objaverse_obja_e8e4671463fd4bb68fdf3495debb5380.tar.zst",
+    "shard_url": "https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00068.tar",
+    "offset": 1419788800,
+    "size": 1811784,
+    "index": "isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+   }
+  },
+  {
+   "asset_id": "N_W_ConveyorBelt_A04_PR_NVD_01",
+   "source": "NVIDIA Warehouse Assets Pack",
+   "user_class": "MACHINE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_W_ConveyorBelt_A05_PR_NVD_01",
+   "source": "NVIDIA Warehouse Assets Pack",
+   "user_class": "MACHINE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_W_ConveyorBelt_A07_PR_NVD_01",
+   "source": "NVIDIA Warehouse Assets Pack",
+   "user_class": "MACHINE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_W_ConveyorBelt_A08_PR_NVD_01",
+   "source": "NVIDIA Warehouse Assets Pack",
+   "user_class": "MACHINE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  },
+  {
+   "asset_id": "N_W_ConveyorBelt_A09_PR_NVD_01",
+   "source": "NVIDIA Warehouse Assets Pack",
+   "user_class": "MACHINE",
+   "license_bucket": "NVIDIA_OMNIVERSE_BUNDLE_TERMS",
+   "license_code_from_metadata": null,
+   "license_code_from_API": null,
+   "creator": null,
+   "asset_original_url": null
+  }
+ ],
+ "simready": [
+  {
+   "asset_id": "SR_A_conveyor_belt_a02",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/conveyor_belt_a02",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_conveyor_belt_a05",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/conveyor_belt_a05",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_conveyor_belt_a08",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/conveyor_belt_a08",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_conveyor_belt_a35",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/conveyor_belt_a35",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_conveyor_belt_a47",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/conveyor_belt_a47",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_conveyor_belt_a61",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/conveyor_belt_a61",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_equipment_3d_printer_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/equipment_3d_printer_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_equipment_3d_printer_b01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/equipment_3d_printer_b01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_equipment_airCompressor_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/equipment_airCompressor_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_equipment_airCompressor_b01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/equipment_airCompressor_b01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_equipment_liftTable_scissorMobile_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/equipment_liftTable_scissorMobile_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_equipment_mechanic_tool_cart_g01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/equipment_mechanic_tool_cart_g01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_equipment_mechanic_work_tray_cart_i01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/equipment_mechanic_work_tray_cart_i01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_equipment_multi_tier_bin_cart_c01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/equipment_multi_tier_bin_cart_c01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_equipment_paintPressurePot_mobile_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/equipment_paintPressurePot_mobile_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_equipment_paintPressurePot_tank_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/equipment_paintPressurePot_tank_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_equipment_paintPumpSystem_compactTripod_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/equipment_paintPumpSystem_compactTripod_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_equipment_paintPumpSystem_mobileCart_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/equipment_paintPumpSystem_mobileCart_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_equipment_paintPumpSystem_suctionTube_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/equipment_paintPumpSystem_suctionTube_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_equipment_parts_washer_cabinet_b01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/equipment_parts_washer_cabinet_b01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_equipment_parts_washer_manual_c01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/equipment_parts_washer_manual_c01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_equipment_parts_washer_rotary_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/equipment_parts_washer_rotary_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_equipment_robot_charger_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/equipment_robot_charger_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_equipment_robot_trolley_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/equipment_robot_trolley_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_equipment_robot_trolley_b01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/equipment_robot_trolley_b01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_equipment_robot_trolley_c01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/equipment_robot_trolley_c01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_equipment_rolling_service_cabinet_e01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/equipment_rolling_service_cabinet_e01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_equipment_rolling_tool_cabinet_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/equipment_rolling_tool_cabinet_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_equipment_rolling_tool_cabinet_heavyDuty_b01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/equipment_rolling_tool_cabinet_heavyDuty_b01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_equipment_rolling_tool_chest_cabinet_combo_d01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/equipment_rolling_tool_chest_cabinet_combo_d01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_equipment_rolling_workstation_cabinet_c01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/equipment_rolling_workstation_cabinet_c01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_equipment_sprayBooth_painting_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/equipment_sprayBooth_painting_a01",
+   "status": "REJECTED_OR_UNVERIFIED"
+  },
+  {
+   "asset_id": "SR_A_equipment_sprayGunCleaningStation_dualOpen_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/equipment_sprayGunCleaningStation_dualOpen_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_equipment_sprayGunCleaningStation_dualOpen_b01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/equipment_sprayGunCleaningStation_dualOpen_b01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_equipment_storage_bin_cart_b01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/equipment_storage_bin_cart_b01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_equipment_tool_organizer_cart_j01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/equipment_tool_organizer_cart_j01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_equipment_tools_trolley_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/equipment_tools_trolley_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_equipment_trash_trolley_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/equipment_trash_trolley_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_equipment_utility_cart_e01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/equipment_utility_cart_e01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_fireProtection_suppressionCylinder_fixed_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/fireProtection_suppressionCylinder_fixed_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_fireProtection_suppressionCylinder_fixed_b01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/fireProtection_suppressionCylinder_fixed_b01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_ibcTank_a02",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/ibcTank_a02",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_ibcTank_heater_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/ibcTank_heater_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_ibcTank_steel_stainless_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/ibcTank_steel_stainless_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_powerTool_welding_station_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/powerTool_welding_station_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_powerTool_welding_station_b01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/powerTool_welding_station_b01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_powerTool_welding_station_c01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/powerTool_welding_station_c01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_powerTool_welding_station_d01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/powerTool_welding_station_d01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_testingTool_alignment_machine_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/testingTool_alignment_machine_a01",
+   "status": "REJECTED_OR_UNVERIFIED"
+  },
+  {
+   "asset_id": "SR_A_testingTool_brake_dynamometer_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/testingTool_brake_dynamometer_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_testingTool_brake_test_benches_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/testingTool_brake_test_benches_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_testingTool_brake_testing_station_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/testingTool_brake_testing_station_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_testingTool_brake_testing_station_b01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/testingTool_brake_testing_station_b01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_testingTool_wheel_alignment_lift_main_b01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/testingTool_wheel_alignment_lift_main_b01",
+   "status": "REJECTED_OR_UNVERIFIED"
+  },
+  {
+   "asset_id": "SR_A_testingTool_wheel_balancing_machine_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/testingTool_wheel_balancing_machine_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_testingTool_wheel_balancing_machine_b01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/testingTool_wheel_balancing_machine_b01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_vehicleSupport_frame_straightening_crane_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/vehicleSupport_frame_straightening_crane_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_vehicleSupport_frame_straightening_machine_b01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/vehicleSupport_frame_straightening_machine_b01",
+   "status": "REJECTED_OR_UNVERIFIED"
+  },
+  {
+   "asset_id": "SR_A_vehicleSupport_hydraulic_rolling_platform_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/vehicleSupport_hydraulic_rolling_platform_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_vehicleSupport_hydraulic_rolling_platform_b01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/vehicleSupport_hydraulic_rolling_platform_b01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_vehicleSupport_portable_lift_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/vehicleSupport_portable_lift_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_A_vehicleSupport_scissor_lift_c01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/vehicleSupport_scissor_lift_c01",
+   "status": "REJECTED_OR_UNVERIFIED"
+  },
+  {
+   "asset_id": "SR_B_rack_bulk_storage_a03",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/rack_bulk_storage_a03",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_B_rack_composition_a04",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/rack_composition_a04",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_B_rack_composition_a05",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/rack_composition_a05",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_B_rack_composition_a06",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/rack_composition_a06",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_B_rack_composition_a08",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/rack_composition_a08",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_B_rack_composition_a20",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/rack_composition_a20",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_B_rack_composition_l03",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/rack_composition_l03",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_B_rack_composition_l04",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/rack_composition_l04",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_B_rack_composition_l05",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/rack_composition_l05",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_B_rack_composition_l06",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/rack_composition_l06",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_B_rack_composition_l07",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/rack_composition_l07",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_B_rack_composition_l08",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/rack_composition_l08",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_B_rack_composition_l09",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/rack_composition_l09",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_B_rack_composition_l10",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/rack_composition_l10",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_B_rack_f04",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/rack_f04",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_B_rack_f10",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/rack_f10",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_B_rack_h3m_s01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/rack_h3m_s01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_B_rack_h3m_s02",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/rack_h3m_s02",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_B_rack_l16",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/rack_l16",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_B_rack_large_empty_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/rack_large_empty_a01",
+   "status": "REJECTED_OR_UNVERIFIED"
+  },
+  {
+   "asset_id": "SR_B_rack_large_empty_a02",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/rack_large_empty_a02",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_B_rack_long_empty_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/rack_long_empty_a01",
+   "status": "REJECTED_OR_UNVERIFIED"
+  },
+  {
+   "asset_id": "SR_B_storage_locker_double_bench_b01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/storage_locker_double_bench_b01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_B_storage_locker_double_bench_b03",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/storage_locker_double_bench_b03",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_B_storage_shelf_basic_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/storage_shelf_basic_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_B_storage_shelf_basic_b01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/storage_shelf_basic_b01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_B_storage_shelf_basic_c01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/storage_shelf_basic_c01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_B_storage_tire_rack_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/storage_tire_rack_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_B_storage_tire_rack_b01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/storage_tire_rack_b01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_B_storage_tire_rack_c01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/storage_tire_rack_c01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_B_storage_tire_rack_d01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/storage_tire_rack_d01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_B_storage_tire_rack_e01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/storage_tire_rack_e01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_assembly_a02",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_assembly_a02",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_assembly_a03",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_assembly_a03",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_assembly_a05",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_assembly_a05",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_assembly_a06",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_assembly_a06",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_assembly_b01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_assembly_b01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_assembly_b02",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_assembly_b02",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_assembly_brown_e04",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_assembly_brown_e04",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_assembly_brown_e05",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_assembly_brown_e05",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_assembly_brown_f05",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_assembly_brown_f05",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_assembly_brown_f06",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_assembly_brown_f06",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_assembly_c01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_assembly_c01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_assembly_c02",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_assembly_c02",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_assembly_d01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_assembly_d01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_assembly_d02",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_assembly_d02",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_assembly_mixed_e05",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_assembly_mixed_e05",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_assembly_red_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_assembly_red_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_assembly_red_a02",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_assembly_red_a02",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_assembly_red_a03",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_assembly_red_a03",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_assembly_red_a04",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_assembly_red_a04",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_assembly_red_a05",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_assembly_red_a05",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_assembly_red_a06",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_assembly_red_a06",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_assembly_transparent_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_assembly_transparent_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_assembly_transparent_a02",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_assembly_transparent_a02",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_assembly_transparent_a03",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_assembly_transparent_a03",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_assembly_transparent_a04",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_assembly_transparent_a04",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_assembly_transparent_a05",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_assembly_transparent_a05",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_assembly_transparent_a06",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_assembly_transparent_a06",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_assembly_white_e02",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_assembly_white_e02",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_assembly_yellow_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_assembly_yellow_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_assembly_yellow_a02",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_assembly_yellow_a02",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_assembly_yellow_a03",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_assembly_yellow_a03",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_assembly_yellow_a04",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_assembly_yellow_a04",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_assembly_yellow_a05",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_assembly_yellow_a05",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_assembly_yellow_a06",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_assembly_yellow_a06",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_b01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_b01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_b03",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_b03",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_block_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_block_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_block_a02",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_block_a02",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_block_a03",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_block_a03",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_block_a04",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_block_a04",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_block_a05",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_block_a05",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_block_a06",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_block_a06",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_block_a07",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_block_a07",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_block_a08",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_block_a08",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_block_a09",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_block_a09",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_block_b02",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_block_b02",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_block_b03",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_block_b03",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_block_c01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_block_c01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_collar_wood_a06",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_collar_wood_a06",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_composition_a13",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_composition_a13",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_composition_a59",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_composition_a59",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_drum_wood_recycled_a05",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_drum_wood_recycled_a05",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_drum_wood_recycled_a06",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_drum_wood_recycled_a06",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_drum_wood_recycled_a07",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_drum_wood_recycled_a07",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_hygiene_a03",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_hygiene_a03",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_rackable_black_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_rackable_black_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_rackable_blue_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_rackable_blue_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_rackable_solid_top_blue_a02",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_rackable_solid_top_blue_a02",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_rough_black_a02",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_rough_black_a02",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_rough_black_a03",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_rough_black_a03",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_steel_galvanized_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_steel_galvanized_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_wood_recycled_a05",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_wood_recycled_a05",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_C_pallet_wood_wing_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/pallet_wood_wing_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_barrier_fence_metal_a02",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/barrier_fence_metal_a02",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_barrier_fence_metal_a03",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/barrier_fence_metal_a03",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_barrier_gate_safetyDock_a02",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/barrier_gate_safetyDock_a02",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_barrier_gate_safety_a02",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/barrier_gate_safety_a02",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_barrier_wall_plastic_orange_a03",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/barrier_wall_plastic_orange_a03",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_ladder_extention_fiberglass_a03",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/ladder_extention_fiberglass_a03",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_ladder_multiPurpose_aluminium_a03",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/ladder_multiPurpose_aluminium_a03",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_ladder_multiPurpose_aluminium_a05",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/ladder_multiPurpose_aluminium_a05",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_ladder_rolling_yellow_a02",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/ladder_rolling_yellow_a02",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_ladder_step_aluminium_a06",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/ladder_step_aluminium_a06",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_ladder_step_aluminium_b02",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/ladder_step_aluminium_b02",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_ladder_step_aluminium_b05",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/ladder_step_aluminium_b05",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_ladder_step_aluminium_c03",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/ladder_step_aluminium_c03",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_ladder_step_aluminium_d04",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/ladder_step_aluminium_d04",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_ladder_step_aluminium_double_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/ladder_step_aluminium_double_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_ladder_step_fiberglass_heavyDuty_a03",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/ladder_step_fiberglass_heavyDuty_a03",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_ladder_step_folding_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/ladder_step_folding_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_ladder_step_rolling_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/ladder_step_rolling_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_lighting_main_light_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/lighting_main_light_a01",
+   "status": "REJECTED_OR_UNVERIFIED"
+  },
+  {
+   "asset_id": "SR_E_lighting_main_mount_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/lighting_main_mount_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_lighting_overheadLed_hexGrid_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/lighting_overheadLed_hexGrid_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_lighting_overheadLed_hexGrid_a02",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/lighting_overheadLed_hexGrid_a02",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_lighting_overheadLed_hexGrid_a03",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/lighting_overheadLed_hexGrid_a03",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_lighting_overheadLed_hexGrid_a04",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/lighting_overheadLed_hexGrid_a04",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_lighting_overheadLed_lightPanel_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/lighting_overheadLed_lightPanel_a01",
+   "status": "REJECTED_OR_UNVERIFIED"
+  },
+  {
+   "asset_id": "SR_E_lighting_overheadLed_rectangularFrame_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/lighting_overheadLed_rectangularFrame_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_machineGuard_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/machineGuard_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_machineGuard_a02",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/machineGuard_a02",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_safety_eyewashStation_combo_shower_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/safety_eyewashStation_combo_shower_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_safety_eyewashStation_stand_selfContained_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/safety_eyewashStation_stand_selfContained_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_structure_beam_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/structure_beam_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_structure_beam_center_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/structure_beam_center_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_structure_beam_center_a02",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/structure_beam_center_a02",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_structure_beam_center_a03",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/structure_beam_center_a03",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_structure_beam_center_a04",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/structure_beam_center_a04",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_structure_beam_center_b01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/structure_beam_center_b01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_structure_beam_center_b02",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/structure_beam_center_b02",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_structure_beam_center_b03",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/structure_beam_center_b03",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_structure_beam_mount_b01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/structure_beam_mount_b01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_structure_beam_wallMount_b01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/structure_beam_wallMount_b01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_structure_ceiling_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/structure_ceiling_a01",
+   "status": "REJECTED_OR_UNVERIFIED"
+  },
+  {
+   "asset_id": "SR_E_structure_wall_column_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/structure_wall_column_a01",
+   "status": "ELIGIBLE"
+  },
+  {
+   "asset_id": "SR_E_structure_wall_corner_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/structure_wall_corner_a01",
+   "status": "REJECTED_OR_UNVERIFIED"
+  },
+  {
+   "asset_id": "SR_E_structure_wall_entrance_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/structure_wall_entrance_a01",
+   "status": "REJECTED_OR_UNVERIFIED"
+  },
+  {
+   "asset_id": "SR_E_structure_wall_straight_a01",
+   "publisher": "NVIDIA",
+   "license": "CC-BY-4.0",
+   "url": "https://huggingface.co/datasets/nvidia/simready-assets/tree/main/structure_wall_straight_a01",
+   "status": "REJECTED_OR_UNVERIFIED"
+  }
+ ]
+}

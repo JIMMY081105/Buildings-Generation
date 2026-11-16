@@ -1,0 +1,257 @@
+{
+  "schema": "Museum29SpecV1",
+  "building_id": "M27",
+  "short_name": "marine_biology",
+  "style": "海洋生物馆",
+  "style_family": "marine",
+  "floors": 2,
+  "plan": "长方形",
+  "building_xy_m": [
+    44,
+    28
+  ],
+  "planned_floor_area_m2": 1232,
+  "floor_height_m": 5.12,
+  "stair": {
+    "form": "A",
+    "assembly_description": "钢梁 / 石踏面 / 玻璃栏板",
+    "rise_count_per_floor": 32,
+    "rise_m": 0.16,
+    "floor_height_m": 5.12,
+    "going_m": 0.33,
+    "handrail_height_m": 0.95,
+    "edge_guard_height_m": 1.08,
+    "max_clear_rail_gap_m": 0.095,
+    "design_headroom_m": 2.1,
+    "precise_collision": true,
+    "max_flight_rises": 18,
+    "walking_radius_m": 5.4,
+    "width_m": 1.8,
+    "landing_depth_m": 1.6,
+    "mirrored_horseshoe": false,
+    "inner_radius_m": 4.5,
+    "placement": "side_of_hall",
+    "tread_sweep_degrees": 112.04507993669432,
+    "mid_landing_sweep_degrees": 16.9765272631355,
+    "total_rotation_including_mid_and_top_landings_degrees": 145.99813446296534,
+    "landing_bridge_single_union_mesh": true
+  },
+  "materials": {
+    "ground_floor": {
+      "key": "bluegrey_slate",
+      "description": "灰蓝石板",
+      "source_selection": "PENDING_LIBRARY_BINDING"
+    },
+    "walls_ceiling": {
+      "description": "混凝土墙，蓝色灯光"
+    },
+    "stair": {
+      "description": "钢梁 / 石踏面 / 玻璃栏板"
+    },
+    "all_shader": "UsdPreviewSurface_with_textures",
+    "max_texture_resolution": 2048
+  },
+  "exhibition": {
+    "theme": "螃蟹龙虾、贝壳、珊瑚",
+    "min_exhibits_per_floor": 15,
+    "max_same_model_in_building": 3,
+    "painting_reuse_across_buildings": 0,
+    "clear_route_width_m": 1.2,
+    "asset_selection_status": "BOUND_NOT_AUTHORED_OR_ACCEPTED",
+    "items": [
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:62040f38-ba84-413b-9a24-5b9054e64759",
+        "title": "Mantis shrimp",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/62040f38-ba84-413b-9a24-5b9054e64759.glb",
+        "source_sha256": "c503dd17cf56fb5a33db6c0c9be524f5279947330a8333716c50bc47f98cd790",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "crustacean"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:7fd1cb15-599b-44e5-8a14-579dfb749434",
+        "title": "Pleurocorallium niveum",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/7fd1cb15-599b-44e5-8a14-579dfb749434.glb",
+        "source_sha256": "b4522bcd0a663ed3657810d77405a6778cc4b9369e78f315e1fb404b5fc39b0c",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "coral"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:4b9420ab-6c2d-432e-9140-ee866175dc87",
+        "title": "Corallium secundum",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/4b9420ab-6c2d-432e-9140-ee866175dc87.glb",
+        "source_sha256": "0c01f02dd1fca318f356b04cd2adcc5dbd7e5b0955f06a64c75320370e738f5d",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "coral"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:66d91d50-c274-4270-a66f-24bcdc0afdc6",
+        "title": "Corallium bathyrubrum",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/66d91d50-c274-4270-a66f-24bcdc0afdc6.glb",
+        "source_sha256": "4589328efe1ef6c4cfa062036d67b8ccbdad8f04b0a62d98f77d925b65ac7b46",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "coral"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:75c61f95-ae40-4572-bce6-c6b46cc6ac46",
+        "title": "Corallium gotoense",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/75c61f95-ae40-4572-bce6-c6b46cc6ac46.glb",
+        "source_sha256": "17f8032af2432c493a64c703d3ec3414e224e3a25289478db577366a79811029",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "coral"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:76491916-bd81-412b-9df8-3e8735eb4cbc",
+        "title": "Corallium konojoi",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/76491916-bd81-412b-9df8-3e8735eb4cbc.glb",
+        "source_sha256": "b4ca7288a7db07b59d5bd3cb4aa96f15b955d2e310e2d975a8c034cc550bcc11",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "coral"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:002b9110-8388-4820-80c9-6363030943ce",
+        "title": "Barycypraea teulerei",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/002b9110-8388-4820-80c9-6363030943ce.glb",
+        "source_sha256": "38a35991405f463e9e09b5115bdadd2f4fabbbf277d8bd964deddba8f4d7773c",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:2879dec0-1217-4f19-81e0-3c8dd915813f",
+        "title": "Muracypraea mus",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/2879dec0-1217-4f19-81e0-3c8dd915813f.glb",
+        "source_sha256": "3e28159cdedce648ff6a0071c54a5a86857e03e544071f47d54486ff0a74faa4",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:701a39f3-c97a-4951-9de4-1125229eb703",
+        "title": "Tridacna (Flodacna) squamosa",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/701a39f3-c97a-4951-9de4-1125229eb703.glb",
+        "source_sha256": "c8ac8393b6e73622505930443f96cbf01032fa83314884b75452460bfd083773",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:60b09a62-614b-4c95-8a5a-70f2b3c1b02c",
+        "title": "Conus gloriamaris",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/60b09a62-614b-4c95-8a5a-70f2b3c1b02c.glb",
+        "source_sha256": "5b6eea3a4c4eb19ac2ee244b69ee9711f75790f79a15c1808a7e2251a2e41ca0",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:0dff6ec4-bbff-4231-b0aa-2cb00e6dd643",
+        "title": "Conus gloriamaris",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/0dff6ec4-bbff-4231-b0aa-2cb00e6dd643.glb",
+        "source_sha256": "b8942ceb4dd1fc8f9107574f9e625ddde144fa03bc77575e5a077ee9d999dd8b",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      }
+    ],
+    "source_keys": [
+      "Smithsonian:3d_package:7fd1cb15-599b-44e5-8a14-579dfb749434",
+      "Smithsonian:3d_package:4b9420ab-6c2d-432e-9140-ee866175dc87",
+      "Smithsonian:3d_package:66d91d50-c274-4270-a66f-24bcdc0afdc6",
+      "Smithsonian:3d_package:75c61f95-ae40-4572-bce6-c6b46cc6ac46",
+      "Smithsonian:3d_package:76491916-bd81-412b-9df8-3e8735eb4cbc",
+      "Smithsonian:3d_package:002b9110-8388-4820-80c9-6363030943ce",
+      "Smithsonian:3d_package:2879dec0-1217-4f19-81e0-3c8dd915813f",
+      "Smithsonian:3d_package:701a39f3-c97a-4951-9de4-1125229eb703",
+      "Smithsonian:3d_package:60b09a62-614b-4c95-8a5a-70f2b3c1b02c",
+      "Smithsonian:3d_package:0dff6ec4-bbff-4231-b0aa-2cb00e6dd643"
+    ],
+    "theme_source_groups": {
+      "crustacean": [],
+      "coral": [
+        "Smithsonian:3d_package:7fd1cb15-599b-44e5-8a14-579dfb749434",
+        "Smithsonian:3d_package:4b9420ab-6c2d-432e-9140-ee866175dc87",
+        "Smithsonian:3d_package:66d91d50-c274-4270-a66f-24bcdc0afdc6",
+        "Smithsonian:3d_package:75c61f95-ae40-4572-bce6-c6b46cc6ac46",
+        "Smithsonian:3d_package:76491916-bd81-412b-9df8-3e8735eb4cbc"
+      ],
+      "shell": [
+        "Smithsonian:3d_package:002b9110-8388-4820-80c9-6363030943ce",
+        "Smithsonian:3d_package:2879dec0-1217-4f19-81e0-3c8dd915813f",
+        "Smithsonian:3d_package:701a39f3-c97a-4951-9de4-1125229eb703",
+        "Smithsonian:3d_package:60b09a62-614b-4c95-8a5a-70f2b3c1b02c",
+        "Smithsonian:3d_package:0dff6ec4-bbff-4231-b0aa-2cb00e6dd643"
+      ]
+    },
+    "bound_source_count": 11,
+    "binding_revision": "ADJUST07 true marine biology coverage; excludes Crab Nebula; original crab/lobster teaching models supplement CC0 mantis shrimp, corals and shells",
+    "curation24": {
+      "authorization": "ADJUST_24_1745.md",
+      "prior_spec_sha256": "c662c320e5e614b6b3fd2e33915075eaef881f951ff1d09cd15e422d5726a119",
+      "status": "SOURCE_CURATED_REQUIRES_NEW_BUILD_PHYSICS_NATIVE_IMAGES",
+      "scope": "Remove truly colorless Mantis shrimp scan. M27 already has original anatomical crab/lobster teaching models at5 positions per floor; use same existing bounded authored module atposition0 too. No new factory or collected-object provenance claimed. Colored actual shell/coral scans retained."
+    }
+  },
+  "lighting": {
+    "kelvin": 3800,
+    "blue_ambient": true,
+    "sun_sky_through_glass": false,
+    "spotlights_for_features": true,
+    "hdri_id": "kloofendal_48d_partly_cloudy_puresky"
+  },
+  "seed": 2026110726,
+  "checks": {
+    "C2_radius_m": 0.25,
+    "C2_height_m": 1.6,
+    "C2_min_reachable": 0.95,
+    "C3_gap_m": 0,
+    "C3_top_error_max_m": 0.01,
+    "C3_sample_m": 0.01,
+    "C3_negative_shift_m": 0.6,
+    "C4_height_m": 1.6,
+    "C4_min_fraction": 0.9
+  },
+  "authorization_sha256": "8f2849b912a2994609faf01e4282d22c53326854826b7f9f61597b04143769b1",
+  "applied_adjustments": [
+    "ADJUST_01"
+  ],
+  "library_manifest_sha256": "2ac3e509eff6640d577bf56773a114ab290af80178555fe82f51a63593afe585"
+}

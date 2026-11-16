@@ -1,0 +1,579 @@
+{
+  "schema": "Factory80ApprovedRenderC2OperationalRevisionV1",
+  "status": "QUALIFIED_AUTHORIZED_FOR_PRODUCTION",
+  "execution_order": [
+    "057",
+    "067",
+    "027",
+    "060",
+    "054"
+  ],
+  "houses": {
+    "057": {
+      "building": "057",
+      "old_directory": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/057/v4/round4_v1",
+      "new_directory": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/057/v4/round4_v2",
+      "original_job_id": "057_round4_v1",
+      "historical_status": "TOOL_STOP",
+      "history": {
+        "STATUS.json": {
+          "path": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/057/v4/round4_v1/STATUS.json",
+          "sha256": "09258c3f5926df34178ea096b12b36abac591b8abc8c8b204af921027331cc00"
+        },
+        "CHECKS.json": {
+          "path": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/057/v4/round4_v1/CHECKS.json",
+          "sha256": "76d35510b95a1d7db3dae74929c25440b381f866515c3b343cdd496db8196be6"
+        },
+        "E2E_RESULT.json": {
+          "path": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/057/v4/round4_v1/E2E_RESULT.json",
+          "sha256": "3310ac1820a7b249f90136cd1f8a84e13c030c3c68836e3b49f32f101ef4eafd"
+        },
+        "REPAIR_STATE_V3.json": {
+          "path": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/057/v4/round4_v1/REPAIR_STATE_V3.json",
+          "sha256": "9394cf900c3259885a734510891c5037b6917e3e9195c8b8c17f7d28ef8a8599"
+        },
+        "RESOURCE_RETRY_STATE.json": {
+          "path": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/057/v4/round4_v1/RESOURCE_RETRY_STATE.json",
+          "sha256": "135bd68c3aefa89bc00cefba74788c7c01e98594d5d0c71324a7d6eaac545706"
+        }
+      },
+      "old_repair_state": {
+        "building": "057",
+        "layout_seed_indices_used": [
+          0,
+          1
+        ],
+        "postC2_C4_layout_repairs_used": 1,
+        "C4_alternatives_used": 0,
+        "accepted_input_directory": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/057/v4/round4_v1/layout_after_check_seed_01",
+        "accepted_layout_seed_index": 1,
+        "accepted_input_sha256": {
+          "LAYOUT.json": "3b51a57853e34708713c0b99edbe92bfbdb4602cc541b5bffefbd2540cd3fe24",
+          "SPATIAL_DOMAINS.json": "ecbbfdc0417371450dac98ef0c69954dc01a1ec1a444e8a396bb7e2ec9671ed2",
+          "stairs_spec.json": "efa515601c9338d7266fa9886395bbc50fe57e34b64ad547c8000ad897e169dd"
+        },
+        "roles_root": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/057/v4/c4_v9_geometry",
+        "terminal_fit_failure": null,
+        "UTC": "2026-11-02T21:43:40.405642+00:00"
+      },
+      "source_frozen_input": {
+        "path": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/ROUND4_RUN_V15/house_workers/057/try_00/FROZEN_INPUT_clean_02.json",
+        "sha256": "93818db7a4ed1c2d810430fcf7e6a4ea44d16fccbdf10064bacbaa13edfb1d15"
+      },
+      "frozen_input": {
+        "schema": "Factory80FrozenTrialInputV1",
+        "kind": "COMPLETE_PHYSICS_INPUT",
+        "building": "057",
+        "P": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/057/v4/round4_v1/layout_after_check_seed_01",
+        "L": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/057/v4/round4_v1/lighting_repair1",
+        "cam": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/057/v4/round4_v1/CAMERA_PLAN_repair1.json",
+        "roles_root": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/057/v4/c4_v9_geometry",
+        "source_files": {
+          "/cephfs/shared/yixing/outputs/factory80_20261011/runs/057/v4/round4_v1/layout_after_check_seed_01/LAYOUT.json": "3b51a57853e34708713c0b99edbe92bfbdb4602cc541b5bffefbd2540cd3fe24",
+          "/cephfs/shared/yixing/outputs/factory80_20261011/runs/057/v4/round4_v1/layout_after_check_seed_01/SPATIAL_DOMAINS.json": "ecbbfdc0417371450dac98ef0c69954dc01a1ec1a444e8a396bb7e2ec9671ed2",
+          "/cephfs/shared/yixing/outputs/factory80_20261011/runs/057/v4/round4_v1/layout_after_check_seed_01/stairs_spec.json": "efa515601c9338d7266fa9886395bbc50fe57e34b64ad547c8000ad897e169dd",
+          "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/config_round4_G2_CORRECTED_V3_R2.yaml": "3ee60a799a93edaafb72a1b3600b3f1b658b40d5787d601e605cea397db40718",
+          "/cephfs/shared/yixing/outputs/factory80_20261011/runs/057/v4/round4_v1/lighting_repair1/LIGHTING.json": "7b9c8e35044ef9865974f092dcbe9f188631ab46020ebaa0e80a0fc477d633e8",
+          "/cephfs/shared/yixing/outputs/factory80_20261011/runs/057/v4/round4_v1/CAMERA_PLAN_repair1.json": "67a07c75659de243dab970ebbfcd0e7e940e283a68f6c426492576c54a31876d",
+          "/cephfs/shared/yixing/outputs/factory80_20261011/runs/057/v4/retained_shell.usda": "ec572f4bbbc414d9e9399d5e387ca72ff59098b6469c665b6c58ad22ff419834",
+          "/cephfs/shared/yixing/outputs/factory80_20261011/runs/057/v4/c4_v9_geometry/S01/NATIVE_FACE_ROLES.json": "fba773c91c7bbb80e61f8490fe508dc364d5221293408213891b31bdb6b1b3cb",
+          "/cephfs/shared/yixing/outputs/factory80_20261011/runs/057/v4/c4_v9_geometry/S02/NATIVE_FACE_ROLES.json": "2edcbf457fe0d90518679cb93353586bb87e073fd1f0c20f0624ff836352e5d7",
+          "/cephfs/shared/yixing/outputs/factory80_20261011/runs/057/v4/c4_v9_geometry/S03/NATIVE_FACE_ROLES.json": "c673e6b084f7e502f229427c0d8e7d2657489ffc95aad8bbb3a482f5fcb8f6ed"
+        },
+        "source_signature": "e77ad11294e1c2cbd08a552067cae0f6aae0c5ca2a437f22c47bf16db7711b60",
+        "resource_attempt": 0,
+        "signature": "9f1ab7d728fb0a91063e8417e31b15f10417f3b6dc60942f4090d6717d79a727"
+      },
+      "accepted_seed": 1,
+      "carry_layout_seed_indices_used": [
+        0,
+        1
+      ],
+      "historical_scientific_repairs": 1,
+      "scientific_refund": 1,
+      "carry_scientific_repairs": 0,
+      "carry_C4_alternatives": 0,
+      "resource_epoch_start_retries": 0,
+      "historical_SDK_instances": [
+        {
+          "source": {
+            "path": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/ROUND4_RUN_V15/house_workers/057/try_00/SDK_EXIT_RECEIPT.json",
+            "sha256": "385cf1937ce051644cd5040f981c4784f9ffe7d304609ca5a4ec5b08fe775df2"
+          },
+          "pid": 64985,
+          "birth": "2752017470",
+          "actual_peak_RSS_bytes": 4550348800,
+          "actual_exit_code": 0,
+          "started_utc": "2026-11-02T21:21:17.012043+00:00",
+          "ended_utc": "2026-11-02T22:29:36.792478+00:00"
+        }
+      ],
+      "initial_input_reason": "LAST_ACCEPTED_FROZEN_INPUT"
+    },
+    "067": {
+      "building": "067",
+      "old_directory": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/067/v4/round4_v1",
+      "new_directory": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/067/v4/round4_v2",
+      "original_job_id": "067_round4_v1",
+      "historical_status": "LAYOUT_PASS_AWAITING_PHYSICS",
+      "history": {
+        "STATUS.json": {
+          "path": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/067/v4/round4_v1/STATUS.json",
+          "sha256": "79043dda53abbdf74f3ef21ff7f65c5dcdf4025e5dbb1aae4e3c58cb4e99ce6f"
+        }
+      },
+      "old_repair_state": null,
+      "source_frozen_input": null,
+      "frozen_input": null,
+      "accepted_seed": 0,
+      "carry_layout_seed_indices_used": [
+        0
+      ],
+      "historical_scientific_repairs": 0,
+      "scientific_refund": 0,
+      "carry_scientific_repairs": 0,
+      "carry_C4_alternatives": 0,
+      "resource_epoch_start_retries": 0,
+      "historical_SDK_instances": [],
+      "initial_input_reason": "NEVER_RUN_ORIGINAL_SELECTED_TIER"
+    },
+    "027": {
+      "building": "027",
+      "old_directory": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/027/v4/round4_v1",
+      "new_directory": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/027/v4/round4_v2",
+      "original_job_id": "027_round4_v1",
+      "historical_status": "EXCLUDED_RESOURCE",
+      "history": {
+        "STATUS.json": {
+          "path": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/027/v4/round4_v1/STATUS.json",
+          "sha256": "598d4d0045c10e643e04ab18a5a731768a6ef627c2d9b1b615fe41cb73db4486"
+        },
+        "CHECKS.json": {
+          "path": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/027/v4/round4_v1/CHECKS.json",
+          "sha256": "4682252accb99d8a7febebcd7b6f61e59fe7263b89acb16b064048d9af24bc75"
+        },
+        "E2E_RESULT.json": {
+          "path": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/027/v4/round4_v1/E2E_RESULT.json",
+          "sha256": "3dbef736eba66f3847a9ed2092c6d274bb5c56a605d4be6bec368a75d1a27ecf"
+        },
+        "REPAIR_STATE_V3.json": {
+          "path": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/027/v4/round4_v1/REPAIR_STATE_V3.json",
+          "sha256": "21cbd2422f66226afbfb06243e0ecead7bfe22c80aaa086b2e48df4a1fb4a532"
+        },
+        "RESOURCE_RETRY_STATE.json": {
+          "path": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/027/v4/round4_v1/RESOURCE_RETRY_STATE.json",
+          "sha256": "8b7d6e9a773094279114886f323a81c413e5d1132029fdc9c6c3f88987cd1b3c"
+        }
+      },
+      "old_repair_state": {
+        "building": "027",
+        "layout_seed_indices_used": [
+          0,
+          1,
+          2
+        ],
+        "postC2_C4_layout_repairs_used": 2,
+        "C4_alternatives_used": 0,
+        "accepted_input_directory": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/027/v4/round4_v1/layout_after_check_seed_02",
+        "accepted_layout_seed_index": 2,
+        "accepted_input_sha256": {
+          "LAYOUT.json": "59c461b52da105fa0662b75ba3acbd6361f402f9017c282fb18989a2926c0b56",
+          "SPATIAL_DOMAINS.json": "5d84eb204a9988e43f547b4b681ecbbee5094b4b02efc707f54bd6da7f5694ff",
+          "stairs_spec.json": "50f4be57086d1d33ac0fe75a24ca814d02160df0693177771b80ad9dc66707ac"
+        },
+        "roles_root": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/027/v4/c4_v9_geometry",
+        "terminal_fit_failure": null,
+        "UTC": "2026-11-02T20:31:55.596981+00:00"
+      },
+      "source_frozen_input": {
+        "path": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/ROUND4_RUN_V15/house_workers/027/try_02/FROZEN_INPUT_clean_06.json",
+        "sha256": "a54f4559c87b758e2731c5aa0813352edc857743400b44d3a2b03a9435e8497e"
+      },
+      "frozen_input": {
+        "schema": "Factory80FrozenTrialInputV1",
+        "kind": "COMPLETE_PHYSICS_INPUT",
+        "building": "027",
+        "P": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/027/v4/round4_v1/layout_after_check_seed_02",
+        "L": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/027/v4/round4_v1/lighting_repair2",
+        "cam": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/027/v4/round4_v1/CAMERA_PLAN_repair2.json",
+        "roles_root": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/027/v4/c4_v9_geometry",
+        "source_files": {
+          "/cephfs/shared/yixing/outputs/factory80_20261011/runs/027/v4/round4_v1/layout_after_check_seed_02/LAYOUT.json": "59c461b52da105fa0662b75ba3acbd6361f402f9017c282fb18989a2926c0b56",
+          "/cephfs/shared/yixing/outputs/factory80_20261011/runs/027/v4/round4_v1/layout_after_check_seed_02/SPATIAL_DOMAINS.json": "5d84eb204a9988e43f547b4b681ecbbee5094b4b02efc707f54bd6da7f5694ff",
+          "/cephfs/shared/yixing/outputs/factory80_20261011/runs/027/v4/round4_v1/layout_after_check_seed_02/stairs_spec.json": "50f4be57086d1d33ac0fe75a24ca814d02160df0693177771b80ad9dc66707ac",
+          "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/config_round4_G2_CORRECTED_V3_R2.yaml": "3ee60a799a93edaafb72a1b3600b3f1b658b40d5787d601e605cea397db40718",
+          "/cephfs/shared/yixing/outputs/factory80_20261011/runs/027/v4/round4_v1/lighting_repair2/LIGHTING.json": "fac60b272818ed337a45fec12f7703504e6b461e87284500fae95849da73f30e",
+          "/cephfs/shared/yixing/outputs/factory80_20261011/runs/027/v4/round4_v1/CAMERA_PLAN_repair2.json": "cda17cdc00f8dba67ac4891a27ea94671b100995458134213d1aa8faae7edfa5",
+          "/cephfs/shared/yixing/outputs/factory80_20261011/runs/027/v4/retained_shell.usda": "bd00874730fb368b5ab8838401295dc9c252683480d2353c4e87e1e3564f89f3",
+          "/cephfs/shared/yixing/outputs/factory80_20261011/runs/027/v4/c4_v9_geometry/S01/NATIVE_FACE_ROLES.json": "789ec13e5ab28b1f01bd24fafde972c33692ddeb3fd65a26e78a67c917e50235",
+          "/cephfs/shared/yixing/outputs/factory80_20261011/runs/027/v4/c4_v9_geometry/S02/NATIVE_FACE_ROLES.json": "61ea80c6895e6ec5427964b78b2b5d7fa5b976927803dc467acba782e22d414b"
+        },
+        "source_signature": "50af9569717ee4fa26c573775e7b76dacd2f8cef0592dbb9b4b74d816394fc4c",
+        "resource_attempt": 2,
+        "signature": "006973fcfa07f802fa61ccb7d2f9efb4a5aa12584a401404f20d33d06899caf3"
+      },
+      "accepted_seed": 2,
+      "carry_layout_seed_indices_used": [
+        0,
+        1,
+        2
+      ],
+      "historical_scientific_repairs": 2,
+      "scientific_refund": 0,
+      "carry_scientific_repairs": 2,
+      "carry_C4_alternatives": 0,
+      "resource_epoch_start_retries": 0,
+      "historical_SDK_instances": [
+        {
+          "source": {
+            "path": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/ROUND4_RUN_V15/house_workers/027/try_00/SDK_EXIT_RECEIPT.json",
+            "sha256": "c8faedac3e1f3e523113a8ec5f9bf7834acda9e973393abd6909ef43ee89ba30"
+          },
+          "pid": 3306,
+          "birth": "2750496971",
+          "actual_peak_RSS_bytes": 47686488064,
+          "actual_exit_code": -9,
+          "started_utc": "2026-11-02T17:07:51.880599+00:00",
+          "ended_utc": "2026-11-02T19:07:01.316732+00:00"
+        },
+        {
+          "source": {
+            "path": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/ROUND4_RUN_V15/house_workers/027/try_01/SDK_EXIT_RECEIPT.json",
+            "sha256": "1d7da04436563d3aab35aa202536f23eba290122cb0518735d9f88edb3286e8e"
+          },
+          "pid": 36651,
+          "birth": "2751272704",
+          "actual_peak_RSS_bytes": 46838444032,
+          "actual_exit_code": -9,
+          "started_utc": "2026-11-02T19:17:09.299615+00:00",
+          "ended_utc": "2026-11-02T20:21:51.738783+00:00"
+        },
+        {
+          "source": {
+            "path": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/ROUND4_RUN_V15/house_workers/027/try_02/SDK_EXIT_RECEIPT.json",
+            "sha256": "dbfa562a590d4cb29e186c6660e3a24d9201d2f5b174fca2a1355298820939bf"
+          },
+          "pid": 51415,
+          "birth": "2751721432",
+          "actual_peak_RSS_bytes": 44614365184,
+          "actual_exit_code": -9,
+          "started_utc": "2026-11-02T20:31:56.594942+00:00",
+          "ended_utc": "2026-11-02T21:19:41.828091+00:00"
+        },
+        {
+          "source": {
+            "path": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/ROUND4_RUN_V14/house_workers/027/try_00/SDK_EXIT_RECEIPT.json",
+            "sha256": "cfa49fa2ecae92d6d49ab17d84ec8c647838bd4102e1a3aa0e415b0f22c3fa65"
+          },
+          "pid": 57807,
+          "birth": "2750233664",
+          "actual_peak_RSS_bytes": 4480569344,
+          "actual_exit_code": 0,
+          "started_utc": "2026-11-02T16:23:58.927444+00:00",
+          "ended_utc": "2026-11-02T16:44:02.443283+00:00"
+        }
+      ],
+      "initial_input_reason": "LAST_ACCEPTED_FROZEN_INPUT"
+    },
+    "060": {
+      "building": "060",
+      "old_directory": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/060/v4/round4_v1",
+      "new_directory": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/060/v4/round4_v2",
+      "original_job_id": "060_round4_v1",
+      "historical_status": "EXCLUDED_RESOURCE",
+      "history": {
+        "STATUS.json": {
+          "path": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/060/v4/round4_v1/STATUS.json",
+          "sha256": "2c58b5fe88b3ad1a445269133fbd5427972d3adae6be63f650d064b5a5e31137"
+        },
+        "CHECKS.json": {
+          "path": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/060/v4/round4_v1/CHECKS.json",
+          "sha256": "c477467d83043ec41ad8d09b0c5dbe0a287793a90838b547b57876a2ec22b3f1"
+        },
+        "E2E_RESULT.json": {
+          "path": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/060/v4/round4_v1/E2E_RESULT.json",
+          "sha256": "133364c3265d917584992ea33b6a5b92a8aab10bb1d934e29d07144cdc220edb"
+        },
+        "REPAIR_STATE_V3.json": {
+          "path": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/060/v4/round4_v1/REPAIR_STATE_V3.json",
+          "sha256": "a32273af7b474e97cdebd901ff0653694580e6b22536450f2d0669268764c26b"
+        },
+        "RESOURCE_RETRY_STATE.json": {
+          "path": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/060/v4/round4_v1/RESOURCE_RETRY_STATE.json",
+          "sha256": "1cfcd217b553fc42d72d979f322096501ce878903cc34c8a3635b8fd1f8bc5a6"
+        }
+      },
+      "old_repair_state": {
+        "building": "060",
+        "layout_seed_indices_used": [
+          0,
+          1
+        ],
+        "postC2_C4_layout_repairs_used": 1,
+        "C4_alternatives_used": 0,
+        "accepted_input_directory": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/060/v4/round4_v1/layout_after_check_seed_01",
+        "accepted_layout_seed_index": 1,
+        "accepted_input_sha256": {
+          "LAYOUT.json": "a4ff927f3f9dc78c5b5ad2d3ee97505e21652f01b2d061f9f64ed398d8bb1cc7",
+          "SPATIAL_DOMAINS.json": "a6afbac8b670cc5058be3c6af569e9e9f591daf417bfde2925869c099540228d",
+          "stairs_spec.json": "8eaca6974b30b0647f1f1f5af53ceb37fd05d02f738df8ad0a916da187747444"
+        },
+        "roles_root": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/060/v4/c4_v9_geometry",
+        "terminal_fit_failure": null,
+        "UTC": "2026-11-02T15:48:47.617536+00:00"
+      },
+      "source_frozen_input": {
+        "path": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/ROUND4_RUN_V14/house_workers/060/try_02/FROZEN_INPUT_clean_04.json",
+        "sha256": "0dcdd02e1d6250d489afc19918fd0b9dfdd93de0371212585514e35a03251466"
+      },
+      "frozen_input": {
+        "schema": "Factory80FrozenTrialInputV1",
+        "kind": "COMPLETE_PHYSICS_INPUT",
+        "building": "060",
+        "P": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/060/v4/round4_v1/layout_after_check_seed_01",
+        "L": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/060/v4/round4_v1/lighting_repair1",
+        "cam": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/060/v4/round4_v1/CAMERA_PLAN_repair1.json",
+        "roles_root": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/060/v4/c4_v9_geometry",
+        "source_files": {
+          "/cephfs/shared/yixing/outputs/factory80_20261011/runs/060/v4/round4_v1/layout_after_check_seed_01/LAYOUT.json": "a4ff927f3f9dc78c5b5ad2d3ee97505e21652f01b2d061f9f64ed398d8bb1cc7",
+          "/cephfs/shared/yixing/outputs/factory80_20261011/runs/060/v4/round4_v1/layout_after_check_seed_01/SPATIAL_DOMAINS.json": "a6afbac8b670cc5058be3c6af569e9e9f591daf417bfde2925869c099540228d",
+          "/cephfs/shared/yixing/outputs/factory80_20261011/runs/060/v4/round4_v1/layout_after_check_seed_01/stairs_spec.json": "8eaca6974b30b0647f1f1f5af53ceb37fd05d02f738df8ad0a916da187747444",
+          "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/config_round4_G2_CORRECTED_V3_R2.yaml": "3ee60a799a93edaafb72a1b3600b3f1b658b40d5787d601e605cea397db40718",
+          "/cephfs/shared/yixing/outputs/factory80_20261011/runs/060/v4/round4_v1/lighting_repair1/LIGHTING.json": "d33f412a4e95e03676eee7c288c3a0efd7c927f9b24c81f21d72eadccebf3a8b",
+          "/cephfs/shared/yixing/outputs/factory80_20261011/runs/060/v4/round4_v1/CAMERA_PLAN_repair1.json": "a24cb102680df906c39b1fc9623a4b092278644e38c35f0ea7b593674cd813df",
+          "/cephfs/shared/yixing/outputs/factory80_20261011/runs/060/v4/retained_shell.usda": "81f70d3c293335a15cb731acca08ebb323abbddf45d8039b12046c7cd468f1b3",
+          "/cephfs/shared/yixing/outputs/factory80_20261011/runs/060/v4/c4_v9_geometry/S01/NATIVE_FACE_ROLES.json": "d0892eeb5baa702925743421a6006e8bc7a3428c2d1eee8591d37600021cb1e0",
+          "/cephfs/shared/yixing/outputs/factory80_20261011/runs/060/v4/c4_v9_geometry/S02/NATIVE_FACE_ROLES.json": "3542d7e9d43099755f5b597926f2006cb64b670e8c308b3c8cfb2f3fbe14767d",
+          "/cephfs/shared/yixing/outputs/factory80_20261011/runs/060/v4/c4_v9_geometry/S03/NATIVE_FACE_ROLES.json": "6681d0c2e02025f8ad6ff38c2df9248d5b37357a165bcedd8a0c141546f91698"
+        },
+        "source_signature": "c083dfe4d5472d956169b0f2426239feec69516ebc783eac3ee2451ee131d463",
+        "resource_attempt": 2,
+        "signature": "6d5901b8dcd09f4a64077d572d01925ed2eccbd31463d54250f9b669ae36fa8e"
+      },
+      "accepted_seed": 1,
+      "carry_layout_seed_indices_used": [
+        0,
+        1
+      ],
+      "historical_scientific_repairs": 1,
+      "scientific_refund": 0,
+      "carry_scientific_repairs": 1,
+      "carry_C4_alternatives": 0,
+      "resource_epoch_start_retries": 0,
+      "historical_SDK_instances": [
+        {
+          "source": {
+            "path": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/ROUND4_RUN_V14/house_workers/060/try_00/SDK_EXIT_RECEIPT.json",
+            "sha256": "6416b39fe3cb5cd6dfdcb3c87afd11f9549a9580ed5f856e858988d88246f14e"
+          },
+          "pid": 31136,
+          "birth": "2749417572",
+          "actual_peak_RSS_bytes": 47611084800,
+          "actual_exit_code": -9,
+          "started_utc": "2026-11-02T14:07:58.042676+00:00",
+          "ended_utc": "2026-11-02T14:59:27.857096+00:00"
+        },
+        {
+          "source": {
+            "path": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/ROUND4_RUN_V14/house_workers/060/try_01/SDK_EXIT_RECEIPT.json",
+            "sha256": "35c75a51d2d922c75fe6966bf264a169374c359aaf3d8527930d994ce0c14f4c"
+          },
+          "pid": 41572,
+          "birth": "2749787067",
+          "actual_peak_RSS_bytes": 46889881600,
+          "actual_exit_code": -9,
+          "started_utc": "2026-11-02T15:09:32.925110+00:00",
+          "ended_utc": "2026-11-02T15:38:44.297316+00:00"
+        },
+        {
+          "source": {
+            "path": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/ROUND4_RUN_V14/house_workers/060/try_02/SDK_EXIT_RECEIPT.json",
+            "sha256": "37744ac3d784c0a166bc2b5146247461ac097f00637e119e6da0792e34df35af"
+          },
+          "pid": 48587,
+          "birth": "2750022634",
+          "actual_peak_RSS_bytes": 47452332032,
+          "actual_exit_code": -9,
+          "started_utc": "2026-11-02T15:48:48.617116+00:00",
+          "ended_utc": "2026-11-02T16:22:32.152914+00:00"
+        }
+      ],
+      "initial_input_reason": "LAST_ACCEPTED_FROZEN_INPUT"
+    },
+    "054": {
+      "building": "054",
+      "old_directory": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/054/v4/round4_v1",
+      "new_directory": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/054/v4/round4_v2",
+      "original_job_id": "054_round4_v1",
+      "historical_status": "EXCLUDED_CHECKS",
+      "history": {
+        "STATUS.json": {
+          "path": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/054/v4/round4_v1/STATUS.json",
+          "sha256": "225d1c1d3b699037d690532116eeeef87451d0d09763221e6c38ff0ac9013efd"
+        },
+        "CHECKS.json": {
+          "path": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/054/v4/round4_v1/CHECKS.json",
+          "sha256": "e93e97228c2a80d14591676d9ac5bd676671542062b32617dde73cf820c95615"
+        },
+        "E2E_RESULT.json": {
+          "path": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/054/v4/round4_v1/E2E_RESULT.json",
+          "sha256": "f6ccc65bbe6b2a1944f416535c6d94acb8e2e6c9cf75e616f53efea81628a3c4"
+        },
+        "REPAIR_STATE_V3.json": {
+          "path": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/054/v4/round4_v1/REPAIR_STATE_V3.json",
+          "sha256": "e83a59cb0a27969ccb46d8d0b13a7d0cc99f314f947c84e6615c189dc1317d1a"
+        },
+        "RESOURCE_RETRY_STATE.json": {
+          "path": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/054/v4/round4_v1/RESOURCE_RETRY_STATE.json",
+          "sha256": "c6feed164e79d46931a8a7e127786c65bbec4edec6a8e9d05098517410f7046b"
+        }
+      },
+      "old_repair_state": {
+        "building": "054",
+        "layout_seed_indices_used": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "postC2_C4_layout_repairs_used": 1,
+        "C4_alternatives_used": 0,
+        "accepted_input_directory": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/054/v4/round4_v1/layout_after_check_seed_11",
+        "accepted_layout_seed_index": 11,
+        "accepted_input_sha256": {
+          "LAYOUT.json": "a6b1acc446f223fbe043c914ceb45f2ef215a1d7d38852548638f545ed65e04a",
+          "SPATIAL_DOMAINS.json": "0698ff865dd30dab87487df4be036a06ad00b08290d76dab02b582e25b111ca1",
+          "stairs_spec.json": "53489b2f5ed69ad6651449054be4bf2903a9da54534e9774945c952bbb4d3a2c"
+        },
+        "roles_root": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/054/v4/c4_v9_geometry",
+        "terminal_fit_failure": null,
+        "UTC": "2026-11-02T13:59:55.892339+00:00"
+      },
+      "source_frozen_input": {
+        "path": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/ROUND4_RUN_V13/house_workers/054/try_00/FROZEN_INPUT_clean_01.json",
+        "sha256": "8d47e7fac489082ce62af3ca0d53827973f827406d510bf34acd240a45d3c649"
+      },
+      "frozen_input": {
+        "schema": "Factory80FrozenTrialInputV1",
+        "kind": "COMPLETE_PHYSICS_INPUT",
+        "building": "054",
+        "P": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/054/v4/round4_v1/physics_inputs",
+        "L": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/054/v4/round4_v1/lighting",
+        "cam": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/054/v4/round4_v1/CAMERA_PLAN.json",
+        "roles_root": "/cephfs/shared/yixing/outputs/factory80_20261011/runs/054/v4/c4_v9_geometry",
+        "source_files": {
+          "/cephfs/shared/yixing/outputs/factory80_20261011/runs/054/v4/round4_v1/physics_inputs/LAYOUT.json": "d91a84afe295ac332113d7ff60c8a44d4904b03335af4d83f0c5c76282f3923c",
+          "/cephfs/shared/yixing/outputs/factory80_20261011/runs/054/v4/round4_v1/physics_inputs/SPATIAL_DOMAINS.json": "0698ff865dd30dab87487df4be036a06ad00b08290d76dab02b582e25b111ca1",
+          "/cephfs/shared/yixing/outputs/factory80_20261011/runs/054/v4/round4_v1/physics_inputs/stairs_spec.json": "53489b2f5ed69ad6651449054be4bf2903a9da54534e9774945c952bbb4d3a2c",
+          "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/config_round4_G3_ISLAND_V2_R2.yaml": "ccce58d30ebae5e2f462007cfcb9adf5f6617efc8346f984da54deb87c1a34ef",
+          "/cephfs/shared/yixing/outputs/factory80_20261011/runs/054/v4/round4_v1/lighting/LIGHTING.json": "a6c28921f2255118aa2b55cbff7a6102e7eed20d05e0799a471eab8be70e4ba4",
+          "/cephfs/shared/yixing/outputs/factory80_20261011/runs/054/v4/round4_v1/CAMERA_PLAN.json": "7115aad7bf2b44029728a2940927beacfca704c0549fb2a3b1f11dc2a4a42d09",
+          "/cephfs/shared/yixing/outputs/factory80_20261011/runs/054/v4/retained_shell.usda": "7f98bc3897901775fb895650a729a44a44a3de835bebbff983f6efc147ad6fe9",
+          "/cephfs/shared/yixing/outputs/factory80_20261011/runs/054/v4/c4_v9_geometry/S01/NATIVE_FACE_ROLES.json": "19986acee46daac277bfdbf324ff1507d549efcc2f60d92d99a0494a8c548c9c",
+          "/cephfs/shared/yixing/outputs/factory80_20261011/runs/054/v4/c4_v9_geometry/S02/NATIVE_FACE_ROLES.json": "1653fca0965eb46daab1d25820ec569f9aef09743fa2ff7dbdedab310e31eb15",
+          "/cephfs/shared/yixing/outputs/factory80_20261011/runs/054/v4/c4_v9_geometry/S03/NATIVE_FACE_ROLES.json": "e65c83eb2d39cfc915adf8d91d0ae69858f4a68cbef0a805a32ac2b191d58607"
+        },
+        "source_signature": "b9bbe574d0f8c3d604baab47bf0f8872962afd3b06550f876bc8e62c8ae47a63",
+        "resource_attempt": 0,
+        "signature": "daf056b2e0e3c51d0296a1447ab6de75858b7ed08d57723ea558c30b2f69fb4b"
+      },
+      "accepted_seed": 10,
+      "carry_layout_seed_indices_used": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "historical_scientific_repairs": 1,
+      "scientific_refund": 0,
+      "carry_scientific_repairs": 1,
+      "carry_C4_alternatives": 0,
+      "resource_epoch_start_retries": 0,
+      "historical_SDK_instances": [
+        {
+          "source": {
+            "path": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/ROUND4_RUN_V13/house_workers/054/try_00/SDK_EXIT_RECEIPT.json",
+            "sha256": "20085f963dcc0b644a4551d804d59ed24cb4ae292bc31a28c5da7419e3024885"
+          },
+          "pid": 20215,
+          "birth": "2749147831",
+          "actual_peak_RSS_bytes": 4268797952,
+          "actual_exit_code": 0,
+          "started_utc": "2026-11-02T13:23:00.481007+00:00",
+          "ended_utc": "2026-11-02T13:59:57.046671+00:00"
+        }
+      ],
+      "initial_input_reason": "USER_C2_V2_ORIGINAL_CLEAN01"
+    }
+  },
+  "cohort_plan": {
+    "path": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/ROUND4_PLAN_V3.json",
+    "sha256": "57c651f17d3dfbf81b064c0ee60d2e0e908b55034c1f28d352a57c2728d97083"
+  },
+  "preparation_snapshot": {
+    "path": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/ROUND4_RENDER_C2_DEPLOYMENT_V1/PREPARATION_SNAPSHOT_V1.json",
+    "sha256": "7bd295adb10944ca744a7e028f07b13ca67606dc6e9d33a48313bf311f567aca"
+  },
+  "promotion_qualification": {
+    "path": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/ROUND4_RENDER_C2_REVISION_V2/ROUND2_PROMOTION_EVIDENCE_V1.json",
+    "sha256": "ed799d21a264d943d905d7de02ae238f451a67119e4842dc5385ea91ae8eca71"
+  },
+  "C2_GPU_qualification": {
+    "path": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/ROUND4_RENDER_C2_REVISION_V1/C2_GPU_QUALIFICATION_V1.json",
+    "sha256": "6321a4f03bdf3e91ed62afd7a2d25885dcd7c3547a6eca76ad73a1106ce121d6"
+  },
+  "qualified_scientific_tools": {
+    "isaac_native_c5.py": "635dd65e1ed3011f48597c9601924c0dc8b2a7f7307c7b9abe4970ec7429eada",
+    "rtx_render.py": "af577b94ab95c13d61e43132b83759aac7631cee17060c1ec795df14b8c0e6a4",
+    "rgb_instance_wrappers.py": "0a7904538f17eb3a95cd8c53ba13b886c94e375a412e692f6a4b93fa5b424727",
+    "gpu_checks.py": "4dcf1e269d0795ef33c1e80121249f32af18e6d071eb3b81f9d8f72fa7f11059"
+  },
+  "resource_policy": {
+    "path": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/ROUND4_TRIAL_RESOURCE_POLICY_V1.json",
+    "sha256": "97580079156f5a66c1f20ac4fa05d36a85169ebab25733b37932bc8a1d7e18d3"
+  },
+  "T0_UTC": "2026-10-31T01:23:00Z",
+  "T_plus5_deadline_UTC": "2026-11-05T01:23:00+00:00",
+  "time_rules": {
+    "record_only_s": 3600,
+    "hard_stop_s": 10800
+  },
+  "photo_oom_rule": "C1_C5_PASS_NATIVE_PHOTOS_OWNED_KERNEL_OOM_PENDING_FIX_NO_RETRY_CHARGE_NO_600S_WAIT",
+  "new_output_epoch": "round4_v2",
+  "old_statuses_and_source_plan_preserved": true,
+  "old22_READY_C2v2_reaudit": "BATCH_END_OCCUPANCY_ONLY_REPORT_FAIL_WITHOUT_CHANGING_READY",
+  "validation_rounds_used": 2,
+  "third_validation_round_forbidden": true
+}

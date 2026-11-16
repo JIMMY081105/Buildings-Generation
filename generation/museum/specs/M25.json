@@ -1,0 +1,392 @@
+{
+  "schema": "Museum29SpecV1",
+  "building_id": "M25",
+  "short_name": "mediterranean_maritime",
+  "style": "地中海航海馆",
+  "style_family": "mediterranean",
+  "floors": 2,
+  "plan": "长方形",
+  "building_xy_m": [
+    42,
+    28
+  ],
+  "planned_floor_area_m2": 1176,
+  "floor_height_m": 5.12,
+  "stair": {
+    "form": "I",
+    "assembly_description": "实心 / 石踏面 + 花砖踢面 / 铁艺栏杆",
+    "rise_count_per_floor": 32,
+    "rise_m": 0.16,
+    "floor_height_m": 5.12,
+    "going_m": 0.32,
+    "handrail_height_m": 0.95,
+    "edge_guard_height_m": 1.08,
+    "max_clear_rail_gap_m": 0.095,
+    "design_headroom_m": 2.1,
+    "precise_collision": true,
+    "max_flight_rises": 18,
+    "central_width_m": 2.6,
+    "branch_width_m": 1.6,
+    "landing_depth_m": 1.8,
+    "both_exits_required": true,
+    "shared_solid_newels": true,
+    "cross_section_rail_intersection_check_required": true,
+    "negative_rail_reference": "stair_tests/attempt002/I/collision_only.usdc",
+    "branch_layout": "symmetric outward-splayed 45 degrees each, 90 degrees between arms",
+    "upper_groups_rotation_deg": 90,
+    "opening_xy_m": [
+      17.6,
+      17.6
+    ]
+  },
+  "materials": {
+    "ground_floor": {
+      "key": "terracotta",
+      "description": "赤陶砖",
+      "source_selection": "PENDING_LIBRARY_BINDING"
+    },
+    "walls_ceiling": {
+      "description": "暖色灰泥，木梁"
+    },
+    "stair": {
+      "description": "实心 / 石踏面 + 花砖踢面 / 铁艺栏杆"
+    },
+    "all_shader": "UsdPreviewSurface_with_textures",
+    "max_texture_resolution": 2048
+  },
+  "exhibition": {
+    "theme": "帆船模型、陶器、罗盘",
+    "min_exhibits_per_floor": 15,
+    "max_same_model_in_building": 3,
+    "painting_reuse_across_buildings": 0,
+    "clear_route_width_m": 1.2,
+    "asset_selection_status": "BOUND_CATEGORY_INVENTORY_NOT_AUTHORED_OR_ACCEPTED",
+    "items": [
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:dutch_ship_large_01",
+        "title": "dutch_ship_large_01",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/dutch_ship_large_01/dutch_ship_large_01_1k.gltf",
+        "source_sha256": "fd17c359e618f0efba1c07b03742d9e896923c0797ed95ad8a57a7fccc0c7a78",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "ship"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:dutch_ship_large_02",
+        "title": "dutch_ship_large_02",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/dutch_ship_large_02/dutch_ship_large_02_1k.gltf",
+        "source_sha256": "93db4cfc0e0e5e8606041c7b69b7292ab2aa0a570f2e710bf0395393d60eb3a6",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "ship"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:dutch_ship_medium",
+        "title": "dutch_ship_medium",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/dutch_ship_medium/dutch_ship_medium_1k.gltf",
+        "source_sha256": "208112252d4f83a9c404563371053820a90963a53b465fd6c745b16868f4bade",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "ship"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:ship_pinnace",
+        "title": "ship_pinnace",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/ship_pinnace/ship_pinnace_1k.gltf",
+        "source_sha256": "668298cada1731ec93886bb7ec2f170bbbf45575d341b838a09580199fdf5ec5",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "ship"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:seadogs_compass",
+        "title": "seadogs_compass",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/reused_museum_v1/polyhaven/seadogs_compass/seadogs_compass_1k.gltf",
+        "source_sha256": "eb43affaa88dcf40d47318d096f14b709d8ddc34bad46b67ed038b807e56df07",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "compass"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:ceramic_vase_03",
+        "title": "ceramic_vase_03",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/ceramic_vase_03/ceramic_vase_03_1k.gltf",
+        "source_sha256": "72ea418ae3a761a651ea6bc4ce6daced649a2bd6c1c570227ba73af9e25d07f4",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "pottery"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:ceramic_vase_04",
+        "title": "ceramic_vase_04",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/ceramic_vase_04/ceramic_vase_04_1k.gltf",
+        "source_sha256": "ca6461229bd6379b621396581e32400f93884fe77f7fa8abe6ddbeb64d57421b",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "pottery"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:jug_01",
+        "title": "jug_01",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/jug_01/jug_01_1k.gltf",
+        "source_sha256": "87dc40eb3e45b0185699f18cf5988b81fe5b1a01f0cf76c1daa93774878d7e44",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "pottery"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:metal_jug",
+        "title": "metal_jug",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/metal_jug/metal_jug_1k.gltf",
+        "source_sha256": "951357b6ec89a0d2b87674930eb832ae33d4b9c95781c8855f330bf7b2947759",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "pottery"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:antique_ceramic_vase_01",
+        "title": "antique_ceramic_vase_01",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/reused_museum_v1/polyhaven/antique_ceramic_vase_01/antique_ceramic_vase_01_1k.gltf",
+        "source_sha256": "c99f063c1ba4e649e87218265b5ca34f89e3c288ff6560c76b7d9d2dd46aa8cd",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "pottery"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:brass_vase_01",
+        "title": "brass_vase_01",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/reused_museum_v1/polyhaven/brass_vase_01/brass_vase_01_1k.gltf",
+        "source_sha256": "becf6d52678c63d7321c8ab51fb1a03a80d8dd61feb183977867069cdd470f9d",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "pottery"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:brass_vase_02",
+        "title": "brass_vase_02",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/reused_museum_v1/polyhaven/brass_vase_02/brass_vase_02_1k.gltf",
+        "source_sha256": "4680277fd44664e1d60b1cf5f26965c8837d9912f776a083187a35eb883fb3a1",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "pottery"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:brass_vase_03",
+        "title": "brass_vase_03",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/reused_museum_v1/polyhaven/brass_vase_03/brass_vase_03_1k.gltf",
+        "source_sha256": "b65379454ee1c8a608e757b513dc72013cfc5b4156deaf33a46e4f58338b5e8c",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "pottery"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:brass_vase_04",
+        "title": "brass_vase_04",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/reused_museum_v1/polyhaven/brass_vase_04/brass_vase_04_1k.gltf",
+        "source_sha256": "62d32bf08cac959ef4b07d3c36261ec34ec73a48fd635360f9fc2d2076728204",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "pottery"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:ceramic_vase_01",
+        "title": "ceramic_vase_01",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/reused_museum_v1/polyhaven/ceramic_vase_01/ceramic_vase_01_1k.gltf",
+        "source_sha256": "4e2c69eb5bbccf86e9fbf92af438464669d804c1f0eae041ee28651a5b57d91e",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "pottery"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:ceramic_vase_02",
+        "title": "ceramic_vase_02",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/reused_museum_v1/polyhaven/ceramic_vase_02/ceramic_vase_02_1k.gltf",
+        "source_sha256": "1bda047833b68c2c1b190ee53a55b1aa42d30748c84739909b6ca65b2f2d76c9",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "pottery"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:lateral_sea_marker",
+        "title": "lateral_sea_marker",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/lateral_sea_marker/lateral_sea_marker_1k.gltf",
+        "source_sha256": "00d11b93e8ec673a08647560de71b9d04d131b0ee255192d3b1a4fb3f9ee3608",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "navigation"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:life_jacket",
+        "title": "life_jacket",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/life_jacket/life_jacket_1k.gltf",
+        "source_sha256": "675e35acc1cc5de1800a232c11e43692503e3a9e11c4b54435743e74d3f40d6c",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "navigation"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:ocean_buoy",
+        "title": "ocean_buoy",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/ocean_buoy/ocean_buoy_1k.gltf",
+        "source_sha256": "7a6e3ba5b2258575464b2af622dbe63b89a74cb9885f8105cfc8fdf30c734d5c",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "navigation"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:binoculars",
+        "title": "binoculars",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/binoculars/binoculars_1k.gltf",
+        "source_sha256": "57ef2cf82052bd919f932cfa36fc51b10e81ae0f02b3f65ee5bc9706ef2fb3bd",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "navigation"
+        ]
+      }
+    ],
+    "source_keys": [
+      "Poly Haven:dutch_ship_large_01",
+      "Poly Haven:dutch_ship_large_02",
+      "Poly Haven:dutch_ship_medium",
+      "Poly Haven:ship_pinnace",
+      "Poly Haven:seadogs_compass",
+      "Poly Haven:ceramic_vase_03",
+      "Poly Haven:ceramic_vase_04",
+      "Poly Haven:jug_01",
+      "Poly Haven:metal_jug",
+      "Poly Haven:antique_ceramic_vase_01",
+      "Poly Haven:brass_vase_01",
+      "Poly Haven:brass_vase_02",
+      "Poly Haven:brass_vase_03",
+      "Poly Haven:brass_vase_04",
+      "Poly Haven:ceramic_vase_01",
+      "Poly Haven:ceramic_vase_02",
+      "Poly Haven:lateral_sea_marker",
+      "Poly Haven:life_jacket",
+      "Poly Haven:ocean_buoy",
+      "Poly Haven:binoculars"
+    ],
+    "theme_source_groups": {
+      "ship": [
+        "Poly Haven:dutch_ship_large_01",
+        "Poly Haven:dutch_ship_large_02",
+        "Poly Haven:dutch_ship_medium",
+        "Poly Haven:ship_pinnace"
+      ],
+      "compass": [
+        "Poly Haven:seadogs_compass"
+      ],
+      "pottery": [
+        "Poly Haven:ceramic_vase_03",
+        "Poly Haven:ceramic_vase_04",
+        "Poly Haven:jug_01",
+        "Poly Haven:metal_jug",
+        "Poly Haven:antique_ceramic_vase_01",
+        "Poly Haven:brass_vase_01",
+        "Poly Haven:brass_vase_02",
+        "Poly Haven:brass_vase_03",
+        "Poly Haven:brass_vase_04",
+        "Poly Haven:ceramic_vase_01",
+        "Poly Haven:ceramic_vase_02"
+      ],
+      "navigation": [
+        "Poly Haven:lateral_sea_marker",
+        "Poly Haven:life_jacket",
+        "Poly Haven:ocean_buoy",
+        "Poly Haven:binoculars"
+      ]
+    },
+    "binding_revision": "ADJUST07 explicit category coverage; source bytes/licences verified, each actual use<=3 still enforced by authoring",
+    "bound_source_count": 20
+  },
+  "lighting": {
+    "kelvin": 3800,
+    "blue_ambient": false,
+    "sun_sky_through_glass": false,
+    "spotlights_for_features": true,
+    "hdri_id": "kloofendal_43d_clear_puresky"
+  },
+  "seed": 2026110724,
+  "checks": {
+    "C2_radius_m": 0.25,
+    "C2_height_m": 1.6,
+    "C2_min_reachable": 0.95,
+    "C3_gap_m": 0,
+    "C3_top_error_max_m": 0.01,
+    "C3_sample_m": 0.01,
+    "C3_negative_shift_m": 0.6,
+    "C4_height_m": 1.6,
+    "C4_min_fraction": 0.9
+  },
+  "authorization_sha256": "8f2849b912a2994609faf01e4282d22c53326854826b7f9f61597b04143769b1",
+  "applied_adjustments": [
+    "ADJUST_01",
+    "ADJUST_07_0545_PILOT_DECISION.md"
+  ],
+  "library_manifest_sha256": "4cf142a80a2594a898fdf938d4828a942241d628e5468ecc877fe965d04bd6fa",
+  "library_manifest_snapshot": "/cephfs/shared/yixing/outputs/museum29_20261107/evidence/LIBRARY_MANIFEST_ADJUST07_BINDING_SNAPSHOT.json",
+  "mediterranean_roof24": {
+    "reason": "Actually opened M24f3 intermediate08 shows dark pitched roof underside through retained stair opening.",
+    "repair": "Two real pale warm plaster underside liners and4 true upward500W wash lights .15m above retained ceiling, original outer terracotta pitched roof/floors/guards retained.",
+    "status": "SPEC_PLANNED_NEW_SOURCE_AND_ACTUAL_NATIVE08_REQUIRED"
+  }
+}

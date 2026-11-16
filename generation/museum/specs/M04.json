@@ -1,0 +1,539 @@
+{
+  "schema": "Museum29SpecV1",
+  "building_id": "M04",
+  "short_name": "victorian_natural",
+  "style": "维多利亚自然史大厅",
+  "style_family": "victorian_natural",
+  "floors": 3,
+  "plan": "长方形主厅 + 两侧回廊",
+  "building_xy_m": [
+    42,
+    36
+  ],
+  "planned_floor_area_m2": 1512,
+  "floor_height_m": 5.12,
+  "stair": {
+    "form": "I",
+    "assembly_description": "石踏步 + 铸铁花饰侧梁 / 石踏面 / 铸铁花栏",
+    "rise_count_per_floor": 32,
+    "rise_m": 0.16,
+    "floor_height_m": 5.12,
+    "going_m": 0.32,
+    "handrail_height_m": 0.95,
+    "edge_guard_height_m": 1.08,
+    "max_clear_rail_gap_m": 0.095,
+    "design_headroom_m": 2.1,
+    "precise_collision": true,
+    "max_flight_rises": 18,
+    "central_width_m": 2.6,
+    "branch_width_m": 1.6,
+    "landing_depth_m": 1.8,
+    "both_exits_required": true,
+    "shared_solid_newels": true,
+    "cross_section_rail_intersection_check_required": true,
+    "negative_rail_reference": "stair_tests/attempt002/I/collision_only.usdc",
+    "branch_layout": "symmetric outward-splayed 45 degrees each, 90 degrees between arms",
+    "upper_groups_rotation_deg": 90,
+    "opening_xy_m": [
+      17.6,
+      17.6
+    ],
+    "upper_group_offset_xy_m": [
+      7.0,
+      0.0
+    ],
+    "upper_clearance_design_note": "Upper I rotates90deg and moves7m east, with actual floor-specific opening and floor2 entry support; transfer of M01 validated repair, still requires this building full fresh checks."
+  },
+  "materials": {
+    "ground_floor": {
+      "key": "geometric_star_encaustic",
+      "description": "彩色几何花砖（星形、菱形）",
+      "source_selection": "PENDING_LIBRARY_BINDING"
+    },
+    "walls_ceiling": {
+      "description": "黄砖与赤陶，铸铁玻璃屋顶"
+    },
+    "stair": {
+      "description": "石踏步 + 铸铁花饰侧梁 / 石踏面 / 铸铁花栏"
+    },
+    "all_shader": "UsdPreviewSurface_with_textures",
+    "max_texture_resolution": 2048
+  },
+  "exhibition": {
+    "theme": "大型动物、骨骼头骨、岩石",
+    "min_exhibits_per_floor": 15,
+    "max_same_model_in_building": 3,
+    "painting_reuse_across_buildings": 0,
+    "clear_route_width_m": 1.2,
+    "asset_selection_status": "BOUND_CATEGORY_INVENTORY_NOT_AUTHORED_OR_ACCEPTED",
+    "items": [
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:341c96cd-f967-4540-8ed1-d3fc56d31f12",
+        "title": "Mammuthus primigenius (Blumbach)",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/341c96cd-f967-4540-8ed1-d3fc56d31f12.glb",
+        "source_sha256": "1d0706ff68a3b97e706c2f7fab087527d7302d40c7b421e74092f41e1fb77b46",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "large_animal"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:5684573d-d264-4774-a0e2-8335d26c5761",
+        "title": "Hoplophoneus primaevus latidens Thorpe",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/5684573d-d264-4774-a0e2-8335d26c5761.glb",
+        "source_sha256": "0ebdfd5345cb4d83915ec490bac7b55c4c63f8bad0bfa873d7629f1a69695eae",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "bone"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:5c65f6fb-9b73-4352-a76f-3ef0b4c5d030",
+        "title": "Hoplophoneus primaevus latidens Thorpe: vertebre",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/5c65f6fb-9b73-4352-a76f-3ef0b4c5d030.glb",
+        "source_sha256": "a241c580f7735497cfaac98dad80b613077074267e94f9b47962e359669ab61b",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "bone"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:10ca8c37-43d5-4f70-bee4-fcacbb8bab59",
+        "title": "Climactichnites sp",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/10ca8c37-43d5-4f70-bee4-fcacbb8bab59.glb",
+        "source_sha256": "a28d0dde26f3e79a964e89cdd8ceafdb8786138dc1ecd790e0e9d39e16344282",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "bone"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:2b4394b8-ccc2-4474-bd3a-9fb6ae4e2e32",
+        "title": "Isthminia panamensis Pyenson et al., 2015: Jaw",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/2b4394b8-ccc2-4474-bd3a-9fb6ae4e2e32.glb",
+        "source_sha256": "a571c8df8f82a64b590f123f0a5fcf173651ac8be7d319a7fab53d2b46c073cd",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "bone"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:5c9cc7a7-e4cc-4365-858f-5d2c4373969e",
+        "title": "Isthminia panamensis Pyenson et al., 2015: Scapula",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/5c9cc7a7-e4cc-4365-858f-5d2c4373969e.glb",
+        "source_sha256": "18554f93cb829087c18b6f63e45da4dace438efac89c6b6cb711885c2bc16160",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "bone"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:1e939def-c24c-4fd6-8b18-6a54c4bc7753",
+        "title": "Coronula diadema",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/1e939def-c24c-4fd6-8b18-6a54c4bc7753.glb",
+        "source_sha256": "e1f9602e35bae85ac5f13626ab69dc012aea988bdfd71d50ac9eb1f6c7880f06",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "bone"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:38ebfd39-b3ae-4d22-9965-6f44e20d259e",
+        "title": "Tamiosoma gregaria Conrad",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/38ebfd39-b3ae-4d22-9965-6f44e20d259e.glb",
+        "source_sha256": "93d9f71421e8d4e65841533be6faef1f6c92bc062aaf8e6a2441b1f20d250a0e",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "bone"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:542743f3-aa39-4269-98c4-2493d384c55f",
+        "title": "Crassatellites aquiana Clark",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/542743f3-aa39-4269-98c4-2493d384c55f.glb",
+        "source_sha256": "a578190147e363f0997c3ec613f763a2ce2566f0a52ef2c515b99677ff78af8b",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "bone"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:5ce2b118-3342-4bfe-9cb8-1b865ca48cbe",
+        "title": "Decadocrinus coreyi (Worthen)",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/5ce2b118-3342-4bfe-9cb8-1b865ca48cbe.glb",
+        "source_sha256": "cae532704a8b78f8dde55b300b47ca674892e89e7bdc38759f65c1a0f6ab5f86",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "bone"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:36d41180-2a3d-4c0d-a397-fe77507009bf",
+        "title": "Sterculia snowii Lesquereux",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/36d41180-2a3d-4c0d-a397-fe77507009bf.glb",
+        "source_sha256": "7cd05ca8aa303b3bae3a318ec895e2696caf11169139b5ed6dc038e64869c35e",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "bone"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:2f1f8d49-0d8a-4ad8-a333-9c19a0fd6f27",
+        "title": "Calamites sp",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/2f1f8d49-0d8a-4ad8-a333-9c19a0fd6f27.glb",
+        "source_sha256": "56ef840cdec3d93f2382a3b83d3ad16099d492c22f6b842cf9200e722c858d86",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "bone"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:19a6f17f-7a14-479e-a143-9f02e5c6b139",
+        "title": "Albertocetus meffordorum",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/19a6f17f-7a14-479e-a143-9f02e5c6b139.glb",
+        "source_sha256": "82c95e0ca8fa64d7898ffbda17226b283cbd5a38229405e4f3427b3fdf6f6e87",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "bone"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:71fede81-9be4-4fc8-9422-402aeaa82c4d",
+        "title": "Dinictis cyclops (Cope)",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/71fede81-9be4-4fc8-9422-402aeaa82c4d.glb",
+        "source_sha256": "2b8e6f2b6f9d2ead2cc25fbfa655839d89869b00c115cd8a66f1264d780f031d",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "bone"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:46978059-5122-4ec7-92d5-a66fdc5fbe05",
+        "title": "Platygonus intermedius Gidley, 1920",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/46978059-5122-4ec7-92d5-a66fdc5fbe05.glb",
+        "source_sha256": "c27023fc90b650ba0131a5a5cb578d35d0f2e6c5e55cd3f8f2394bcdde29179d",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "bone"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:301ff15d-96a5-4360-8b9a-121bca23f19d",
+        "title": "Pan troglodytes troglodytes: Cranium",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/301ff15d-96a5-4360-8b9a-121bca23f19d.glb",
+        "source_sha256": "db3c8e0edc6d2f8472899f5f4bd0b51efa6987679b62f675be0ca0da5ba5367a",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "skull"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:14491e7e-4685-4f5a-a24c-e850e0f03d8d",
+        "title": "Pongo pygmaeus: cranium",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/14491e7e-4685-4f5a-a24c-e850e0f03d8d.glb",
+        "source_sha256": "a39cb793e8d65f7c871de588eec528d24ec9a975d64c02e9c7758e0a574058a7",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "skull"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:0f4abf9e-5726-4acb-bdfc-b2a734830b5f",
+        "title": "Pongo abelii: cranium",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/0f4abf9e-5726-4acb-bdfc-b2a734830b5f.glb",
+        "source_sha256": "eb27a867ca18ecd765979f35a2fdfaf21ca4f8f56da08deb1c2fc55423fc3218",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "skull"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:6bd7d9fd-f3d7-4b8e-aff8-2eaf32d4b573",
+        "title": "Symphalangus syndactylus: Cranium",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/6bd7d9fd-f3d7-4b8e-aff8-2eaf32d4b573.glb",
+        "source_sha256": "e6b90e7491d635dc8a1142e3da5a2eed2879f8b691da42b105b29ce4eaadfa82",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "skull"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:4437e090-6a07-49ea-9e86-862ff3fa9f8d",
+        "title": "Macaca radiata: Cranium",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/4437e090-6a07-49ea-9e86-862ff3fa9f8d.glb",
+        "source_sha256": "569f6945f6906e12e327cf4bac5058d0e9d2b53b13cb76f6f5f25cdaa895ead8",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "skull"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:72c1963e-4156-4429-bc69-5fdcd74eef75",
+        "title": "Hylobates sp.: Cranium",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/72c1963e-4156-4429-bc69-5fdcd74eef75.glb",
+        "source_sha256": "a5deb243ba1cc3741d271bad2de881060e854fdf534bb07297e8eed522507a1a",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "skull"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:403630ec-7c00-4541-9ae8-003f3fe4bbb0",
+        "title": "Hylobates pileatus: Cranium",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/403630ec-7c00-4541-9ae8-003f3fe4bbb0.glb",
+        "source_sha256": "fe12e44fc79b2a37345f023f71633c291e7a8da540e885fba94253a9fcbba7b9",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "skull"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:4088ef86-9c2c-4436-ad35-9e6c2aa0cd91",
+        "title": "Pongo pygmaeus: cranium",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/4088ef86-9c2c-4436-ad35-9e6c2aa0cd91.glb",
+        "source_sha256": "53dc3f653fdc450339b0977703b2e710c38f390fec2422f1f38cd3715a41278b",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "skull"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:4adb3fd2-2ef8-4493-bb79-898548c104f1",
+        "title": "Pongo pygmaeus: cranium",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/4adb3fd2-2ef8-4493-bb79-898548c104f1.glb",
+        "source_sha256": "dc030e441a1375d25ae9f7649cd85257f706fe388c6630912193207cfae0366e",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "skull"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:21179ce8-7b3a-49bd-903b-1709d98d503d",
+        "title": "Pongo pygmaeus: cranium",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/21179ce8-7b3a-49bd-903b-1709d98d503d.glb",
+        "source_sha256": "41aba4bd24fee3d63e1e6d39b5472b95bd557696e10748c2c4f1a89f44dd57a0",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "skull"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:323058b6-3eba-4fa9-9c87-590a48cf06cb",
+        "title": "Pongo pygmaeus: cranium",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/323058b6-3eba-4fa9-9c87-590a48cf06cb.glb",
+        "source_sha256": "c0ed0764fe160b941799636f18161fa1fa1dc7e70f9f2fb6fbe961a148f7f8f0",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "skull"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:14e69c86-c924-4cb3-ad08-a31225aea361",
+        "title": "Symphalangus syndactylus: Cranium",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/14e69c86-c924-4cb3-ad08-a31225aea361.glb",
+        "source_sha256": "813e88b326965d920a337a81002c95ed6f2598efe088a3f34b8993186683b797",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "skull"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:moon_rock_01",
+        "title": "moon_rock_01",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/moon_rock_01/moon_rock_01_1k.gltf",
+        "source_sha256": "004cc353fa0c29572a9ba40535f3716c297466fdf2c650d36deaf9e27eed5ce7",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "geology"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:moon_rock_02",
+        "title": "moon_rock_02",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/moon_rock_02/moon_rock_02_1k.gltf",
+        "source_sha256": "fada2419ab6de440c24081bf06545f37c41c3d4f8bb57fc4d1ba45bdb35baf5d",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "geology"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:moon_rock_03",
+        "title": "moon_rock_03",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/moon_rock_03/moon_rock_03_1k.gltf",
+        "source_sha256": "aee7860497473cba4d06038abaa37e6da675cc97a4e7fa2fdee28ebf8844eea1",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "geology"
+        ]
+      }
+    ],
+    "source_keys": [
+      "Smithsonian:3d_package:341c96cd-f967-4540-8ed1-d3fc56d31f12",
+      "Smithsonian:3d_package:5684573d-d264-4774-a0e2-8335d26c5761",
+      "Smithsonian:3d_package:5c65f6fb-9b73-4352-a76f-3ef0b4c5d030",
+      "Smithsonian:3d_package:10ca8c37-43d5-4f70-bee4-fcacbb8bab59",
+      "Smithsonian:3d_package:2b4394b8-ccc2-4474-bd3a-9fb6ae4e2e32",
+      "Smithsonian:3d_package:5c9cc7a7-e4cc-4365-858f-5d2c4373969e",
+      "Smithsonian:3d_package:1e939def-c24c-4fd6-8b18-6a54c4bc7753",
+      "Smithsonian:3d_package:38ebfd39-b3ae-4d22-9965-6f44e20d259e",
+      "Smithsonian:3d_package:542743f3-aa39-4269-98c4-2493d384c55f",
+      "Smithsonian:3d_package:5ce2b118-3342-4bfe-9cb8-1b865ca48cbe",
+      "Smithsonian:3d_package:36d41180-2a3d-4c0d-a397-fe77507009bf",
+      "Smithsonian:3d_package:2f1f8d49-0d8a-4ad8-a333-9c19a0fd6f27",
+      "Smithsonian:3d_package:19a6f17f-7a14-479e-a143-9f02e5c6b139",
+      "Smithsonian:3d_package:71fede81-9be4-4fc8-9422-402aeaa82c4d",
+      "Smithsonian:3d_package:46978059-5122-4ec7-92d5-a66fdc5fbe05",
+      "Smithsonian:3d_package:301ff15d-96a5-4360-8b9a-121bca23f19d",
+      "Smithsonian:3d_package:14491e7e-4685-4f5a-a24c-e850e0f03d8d",
+      "Smithsonian:3d_package:0f4abf9e-5726-4acb-bdfc-b2a734830b5f",
+      "Smithsonian:3d_package:6bd7d9fd-f3d7-4b8e-aff8-2eaf32d4b573",
+      "Smithsonian:3d_package:4437e090-6a07-49ea-9e86-862ff3fa9f8d",
+      "Smithsonian:3d_package:72c1963e-4156-4429-bc69-5fdcd74eef75",
+      "Smithsonian:3d_package:403630ec-7c00-4541-9ae8-003f3fe4bbb0",
+      "Smithsonian:3d_package:4088ef86-9c2c-4436-ad35-9e6c2aa0cd91",
+      "Smithsonian:3d_package:4adb3fd2-2ef8-4493-bb79-898548c104f1",
+      "Smithsonian:3d_package:21179ce8-7b3a-49bd-903b-1709d98d503d",
+      "Smithsonian:3d_package:323058b6-3eba-4fa9-9c87-590a48cf06cb",
+      "Smithsonian:3d_package:14e69c86-c924-4cb3-ad08-a31225aea361",
+      "Poly Haven:moon_rock_01",
+      "Poly Haven:moon_rock_02",
+      "Poly Haven:moon_rock_03"
+    ],
+    "source_orientation_deg": {
+      "Smithsonian:3d_package:341c96cd-f967-4540-8ed1-d3fc56d31f12": [
+        -90,
+        0,
+        0
+      ]
+    },
+    "theme_source_groups": {
+      "large_animal": [
+        "Smithsonian:3d_package:341c96cd-f967-4540-8ed1-d3fc56d31f12"
+      ],
+      "bone": [
+        "Smithsonian:3d_package:5684573d-d264-4774-a0e2-8335d26c5761",
+        "Smithsonian:3d_package:5c65f6fb-9b73-4352-a76f-3ef0b4c5d030",
+        "Smithsonian:3d_package:10ca8c37-43d5-4f70-bee4-fcacbb8bab59",
+        "Smithsonian:3d_package:2b4394b8-ccc2-4474-bd3a-9fb6ae4e2e32",
+        "Smithsonian:3d_package:5c9cc7a7-e4cc-4365-858f-5d2c4373969e",
+        "Smithsonian:3d_package:1e939def-c24c-4fd6-8b18-6a54c4bc7753",
+        "Smithsonian:3d_package:38ebfd39-b3ae-4d22-9965-6f44e20d259e",
+        "Smithsonian:3d_package:542743f3-aa39-4269-98c4-2493d384c55f",
+        "Smithsonian:3d_package:5ce2b118-3342-4bfe-9cb8-1b865ca48cbe",
+        "Smithsonian:3d_package:36d41180-2a3d-4c0d-a397-fe77507009bf",
+        "Smithsonian:3d_package:2f1f8d49-0d8a-4ad8-a333-9c19a0fd6f27",
+        "Smithsonian:3d_package:19a6f17f-7a14-479e-a143-9f02e5c6b139",
+        "Smithsonian:3d_package:71fede81-9be4-4fc8-9422-402aeaa82c4d",
+        "Smithsonian:3d_package:46978059-5122-4ec7-92d5-a66fdc5fbe05"
+      ],
+      "skull": [
+        "Smithsonian:3d_package:301ff15d-96a5-4360-8b9a-121bca23f19d",
+        "Smithsonian:3d_package:14491e7e-4685-4f5a-a24c-e850e0f03d8d",
+        "Smithsonian:3d_package:0f4abf9e-5726-4acb-bdfc-b2a734830b5f",
+        "Smithsonian:3d_package:6bd7d9fd-f3d7-4b8e-aff8-2eaf32d4b573",
+        "Smithsonian:3d_package:4437e090-6a07-49ea-9e86-862ff3fa9f8d",
+        "Smithsonian:3d_package:72c1963e-4156-4429-bc69-5fdcd74eef75",
+        "Smithsonian:3d_package:403630ec-7c00-4541-9ae8-003f3fe4bbb0",
+        "Smithsonian:3d_package:4088ef86-9c2c-4436-ad35-9e6c2aa0cd91",
+        "Smithsonian:3d_package:4adb3fd2-2ef8-4493-bb79-898548c104f1",
+        "Smithsonian:3d_package:21179ce8-7b3a-49bd-903b-1709d98d503d",
+        "Smithsonian:3d_package:323058b6-3eba-4fa9-9c87-590a48cf06cb",
+        "Smithsonian:3d_package:14e69c86-c924-4cb3-ad08-a31225aea361"
+      ],
+      "geology": [
+        "Poly Haven:moon_rock_01",
+        "Poly Haven:moon_rock_02",
+        "Poly Haven:moon_rock_03"
+      ]
+    },
+    "binding_revision": "ADJUST08 actual textured crania selected by catalogue anatomical title; prior first-unit rows were foot/limb bones and rejected",
+    "bound_source_count": 30
+  },
+  "lighting": {
+    "kelvin": 3800,
+    "blue_ambient": false,
+    "sun_sky_through_glass": false,
+    "spotlights_for_features": true,
+    "hdri_id": "rosendal_park_sunset_puresky"
+  },
+  "seed": 2026110703,
+  "checks": {
+    "C2_radius_m": 0.25,
+    "C2_height_m": 1.6,
+    "C2_min_reachable": 0.95,
+    "C3_gap_m": 0,
+    "C3_top_error_max_m": 0.01,
+    "C3_sample_m": 0.01,
+    "C3_negative_shift_m": 0.6,
+    "C4_height_m": 1.6,
+    "C4_min_fraction": 0.9
+  },
+  "authorization_sha256": "8f2849b912a2994609faf01e4282d22c53326854826b7f9f61597b04143769b1",
+  "applied_adjustments": [
+    "ADJUST_01",
+    "ADJUST_07_0545_PILOT_DECISION.md"
+  ],
+  "library_manifest_sha256": "4cf142a80a2594a898fdf938d4828a942241d628e5468ecc877fe965d04bd6fa",
+  "library_manifest_snapshot": "/cephfs/shared/yixing/outputs/museum29_20261107/evidence/LIBRARY_MANIFEST_ADJUST07_BINDING_SNAPSHOT.json"
+}

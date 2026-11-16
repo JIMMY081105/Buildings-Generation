@@ -1,0 +1,1459 @@
+{
+  "schema": "Museum29SpecV1",
+  "building_id": "M01",
+  "short_name": "neoclassical_art",
+  "style": "新古典美术馆",
+  "style_family": "neoclassical",
+  "floors": 3,
+  "plan": "方形，中央大厅",
+  "building_xy_m": [
+    36,
+    36
+  ],
+  "planned_floor_area_m2": 1296,
+  "floor_height_m": 5.12,
+  "stair": {
+    "form": "I",
+    "assembly_description": "实心白大理石 / 大理石踏面，中间铺酒红地毯条 / 铸铁花饰栏杆 + 黄铜扶手",
+    "rise_count_per_floor": 32,
+    "rise_m": 0.16,
+    "floor_height_m": 5.12,
+    "going_m": 0.32,
+    "handrail_height_m": 0.95,
+    "edge_guard_height_m": 1.08,
+    "max_clear_rail_gap_m": 0.095,
+    "design_headroom_m": 2.1,
+    "precise_collision": true,
+    "max_flight_rises": 18,
+    "central_width_m": 2.6,
+    "branch_width_m": 1.6,
+    "landing_depth_m": 1.8,
+    "both_exits_required": true,
+    "shared_solid_newels": true,
+    "cross_section_rail_intersection_check_required": true,
+    "negative_rail_reference": "stair_tests/attempt002/I/collision_only.usdc",
+    "branch_layout": "symmetric outward-splayed 45 degrees each, 90 degrees between arms",
+    "upper_groups_rotation_deg": 90,
+    "opening_xy_m": [
+      17.6,
+      17.6
+    ],
+    "upper_group_offset_xy_m": [
+      7,
+      0
+    ],
+    "upper_group_arrangement": "East gallery offset; floor-specific opening; no central support columns"
+  },
+  "materials": {
+    "ground_floor": {
+      "key": "white_marble_dark_inlay",
+      "description": "白色大理石，深色镶边拼花",
+      "source_selection": "PENDING_LIBRARY_BINDING"
+    },
+    "walls_ceiling": {
+      "description": "深绿灰泥，护墙板，灰泥藻井"
+    },
+    "stair": {
+      "description": "实心白大理石 / 大理石踏面，中间铺酒红地毯条 / 铸铁花饰栏杆 + 黄铜扶手"
+    },
+    "all_shader": "UsdPreviewSurface_with_textures",
+    "max_texture_resolution": 2048
+  },
+  "exhibition": {
+    "theme": "名画、半身像",
+    "min_exhibits_per_floor": 15,
+    "max_same_model_in_building": 3,
+    "painting_reuse_across_buildings": 0,
+    "clear_route_width_m": 1.2,
+    "asset_selection_status": "BOUND_TO_ACTUAL_PILOT_AUTHORING",
+    "items": [
+      {
+        "name": "MainDoor0",
+        "door_fixed_open_deg": 90,
+        "clear_opening_width_m": 3.08,
+        "center_xy_m": [
+          0.0,
+          -18.0
+        ],
+        "source": "infinigen panel/glass leaf and DoorCasingFactory"
+      },
+      {
+        "kind": "structural_explanation",
+        "object": "UpperStairEntry",
+        "description": "Upper I group moved along east gallery, with actual floor-specific opening; entry bears directly on floor2 gallery. No added columns at central stair foot; no floors hidden.",
+        "upper_offset_xy_m": [
+          7,
+          0
+        ]
+      },
+      {
+        "kind": "facade_kit",
+        "family": "neoclassical",
+        "source": "Museum29 parametric authored geometry",
+        "residential_wood_windows": false
+      },
+      {
+        "name": "GalleryDoor_F1",
+        "kind": "internal_door",
+        "floor": 1,
+        "fixed_open_deg": 90,
+        "requested_opening_width_m": 2.4,
+        "center_xy_m": [
+          0,
+          14.4
+        ],
+        "direction_xy": [
+          1,
+          0
+        ],
+        "body_path_across_wall_normal_xy": [
+          0,
+          1
+        ],
+        "z_m": 0.0
+      },
+      {
+        "name": "Painting_F1_000",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:131820",
+        "floor": 1,
+        "image_dimensions": [
+          675,
+          893
+        ],
+        "canvas_dimensions_m": [
+          0.9221724524076148,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -12.040000000000003,
+          -10.925,
+          1.55
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 0.8400000000000001,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F1_001",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:139730",
+        "floor": 1,
+        "image_dimensions": [
+          580,
+          893
+        ],
+        "canvas_dimensions_m": [
+          0.7923852183650615,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -8.120000000000001,
+          -10.925,
+          1.55
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 0.8400000000000001,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F1_002",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:105480",
+        "floor": 1,
+        "image_dimensions": [
+          901,
+          893
+        ],
+        "canvas_dimensions_m": [
+          1.230929451287794,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -12.040000000000003,
+          -10.675,
+          1.55
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 0.8400000000000001,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F1_003",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:108555",
+        "floor": 1,
+        "image_dimensions": [
+          1177,
+          893
+        ],
+        "canvas_dimensions_m": [
+          1.6079955207166852,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -8.120000000000001,
+          -10.675,
+          1.55
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 0.8400000000000001,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F1_004",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:111479",
+        "floor": 1,
+        "image_dimensions": [
+          702,
+          893
+        ],
+        "canvas_dimensions_m": [
+          0.9590593505039193,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -12.040000000000003,
+          10.675,
+          1.55
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 0.8400000000000001,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F1_005",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:115394",
+        "floor": 1,
+        "image_dimensions": [
+          554,
+          893
+        ],
+        "canvas_dimensions_m": [
+          0.7568645016797313,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -8.120000000000001,
+          10.675,
+          1.55
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 0.8400000000000001,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F1_006",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:115405",
+        "floor": 1,
+        "image_dimensions": [
+          900,
+          723
+        ],
+        "canvas_dimensions_m": [
+          1.5186721991701244,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -12.040000000000003,
+          10.925,
+          1.55
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 0.8400000000000001,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F1_007",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:117774",
+        "floor": 1,
+        "image_dimensions": [
+          743,
+          893
+        ],
+        "canvas_dimensions_m": [
+          1.0150727883538633,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -8.120000000000001,
+          10.925,
+          1.55
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 0.8400000000000001,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F1_008",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:118042",
+        "floor": 1,
+        "image_dimensions": [
+          728,
+          900
+        ],
+        "canvas_dimensions_m": [
+          0.9868444444444444,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          8.120000000000001,
+          -10.925,
+          1.55
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 0.8400000000000001,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F1_009",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:118159",
+        "floor": 1,
+        "image_dimensions": [
+          900,
+          748
+        ],
+        "canvas_dimensions_m": [
+          1.4679144385026737,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          12.040000000000003,
+          -10.925,
+          1.55
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 0.8400000000000001,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F1_010",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:118604",
+        "floor": 1,
+        "image_dimensions": [
+          900,
+          710
+        ],
+        "canvas_dimensions_m": [
+          1.5464788732394368,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          8.120000000000001,
+          -10.675,
+          1.55
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 0.8400000000000001,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F1_011",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:119697",
+        "floor": 1,
+        "image_dimensions": [
+          1263,
+          760
+        ],
+        "canvas_dimensions_m": [
+          1.8,
+          1.0831353919239906
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          12.040000000000003,
+          -10.675,
+          1.55
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 0.9084323040380048,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F1_012",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:119703",
+        "floor": 1,
+        "image_dimensions": [
+          1263,
+          729
+        ],
+        "canvas_dimensions_m": [
+          1.8,
+          1.0389548693586699
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          8.120000000000001,
+          10.675,
+          1.55
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 0.9305225653206651,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F1_013",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:120286",
+        "floor": 1,
+        "image_dimensions": [
+          900,
+          654
+        ],
+        "canvas_dimensions_m": [
+          1.6788990825688073,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          12.040000000000003,
+          10.675,
+          1.55
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 0.8400000000000001,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F1_014",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:121188",
+        "floor": 1,
+        "image_dimensions": [
+          716,
+          900
+        ],
+        "canvas_dimensions_m": [
+          0.9705777777777778,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          8.120000000000001,
+          10.925,
+          1.55
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 0.8400000000000001,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F1_015",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:121866",
+        "floor": 1,
+        "image_dimensions": [
+          507,
+          900
+        ],
+        "canvas_dimensions_m": [
+          0.6872666666666667,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          12.040000000000003,
+          10.925,
+          1.55
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 0.8400000000000001,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Exhibit_F1_0",
+        "kind": "exhibit",
+        "source_key": "Poly Haven:marble_bust_01",
+        "theme": "名画、半身像",
+        "actual_min_m": [
+          12.924203872680664,
+          -6.916524410247803,
+          0.878000020980835
+        ],
+        "actual_max_m": [
+          13.715795516967773,
+          -6.04347562789917,
+          2.378000020980835
+        ],
+        "support_z_m": 0.88,
+        "support_embed_m": 0.0019999790191650435,
+        "yaw_rad": 2.6888141817662574,
+        "scale": 2.912942730515725,
+        "collision": "exact_same_evaluated_visual_mesh",
+        "source_model_use_count_in_building": 1,
+        "floor": 1
+      },
+      {
+        "name": "GalleryDoor_F2",
+        "kind": "internal_door",
+        "floor": 2,
+        "fixed_open_deg": 90,
+        "requested_opening_width_m": 2.4,
+        "center_xy_m": [
+          0,
+          14.4
+        ],
+        "direction_xy": [
+          1,
+          0
+        ],
+        "body_path_across_wall_normal_xy": [
+          0,
+          1
+        ],
+        "z_m": 5.12
+      },
+      {
+        "name": "Painting_F2_016",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:121867",
+        "floor": 2,
+        "image_dimensions": [
+          503,
+          893
+        ],
+        "canvas_dimensions_m": [
+          0.6871892497200448,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -12.040000000000003,
+          -10.925,
+          6.67
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 5.96,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F2_017",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:121868",
+        "floor": 2,
+        "image_dimensions": [
+          503,
+          893
+        ],
+        "canvas_dimensions_m": [
+          0.6871892497200448,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -8.120000000000001,
+          -10.925,
+          6.67
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 5.96,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F2_018",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:121869",
+        "floor": 2,
+        "image_dimensions": [
+          523,
+          900
+        ],
+        "canvas_dimensions_m": [
+          0.7089555555555556,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -12.040000000000003,
+          -10.675,
+          6.67
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 5.96,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F2_019",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:121870",
+        "floor": 2,
+        "image_dimensions": [
+          244,
+          900
+        ],
+        "canvas_dimensions_m": [
+          0.3307555555555556,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -8.120000000000001,
+          -10.675,
+          6.67
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 5.96,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F2_020",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:121871",
+        "floor": 2,
+        "image_dimensions": [
+          243,
+          900
+        ],
+        "canvas_dimensions_m": [
+          0.3294,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -12.040000000000003,
+          10.675,
+          6.67
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 5.96,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F2_021",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:122166",
+        "floor": 2,
+        "image_dimensions": [
+          687,
+          893
+        ],
+        "canvas_dimensions_m": [
+          0.9385666293393057,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -8.120000000000001,
+          10.675,
+          6.67
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 5.96,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F2_022",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:122341",
+        "floor": 2,
+        "image_dimensions": [
+          722,
+          893
+        ],
+        "canvas_dimensions_m": [
+          0.9863829787234042,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -12.040000000000003,
+          10.925,
+          6.67
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 5.96,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F2_023",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:122347",
+        "floor": 2,
+        "image_dimensions": [
+          719,
+          893
+        ],
+        "canvas_dimensions_m": [
+          0.9822844344904815,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -8.120000000000001,
+          10.925,
+          6.67
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 5.96,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F2_024",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:124078",
+        "floor": 2,
+        "image_dimensions": [
+          1263,
+          745
+        ],
+        "canvas_dimensions_m": [
+          1.7999999999999998,
+          1.0617577197149644
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          8.120000000000001,
+          -10.925,
+          6.67
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 6.039121140142518,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F2_025",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:124084",
+        "floor": 2,
+        "image_dimensions": [
+          711,
+          893
+        ],
+        "canvas_dimensions_m": [
+          0.9713549832026875,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          12.040000000000003,
+          -10.925,
+          6.67
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 5.96,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F2_026",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:124089",
+        "floor": 2,
+        "image_dimensions": [
+          738,
+          900
+        ],
+        "canvas_dimensions_m": [
+          1.0004,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          8.120000000000001,
+          -10.675,
+          6.67
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 5.96,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F2_027",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:124256",
+        "floor": 2,
+        "image_dimensions": [
+          1245,
+          893
+        ],
+        "canvas_dimensions_m": [
+          1.7008958566629337,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          12.040000000000003,
+          -10.675,
+          6.67
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 5.96,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F2_028",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:124796",
+        "floor": 2,
+        "image_dimensions": [
+          518,
+          893
+        ],
+        "canvas_dimensions_m": [
+          0.7076819708846583,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          8.120000000000001,
+          10.675,
+          6.67
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 5.96,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F2_029",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:125091",
+        "floor": 2,
+        "image_dimensions": [
+          680,
+          900
+        ],
+        "canvas_dimensions_m": [
+          0.9217777777777777,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          12.040000000000003,
+          10.675,
+          6.67
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 5.96,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F2_030",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:125093",
+        "floor": 2,
+        "image_dimensions": [
+          1233,
+          893
+        ],
+        "canvas_dimensions_m": [
+          1.6845016797312429,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          8.120000000000001,
+          10.925,
+          6.67
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 5.96,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F2_031",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:125104",
+        "floor": 2,
+        "image_dimensions": [
+          900,
+          314
+        ],
+        "canvas_dimensions_m": [
+          1.7999999999999998,
+          0.628
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          12.040000000000003,
+          10.925,
+          6.67
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 6.256,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Exhibit_F2_0",
+        "kind": "exhibit",
+        "source_key": "Poly Haven:marble_bust_01",
+        "theme": "名画、半身像",
+        "actual_min_m": [
+          -13.715795516967773,
+          -6.916524410247803,
+          5.998000144958496
+        ],
+        "actual_max_m": [
+          -12.924203872680664,
+          -6.04347562789917,
+          7.498000144958496
+        ],
+        "support_z_m": 6.0,
+        "support_embed_m": 0.0019998550415039062,
+        "yaw_rad": 0.4527784718235359,
+        "scale": 2.912942730515725,
+        "collision": "exact_same_evaluated_visual_mesh",
+        "source_model_use_count_in_building": 2,
+        "floor": 2
+      },
+      {
+        "name": "GalleryDoor_F3",
+        "kind": "internal_door",
+        "floor": 3,
+        "fixed_open_deg": 90,
+        "requested_opening_width_m": 2.4,
+        "center_xy_m": [
+          0,
+          14.4
+        ],
+        "direction_xy": [
+          1,
+          0
+        ],
+        "body_path_across_wall_normal_xy": [
+          0,
+          1
+        ],
+        "z_m": 10.24
+      },
+      {
+        "name": "Painting_F3_032",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:125234",
+        "floor": 3,
+        "image_dimensions": [
+          900,
+          664
+        ],
+        "canvas_dimensions_m": [
+          1.6536144578313252,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -12.040000000000003,
+          -10.925,
+          11.790000000000001
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 11.080000000000002,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F3_033",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:125249",
+        "floor": 3,
+        "image_dimensions": [
+          900,
+          718
+        ],
+        "canvas_dimensions_m": [
+          1.5292479108635098,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -8.120000000000001,
+          -10.925,
+          11.790000000000001
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 11.080000000000002,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F3_034",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:125941",
+        "floor": 3,
+        "image_dimensions": [
+          900,
+          397
+        ],
+        "canvas_dimensions_m": [
+          1.8,
+          0.794
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -12.040000000000003,
+          -10.675,
+          11.790000000000001
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 11.293000000000001,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F3_035",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:125942",
+        "floor": 3,
+        "image_dimensions": [
+          206,
+          893
+        ],
+        "canvas_dimensions_m": [
+          0.2814333706606943,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -8.120000000000001,
+          -10.675,
+          11.790000000000001
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 11.080000000000002,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F3_036",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:125948",
+        "floor": 3,
+        "image_dimensions": [
+          799,
+          900
+        ],
+        "canvas_dimensions_m": [
+          1.0830888888888888,
+          1.22
+        ],
+        "actual_aspect_error": 1.1102230246251565e-16,
+        "anchor_world_m": [
+          -12.040000000000003,
+          10.675,
+          11.790000000000001
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 11.080000000000002,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F3_037",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:125949",
+        "floor": 3,
+        "image_dimensions": [
+          1263,
+          704
+        ],
+        "canvas_dimensions_m": [
+          1.8000000000000003,
+          1.0033254156769598
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -8.120000000000001,
+          10.675,
+          11.790000000000001
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 11.188337292161522,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F3_038",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:125950",
+        "floor": 3,
+        "image_dimensions": [
+          1263,
+          697
+        ],
+        "canvas_dimensions_m": [
+          1.8,
+          0.9933491686460808
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -12.040000000000003,
+          10.925,
+          11.790000000000001
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 11.193325415676961,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F3_039",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:125951",
+        "floor": 3,
+        "image_dimensions": [
+          717,
+          893
+        ],
+        "canvas_dimensions_m": [
+          0.9795520716685331,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -8.120000000000001,
+          10.925,
+          11.790000000000001
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 11.080000000000002,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F3_040",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:126769",
+        "floor": 3,
+        "image_dimensions": [
+          900,
+          806
+        ],
+        "canvas_dimensions_m": [
+          1.3622828784119108,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          8.120000000000001,
+          -10.925,
+          11.790000000000001
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 11.080000000000002,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F3_041",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:126773",
+        "floor": 3,
+        "image_dimensions": [
+          646,
+          893
+        ],
+        "canvas_dimensions_m": [
+          0.8825531914893617,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          12.040000000000003,
+          -10.925,
+          11.790000000000001
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 11.080000000000002,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F3_042",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:128072",
+        "floor": 3,
+        "image_dimensions": [
+          900,
+          575
+        ],
+        "canvas_dimensions_m": [
+          1.8,
+          1.15
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          8.120000000000001,
+          -10.675,
+          11.790000000000001
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 11.115000000000002,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F3_043",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:128363",
+        "floor": 3,
+        "image_dimensions": [
+          1263,
+          588
+        ],
+        "canvas_dimensions_m": [
+          1.8,
+          0.8380047505938242
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          12.040000000000003,
+          -10.675,
+          11.790000000000001
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 11.270997624703089,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F3_044",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:128364",
+        "floor": 3,
+        "image_dimensions": [
+          748,
+          900
+        ],
+        "canvas_dimensions_m": [
+          1.0139555555555555,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          8.120000000000001,
+          10.675,
+          11.790000000000001
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 11.080000000000002,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F3_045",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:128371",
+        "floor": 3,
+        "image_dimensions": [
+          1186,
+          893
+        ],
+        "canvas_dimensions_m": [
+          1.6202911534154536,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          12.040000000000003,
+          10.675,
+          11.790000000000001
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 11.080000000000002,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F3_046",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:128392",
+        "floor": 3,
+        "image_dimensions": [
+          900,
+          690
+        ],
+        "canvas_dimensions_m": [
+          1.5913043478260869,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          8.120000000000001,
+          10.925,
+          11.790000000000001
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 11.080000000000002,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Painting_F3_047",
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:128838",
+        "floor": 3,
+        "image_dimensions": [
+          1263,
+          515
+        ],
+        "canvas_dimensions_m": [
+          1.8,
+          0.7339667458432304
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          12.040000000000003,
+          10.925,
+          11.790000000000001
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 11.323016627078387,
+        "source_public_license": "CC0"
+      },
+      {
+        "name": "Exhibit_F3_0",
+        "kind": "exhibit",
+        "source_key": "Poly Haven:marble_bust_01",
+        "theme": "名画、半身像",
+        "actual_min_m": [
+          -13.715795516967773,
+          -6.916524410247803,
+          11.118000030517578
+        ],
+        "actual_max_m": [
+          -12.924203872680664,
+          -6.04347562789917,
+          12.618000030517578
+        ],
+        "support_z_m": 11.120000000000001,
+        "support_embed_m": 0.0019999694824228698,
+        "yaw_rad": 0.4527784718235359,
+        "scale": 2.912942730515725,
+        "collision": "exact_same_evaluated_visual_mesh",
+        "source_model_use_count_in_building": 3,
+        "floor": 3
+      }
+    ],
+    "source_keys": [
+      "Poly Haven:Chandelier_01",
+      "Poly Haven:chinese_chandelier",
+      "Poly Haven:lantern_chandelier_01",
+      "Poly Haven:marble_bust_01"
+    ],
+    "painting_ids": [
+      "131820",
+      "139730",
+      "105480",
+      "108555",
+      "111479",
+      "115394",
+      "115405",
+      "117774",
+      "118042",
+      "118159",
+      "118604",
+      "119697",
+      "119703",
+      "120286",
+      "121188",
+      "121866",
+      "121867",
+      "121868",
+      "121869",
+      "121870",
+      "121871",
+      "122166",
+      "122341",
+      "122347",
+      "124078",
+      "124084",
+      "124089",
+      "124256",
+      "124796",
+      "125091",
+      "125093",
+      "125104",
+      "125234",
+      "125249",
+      "125941",
+      "125942",
+      "125948",
+      "125949",
+      "125950",
+      "125951",
+      "126769",
+      "126773",
+      "128072",
+      "128363",
+      "128364",
+      "128371",
+      "128392",
+      "128838"
+    ],
+    "authoring_parent": "/cephfs/shared/yixing/outputs/museum29_20261107/buildings/M01/furnished_candidate008"
+  },
+  "lighting": {
+    "kelvin": 2900,
+    "blue_ambient": false,
+    "sun_sky_through_glass": false,
+    "spotlights_for_features": true,
+    "hdri_id": "rosendal_park_sunset_puresky"
+  },
+  "seed": 2026110700,
+  "checks": {
+    "C2_radius_m": 0.25,
+    "C2_height_m": 1.6,
+    "C2_min_reachable": 0.95,
+    "C3_gap_m": 0,
+    "C3_top_error_max_m": 0.01,
+    "C3_sample_m": 0.01,
+    "C3_negative_shift_m": 0.6,
+    "C4_height_m": 1.6,
+    "C4_min_fraction": 0.9
+  },
+  "authorization_sha256": "8f2849b912a2994609faf01e4282d22c53326854826b7f9f61597b04143769b1",
+  "applied_adjustments": [
+    "ADJUST_01"
+  ],
+  "library_manifest_sha256": "2ac3e509eff6640d577bf56773a114ab290af80178555fe82f51a63593afe585"
+}

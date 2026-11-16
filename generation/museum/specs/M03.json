@@ -1,0 +1,600 @@
+{
+  "schema": "Museum29SpecV1",
+  "building_id": "M03",
+  "short_name": "neoclassical_gallery",
+  "style": "新古典画廊",
+  "style_family": "neoclassical",
+  "floors": 4,
+  "plan": "长方形",
+  "building_xy_m": [
+    46,
+    30
+  ],
+  "planned_floor_area_m2": 1380,
+  "floor_height_m": 5.28,
+  "stair": {
+    "form": "W",
+    "assembly_description": "石材实心 / 石踏面 / 铸铁栏杆 + 木扶手",
+    "rise_count_per_floor": 33,
+    "rise_m": 0.16,
+    "floor_height_m": 5.28,
+    "going_m": 0.32,
+    "handrail_height_m": 0.95,
+    "edge_guard_height_m": 1.08,
+    "max_clear_rail_gap_m": 0.095,
+    "design_headroom_m": 2.1,
+    "precise_collision": true,
+    "max_flight_rises": 18,
+    "width_m": 1.6,
+    "well_min_m": 1.2,
+    "landing_depth_m": 1.6,
+    "flights_per_floor": 3
+  },
+  "materials": {
+    "ground_floor": {
+      "key": "travertine",
+      "description": "洞石；二层以上人字拼木地板",
+      "source_selection": "PENDING_LIBRARY_BINDING"
+    },
+    "walls_ceiling": {
+      "description": "酒红丝绒墙布，檐口线"
+    },
+    "stair": {
+      "description": "石材实心 / 石踏面 / 铸铁栏杆 + 木扶手"
+    },
+    "all_shader": "UsdPreviewSurface_with_textures",
+    "max_texture_resolution": 2048
+  },
+  "exhibition": {
+    "theme": "名画、古典家具",
+    "min_exhibits_per_floor": 15,
+    "max_same_model_in_building": 3,
+    "painting_reuse_across_buildings": 0,
+    "clear_route_width_m": 1.2,
+    "asset_selection_status": "BOUND_THEME10_CACHED_LICENSED_INVENTORY_NOT_YET_BUILT",
+    "items": [
+      {
+        "source_key": "Cleveland Museum of Art:128842",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:128877",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:130163",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:130391",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:130392",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:130457",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:134933",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:135142",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:135143",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:135185",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:135214",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:135238",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:135265",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:135310",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:135336",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:135382",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:135428",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:135480",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:135512",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:135517",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:135518",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:135875",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:136507",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:136510",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:136760",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:136844",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:137195",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:137259",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:138369",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:138430",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:138464",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:139729",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:140078",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:140342",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:141168",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:141220",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:141328",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:141476",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:141728",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:142298",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:142659",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:143206",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:143761",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:144743",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:144756",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:145124",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:145135",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:145309",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:145473",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:145960",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:146148",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:146446",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:146725",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:146726",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:146727",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:146752",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:147020",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:147479",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:147521",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:147522",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:147523",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:147607",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:148297",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:148365",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:ArmChair_01",
+        "title": "ArmChair_01",
+        "source_file_sha256": "91e39d5b35f36c8074b7b6432f6fd77f5f1a257c4d6af3924c0b263eb674286b",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/ArmChair_01/ArmChair_01_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "furniture"
+        ]
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:Rockingchair_01",
+        "title": "Rockingchair_01",
+        "source_file_sha256": "eb8c3a8f9c2c1bd6ca6d76804b8361dd0fd779498249d554536e5683e08f565b",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/Rockingchair_01/Rockingchair_01_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "furniture"
+        ]
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:vintage_cabinet_01",
+        "title": "vintage_cabinet_01",
+        "source_file_sha256": "ce66c642cb13ba11bf7cde72bb58ad465dce1909dbef8a22dd55b28d857c1848",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/vintage_cabinet_01/vintage_cabinet_01_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "furniture"
+        ]
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:painted_wooden_cabinet",
+        "title": "painted_wooden_cabinet",
+        "source_file_sha256": "ce04543cdb10e05fe9c2cc08e9c118b16c1c717a07bcbfac9b99859465c8d1ed",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/painted_wooden_cabinet/painted_wooden_cabinet_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "furniture"
+        ]
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:painted_wooden_sofa",
+        "title": "painted_wooden_sofa",
+        "source_file_sha256": "6c164f83190b71473ceca47d857c504b972fabf22c8de329747fbefb3a95b070",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/painted_wooden_sofa/painted_wooden_sofa_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "furniture"
+        ]
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:mantel_clock_01",
+        "title": "mantel_clock_01",
+        "source_file_sha256": "e4c4f264175626fa14f12409ee5d687cf7f0d68fd1881cb7eb927c5f112de6ab",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/reused_museum_v1/polyhaven/mantel_clock_01/mantel_clock_01_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "furniture"
+        ]
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:vintage_grandfather_clock_01",
+        "title": "vintage_grandfather_clock_01",
+        "source_file_sha256": "5d3aa1d5daabe830aed603e448a8f14f3993ec8a1116e083c181420a4fe1573a",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/reused_museum_v1/polyhaven/vintage_grandfather_clock_01/vintage_grandfather_clock_01_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "furniture"
+        ]
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:Chandelier_01",
+        "title": "Chandelier_01",
+        "source_file_sha256": "19a63453965dde6ace3159e2059c30adee81905e95a6beaf62b7f47d9283e724",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/reused_museum_v1/polyhaven/Chandelier_01/Chandelier_01_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "chandelier"
+        ]
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:Chandelier_02",
+        "title": "Chandelier_02",
+        "source_file_sha256": "d52ea299a0831a6851d50901d6719367454ffc61c1fed871cdcfc7db6b775dfd",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/reused_museum_v1/polyhaven/Chandelier_02/Chandelier_02_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "chandelier"
+        ]
+      }
+    ],
+    "painting_ids": [
+      "128842",
+      "128877",
+      "130163",
+      "130391",
+      "130392",
+      "130457",
+      "134933",
+      "135142",
+      "135143",
+      "135185",
+      "135214",
+      "135238",
+      "135265",
+      "135310",
+      "135336",
+      "135382",
+      "135428",
+      "135480",
+      "135512",
+      "135517",
+      "135518",
+      "135875",
+      "136507",
+      "136510",
+      "136760",
+      "136844",
+      "137195",
+      "137259",
+      "138369",
+      "138430",
+      "138464",
+      "139729",
+      "140078",
+      "140342",
+      "141168",
+      "141220",
+      "141328",
+      "141476",
+      "141728",
+      "142298",
+      "142659",
+      "143206",
+      "143761",
+      "144743",
+      "144756",
+      "145124",
+      "145135",
+      "145309",
+      "145473",
+      "145960",
+      "146148",
+      "146446",
+      "146725",
+      "146726",
+      "146727",
+      "146752",
+      "147020",
+      "147479",
+      "147521",
+      "147522",
+      "147523",
+      "147607",
+      "148297",
+      "148365"
+    ],
+    "source_keys": [
+      "Poly Haven:ArmChair_01",
+      "Poly Haven:Rockingchair_01",
+      "Poly Haven:vintage_cabinet_01",
+      "Poly Haven:painted_wooden_cabinet",
+      "Poly Haven:painted_wooden_sofa",
+      "Poly Haven:mantel_clock_01",
+      "Poly Haven:vintage_grandfather_clock_01",
+      "Poly Haven:Chandelier_01",
+      "Poly Haven:Chandelier_02"
+    ],
+    "theme_source_groups": {
+      "furniture": [
+        "Poly Haven:ArmChair_01",
+        "Poly Haven:Rockingchair_01",
+        "Poly Haven:vintage_cabinet_01",
+        "Poly Haven:painted_wooden_cabinet",
+        "Poly Haven:painted_wooden_sofa",
+        "Poly Haven:mantel_clock_01",
+        "Poly Haven:vintage_grandfather_clock_01"
+      ],
+      "chandelier": [
+        "Poly Haven:Chandelier_01",
+        "Poly Haven:Chandelier_02"
+      ]
+    },
+    "binding_revision": "THEME10: remove school/barber furniture; explicit treasure/sculpture/candles, machinery, clocks, lamps, tea groups. Original art reservations unchanged."
+  },
+  "lighting": {
+    "kelvin": 2900,
+    "blue_ambient": false,
+    "sun_sky_through_glass": false,
+    "spotlights_for_features": true,
+    "hdri_id": "rosendal_park_sunset_puresky"
+  },
+  "seed": 2026110702,
+  "checks": {
+    "C2_radius_m": 0.25,
+    "C2_height_m": 1.6,
+    "C2_min_reachable": 0.95,
+    "C3_gap_m": 0,
+    "C3_top_error_max_m": 0.01,
+    "C3_sample_m": 0.01,
+    "C3_negative_shift_m": 0.6,
+    "C4_height_m": 1.6,
+    "C4_min_fraction": 0.9
+  },
+  "authorization_sha256": "8f2849b912a2994609faf01e4282d22c53326854826b7f9f61597b04143769b1",
+  "library_manifest_sha256": "2ac3e509eff6640d577bf56773a114ab290af80178555fe82f51a63593afe585"
+}

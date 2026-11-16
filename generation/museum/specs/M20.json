@@ -1,0 +1,261 @@
+{
+  "schema": "Museum29SpecV1",
+  "building_id": "M20",
+  "short_name": "nordic_design",
+  "style": "北欧木构设计馆",
+  "style_family": "nordic",
+  "floors": 3,
+  "plan": "长方形",
+  "building_xy_m": [
+    44,
+    30
+  ],
+  "planned_floor_area_m2": 1320,
+  "floor_height_m": 5.12,
+  "stair": {
+    "form": "C",
+    "assembly_description": "实木踏步从墙伸出 / 木踏面 / 竖向木条栏杆",
+    "rise_count_per_floor": 32,
+    "rise_m": 0.16,
+    "floor_height_m": 5.12,
+    "going_m": 0.33,
+    "handrail_height_m": 0.95,
+    "edge_guard_height_m": 1.08,
+    "max_clear_rail_gap_m": 0.095,
+    "design_headroom_m": 2.1,
+    "precise_collision": true,
+    "max_flight_rises": 18,
+    "width_m": 2.2,
+    "tread_thickness_m": 0.09,
+    "wall_embed_m": 0.08,
+    "wall_thickness_m": 0.35,
+    "landing_depth_m": 2.2,
+    "anchoring": "solid_loadbearing_wall_with_collision",
+    "wall_handrail": true,
+    "wall_handrail_center_clearance_from_wall_m": 0.08,
+    "wall_handrail_radius_m": 0.035,
+    "reason_for_widening": "Preserve >=90% actual tread C4 clearance with added wall handrail; 1.76m trial failed 89.6%"
+  },
+  "materials": {
+    "ground_floor": {
+      "key": "pale_oak_herringbone",
+      "description": "浅色橡木人字拼",
+      "source_selection": "PENDING_LIBRARY_BINDING"
+    },
+    "walls_ceiling": {
+      "description": "白墙，木梁天花（CLT 感）"
+    },
+    "stair": {
+      "description": "实木踏步从墙伸出 / 木踏面 / 竖向木条栏杆"
+    },
+    "all_shader": "UsdPreviewSurface_with_textures",
+    "max_texture_resolution": 2048
+  },
+  "exhibition": {
+    "theme": "设计家具",
+    "min_exhibits_per_floor": 15,
+    "max_same_model_in_building": 3,
+    "painting_reuse_across_buildings": 0,
+    "clear_route_width_m": 1.2,
+    "asset_selection_status": "M0_BOUND_INVENTORY_PLACEMENT_REVIEW_PENDING",
+    "items": [
+      {
+        "kind": "model_inventory",
+        "source_key": "Smithsonian:3d_package:2632d078-a354-412c-825e-e70d2f546793",
+        "title": "Armchair with slip seat",
+        "source_file_sha256": "2253196d9be09ee7b1e9dcfff9f47d3a58a583c48da8140ada18ea789183b7ac",
+        "max_uses": 3
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Smithsonian:3d_package:57d30b85-3549-40dc-99c3-255249867462",
+        "title": "Side Chair",
+        "source_file_sha256": "ab5661de535634a80c8b539fac04211588307919a829e74d7615d360139b2dde",
+        "max_uses": 3
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:ArmChair_01",
+        "title": "ArmChair_01",
+        "source_file_sha256": "91e39d5b35f36c8074b7b6432f6fd77f5f1a257c4d6af3924c0b263eb674286b",
+        "max_uses": 3
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:BarberShopChair_01",
+        "title": "BarberShopChair_01",
+        "source_file_sha256": "801bed991ab1d3f110ff8e7958fcfe8e60a96582cadb55dbada28e292a111f20",
+        "max_uses": 3
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:GreenChair_01",
+        "title": "GreenChair_01",
+        "source_file_sha256": "d1e4946ac99ab9e64c82d802fe5cd49d962750e34b8d284762b3fe2b00ba8a45",
+        "max_uses": 3
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:Ottoman_01",
+        "title": "Ottoman_01",
+        "source_file_sha256": "cb515553924d7ca85b94807aba7d7d5110fafa0fedf7132573b105ac8b900584",
+        "max_uses": 3
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:Rockingchair_01",
+        "title": "Rockingchair_01",
+        "source_file_sha256": "eb8c3a8f9c2c1bd6ca6d76804b8361dd0fd779498249d554536e5683e08f565b",
+        "max_uses": 3
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:SchoolChair_01",
+        "title": "SchoolChair_01",
+        "source_file_sha256": "1db6aca4bf379c2d568b2068492dcfcda15d764c0c3d98a970055af25b46281e",
+        "max_uses": 3
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:Sofa_01",
+        "title": "Sofa_01",
+        "source_file_sha256": "dc9d331a24fc8994606ae5a283826cb28feb3166782f59d006d0f10cc92cc830",
+        "max_uses": 3
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:WoodenChair_01",
+        "title": "WoodenChair_01",
+        "source_file_sha256": "d7139c63be77bb91ceb25cb38733008156bf93d2299a6ca4673ea3c49f5fdec6",
+        "max_uses": 3
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:WoodenTable_02",
+        "title": "WoodenTable_02",
+        "source_file_sha256": "3a54261d3757fd78561f1f4bedb7304e0f7b98dae433998e280bc2843cf3fb24",
+        "max_uses": 3
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:WoodenTable_03",
+        "title": "WoodenTable_03",
+        "source_file_sha256": "d7e7fc5f8941a45c5135cdad7b449ef47447dafe093a1fa6ad4f0d1c5d5046b1",
+        "max_uses": 3
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:adjustable_wrench",
+        "title": "adjustable_wrench",
+        "source_file_sha256": "1fc7df249bd4aa5f8cad48eb0b23381bad305b17a3095d06758d76ac1605fea1",
+        "max_uses": 3
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:bar_chair_round_01",
+        "title": "bar_chair_round_01",
+        "source_file_sha256": "6a8f92123245268cbb69fc96f305ee710b32a7a06761b143d3049eaabfcbdd32",
+        "max_uses": 3
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:bench_vice_01",
+        "title": "bench_vice_01",
+        "source_file_sha256": "52e61b473f1a7840ddbdabf024cca8dd32e07f694bd247e3a74e8ef5d9a101e2",
+        "max_uses": 3
+      }
+    ],
+    "source_keys": [
+      "Poly Haven:Ottoman_01",
+      "Poly Haven:desk_lamp_arm_01",
+      "Poly Haven:folding_wooden_stool",
+      "Poly Haven:mid_century_lounge_chair",
+      "Poly Haven:modern_arm_chair_01",
+      "Poly Haven:modern_coffee_table_01",
+      "Poly Haven:modern_coffee_table_02",
+      "Poly Haven:modern_wooden_cabinet",
+      "Poly Haven:round_wooden_table_01",
+      "Poly Haven:round_wooden_table_02",
+      "Poly Haven:side_table_01",
+      "Poly Haven:wooden_stool_01",
+      "Poly Haven:wooden_stool_02"
+    ],
+    "theme_source_groups": {
+      "seating": [
+        "Poly Haven:mid_century_lounge_chair",
+        "Poly Haven:modern_arm_chair_01",
+        "Poly Haven:Ottoman_01"
+      ],
+      "table": [
+        "Poly Haven:modern_coffee_table_01",
+        "Poly Haven:modern_coffee_table_02",
+        "Poly Haven:side_table_01",
+        "Poly Haven:round_wooden_table_01",
+        "Poly Haven:round_wooden_table_02"
+      ],
+      "stool": [
+        "Poly Haven:wooden_stool_01",
+        "Poly Haven:wooden_stool_02",
+        "Poly Haven:folding_wooden_stool"
+      ],
+      "casework": [
+        "Poly Haven:modern_wooden_cabinet"
+      ],
+      "lighting": [
+        "Poly Haven:desk_lamp_arm_01"
+      ]
+    },
+    "curation24": {
+      "authorization": "ADJUST_24_1745.md",
+      "prior_spec_sha256": "02224a9278acdbf44dd43087c64f8ee908f654fecf6ee25828b1f450de89df02",
+      "status": "CURATED_SOURCE_COLOR_PASS_NEW_BUILD_PHYSICS_NATIVE_REVIEW_REQUIRED",
+      "scope": "Remove all3 ornamental/antique-style sofas observed in actualf3 B07, retain13 official modern sources plus9 actual original Nordic-style design studies (3types*3 uses); new full modeling/physics/render required."
+    },
+    "original_design24": {
+      "slot_indices_each_floor": [
+        2,
+        11,
+        14
+      ],
+      "types": [
+        "slatted_bench",
+        "bentwood_armchair",
+        "linen_settee"
+      ],
+      "source_use_limit": 3,
+      "provenance": "Original Scandinavian-style metric ash/linen design studies, no designer/historic collection attribution, no factory invocation. Actual exact geometry/color/source identities and new photos required."
+    }
+  },
+  "lighting": {
+    "kelvin": 3800,
+    "blue_ambient": false,
+    "sun_sky_through_glass": false,
+    "spotlights_for_features": true,
+    "hdri_id": "kloofendal_43d_clear_puresky"
+  },
+  "seed": 2026110719,
+  "checks": {
+    "C2_radius_m": 0.25,
+    "C2_height_m": 1.6,
+    "C2_min_reachable": 0.95,
+    "C3_gap_m": 0,
+    "C3_top_error_max_m": 0.01,
+    "C3_sample_m": 0.01,
+    "C3_negative_shift_m": 0.6,
+    "C4_height_m": 1.6,
+    "C4_min_fraction": 0.9
+  },
+  "authorization_sha256": "8f2849b912a2994609faf01e4282d22c53326854826b7f9f61597b04143769b1",
+  "applied_adjustments": [
+    "ADJUST_01"
+  ],
+  "library_manifest_sha256": "2ac3e509eff6640d577bf56773a114ab290af80178555fe82f51a63593afe585",
+  "nordic28": {
+    "status": "AUTHORIZED_ADJUST28_AUTHORED_REQUIRES_FULL_VALIDATION",
+    "wall": "Matte painted white plaster with real diffuse bitmap, vertical larch exterior and pale timber frames",
+    "facade": "Real entrance glazing bay across all three storeys; double-pitch7m-rise roof and1.8m eaves",
+    "exhibition": "Three shared18cm pale timber scene platforms, five existing theme-capped furniture items per group per storey; four original design studies on verified actual solid wall piers per floor",
+    "source_check": "NORDIC28 actual USD positive and unchanged old f4 negative, no C1-C5 relaxation",
+    "physics": "Changed RAW front wall openings, facade/eaves and furniture support layout require full fresh real C2/C5; no reuse."
+  }
+}

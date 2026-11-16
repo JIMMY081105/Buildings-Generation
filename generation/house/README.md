@@ -133,7 +133,7 @@ transient session layer and saves nothing; no gate runs.
 [`FROZEN_CONTRACT_SOURCES.json`](FROZEN_CONTRACT_SOURCES.json) is the frozen
 snapshot taken by the original run on 2026-09-08 (112 rows; it covers
 `pipeline/`, `validation/`, `release54/`, the five upstream simulator modules
-and the stacked-factory chain in [`../factory/stacked_factory10/`](../factory/stacked_factory10/)).
+and the stacked-factory chain in [`../archive/factory_pilots/stacked/`](../archive/factory_pilots/stacked/)).
 Every file published here that it lists has the hash it records. The files it
 lists but this repository omits are named, with reasons, in
 [`../MANIFEST.json`](../MANIFEST.json).

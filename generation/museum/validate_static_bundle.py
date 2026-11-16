@@ -1,0 +1,8 @@
+from pathlib import Path
+import sys,json,subprocess,hashlib,datetime
+d=Path(sys.argv[1]);form=sys.argv[2];code=Path(__file__).parent;assert (d/'EXPORT_RECEIPT.json').exists();commands=[['validate_c1.py',str(d)],['validate_stair_tests.py','--building',form,str(d),str(d/'RAW_MODEL.json'),str(d/'collision_package/collision_only.usdc')],['validate_visual.py',str(d/'scene/museum.usdc'),str(d/'V1V2.json')]];executions=[]
+for command in commands:
+ result=subprocess.run([sys.executable,'-u',str(code/command[0]),*command[1:]]);executions.append({'script':command[0],'exit_code':result.returncode})
+reports={name:json.loads((d/name).read_text()) if (d/name).exists() else {'status':'NOT_EXECUTED_OR_ERROR'} for name in ['C1.json','C3_C4.json','V1V2.json']};geo=reports['C3_C4.json'];vis=reports['V1V2.json'];checks={'C1':reports['C1.json'].get('status'),'C3':geo.get('C3',{}).get('status'),'C4':geo.get('C4',{}).get('status'),'V1_ceiling_not_floor':vis.get('V1_ceiling_not_floor',{}).get('status'),'V2_no_double_railing':vis.get('V2_no_double_railing',{}).get('status')};ok=all(x=='PASS' for x in checks.values()) and all(x['exit_code']==0 for x in executions)
+collision_sha=hashlib.sha256((d/'collision_package/collision_only.usdc').read_bytes()).hexdigest();ok=ok and reports['C1.json'].get('source_collision_sha256')==collision_sha and geo.get('source_collision_sha256')==collision_sha
+result={'utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'status':'PASS' if ok else 'FAIL','checks':checks,'executions':executions,'source_collision_sha256':collision_sha,'scope':'C1,C3,C4,V1,V2 only; C2/C5/RTX/delivery still required'};(d/'STATIC_RESULT.json').write_text(json.dumps(result,indent=2));print(json.dumps(result,indent=2));sys.exit(0 if ok else 2)

@@ -20,9 +20,11 @@ jobs:
           cache: pip
       - run: pip install -e ".[dev]"
       - name: Lint
-        run: ruff check src tests
+        run: ruff check src tests tools
       - name: Unit tests
         run: pytest -q
+      - name: Asset catalogue is current
+        run: python tools/build_asset_catalog.py --check
 
   end-to-end:
     # The synthetic-building runs bake a few million voxels each, so they are a

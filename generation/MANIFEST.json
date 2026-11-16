@@ -1,362 +1,445 @@
 {
  "schema": "BuildingsGenerationSnapshotManifestV1",
- "description": "Verbatim snapshot of the scripts that generated the residential (house) and industrial (factory) buildings. Every file is byte-identical to its origin; 'contract' records whether a frozen contract manifest from the original run lists the same SHA-256.",
- "file_count": 256,
- "total_bytes": 2563592,
+ "description": "Snapshot of the scripts that generated the residential (house), industrial (factory) and museum buildings. house/ and archive/ are byte-identical to their origin. factory/ and museum/ are identical to their origin except that versioned file names were replaced by role names (renamed_modules); every occurrence of an old module name inside the files was replaced by the new one and nothing else changed, so substituting the names back reproduces original_sha256 exactly (tests/test_generation_snapshot.py checks this). 'contract' records whether a frozen contract manifest written by the original run lists the original SHA-256. factory/ is the final Round 4 runner (run_batch.py), every tool it calls, and the 14 helper modules those tools import from earlier rounds; the earlier revisions recorded by the 27 READY Factory80 runs are listed under 'superseded'. museum/ is the import closure of the Museum29 generator, exporter, Isaac C5/RTX runners and static validators, plus the 29 design specs. archive/factory_pilots/ holds the earlier stacked and tiled industrial pilots.",
+ "file_count": 395,
+ "total_bytes": 4724995,
  "contract_verified_count": 107,
+ "renamed_modules": {
+  "generation/factory": {
+   "batch_run_v16": "run_batch",
+   "batch_deliver_v10": "deliver_batch",
+   "batch_deliver_v7": "deliver_batch_legacy",
+   "batch_report_v9": "report_batch",
+   "batch_report_v7": "report_batch_legacy",
+   "c4_alternative_v8": "c4_alternative_check",
+   "camera_plan_v1": "camera_planner",
+   "checks_gpu_v13": "gpu_checks",
+   "checks_gpu_v12": "gpu_checks_legacy",
+   "isaac_c5_v8": "isaac_native_c5",
+   "isaac_c5_v6": "isaac_native_c5_legacy",
+   "layout_v7": "hall_layout",
+   "layout_v2": "hall_layout_legacy",
+   "lights_v2": "hall_lights",
+   "package_v1": "scene_package",
+   "render_v7": "rtx_render",
+   "render_v5": "rtx_render_legacy",
+   "resource_trial_v1": "resource_trial",
+   "gpu_identity_v1": "gpu_identity_check",
+   "time_policy_v1": "wall_clock_policy",
+   "revision_runtime_v1": "revision_gate",
+   "rgb_instance_wrappers_v1": "rgb_instance_wrappers",
+   "scene_v3": "scene_compose",
+   "voxel_gpu_v6": "voxel_gpu",
+   "voxel_scene_v3": "voxel_scene",
+   "ROUND4_APPROVED_RENDER_C2_REVISION_V1": "approved_revision_policy",
+   "audit_v3_mezz_stairs_independent_v2": "floor_placement_audit",
+   "author_v3_mezz_stairs_v4": "sample_floor_stairs",
+   "factory80_v31_counts_v1": "area_count_rules",
+   "factory80_v32_batch_units_v1": "welding_units",
+   "factory80_v32_counts_v1": "density_counts",
+   "factory80_v32_layout_audit_v1": "layout_unit_audit",
+   "factory80_v32_units_v1": "equipment_units",
+   "factory80_v3_whole_unit_geometry_v2": "unit_geometry",
+   "isaac_c5_v2": "isaac_capsule_query",
+   "retain_v3_sample_architecture_v2": "retain_architecture",
+   "review_factory80_v4_zip_v10": "archive_review",
+   "review_factory80_v4_zip_v7": "archive_review_legacy",
+   "voxel_gpu_v3": "voxel_raster",
+   "voxel_scene_v2": "voxel_extract"
+  },
+  "generation/museum": {
+   "ad98_sampler1927": "resource_sampler",
+   "ad104_sampler2107": "resource_sampler_protected",
+   "resource_ad98_tools1934": "resource_admission",
+   "resource_ad100_tools2041": "resource_admission_small_tasks",
+   "resource_ad104_tools2106": "resource_admission_protected",
+   "gpu_source65": "resource_source_audit",
+   "test_group_limit22": "resource_watchdog_probe",
+   "prepare_tropical_factories19": "prepare_tropical_plants",
+   "botanical_materials25": "botanical_materials",
+   "export_museum29": "export_museum",
+   "exterior_camera16": "exterior_camera",
+   "fit_m02_junction22": "stair_junction_camera",
+   "museum_brutalist26": "museum_brutalist",
+   "museum_classical16": "museum_classical",
+   "museum_deco12": "museum_deco",
+   "museum_deco24": "museum_deco_atrium",
+   "museum_dense_remaining11": "museum_contemporary_displays",
+   "museum_design24": "museum_design_studies",
+   "museum_east_asian13": "museum_east_asian",
+   "museum_fossil37": "museum_fossil_hall",
+   "museum_glasshouse14": "museum_glasshouse",
+   "museum_gothic14": "museum_gothic",
+   "museum_gothic18": "museum_gothic_towers",
+   "museum_industrial11": "museum_industrial_groups",
+   "museum_industrial27": "museum_industrial_brick",
+   "museum_machines11": "museum_machines",
+   "museum_mediterranean32": "museum_mediterranean",
+   "museum_modern_art17": "museum_modern_art",
+   "museum_natural24": "museum_natural_history",
+   "museum_nordic28": "museum_nordic",
+   "museum_pitched_roof12": "museum_pitched_roof",
+   "museum_tropical19": "museum_tropical",
+   "museum_tropical22": "museum_tropical_plants",
+   "scan_color24": "scan_color",
+   "scan_color24_v2": "scan_color_model",
+   "validate_camera_joint24": "validate_camera_joint",
+   "validate_daylight38": "validate_daylight"
+  }
+ },
  "files": [
   {
-   "path": "generation/factory/sourcing/adapt_stair_asset_coverage.py",
+   "path": "generation/archive/factory_pilots/sourcing/adapt_stair_asset_coverage.py",
    "bytes": 4375,
    "sha256": "a57673bc96fb9e1257914391bb80b5cfcbc6d6d786346bd9a051bfecbc9d80ac",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/adapt_stair_asset_coverage.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/analyze_installed_scenes.py",
+   "path": "generation/archive/factory_pilots/sourcing/analyze_installed_scenes.py",
    "bytes": 11406,
    "sha256": "0ae1c568ac8bcbb87cb850c7413a095e5a8cd55c11e2e37138050cd0efea872b",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/analyze_installed_scenes.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/audit_factory10_post_repair_industrial_identity.py",
+   "path": "generation/archive/factory_pilots/sourcing/audit_factory10_post_repair_industrial_identity.py",
    "bytes": 10838,
    "sha256": "d3f0924f955797f8655460aa05e6f95779c0b4932d9b5865cbcb9a30a5d859d3",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/audit_factory10_post_repair_industrial_identity.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/audit_factory_stair_assets.py",
+   "path": "generation/archive/factory_pilots/sourcing/audit_factory_stair_assets.py",
    "bytes": 4670,
    "sha256": "5c66b3b248bab8d1e3812e26813eea7e28af7007b6b67aa00283301f6f1b8155",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/audit_factory_stair_assets.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/audit_object_dependencies.py",
+   "path": "generation/archive/factory_pilots/sourcing/audit_object_dependencies.py",
    "bytes": 2850,
    "sha256": "670e3469005a255a59183c41e5958930aadd6503c87771a2939a447cd4cc7a88",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/audit_object_dependencies.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/augment_doorway_cache.py",
+   "path": "generation/archive/factory_pilots/sourcing/augment_doorway_cache.py",
    "bytes": 6551,
    "sha256": "e5d48e7593a67127b0bb647425416339c53dce52b814c7c95365de7e29c1576c",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/augment_doorway_cache.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/bind_factory_compile_inputs.py",
+   "path": "generation/archive/factory_pilots/sourcing/bind_factory_compile_inputs.py",
    "bytes": 6079,
    "sha256": "0b5a4ee548ed4b683830000b9c06d05fed4f241fa12e89adcf0953d5df2144a5",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/bind_factory_compile_inputs.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/build_factory10_final_source_decision.py",
+   "path": "generation/archive/factory_pilots/sourcing/build_factory10_final_source_decision.py",
    "bytes": 6720,
    "sha256": "e8071329c5c5cd2c34bbadee163199a94c920155d912e0b0c0421b03dc1d0cd3",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/build_factory10_final_source_decision.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/build_factory_pair_catalog.py",
+   "path": "generation/archive/factory_pilots/sourcing/build_factory_pair_catalog.py",
    "bytes": 11386,
    "sha256": "a44e8f53bd14e4c84d850a9554533f58de3931f7e4b276718d2fbe36a9fa8e4e",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/build_factory_pair_catalog.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/build_geometry_validation_scene_union.py",
+   "path": "generation/archive/factory_pilots/sourcing/build_geometry_validation_scene_union.py",
    "bytes": 4297,
    "sha256": "2fa823210af213af1fc1e42a27d1676a6b8cdc6d8a26573286c95f33ff365682",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/build_geometry_validation_scene_union.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/build_molmospaces_subset_inventory.py",
+   "path": "generation/archive/factory_pilots/sourcing/build_molmospaces_subset_inventory.py",
    "bytes": 4718,
    "sha256": "77c33ded2200588fdc359a62e0e73c4bca9fe0705b41d5e0dc7743736e7cc068",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/build_molmospaces_subset_inventory.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/build_predependency_geometry_cache.py",
+   "path": "generation/archive/factory_pilots/sourcing/build_predependency_geometry_cache.py",
    "bytes": 3691,
    "sha256": "dc93f1c62599374d8e404ab8144a7d26aa8276f7e92f241eefb3925e77dde909",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/build_predependency_geometry_cache.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/build_prefilter_package_selection.py",
+   "path": "generation/archive/factory_pilots/sourcing/build_prefilter_package_selection.py",
    "bytes": 3217,
    "sha256": "9bcda431ab295dfa708a4d4b810fee9494ba476f4289304f483b2ccc6afa32ba",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/build_prefilter_package_selection.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/build_scene_source_decision.py",
+   "path": "generation/archive/factory_pilots/sourcing/build_scene_source_decision.py",
    "bytes": 5269,
    "sha256": "7fc90f85724f45e7136e5616146fda5ab1dff5beac3bb84ac97a85b2a0437714",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/build_scene_source_decision.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/build_selected_screen.py",
+   "path": "generation/archive/factory_pilots/sourcing/build_selected_screen.py",
    "bytes": 2737,
    "sha256": "b25974e35d1810a6ab783e9330290ff3a487caac1d9dda934c9f8fd9c4d762e2",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/build_selected_screen.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/candidate_geometry_summary.py",
+   "path": "generation/archive/factory_pilots/sourcing/candidate_geometry_summary.py",
    "bytes": 1442,
    "sha256": "1db8dcfc8f9d86c2134c54112a1129f561b240e88211317e5ca2da57294c0e6d",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/candidate_geometry_summary.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/combine_official_scene_selections.py",
+   "path": "generation/archive/factory_pilots/sourcing/combine_official_scene_selections.py",
    "bytes": 2423,
    "sha256": "9a6e6ac644fcf2f428f93598fab164070a4245258e668d56de737a717cb8204e",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/combine_official_scene_selections.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/discover_scene_object_dependencies.py",
+   "path": "generation/archive/factory_pilots/sourcing/discover_scene_object_dependencies.py",
    "bytes": 4761,
    "sha256": "779477b8ab2f2b970149db70a67d9e1a298ea63d837e0e8a74c3d11615a7b0ef",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/discover_scene_object_dependencies.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/download_extract_official_packages.py",
+   "path": "generation/archive/factory_pilots/sourcing/download_extract_official_packages.py",
    "bytes": 9318,
    "sha256": "0c5f19f91aa7ef16ce38a69d7536061677857271a9ab006c4bdd276a885783bf",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/download_extract_official_packages.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/download_official_object_packages.py",
+   "path": "generation/archive/factory_pilots/sourcing/download_official_object_packages.py",
    "bytes": 4877,
    "sha256": "be3d46ce9fe0bbe4b553ca832e26b470eeac9036f5ab410aea56e7863b395220",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/download_official_object_packages.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/extract_geometry_only_object_layers.py",
+   "path": "generation/archive/factory_pilots/sourcing/extract_geometry_only_object_layers.py",
    "bytes": 6045,
    "sha256": "14eac39ae4ebb84a3a525bbb4da032561760541cf719615c329097be6b7f8e70",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/extract_geometry_only_object_layers.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/extract_screening_scene_layers.py",
+   "path": "generation/archive/factory_pilots/sourcing/extract_screening_scene_layers.py",
    "bytes": 5631,
    "sha256": "91538002c8b2f103286629bd4eed96aa6b01f87820418813e9e0e0605f37d3f5",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/extract_screening_scene_layers.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/extract_verify_object_package_bundle.py",
+   "path": "generation/archive/factory_pilots/sourcing/extract_verify_object_package_bundle.py",
    "bytes": 3754,
    "sha256": "c65fb830ac37cd077bf162234f5a372ad714fd728e4f9b6f54d687cc15a46226",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/extract_verify_object_package_bundle.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/filter_strict_factory_pairs.py",
+   "path": "generation/archive/factory_pilots/sourcing/filter_strict_factory_pairs.py",
    "bytes": 3526,
    "sha256": "3cf4857f701f53282d4c64e5fd60681786095dd23f28d2cb85d509d26b1b7593",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/filter_strict_factory_pairs.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/inspect_extract_stair.py",
+   "path": "generation/archive/factory_pilots/sourcing/inspect_extract_stair.py",
    "bytes": 3208,
    "sha256": "30e9cb98493d81c44192b382e32714d2d281c56339e5bb15820ca22724d639c7",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/inspect_extract_stair.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/make_available_stair_coverage.py",
+   "path": "generation/archive/factory_pilots/sourcing/make_available_stair_coverage.py",
    "bytes": 3927,
    "sha256": "cbb016a13603613634ae62187cb8b59aa1b079c391b85aa11558bdf30b0d448b",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/make_available_stair_coverage.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/make_factory_geometry_cache_inputs.py",
+   "path": "generation/archive/factory_pilots/sourcing/make_factory_geometry_cache_inputs.py",
    "bytes": 2711,
    "sha256": "33d15c3c60e6aa1faf14c42aa5ca260ed00243587c3cfc382545faf813539048",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/make_factory_geometry_cache_inputs.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/make_selected_geometry_cache_inputs.py",
+   "path": "generation/archive/factory_pilots/sourcing/make_selected_geometry_cache_inputs.py",
    "bytes": 2488,
    "sha256": "393c8cd4418272f3954a173e0ea67d9db7e34f6393efab8bbfb66faa3f8dffda",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/make_selected_geometry_cache_inputs.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/make_stair_height_variant.py",
+   "path": "generation/archive/factory_pilots/sourcing/make_stair_height_variant.py",
    "bytes": 3410,
    "sha256": "522dd24a7ab1271e2d88313c99b5bade8d0f63a7730110da498687ffe66b36db",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/make_stair_height_variant.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/materialize_geometry_only_object_overlay.py",
+   "path": "generation/archive/factory_pilots/sourcing/materialize_geometry_only_object_overlay.py",
    "bytes": 4588,
    "sha256": "9c9ffb8ca98b9a8226a8813e3295fd3524e1e4c9107b53cd1d5ebc8c27957052",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/materialize_geometry_only_object_overlay.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/materialize_object_overlay.py",
+   "path": "generation/archive/factory_pilots/sourcing/materialize_object_overlay.py",
    "bytes": 7785,
    "sha256": "b735748368bfa149183e79c9bea14cc6f4b831d1ba579837c51eaa6477b6c9bc",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/materialize_object_overlay.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/prefilter_a3_necessary_pairs.py",
+   "path": "generation/archive/factory_pilots/sourcing/prefilter_a3_necessary_pairs.py",
    "bytes": 7866,
    "sha256": "267ee8b152ef52fc17264c3645fe1b636907a6d306efbb0517d46ae67c056c71",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/prefilter_a3_necessary_pairs.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/prefilter_strict_factory_sources.py",
+   "path": "generation/archive/factory_pilots/sourcing/prefilter_strict_factory_sources.py",
    "bytes": 5723,
    "sha256": "535f7fd60d4987f921ce00e6f2a49460f2449d30e35d8380ea0ad49c29d7e6cf",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/prefilter_strict_factory_sources.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/run_a4_exact_combined184.sh",
+   "path": "generation/archive/factory_pilots/sourcing/run_a4_exact_combined184.sh",
    "bytes": 2629,
    "sha256": "8e7ea6d465a78e652487e7ee95d4fe8bc90ce95fa37aece94c7e559fd36f6d04",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/run_a4_exact_combined184.sh",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/run_a4_sharded.py",
+   "path": "generation/archive/factory_pilots/sourcing/run_a4_sharded.py",
    "bytes": 14930,
    "sha256": "e69e1d43d506d822aeb87bf2acf22083a30f6888a3f1054b219f30d2517464db",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/run_a4_sharded.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/run_doorway_cache.sh",
+   "path": "generation/archive/factory_pilots/sourcing/run_doorway_cache.sh",
    "bytes": 1481,
    "sha256": "2e0f2290aa395e83634cf931387618365426b3242a1e92c1b21de56c4bd18984",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/run_doorway_cache.sh",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/run_doorway_cache_combined184.sh",
+   "path": "generation/archive/factory_pilots/sourcing/run_doorway_cache_combined184.sh",
    "bytes": 1795,
    "sha256": "2c6772cac5fa617d87879e78c9a904193db9802e24b1d98adb9daaa151d7f45c",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/run_doorway_cache_combined184.sh",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/run_in_isaacsim.py",
+   "path": "generation/archive/factory_pilots/sourcing/run_in_isaacsim.py",
    "bytes": 610,
    "sha256": "da5772b1c66fd2ff84ec5e05761e15802e27c5e190230c76eeb66ac74cade8e2",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/run_in_isaacsim.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/sample_official_scene_metadata.py",
+   "path": "generation/archive/factory_pilots/sourcing/sample_official_scene_metadata.py",
    "bytes": 13666,
    "sha256": "f32f0a89be7b6a62cd9180597fca4c84723e5485400f3248d19a4f60a04c3752",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/sample_official_scene_metadata.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/select_missing_object_packages.py",
+   "path": "generation/archive/factory_pilots/sourcing/select_missing_object_packages.py",
    "bytes": 3009,
    "sha256": "c7f7f178c7c5c252460ac8e03e98e4d050154faa725bd8aa81da04afb2ff30c4",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/select_missing_object_packages.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/select_official_factory_candidates.py",
+   "path": "generation/archive/factory_pilots/sourcing/select_official_factory_candidates.py",
    "bytes": 3309,
    "sha256": "2742d2cfb78d5e7360125d3c05fda589dffd0a0f139accaa2ab94b4c347b2b46",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/select_official_factory_candidates.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/strict_factory_source_review.py",
+   "path": "generation/archive/factory_pilots/sourcing/strict_factory_source_review.py",
    "bytes": 10092,
    "sha256": "a7086566f7e776fa0ac828068d40cf5831ef873f2d3191aa18cc2c31ac91e944",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/strict_factory_source_review.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/subset_selection_from_log.py",
+   "path": "generation/archive/factory_pilots/sourcing/subset_selection_from_log.py",
    "bytes": 1979,
    "sha256": "97f970b5d716fea39f6c3fe332d68dcaa84c020e8aebd752b15d0ae284125932",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/subset_selection_from_log.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/upgrade_geometry_only_overlay_to_full.py",
+   "path": "generation/archive/factory_pilots/sourcing/upgrade_geometry_only_overlay_to_full.py",
    "bytes": 6457,
    "sha256": "824a859d807e763ce3b8ce75dc10dc81d0e5a2c9364f476c480cbacd50a45a3c",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/upgrade_geometry_only_overlay_to_full.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/verify_canonical_scene_cache.py",
+   "path": "generation/archive/factory_pilots/sourcing/verify_canonical_scene_cache.py",
    "bytes": 4638,
    "sha256": "85ce14e8e463b86f68a2385140ff557dec381380568e63fcaf60c1548fbde9ca",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/verify_canonical_scene_cache.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/verify_doorway_cache.py",
+   "path": "generation/archive/factory_pilots/sourcing/verify_doorway_cache.py",
    "bytes": 3822,
    "sha256": "b09cb357a4980be078e4afa705ddc70f41f51161540bf4262c7fa70ad85651e3",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/verify_doorway_cache.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/verify_factory_delivery.py",
+   "path": "generation/archive/factory_pilots/sourcing/verify_factory_delivery.py",
    "bytes": 2698,
    "sha256": "3f2972831e9167833c3a541997b41627f250a4be415137abd500d5290bb9dd6e",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/verify_factory_delivery.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/verify_full_scene_extraction.py",
+   "path": "generation/archive/factory_pilots/sourcing/verify_full_scene_extraction.py",
    "bytes": 5627,
    "sha256": "5604848d363e004e5499e02452aec9b669f285565a9a7e601f646ff4c53b92e4",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/verify_full_scene_extraction.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/verify_results_manifest.py",
+   "path": "generation/archive/factory_pilots/sourcing/verify_results_manifest.py",
    "bytes": 3801,
    "sha256": "e3f67c570dc51f0f6f1885cd1e871502cc13298b1c9f7c6e7963680e88de3b56",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/verify_results_manifest.py",
    "contract": null
   },
   {
-   "path": "generation/factory/sourcing/verify_screening_scene_layers.py",
+   "path": "generation/archive/factory_pilots/sourcing/verify_screening_scene_layers.py",
    "bytes": 3248,
    "sha256": "ab150672fc466771f79bdbee3c6e3b7127091674f0c050307df9cb3a3bd86c2d",
    "origin": "Scenesmith-code-study/ProtoMotions-main/.codex-work/factory10_20260905/verify_screening_scene_layers.py",
    "contract": null
   },
   {
-   "path": "generation/factory/stacked_factory10/audit_strict_body_radius10.py",
+   "path": "generation/archive/factory_pilots/stacked/audit_strict_body_radius10.py",
    "bytes": 8384,
    "sha256": "bce24da5ce8c9052b3de8c98c9feddc75c69ff2cd111bf625cffcd1675fc84fc",
    "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact10/audit_strict_body_radius10.py",
@@ -367,7 +450,7 @@
    }
   },
   {
-   "path": "generation/factory/stacked_factory10/build_multistorey_graphs10.py",
+   "path": "generation/archive/factory_pilots/stacked/build_multistorey_graphs10.py",
    "bytes": 13422,
    "sha256": "91058992b2e1c7acbad06913d4bb4ced2a2fbafa1b39edeb7c2d74dc006edebf",
    "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact10/build_multistorey_graphs10.py",
@@ -378,7 +461,7 @@
    }
   },
   {
-   "path": "generation/factory/stacked_factory10/collision_door_audit10.py",
+   "path": "generation/archive/factory_pilots/stacked/collision_door_audit10.py",
    "bytes": 35008,
    "sha256": "c89ab87c4f49e8199f8308c0ffd361a488aa18807ec8ff246c3cea3199c054f7",
    "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact10/collision_door_audit10.py",
@@ -389,7 +472,7 @@
    }
   },
   {
-   "path": "generation/factory/stacked_factory10/compile_a5_variants10.py",
+   "path": "generation/archive/factory_pilots/stacked/compile_a5_variants10.py",
    "bytes": 19087,
    "sha256": "5f6260bbf1fffa9ac4d5aaf313f2c3aee0b60891c3b9a4f23b39c13b408834dc",
    "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact10/compile_a5_variants10.py",
@@ -400,7 +483,7 @@
    }
   },
   {
-   "path": "generation/factory/stacked_factory10/finalize_batch10_release.py",
+   "path": "generation/archive/factory_pilots/stacked/finalize_batch10_release.py",
    "bytes": 7543,
    "sha256": "871115a14c7aab6cdc77d2a8ed96045ca2a0fe2c9fba1f239c4b1552c35ab9e5",
    "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact10/finalize_batch10_release.py",
@@ -411,7 +494,7 @@
    }
   },
   {
-   "path": "generation/factory/stacked_factory10/finalize_h1_after_a40.py",
+   "path": "generation/archive/factory_pilots/stacked/finalize_h1_after_a40.py",
    "bytes": 9640,
    "sha256": "7b260b9bd0095c394d3cd7ad6aaa6f4d3659ad97deb78813c12029ac07c02b2f",
    "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact10/finalize_h1_after_a40.py",
@@ -422,7 +505,7 @@
    }
   },
   {
-   "path": "generation/factory/stacked_factory10/finalize_stage_b_a40_isaac.py",
+   "path": "generation/archive/factory_pilots/stacked/finalize_stage_b_a40_isaac.py",
    "bytes": 9110,
    "sha256": "81f5f751a4cbd907cc0cff989491954cae3aab8fa0b0a8953559b68834d9564d",
    "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact10/finalize_stage_b_a40_isaac.py",
@@ -433,7 +516,7 @@
    }
   },
   {
-   "path": "generation/factory/stacked_factory10/gate7_global_graph10.py",
+   "path": "generation/archive/factory_pilots/stacked/gate7_global_graph10.py",
    "bytes": 12996,
    "sha256": "3175143cef452c7fc32bf0054d81eb5c347c03219e27f835fed3f1465be4330e",
    "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact10/gate7_global_graph10.py",
@@ -444,7 +527,7 @@
    }
   },
   {
-   "path": "generation/factory/stacked_factory10/make_floorplans_factory.py",
+   "path": "generation/archive/factory_pilots/stacked/make_floorplans_factory.py",
    "bytes": 25359,
    "sha256": "9ed9651a32b79e0af9cf4f830423b24f2b6b148ca9d5e35f3ea419e51f2b2d47",
    "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact10/make_floorplans_factory.py",
@@ -455,7 +538,7 @@
    }
   },
   {
-   "path": "generation/factory/stacked_factory10/prepare_manifest.py",
+   "path": "generation/archive/factory_pilots/stacked/prepare_manifest.py",
    "bytes": 3805,
    "sha256": "d89ffa3854d6f19c53c087bd01c667f6501931bdb636ab4df4cb8d5f33c32307",
    "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact10/prepare_manifest.py",
@@ -466,7 +549,7 @@
    }
   },
   {
-   "path": "generation/factory/stacked_factory10/prepare_post10_inputs.py",
+   "path": "generation/archive/factory_pilots/stacked/prepare_post10_inputs.py",
    "bytes": 9157,
    "sha256": "b785f91313a744b50ae67b934a526fedfbcabfb1bb637ec4b4c17d965b508e54",
    "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact10/prepare_post10_inputs.py",
@@ -477,7 +560,7 @@
    }
   },
   {
-   "path": "generation/factory/stacked_factory10/run_g25_exact10.py",
+   "path": "generation/archive/factory_pilots/stacked/run_g25_exact10.py",
    "bytes": 8123,
    "sha256": "8c39160e484eaefeafe2a7a946dfa39b9e265d24b76be23b55a273012c917fa9",
    "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact10/run_g25_exact10.py",
@@ -488,7 +571,7 @@
    }
   },
   {
-   "path": "generation/factory/stacked_factory10/run_stage_b10_cpu.py",
+   "path": "generation/archive/factory_pilots/stacked/run_stage_b10_cpu.py",
    "bytes": 69424,
    "sha256": "b8f107e7ba44013a4a15e6ed792ab1d2f96f19a7a6aabcf42d15dd4b8df1fdbf",
    "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact10/run_stage_b10_cpu.py",
@@ -499,7 +582,7 @@
    }
   },
   {
-   "path": "generation/factory/stacked_factory10/stage_d10_a40_contract.py",
+   "path": "generation/archive/factory_pilots/stacked/stage_d10_a40_contract.py",
    "bytes": 15406,
    "sha256": "035b147dcc5eb3a3504a97d8f2c271258425fbdb12b7700e6e4eaa8fa9f32e28",
    "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact10/stage_d10_a40_contract.py",
@@ -510,7 +593,7 @@
    }
   },
   {
-   "path": "generation/factory/stacked_factory10/summarize_graph_cycle_repair10.py",
+   "path": "generation/archive/factory_pilots/stacked/summarize_graph_cycle_repair10.py",
    "bytes": 4996,
    "sha256": "d946868f7c3efb975f7339a196e0b884ce961bc5bddd5041d7d980f6a4308c80",
    "origin": "/cephfs/shared/yixing/outputs/diversity54_20260908/evidence/frozen_sources/exact10/summarize_graph_cycle_repair10.py",
@@ -521,525 +604,525 @@
    }
   },
   {
-   "path": "generation/factory/tiled_factory80/STAIR_PLACEMENT_RULE_FACTORY80.json",
+   "path": "generation/archive/factory_pilots/tiled/STAIR_PLACEMENT_RULE_FACTORY80.json",
    "bytes": 3736,
    "sha256": "2a0550cbc0a79cc2f96202e2e10ec8974f6ec6deca2f0e71960a9a95aa2974da",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/STAIR_PLACEMENT_RULE_FACTORY80.json",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/bounded_support/bounded_surface_raster.py",
+   "path": "generation/archive/factory_pilots/tiled/bounded_support/bounded_surface_raster.py",
    "bytes": 1990,
    "sha256": "12c9aaada30d6df6145e9d32a096f8c02e2a4a4cc634acd33048a60c0cb330ce",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/current_world_bounded_support_20261015_R1/bounded_surface_raster.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/bounded_support/bounded_world_resources.py",
+   "path": "generation/archive/factory_pilots/tiled/bounded_support/bounded_world_resources.py",
    "bytes": 4356,
    "sha256": "5138a03906527b10dba9b695d4ebdced778237b44a8cc5c295e81e073c3801f8",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/current_world_bounded_support_20261015_R1/bounded_world_resources.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/bounded_support/run_bounded_current_world_support.py",
+   "path": "generation/archive/factory_pilots/tiled/bounded_support/run_bounded_current_world_support.py",
    "bytes": 17918,
    "sha256": "e55525152093a9da728d3e5b5d1a61544589c1cce753ac71ec34eebb97d5c4bf",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/current_world_bounded_support_20261015_R1/run_bounded_current_world_support.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/bounded_support/stat_hash_cache.py",
+   "path": "generation/archive/factory_pilots/tiled/bounded_support/stat_hash_cache.py",
    "bytes": 1294,
    "sha256": "d65de5898ee0ba54f8c9303fe83c7e0f9e31da68f9f9a318bb6ba5027d523d72",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/current_world_bounded_support_20261015_R1/stat_hash_cache.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/build_factory80_overlay.py",
+   "path": "generation/archive/factory_pilots/tiled/build_factory80_overlay.py",
    "bytes": 34990,
    "sha256": "f005569b78434e618a71f623e310cea3e422f06320d092a8d24fa3ded2d220ad",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/build_factory80_overlay.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/equipment_density/apply_owned_density_overlay.py",
+   "path": "generation/archive/factory_pilots/tiled/equipment_density/apply_owned_density_overlay.py",
    "bytes": 30196,
    "sha256": "b7ce12650d6208b84d53e6da1c69891f9a759422028ebcbe8c0c105186eb3c4d",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/density_overlay_20261015_R5_EXECUTION_R2/apply_owned_density_overlay.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/equipment_density/density_rows.py",
+   "path": "generation/archive/factory_pilots/tiled/equipment_density/density_rows.py",
    "bytes": 9542,
    "sha256": "c63ae48602c8e112efbcb34c968d55899a9084e406f889056268cc01362c0156",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/density_overlay_20261015_R5_EXECUTION_R2/density_rows.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/equipment_density/prepare_owned_disabled_wall_purpose_overlay.py",
+   "path": "generation/archive/factory_pilots/tiled/equipment_density/prepare_owned_disabled_wall_purpose_overlay.py",
    "bytes": 13360,
    "sha256": "bca83428b5b90c443abfcf87cde481009746cc47a7de6d0eefaae1709ec2c2cd",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/density_overlay_20261015_R5_EXECUTION_R2/prepare_owned_disabled_wall_purpose_overlay.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/equipment_density/stage_d_material_binding.py",
+   "path": "generation/archive/factory_pilots/tiled/equipment_density/stage_d_material_binding.py",
    "bytes": 11346,
    "sha256": "dabe319982045ffa0ff54ca419c79cd4530286a132fdd89ea4bf371434cc4ae3",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/density_overlay_20261015_R5_EXECUTION_R2/stage_d_material_binding.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/equipment_density/stat_hash_cache.py",
+   "path": "generation/archive/factory_pilots/tiled/equipment_density/stat_hash_cache.py",
    "bytes": 1294,
    "sha256": "d65de5898ee0ba54f8c9303fe83c7e0f9e31da68f9f9a318bb6ba5027d523d72",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/density_overlay_20261015_R5_EXECUTION_R2/stat_hash_cache.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/factory80_corrected_tile_seams_batch_v1.py",
+   "path": "generation/archive/factory_pilots/tiled/factory80_corrected_tile_seams_batch_v1.py",
    "bytes": 7465,
    "sha256": "d8a54f0a86704084f43c117443d84396645a549d82fbad84cb95d987ac891097",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/factory80_corrected_tile_seams_batch_v1.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/factory80_cpu_gates_v3.py",
+   "path": "generation/archive/factory_pilots/tiled/factory80_cpu_gates_v3.py",
    "bytes": 8695,
    "sha256": "32a01b69e2262b8e29c753693c02b779387719027fcb8c1dd345a08d3dcd0b00",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/factory80_cpu_gates_v3.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/factory80_deploy_measured_wall_partition_v1.py",
+   "path": "generation/archive/factory_pilots/tiled/factory80_deploy_measured_wall_partition_v1.py",
    "bytes": 4493,
    "sha256": "b9f0af34efa5bd47a9dc7b11a8c5b580c64d10e9f8791609b454a56fa1f0c5bf",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/factory80_deploy_measured_wall_partition_v1.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/factory80_execute_candidate.py",
+   "path": "generation/archive/factory_pilots/tiled/factory80_execute_candidate.py",
    "bytes": 37516,
    "sha256": "77cb172db3ae552def7ff251bc4d9679a70502315a29937971d09ec9141465de",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/factory80_execute_candidate.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/factory80_graph_stair_distances_v1.py",
+   "path": "generation/archive/factory_pilots/tiled/factory80_graph_stair_distances_v1.py",
    "bytes": 4396,
    "sha256": "412d1cd38022ff5bda92b2d323e9ae1055365df606964309f68ff0ae6663efd6",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/factory80_graph_stair_distances_v1.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/factory80_prepare_isaac_inputs.py",
+   "path": "generation/archive/factory_pilots/tiled/factory80_prepare_isaac_inputs.py",
    "bytes": 9037,
    "sha256": "ba6f1a9f5b760677fb1270c27e777d09fcb183d7f5f6d7d3153d1edade5f3fd8",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/factory80_prepare_isaac_inputs.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/factory80_record_stair_placement_basis.py",
+   "path": "generation/archive/factory_pilots/tiled/factory80_record_stair_placement_basis.py",
    "bytes": 5345,
    "sha256": "0f79a105542d260c6b38258353eb8cf7682b46fd2085f79d9504da1bfcc5ff61",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/factory80_record_stair_placement_basis.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/factory80_stage2_cross_storey.py",
+   "path": "generation/archive/factory_pilots/tiled/factory80_stage2_cross_storey.py",
    "bytes": 11606,
    "sha256": "46bd353f91d680f3ba3aa92ab9df72c14de40248db3fda1348c094f9a48ac34c",
    "origin": "Scenesmith-code-study/final_training_validation/factory80_stage2_cross_storey.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/factory80_stage2_navigation.py",
+   "path": "generation/archive/factory_pilots/tiled/factory80_stage2_navigation.py",
    "bytes": 25343,
    "sha256": "84aac6cc0b564a83b3a7d2e2d8c0aa4a657fe577cde799f45b2d415cf491bed8",
    "origin": "Scenesmith-code-study/final_training_validation/factory80_stage2_navigation.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/factory80_tile_seams_v1.py",
+   "path": "generation/archive/factory_pilots/tiled/factory80_tile_seams_v1.py",
    "bytes": 10406,
    "sha256": "32315b33539b1b71c6fef8a0496d1e2fdc17310295c14daea6d026ad19017bf8",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/factory80_tile_seams_v1.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/factory80_tile_seams_v2.py",
+   "path": "generation/archive/factory_pilots/tiled/factory80_tile_seams_v2.py",
    "bytes": 11996,
    "sha256": "9edd928f0b292c935b9ac06e81fa0ad3da8892b0f6ad42f50f7b4aeb11c740bf",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/factory80_tile_seams_v2.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/factory80_wall_partition_equivalence_fixture_v1.py",
+   "path": "generation/archive/factory_pilots/tiled/factory80_wall_partition_equivalence_fixture_v1.py",
    "bytes": 11997,
    "sha256": "e06a7bb30b60afb19141a657c3ac47e43e89714f20d399b65c50a422dd1f9a62",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/factory80_wall_partition_equivalence_fixture_v1.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/factory80_whitelist.py",
+   "path": "generation/archive/factory_pilots/tiled/factory80_whitelist.py",
    "bytes": 3514,
    "sha256": "f8903a2fe6526c77575be5fba4990d4134f85e9b5de1c317ea3adb7a717eb81c",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/factory80_whitelist.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/factory80_whitelist_audit.py",
+   "path": "generation/archive/factory_pilots/tiled/factory80_whitelist_audit.py",
    "bytes": 1676,
    "sha256": "2eea7501cebc2efb0915dcfb9010dbaed05f094dd51f638b552d8ab689fd74f1",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/factory80_whitelist_audit.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/factory80_whitelist_compound_fixture.py",
+   "path": "generation/archive/factory_pilots/tiled/factory80_whitelist_compound_fixture.py",
    "bytes": 8587,
    "sha256": "a1796e3882954fbac0454752b974884287a2cca3ca8e624b08ab6dfb7fb77290",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/factory80_whitelist_compound_fixture.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/factory80_whitelist_fragment.py",
+   "path": "generation/archive/factory_pilots/tiled/factory80_whitelist_fragment.py",
    "bytes": 7144,
    "sha256": "874dc0ede10a9ce2c9bf97631b309582b539564ed995d5aab8c6531598791417",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/factory80_whitelist_fragment.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/factory80_whitelist_generate_native.py",
+   "path": "generation/archive/factory_pilots/tiled/factory80_whitelist_generate_native.py",
    "bytes": 2582,
    "sha256": "a3bd38d877f097b35318561245cec3b84cdf7091ba9c4b4d6a894abab436911c",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/factory80_whitelist_generate_native.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/factory80_whitelist_native_adapter.py",
+   "path": "generation/archive/factory_pilots/tiled/factory80_whitelist_native_adapter.py",
    "bytes": 6451,
    "sha256": "e38b6c6394d31927fd5b17917d9c7cfdb3649dbaf5c45480a71b99af56db4b30",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/factory80_whitelist_native_adapter.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/factory80_whitelist_portable.py",
+   "path": "generation/archive/factory_pilots/tiled/factory80_whitelist_portable.py",
    "bytes": 3515,
    "sha256": "4d87004d9ccc2ab51d7c5b50241b188a5c62cb5888edbc1434c11e1c9c1655a0",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/factory80_whitelist_portable.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/factory80_whitelist_prepare.py",
+   "path": "generation/archive/factory_pilots/tiled/factory80_whitelist_prepare.py",
    "bytes": 9317,
    "sha256": "bf110f044c827c658280d22a816b1c08fe378772f8fe57fed454377e89bf2458",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/factory80_whitelist_prepare.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/factory80_whitelist_publish_portable.py",
+   "path": "generation/archive/factory_pilots/tiled/factory80_whitelist_publish_portable.py",
    "bytes": 3116,
    "sha256": "9136040d516ff7a7cf556d94d129f43059aa221a4a652dbf7c7fd0005d3816f9",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/factory80_whitelist_publish_portable.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/gate_extension_builder_smoke_v1.py",
+   "path": "generation/archive/factory_pilots/tiled/gate_extension_builder_smoke_v1.py",
    "bytes": 3355,
    "sha256": "ef14071adbd3f131b4550709359ada313cb105f0d55df6adec5d3e60e8951ed3",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/gate_extension_builder_smoke_v1.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/gate_extension_controls_v1.py",
+   "path": "generation/archive/factory_pilots/tiled/gate_extension_controls_v1.py",
    "bytes": 11059,
    "sha256": "81b5a9ad10dc875436b2d078f06551956375bcb1947bda84a9caa6cf5bcf4f55",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/gate_extension_controls_v1.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/gate_extension_g13_multistair_v1.py",
+   "path": "generation/archive/factory_pilots/tiled/gate_extension_g13_multistair_v1.py",
    "bytes": 13160,
    "sha256": "787773e30f2ea68674fe2da723aefbfcff25492e05ced21bfcdb8be3073dae0d",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/gate_extension_g13_multistair_v1.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/gate_extension_multistair_builder_v1.py",
+   "path": "generation/archive/factory_pilots/tiled/gate_extension_multistair_builder_v1.py",
    "bytes": 16962,
    "sha256": "22bf6f0ab7a6a3141c9555ced843e09ba630636cec55f99636c21e4527a39014",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/gate_extension_multistair_builder_v1.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/gate_extension_nstorey_v1.py",
+   "path": "generation/archive/factory_pilots/tiled/gate_extension_nstorey_v1.py",
    "bytes": 9533,
    "sha256": "763ba394152c6b3858e2fb8b7b0628622966342583de8f6a6485e6bfa9b7e826",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/gate_extension_nstorey_v1.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/gate_extension_path_refinement_smoke_v1.py",
+   "path": "generation/archive/factory_pilots/tiled/gate_extension_path_refinement_smoke_v1.py",
    "bytes": 2548,
    "sha256": "16300b46bb98f8396af180c4e60a94d528dd4b63c046e228f0c2743fcc133e90",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/gate_extension_path_refinement_smoke_v1.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/lighting_authoring/PROTOCOL.md",
+   "path": "generation/archive/factory_pilots/tiled/lighting_authoring/PROTOCOL.md",
    "bytes": 8660,
    "sha256": "509974797fcd03101f8a9a91e50714e4eacff0478321811d94530a43be42af52",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/l2_current_render_only_author_20261015_R5/PROTOCOL.md",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/lighting_authoring/R3_ACTUAL_FAILURE_AND_METADATA_COPY_PROTOCOL.md",
+   "path": "generation/archive/factory_pilots/tiled/lighting_authoring/R3_ACTUAL_FAILURE_AND_METADATA_COPY_PROTOCOL.md",
    "bytes": 2302,
    "sha256": "2382a62d6cdc948e3c8ae25d446bfd92fad330a16747f2ad59545321a28913c4",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/l2_current_render_only_author_20261015_R5/R3_ACTUAL_FAILURE_AND_METADATA_COPY_PROTOCOL.md",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/lighting_authoring/R4_NORMALIZER_SOURCE_PROTOCOL.md",
+   "path": "generation/archive/factory_pilots/tiled/lighting_authoring/R4_NORMALIZER_SOURCE_PROTOCOL.md",
    "bytes": 3287,
    "sha256": "dfba07c3696e5c1fffa4fba607f37b2e530cb586be1822c4bcdbe0a2b3712afc",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/l2_current_render_only_author_20261015_R5/R4_NORMALIZER_SOURCE_PROTOCOL.md",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/lighting_authoring/author_render_only_layer.py",
+   "path": "generation/archive/factory_pilots/tiled/lighting_authoring/author_render_only_layer.py",
    "bytes": 34696,
    "sha256": "ce557d162312cc27157cb562e9a4a55c1e86a00bd1a81aa7fd263201a49ea11d",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/l2_current_render_only_author_20261015_R5/author_render_only_layer.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/lighting_authoring/execution_core.py",
+   "path": "generation/archive/factory_pilots/tiled/lighting_authoring/execution_core.py",
    "bytes": 7113,
    "sha256": "77142169e5add621e40cf363e0029eb87552abaf9efee49732575b87a3b222c2",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/l2_current_render_only_author_20261015_R5/execution_core.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/lighting_authoring/l1_l2_render_support.py",
+   "path": "generation/archive/factory_pilots/tiled/lighting_authoring/l1_l2_render_support.py",
    "bytes": 6978,
    "sha256": "d8dd38f437ec98d1f6f579710421714c65302fc5fff4ce6ee3d49a078eec9f3c",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/l2_current_render_only_author_20261015_R5/l1_l2_render_support.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/lighting_authoring/read_actual_root_author_bindings.py",
+   "path": "generation/archive/factory_pilots/tiled/lighting_authoring/read_actual_root_author_bindings.py",
    "bytes": 3639,
    "sha256": "2bb8c4c79925af553c4b2d2ddeb7ebdc9787cee0a7d54acba5ee99fd39732f15",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/l2_current_render_only_author_20261015_R5/read_actual_root_author_bindings.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/lighting_authoring/stat_hash_cache.py",
+   "path": "generation/archive/factory_pilots/tiled/lighting_authoring/stat_hash_cache.py",
    "bytes": 1294,
    "sha256": "d65de5898ee0ba54f8c9303fe83c7e0f9e31da68f9f9a318bb6ba5027d523d72",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/l2_current_render_only_author_20261015_R5/stat_hash_cache.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/lighting_capture/current_l2_cpu_inputs.py",
+   "path": "generation/archive/factory_pilots/tiled/lighting_capture/current_l2_cpu_inputs.py",
    "bytes": 8951,
    "sha256": "67feea905a384f91d77898f09047fe9edf270729f87f8c3f9c482b0b6867527e",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/current_all_l2_20261015_R2/current_l2_cpu_inputs.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/lighting_capture/current_l2_gpu_capture.py",
+   "path": "generation/archive/factory_pilots/tiled/lighting_capture/current_l2_gpu_capture.py",
    "bytes": 6097,
    "sha256": "994bd25e4ec8a1d36a3a62b6673471cce687d4a662ce251d1949853246d3cc75",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/current_all_l2_20261015_R2/current_l2_gpu_capture.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/lighting_capture/current_l2_image_checks.py",
+   "path": "generation/archive/factory_pilots/tiled/lighting_capture/current_l2_image_checks.py",
    "bytes": 7235,
    "sha256": "7549d1b8bf70d8c9031e567ade8ac347b3a9569fd604707c48fefa586b44ca91",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/current_all_l2_20261015_R2/current_l2_image_checks.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/lighting_capture/current_l2_inputs_contract.py",
+   "path": "generation/archive/factory_pilots/tiled/lighting_capture/current_l2_inputs_contract.py",
    "bytes": 2678,
    "sha256": "23efd4c610a2b477eb383ec686539600d323580382519c76073fc67a8fd2a2d7",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/current_all_l2_20261015_R2/current_l2_inputs_contract.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/lighting_capture/current_l2_serial.py",
+   "path": "generation/archive/factory_pilots/tiled/lighting_capture/current_l2_serial.py",
    "bytes": 10337,
    "sha256": "a7b2246f14525e87042cc28b0df282118d8f675764169657dc353d88d7f923c0",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/current_all_l2_20261015_R2/current_l2_serial.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/lighting_capture/reuse_current_l2_cpu_metadata.py",
+   "path": "generation/archive/factory_pilots/tiled/lighting_capture/reuse_current_l2_cpu_metadata.py",
    "bytes": 3761,
    "sha256": "154bb7d3079c0561c6cad01d19388964fadf96e9065829c25b71ef9f1651e9eb",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/current_all_l2_20261015_R2/reuse_current_l2_cpu_metadata.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/multistair_routes/current_full_m_source_binding.py",
+   "path": "generation/archive/factory_pilots/tiled/multistair_routes/current_full_m_source_binding.py",
    "bytes": 1067,
    "sha256": "f8b6d454101321bed4c5ab32186cb51c48a3c29d240596c06159bc7e0102a73d",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/current_multistair_cpu_20261015_R2/current_full_m_source_binding.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/multistair_routes/current_multistair_cpu.py",
+   "path": "generation/archive/factory_pilots/tiled/multistair_routes/current_multistair_cpu.py",
    "bytes": 20354,
    "sha256": "bdd7ceab9e8630874886e66462b4d6b147b3f0d980765e47d7ef77b246791620",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/current_multistair_cpu_20261015_R2/current_multistair_cpu.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/multistair_routes/current_multistair_queue.py",
+   "path": "generation/archive/factory_pilots/tiled/multistair_routes/current_multistair_queue.py",
    "bytes": 8370,
    "sha256": "1b36f82f278569f7cb2e3fb82e885f5cfff035ec81fa084dd53ac8fa168daecf",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/current_multistair_cpu_20261015_R2/current_multistair_queue.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/multistair_routes/deploy_current_multistair_cpu.py",
+   "path": "generation/archive/factory_pilots/tiled/multistair_routes/deploy_current_multistair_cpu.py",
    "bytes": 6035,
    "sha256": "a30ec2cdaa38afa0a67f10b192c5d6c2c8488dbb8c53d4d00c19c66522abd74c",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/current_multistair_cpu_20261015_R2/deploy_current_multistair_cpu.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/multistair_routes/multistair_cpu_contract.py",
+   "path": "generation/archive/factory_pilots/tiled/multistair_routes/multistair_cpu_contract.py",
    "bytes": 4339,
    "sha256": "1a994e72a8df352f6a392fa6c07cb61eaef846e6f21e8c1c6edd4d69ade573d5",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/current_multistair_cpu_20261015_R2/multistair_cpu_contract.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/multistair_routes/native_path_cpu_projection.py",
+   "path": "generation/archive/factory_pilots/tiled/multistair_routes/native_path_cpu_projection.py",
    "bytes": 4064,
    "sha256": "e5919bbf5e4632107463b45469be3079f6d9e832d7eefd7a6c55d59593811314",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/current_multistair_cpu_20261015_R2/native_path_cpu_projection.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/multistair_routes/test_multistair_cpu_contract.py",
+   "path": "generation/archive/factory_pilots/tiled/multistair_routes/test_multistair_cpu_contract.py",
    "bytes": 4716,
    "sha256": "e412bf57f9aa32c476df9c69dd6c73be8f14216a00ee2a9c4749640131bd87aa",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/current_multistair_cpu_20261015_R2/test_multistair_cpu_contract.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/observe_factory80_isaac.py",
+   "path": "generation/archive/factory_pilots/tiled/observe_factory80_isaac.py",
    "bytes": 8046,
    "sha256": "ef35caeb24e079694e1b0e676a96c3e8ef6115683e09c69edceead3e9d76e497",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/observe_factory80_isaac.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/plan_factory80_tiling.py",
+   "path": "generation/archive/factory_pilots/tiled/plan_factory80_tiling.py",
    "bytes": 3775,
    "sha256": "d1f55fd688173c89dba4857e1730f10e88076098f0480d4a6b2e986462e917f2",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/plan_factory80_tiling.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/refine_factory80_source_pairing.py",
+   "path": "generation/archive/factory_pilots/tiled/refine_factory80_source_pairing.py",
    "bytes": 4393,
    "sha256": "72ff599fbf8134c8e740cba638dba88dfdc04bbea9f54f85f038adf2ad8e7fb5",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/refine_factory80_source_pairing.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/render_factory80_isaac.py",
+   "path": "generation/archive/factory_pilots/tiled/render_factory80_isaac.py",
    "bytes": 6730,
    "sha256": "2c7c0a6dc2a8fbf30a9038b2199e3f8ce000e64a97a9a49fe9fb5ec5eab0c4e1",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/render_factory80_isaac.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/scene_expansion_composed_stream.py",
+   "path": "generation/archive/factory_pilots/tiled/scene_expansion_composed_stream.py",
    "bytes": 7780,
    "sha256": "b6046979db7a03781631020df2f3f141c3b12688f0897a4a392d391160cf7dd9",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/scene_expansion_composed_stream.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/scene_expansion_equipment_probe.py",
+   "path": "generation/archive/factory_pilots/tiled/scene_expansion_equipment_probe.py",
    "bytes": 1716,
    "sha256": "dfb9c3be7319df052a42085bb4ff15eaf09ff85ec67f53a60683c4ed0fca3988",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/scene_expansion_equipment_probe.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/scene_expansion_extract_objects.py",
+   "path": "generation/archive/factory_pilots/tiled/scene_expansion_extract_objects.py",
    "bytes": 2800,
    "sha256": "dbfdc00ed004f5e930930fe7a312cb9f0db93ef390a2922016456cad222a26a0",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/scene_expansion_extract_objects.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/scene_expansion_extract_ready.py",
+   "path": "generation/archive/factory_pilots/tiled/scene_expansion_extract_ready.py",
    "bytes": 3347,
    "sha256": "b41dfbcdd96d5f6d82502a22774c89060dc8dcd475490dca84e82eaa17910eae",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/scene_expansion_extract_ready.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/scene_expansion_link_present_objects.py",
+   "path": "generation/archive/factory_pilots/tiled/scene_expansion_link_present_objects.py",
    "bytes": 1588,
    "sha256": "3f85206716092ffb98c79b3324102b81d7b8d2b555b79f5d805deca67d1ee739",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/scene_expansion_link_present_objects.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/scene_expansion_machine_bounds.py",
+   "path": "generation/archive/factory_pilots/tiled/scene_expansion_machine_bounds.py",
    "bytes": 7496,
    "sha256": "70de48b8e73aaea6d7a41505f49e93d3b519bc57e990c3d451a0c43675114346",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/scene_expansion_machine_bounds.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/scene_expansion_missing_equipment_geometry.py",
+   "path": "generation/archive/factory_pilots/tiled/scene_expansion_missing_equipment_geometry.py",
    "bytes": 680,
    "sha256": "6d07597c19bbd97f5fd7ba6b70ffd0539a7a7ebb6d9898c7d334e82d514e414f",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/scene_expansion_missing_equipment_geometry.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/scene_expansion_objects_ready.py",
+   "path": "generation/archive/factory_pilots/tiled/scene_expansion_objects_ready.py",
    "bytes": 3822,
    "sha256": "050cf513223ab8b0a9d96a8de4facc36d74db033a0ae2b88018eb753432716a7",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/scene_expansion_objects_ready.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/scene_expansion_publish.py",
+   "path": "generation/archive/factory_pilots/tiled/scene_expansion_publish.py",
    "bytes": 1984,
    "sha256": "8c160dce3b844f9e8bfc33b630e4f78a7acdb549c2c3b3d768afa102454a7d4a",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/scene_expansion_publish.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/scene_expansion_remote.py",
+   "path": "generation/archive/factory_pilots/tiled/scene_expansion_remote.py",
    "bytes": 3410,
    "sha256": "23a5e291a81c0bfdf64cc53222e03eb446d4e6237d90487c19e5ca7a53c8944a",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/scene_expansion_remote.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/scene_expansion_verify_objects.py",
+   "path": "generation/archive/factory_pilots/tiled/scene_expansion_verify_objects.py",
    "bytes": 3834,
    "sha256": "2f813892f455eeab6429c64efc4153646ae2dc9babc475d69479e459904346bc",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/scene_expansion_verify_objects.py",
    "contract": null
   },
   {
-   "path": "generation/factory/tiled_factory80/scene_expansion_zstd.py",
+   "path": "generation/archive/factory_pilots/tiled/scene_expansion_zstd.py",
    "bytes": 3209,
    "sha256": "452d5e1cf31c2d499e9b3f61f76d6584cf17970c95c3fce318d5da38b5bb06c9",
    "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/scripts/scene_expansion_zstd.py",
@@ -2231,6 +2314,1284 @@
     "sha256_matches": true,
     "original_path": "E:\\Researches\\code study\\Scenesmith-code-study\\final_training_validation\\test_gate25_storey_navigation.py"
    }
+  },
+  {
+   "path": "generation/museum/resource_sampler_protected.py",
+   "bytes": 2927,
+   "sha256": "db5b17678c1f0d887bb43b26c8214393182895cf70bb3494bfbf446b4000cb35",
+   "original_bytes": 2927,
+   "original_sha256": "db5b17678c1f0d887bb43b26c8214393182895cf70bb3494bfbf446b4000cb35",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/ad104_sampler2107.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/resource_sampler.py",
+   "bytes": 2894,
+   "sha256": "4a7d80e259a3b8385ec5cd902760b3835cc0cce9b40469e13a359a0deccf5c07",
+   "original_bytes": 2894,
+   "original_sha256": "4a7d80e259a3b8385ec5cd902760b3835cc0cce9b40469e13a359a0deccf5c07",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/ad98_sampler1927.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/blender_common.py",
+   "bytes": 25227,
+   "sha256": "a335b6b3ae615223307e3ea4b6f20b2416405f97adaa5bf754529ab749eb4fa0",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/blender_common.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/botanical_materials.py",
+   "bytes": 5005,
+   "sha256": "357eeb985e17b80383978cfb6939ba3758e63a0f612a198d1c1619124b5fa62d",
+   "original_bytes": 5005,
+   "original_sha256": "357eeb985e17b80383978cfb6939ba3758e63a0f612a198d1c1619124b5fa62d",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/botanical_materials25.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/build_candidate.py",
+   "bytes": 1045,
+   "sha256": "a3d6348264d955380fc06ced50648951cbc833351aef9dfce647e827b153239b",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/build_candidate.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/building_core.py",
+   "bytes": 14152,
+   "sha256": "1fcf22999c6b3fc80ebfb7fa0615256e61b9e8385c86880a5d259577b76018b2",
+   "original_bytes": 14156,
+   "original_sha256": "e4f83d7a7ed78d078c347f7aa58a2831513c947c72a9b1779fa24748af35055d",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/building_core.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/export_museum.py",
+   "bytes": 19745,
+   "sha256": "81a9698b43530cc4391eef339fd4b718e4da6eaf1e22f3a9b0510079852131af",
+   "original_bytes": 19745,
+   "original_sha256": "81a9698b43530cc4391eef339fd4b718e4da6eaf1e22f3a9b0510079852131af",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/export_museum29.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/exterior_camera.py",
+   "bytes": 4372,
+   "sha256": "c9456c22dc00d2f327af66bff807c387645f8e42fdd92504068f0071eb791c76",
+   "original_bytes": 4372,
+   "original_sha256": "c9456c22dc00d2f327af66bff807c387645f8e42fdd92504068f0071eb791c76",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/exterior_camera16.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/stair_junction_camera.py",
+   "bytes": 6233,
+   "sha256": "06a46732b892b5975bc64ea0440c5a0c8b2f829efcdc037f2b0a8a660cfefe64",
+   "original_bytes": 6233,
+   "original_sha256": "06a46732b892b5975bc64ea0440c5a0c8b2f829efcdc037f2b0a8a660cfefe64",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/fit_m02_junction22.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/gallery_layout.py",
+   "bytes": 1424,
+   "sha256": "1f00045cd5cd61246d76f1c1e73d7fb770d27df398158f5555b9899b5a508d85",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/gallery_layout.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/gallery_planning.py",
+   "bytes": 22535,
+   "sha256": "d428136f930ea4989284d57f7e426e85a9ef25759c991b0d2bcb11aa7c6f8c48",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/gallery_planning.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/generate_museum.py",
+   "bytes": 9070,
+   "sha256": "36e6b63fccfdf1a11676747720897ac874dfba62002eb3bbe5c489d4ba3ddc0b",
+   "original_bytes": 9062,
+   "original_sha256": "cd7750ee99d20dc78b06cad156e44018b79cff520386f0dd701cdcabbbf38969",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/generate_museum.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/generate_shell.py",
+   "bytes": 3354,
+   "sha256": "101a87ea090bfaedea9ae7e4a5747c3a6be658a602ac5fdf36bb99c79f4addaa",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/generate_shell.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/resource_source_audit.py",
+   "bytes": 2586,
+   "sha256": "7029d92a0cadf9b5f9d8f89072fa500f9620dfa259096977a9de0cf52bce9642",
+   "original_bytes": 2586,
+   "original_sha256": "7029d92a0cadf9b5f9d8f89072fa500f9620dfa259096977a9de0cf52bce9642",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/gpu_source65.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/image_gate.py",
+   "bytes": 2327,
+   "sha256": "0dfc90246acce3a923333c122ce63005f587ccb066a38812a44d3938647b290f",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/image_gate.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/isaac_building_c5.py",
+   "bytes": 1981,
+   "sha256": "900944788f047d6bb4243a5b9da3a15f479cb52e853622fd86b82691a89b2d75",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/isaac_building_c5.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/isaac_building_rtx.py",
+   "bytes": 3568,
+   "sha256": "aaeb3a5c5863035b4cac190edd828f4b64a024bd20c6865dc7d0a698b1b13523",
+   "original_bytes": 3572,
+   "original_sha256": "6d2a1bdb46c4d513765d0d9186f51e5c97bfb53b0968f5f8e25e09cf7cd68e66",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/isaac_building_rtx.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/museum_brutalist.py",
+   "bytes": 5777,
+   "sha256": "99c76bf0a30c6328b8c69fb29c6cb58e1e7a2b9450396f14ece960f6157f327b",
+   "original_bytes": 5777,
+   "original_sha256": "99c76bf0a30c6328b8c69fb29c6cb58e1e7a2b9450396f14ece960f6157f327b",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/museum_brutalist26.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/museum_classical.py",
+   "bytes": 2273,
+   "sha256": "e6eef4c4dcf7b436bc41eebca73887c7c971ec99d1a4fe3c5c0d302ef873ff36",
+   "original_bytes": 2273,
+   "original_sha256": "e6eef4c4dcf7b436bc41eebca73887c7c971ec99d1a4fe3c5c0d302ef873ff36",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/museum_classical16.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/museum_crustaceans.py",
+   "bytes": 3602,
+   "sha256": "4eed1f4afc89bebf1b39e2f1af473af396abe3f403432be0de1337e59e79e8cb",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/museum_crustaceans.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/museum_deco.py",
+   "bytes": 12923,
+   "sha256": "08ab2b6be7ef1dde66f0805e790afc4dc3d2f004aa579eb499cb804deb780f73",
+   "original_bytes": 12923,
+   "original_sha256": "08ab2b6be7ef1dde66f0805e790afc4dc3d2f004aa579eb499cb804deb780f73",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/museum_deco12.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/museum_deco_atrium.py",
+   "bytes": 1525,
+   "sha256": "135de6b74f3237c32b86330d55b45edc58e15af0f3a66a921b149f7fbfbf5d07",
+   "original_bytes": 1525,
+   "original_sha256": "135de6b74f3237c32b86330d55b45edc58e15af0f3a66a921b149f7fbfbf5d07",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/museum_deco24.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/museum_contemporary_displays.py",
+   "bytes": 10043,
+   "sha256": "a749925ea216a469136549f75f184ba6d84e0c380b086cf1a4fb43d63b71b9c8",
+   "original_bytes": 10040,
+   "original_sha256": "1bbd21ac28caeab7fbca68507a4d91535f5f3eb23e90d49c3e3d7833e07b224f",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/museum_dense_remaining11.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/museum_design_studies.py",
+   "bytes": 4099,
+   "sha256": "fb238e729b7c258de3e562f5223d581734e45b32be4b3d0c37f1bf9ab295f76e",
+   "original_bytes": 4099,
+   "original_sha256": "fb238e729b7c258de3e562f5223d581734e45b32be4b3d0c37f1bf9ab295f76e",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/museum_design24.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/museum_details.py",
+   "bytes": 6700,
+   "sha256": "e536eeccb09135fc06b274218d88c62ca41a03a6682c4785151b4d9069c46526",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/museum_details.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/museum_dome.py",
+   "bytes": 2235,
+   "sha256": "efd35854e3f59ca465e75ae0f80cf0ddd7a4adc4bbe90937e7c99973148772e5",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/museum_dome.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/museum_east_asian.py",
+   "bytes": 13177,
+   "sha256": "64056e27438767ea3b7bf556e41561f5d2a6ecc6e5879cfb7c2340695909b171",
+   "original_bytes": 13179,
+   "original_sha256": "8933eecf70dc2a86b2f6b21892276765320a979fd9c1e7e24e7b4f242c53eca8",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/museum_east_asian13.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/museum_exhibits.py",
+   "bytes": 19267,
+   "sha256": "78d679450bdafbe18ceef6555c931523d9c9dfa0cba7175f47681c4782c713b7",
+   "original_bytes": 19264,
+   "original_sha256": "4ffb80dad70cdb8d91f40d972487fc0773f1cba4be39be1c6cc7a4446e3cb0e8",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/museum_exhibits.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/museum_facades.py",
+   "bytes": 10977,
+   "sha256": "695de712bebef67696fde7c37a7f6308d0e3045f90d4e9c47808cc9ab3cdda27",
+   "original_bytes": 10978,
+   "original_sha256": "23a7085b4dee6b61fa66dd35292f4adba673256d14145ff8671a6f074a2d51be",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/museum_facades.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/museum_fossil_hall.py",
+   "bytes": 6201,
+   "sha256": "0051b580fa9d2a1711bb85b0710819a8e2cc28ccf9c7885c1fc7c6bfcc662488",
+   "original_bytes": 6201,
+   "original_sha256": "0051b580fa9d2a1711bb85b0710819a8e2cc28ccf9c7885c1fc7c6bfcc662488",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/museum_fossil37.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/museum_glasshouse.py",
+   "bytes": 7831,
+   "sha256": "174030f6e0637b62462caa37429492e80f61494948ebbda3f107e446738818f9",
+   "original_bytes": 7831,
+   "original_sha256": "174030f6e0637b62462caa37429492e80f61494948ebbda3f107e446738818f9",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/museum_glasshouse14.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/museum_gothic.py",
+   "bytes": 12959,
+   "sha256": "0a2278376863b4c6deda4b9316bbc30c9d840067fa523e63ad559c391a0c835d",
+   "original_bytes": 12953,
+   "original_sha256": "472e83e1ae76d1b5828d0a92ba6cd773b71fc9c604aac1af4b263b761e7164e3",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/museum_gothic14.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/museum_gothic_towers.py",
+   "bytes": 5684,
+   "sha256": "973d6bd80f4fa66a852db000e6d6c8594bde69066554a0587652843ee00f6d60",
+   "original_bytes": 5686,
+   "original_sha256": "029f50b5aba3710383293c183ed1127b80530fb5961a7fae5631350184f2ce89",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/museum_gothic18.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/museum_industrial.py",
+   "bytes": 10451,
+   "sha256": "4842e3c2a7da3be7fbc9f1c10e73e01df06f38bce75314e8b155e562fba795cb",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/museum_industrial.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/museum_industrial_groups.py",
+   "bytes": 9224,
+   "sha256": "1dad7b9c8ec9d022da0e5c82f4d6907085fd4bfd94bddc4ddaf510e7dbd0f57a",
+   "original_bytes": 9226,
+   "original_sha256": "feb8e309b73aac460b6cc4ab7ca7e9bd7d618eaeed242a149d9c0c2ad3af43cf",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/museum_industrial11.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/museum_industrial_brick.py",
+   "bytes": 4325,
+   "sha256": "3e0396f73749152b4f09d6ca95479fb0b6cadb30ac68b00437f74866560d5cba",
+   "original_bytes": 4325,
+   "original_sha256": "3e0396f73749152b4f09d6ca95479fb0b6cadb30ac68b00437f74866560d5cba",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/museum_industrial27.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/museum_lighting.py",
+   "bytes": 2098,
+   "sha256": "3b29d0b1c0fcef23dee7870171e8338042a0776be740ab9d1805b3406252c84b",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/museum_lighting.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/museum_machines.py",
+   "bytes": 4341,
+   "sha256": "511b747e8240b96a59add5f9613fd10c72362afab0039b4b8f3366e1e34ff274",
+   "original_bytes": 4341,
+   "original_sha256": "511b747e8240b96a59add5f9613fd10c72362afab0039b4b8f3366e1e34ff274",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/museum_machines11.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/museum_marine.py",
+   "bytes": 7060,
+   "sha256": "07cc32e76b45fbd642acf2502f96991ea671ccb7a4797224eff583b67e8e0b37",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/museum_marine.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/museum_mediterranean.py",
+   "bytes": 8053,
+   "sha256": "5b644514a10d1969a8bc4f5b352e367ac764c993ecb3a2276973a6365cfd727e",
+   "original_bytes": 8053,
+   "original_sha256": "5b644514a10d1969a8bc4f5b352e367ac764c993ecb3a2276973a6365cfd727e",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/museum_mediterranean32.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/museum_modern_art.py",
+   "bytes": 1646,
+   "sha256": "9919620ba2c415dc46be6a5d4a771f15833428eb976c0b87965e449c51a86a12",
+   "original_bytes": 1646,
+   "original_sha256": "9919620ba2c415dc46be6a5d4a771f15833428eb976c0b87965e449c51a86a12",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/museum_modern_art17.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/museum_natural_history.py",
+   "bytes": 3439,
+   "sha256": "15a235c54ada1d65ea7445fb73e0e5cdace6a1fdbf373e5d342eb2092e66a387",
+   "original_bytes": 3439,
+   "original_sha256": "15a235c54ada1d65ea7445fb73e0e5cdace6a1fdbf373e5d342eb2092e66a387",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/museum_natural24.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/museum_nordic.py",
+   "bytes": 9110,
+   "sha256": "7be6f5062b84dac3647517e1e724a8c65fc25e0f1e529c73c669d3ef6a59b705",
+   "original_bytes": 9110,
+   "original_sha256": "7be6f5062b84dac3647517e1e724a8c65fc25e0f1e529c73c669d3ef6a59b705",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/museum_nordic28.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/museum_originals.py",
+   "bytes": 2987,
+   "sha256": "d50dd86d72dfbde47b023def1925fec776972b15814198ff19a42e6f120afe87",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/museum_originals.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/museum_pitched_roof.py",
+   "bytes": 2287,
+   "sha256": "71c462d40fade954e20d4f42c2aafc34911498e3ad93c23f3cc52dd03bb8acf1",
+   "original_bytes": 2287,
+   "original_sha256": "71c462d40fade954e20d4f42c2aafc34911498e3ad93c23f3cc52dd03bb8acf1",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/museum_pitched_roof12.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/museum_rails.py",
+   "bytes": 5281,
+   "sha256": "2114ffd6274447efadfc654213a780cddcc13037b3c67aca53667fbcdcf30c87",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/museum_rails.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/museum_style.py",
+   "bytes": 35027,
+   "sha256": "63bb6c36b0ca35bb107954eb6bdedf4654c1d05955974ab7b26892973fccabce",
+   "original_bytes": 35018,
+   "original_sha256": "f2fc769fcda9515d5ef11bacedb697f26d85dd5bf5d97448c9216a8acbd7addd",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/museum_style.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/museum_themes.py",
+   "bytes": 14398,
+   "sha256": "579795b4e16b40e4918d94db1a2f85e65a734b29f1d74c8af29b35f2e19d9275",
+   "original_bytes": 14392,
+   "original_sha256": "2b1471f976a1994690297ad3d4f95beb7f8880f5e438a46162ab6f7628be6926",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/museum_themes.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/museum_tropical.py",
+   "bytes": 13270,
+   "sha256": "3405162cd45b068c30172cdfe12efdaa3501a56880a009cdc881054a8cc132b9",
+   "original_bytes": 13272,
+   "original_sha256": "df1c74949914c363308ae2dcefd517a397057e7b9505d5dd2f009055b8a66c27",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/museum_tropical19.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/museum_tropical_plants.py",
+   "bytes": 13487,
+   "sha256": "f97885a969b28bfc268c093362097681e4af198bec3de570954a49ea99f09f4f",
+   "original_bytes": 13492,
+   "original_sha256": "03e344da1d00d7a40f338d4e9e83ec3b0ecfe6335118ca2603ee2ab88db28ccb",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/museum_tropical22.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/museum_victorian.py",
+   "bytes": 8043,
+   "sha256": "3dc49a3d1445d25deb3ff8546978fe304c907ec2aa8eb6af03cd93e7e8777251",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/museum_victorian.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/native_c5.py",
+   "bytes": 7806,
+   "sha256": "6496bfabe86f3ad3618c37f282be78d6dbb0899f18ca06fad11a611ed0f73149",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/native_c5.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/prepare_tropical_plants.py",
+   "bytes": 6730,
+   "sha256": "3b6157d3d93f2a78d7428aa1e443ca6c33d12c934a714863ff9130274c269dbd",
+   "original_bytes": 6730,
+   "original_sha256": "3b6157d3d93f2a78d7428aa1e443ca6c33d12c934a714863ff9130274c269dbd",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/prepare_tropical_factories19.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/render_hdr.py",
+   "bytes": 15626,
+   "sha256": "75c8fe423e988978d19121ae619aca2a407ac9321dca348a625f1c98cec33ef3",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/render_hdr.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/resource_admission_small_tasks.py",
+   "bytes": 6591,
+   "sha256": "291e9cf43277cc40b6f335d73576dd76ec1a96d4616c670fcf221cfecd342041",
+   "original_bytes": 6596,
+   "original_sha256": "985ea27633c44a37b0db11719142d7483ebc8a8775a8e9ab6a799de936add296",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/resource_ad100_tools2041.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/resource_admission_protected.py",
+   "bytes": 3773,
+   "sha256": "03ce45cd7b0b0cde4981ef694679a5af497d4e1ab6f51df5a36f25a05fd0871a",
+   "original_bytes": 3763,
+   "original_sha256": "dab8b1cc334e26953fa562f6b8508d97e79f365a87b46079974c89fe0ff354a9",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/resource_ad104_tools2106.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/resource_admission.py",
+   "bytes": 3572,
+   "sha256": "387cc2fec53e785420e2a7be6fa0f39746c2e13556fe774eef4324deee035f88",
+   "original_bytes": 3572,
+   "original_sha256": "9ed63b2f10e7efa00d89a731efc5e26ec22ce3f1d7b2d353169f00f610b307bf",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/resource_ad98_tools1934.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/resource_guard.py",
+   "bytes": 16574,
+   "sha256": "bd203f6d6f267ecdb5d4b3e7cf8e7e6f3ed70ac7b8c6d882013ef9b35c066cde",
+   "original_bytes": 16555,
+   "original_sha256": "6ea127fcae7c16041b88a8e269efbb0711f301627661bd8c76e08e87aa8ed042",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/resource_guard.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/scan_color.py",
+   "bytes": 7357,
+   "sha256": "760b3ad70fa96434ffdd710b6918920efa0e6dc1a827361b6c2b3d1a2217aca1",
+   "original_bytes": 7357,
+   "original_sha256": "760b3ad70fa96434ffdd710b6918920efa0e6dc1a827361b6c2b3d1a2217aca1",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/scan_color24.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/scan_color_model.py",
+   "bytes": 4282,
+   "sha256": "83d7d0a53c7a202b511ad8ee57e3f7edbfb0e6bdec640135dd04b7ec23da6be6",
+   "original_bytes": 4284,
+   "original_sha256": "b59ea0e9484664390dd381459090f613fdb8f379cf76e9c61ae7e6117d19a542",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/scan_color24_v2.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/scan_materials.py",
+   "bytes": 4129,
+   "sha256": "ca2c76903dc7c1108671f4fd6701b819385745a581bf4271e2e3801b61b58194",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/scan_materials.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/specs/M01.json",
+   "bytes": 37190,
+   "sha256": "430c87e152288fbb1429ef043e8d0269f425899780f3ad818090f3baa442738b",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/specs/M01.json",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/specs/M02.json",
+   "bytes": 8249,
+   "sha256": "be2872c6fda445863b0f39dae65ed08a70729dc10fe84e1f1164d293b2b34257",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/specs/M02.json",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/specs/M03.json",
+   "bytes": 16868,
+   "sha256": "fcc88f645bebed41c1220e9051ace5c006303bc5583b1d867655a3831ef68ce5",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/specs/M03.json",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/specs/M04.json",
+   "bytes": 23043,
+   "sha256": "7c5f9741ed45b9656e5aa06b2fcb3881eaf5483f0d4d009879a456361b6b7551",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/specs/M04.json",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/specs/M05.json",
+   "bytes": 40593,
+   "sha256": "08ed3f338a15ba19f74c5ad25f0137f501c6627522fab0afbf9b58b73faf4516",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/specs/M05.json",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/specs/M06.json",
+   "bytes": 12829,
+   "sha256": "4c77bdbe39fc02d9aa6970468fbea7fa859e79a2b825b227b7744e8b188db228",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/specs/M06.json",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/specs/M07.json",
+   "bytes": 13717,
+   "sha256": "298a83bdf5116a4a6828ba27d4d8136997c62dbfa47c9757142b8e52b0155a85",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/specs/M07.json",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/specs/M08.json",
+   "bytes": 11330,
+   "sha256": "3405f930f7f50b3b382b69d04a921dd02a672d17453f5992f3f08336b2cbd4f1",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/specs/M08.json",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/specs/M09.json",
+   "bytes": 15792,
+   "sha256": "49afe7be90fb813c10a9f9552d8aa208cf6666ae656ae6042c56f37f5428340a",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/specs/M09.json",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/specs/M10.json",
+   "bytes": 6444,
+   "sha256": "d79be8d1287e144c56f825910bc26f0d46e5a493e7d8f821040e82eadbed5917",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/specs/M10.json",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/specs/M11.json",
+   "bytes": 14670,
+   "sha256": "d3fc92c989aac2cfe40da2b078e12512f3c732c9b316717157c090217e769dee",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/specs/M11.json",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/specs/M12.json",
+   "bytes": 44646,
+   "sha256": "d4bff551910979b9bb76ffbf4ed61bbf08ce60c9741396630ed793602cea6650",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/specs/M12.json",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/specs/M13.json",
+   "bytes": 3034,
+   "sha256": "263f5be6575b827d49e132354527b14db642785c75e2af61e0668c65069a3c6b",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/specs/M13.json",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/specs/M14.json",
+   "bytes": 2994,
+   "sha256": "19ed42752792837665cf0efcbb82d30843cc2bc8e8e05cb9996cf00422a34655",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/specs/M14.json",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/specs/M15.json",
+   "bytes": 15515,
+   "sha256": "af08e1b985c8017c6005eaafefa6ccb5a646876f80da189ed7ad538404befec9",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/specs/M15.json",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/specs/M16.json",
+   "bytes": 12998,
+   "sha256": "0055deb92bc229bdfb896c7dbae47b66866d7bc171a1cfe21df13f8c02c45836",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/specs/M16.json",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/specs/M17.json",
+   "bytes": 10878,
+   "sha256": "d2ce924a2b1c8f37dbe60e5ff7c2caaa08aa2ed8c191520e60635c8655e67ef4",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/specs/M17.json",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/specs/M18.json",
+   "bytes": 11536,
+   "sha256": "2299991bc46dbb261eda3c0f9967d4d5f211206fa27464baea49b08efd9b947b",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/specs/M18.json",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/specs/M19.json",
+   "bytes": 8273,
+   "sha256": "c87255f2437687c80fa305ba44163bf13a4a79d3bb219455717deb4b0585053d",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/specs/M19.json",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/specs/M20.json",
+   "bytes": 9488,
+   "sha256": "85800df6c76e7f139ba14bacdeab22161ad9a55e5884210662a564f042d6aa06",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/specs/M20.json",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/specs/M21.json",
+   "bytes": 9006,
+   "sha256": "2b82558c3cd4f9247aa5d34718f0fd30ce035217cf624eace69e915b2b02b830",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/specs/M21.json",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/specs/M22.json",
+   "bytes": 19152,
+   "sha256": "ac9a540cba64d5281fe0a60569552ba75aaac0e93f2a26470d4045a3ec55de05",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/specs/M22.json",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/specs/M23.json",
+   "bytes": 18041,
+   "sha256": "710f767aa05ffc0d484512fe8b3b7772a1887733ed40358ca25f3f6e36754bfd",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/specs/M23.json",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/specs/M24.json",
+   "bytes": 14916,
+   "sha256": "99539664058652ad55a2de4b05f6d0064ab63c405ac14f641d3fc4501874695c",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/specs/M24.json",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/specs/M25.json",
+   "bytes": 14471,
+   "sha256": "84755422111cb473ef33bf013978d2819fb58c9f039b04873e21750df0331585",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/specs/M25.json",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/specs/M26.json",
+   "bytes": 29206,
+   "sha256": "ab15b09a61ab961586791e270de4752d36c8f16da69b9640d9af8fa325026f20",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/specs/M26.json",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/specs/M27.json",
+   "bytes": 10388,
+   "sha256": "5621688c40bbd08c4ae00977996c25e861c322e9cc9797771a74b7d2d5af695c",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/specs/M27.json",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/specs/M28.json",
+   "bytes": 10711,
+   "sha256": "8edb3f16824013ced57b481604ab41634da4bd7f7df29fad5254af7ded1650e9",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/specs/M28.json",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/specs/M29.json",
+   "bytes": 10820,
+   "sha256": "6dcb87674d6e90e007aea4b82f957b0e058d2b70151fca2b05df9b1b7cdaddc6",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/specs/M29.json",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/stair_assemblies.py",
+   "bytes": 1948,
+   "sha256": "80176f0d995900bc25469ae2473af6522cf9026be396367d336c5eb203a29b99",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/stair_assemblies.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/staircase_core.py",
+   "bytes": 18084,
+   "sha256": "9993f297988a19ed3ad151f46b89b82105dd7d859adb17a2a8a4719eecfd2a08",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/staircase_core.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/resource_watchdog_probe.py",
+   "bytes": 553,
+   "sha256": "b3bae0040bbab928343b4dec81689f92a28914d9ca54d6c816b782ebca557022",
+   "original_bytes": 553,
+   "original_sha256": "b3bae0040bbab928343b4dec81689f92a28914d9ca54d6c816b782ebca557022",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/test_group_limit22.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/validate_c1.py",
+   "bytes": 5729,
+   "sha256": "83aa9fbd6a62388ce8353b64359c2cb85b72bef77b866097e799255de5749837",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/validate_c1.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/validate_camera_joint.py",
+   "bytes": 3112,
+   "sha256": "14a241e94abfa8720db905ee9df3e23740cc550c2bff6089cb1f1a9d36b206c9",
+   "original_bytes": 3112,
+   "original_sha256": "14a241e94abfa8720db905ee9df3e23740cc550c2bff6089cb1f1a9d36b206c9",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/validate_camera_joint24.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/validate_daylight.py",
+   "bytes": 2276,
+   "sha256": "3b2c4f76bfc7ac89d9920f149aa7e5965cba3c31bb18298764bfa67c94b60fdf",
+   "original_bytes": 2276,
+   "original_sha256": "3b2c4f76bfc7ac89d9920f149aa7e5965cba3c31bb18298764bfa67c94b60fdf",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/validate_daylight38.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/validate_stair_tests.py",
+   "bytes": 7873,
+   "sha256": "6e891fae5b7855fd8c7b697d6be379cb1e72be26f5898c7012748131e7c3de2a",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/validate_stair_tests.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/validate_static_bundle.py",
+   "bytes": 1761,
+   "sha256": "f20a39ffc435c3c9b74544f29c4fe95b3d591fae7156d9ab67ea8bc540384547",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/validate_static_bundle.py",
+   "contract": null
+  },
+  {
+   "path": "generation/museum/validate_visual.py",
+   "bytes": 5117,
+   "sha256": "ce8c67ef60eabf4afd04c146a7793188c47c0a29c6b2979740bfa2fa002b86c0",
+   "origin": "/cephfs/shared/yixing/outputs/museum29_20261107/scripts/validate_visual.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/approved_revision_policy.json",
+   "bytes": 31727,
+   "sha256": "92700fd856102305720c2ab8bc3f733820f076caf2d26009d2466c59fa0303db",
+   "original_bytes": 31729,
+   "original_sha256": "49aad05d0040f66c769744dac7c38b811e25fe83659b0da58e265d55287d6eb7",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/ROUND4_APPROVED_RENDER_C2_REVISION_V1.json",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/archive_review.py",
+   "bytes": 17710,
+   "sha256": "d490446c79ad65a7e9002ba6abcf7d6c7c3142ca31713f1db21c60f117e9af0e",
+   "original_bytes": 17710,
+   "original_sha256": "f1e031ced6331641ab718f174cdb5ddb1b00c900943a8d6c4e8ceacb7a3c36ee",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/review_factory80_v4_zip_v10.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/archive_review_legacy.py",
+   "bytes": 17468,
+   "sha256": "f26580193c55b5aaf732d06bf162077c9c5c711b6de66d45fd4ac0070949ff01",
+   "original_bytes": 17464,
+   "original_sha256": "fb2d60f39dd2f3e83ee608a60c3678e80f25dcc9483ede1ca93e6a1363b1b25f",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/review_factory80_v4_zip_v7.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/area_count_rules.py",
+   "bytes": 6019,
+   "sha256": "d68d81bd264169b4176caebc5e7540515b21fba8fb4ac5cebb8a6afd9d6187ef",
+   "original_bytes": 6019,
+   "original_sha256": "d68d81bd264169b4176caebc5e7540515b21fba8fb4ac5cebb8a6afd9d6187ef",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/factory80_v31_counts_v1.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/c4_alternative_check.py",
+   "bytes": 23183,
+   "sha256": "2d146b3d6678e24e5e78ef9678f0719f264ff8307a955007b95c458f9dbe2488",
+   "original_bytes": 23181,
+   "original_sha256": "d34cf61c3286dd38cc5ccc80942fa9c4b6452d057d7e431b07199188358c6ebb",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/c4_alternative_v8.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/camera_planner.py",
+   "bytes": 13127,
+   "sha256": "3fcdceee7becec718646d7b7b74ecfef3d1f4ab5f4b007bd0fcc759f6b0d3673",
+   "original_bytes": 13127,
+   "original_sha256": "3fcdceee7becec718646d7b7b74ecfef3d1f4ab5f4b007bd0fcc759f6b0d3673",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/camera_plan_v1.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/deliver_batch.py",
+   "bytes": 29846,
+   "sha256": "aba93625f70b41f0f1be7a84d06d29b4a091014078f316d1e02a10e617a803f3",
+   "original_bytes": 29865,
+   "original_sha256": "d605c4fa77c14ef9f14c2bccba0259e4ac8186861df78c6bddfd28c7997b2295",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/batch_deliver_v10.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/deliver_batch_legacy.py",
+   "bytes": 29645,
+   "sha256": "455f37fc95c27ad1d7ea80cc788f95c5552b59e0f74603affbbea8febf33a303",
+   "original_bytes": 29634,
+   "original_sha256": "8b113e12c2250b4c8aa22e524d05fc55928fb733cb0ad6ba85d4fbeaf144ce61",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/batch_deliver_v7.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/density_counts.py",
+   "bytes": 3676,
+   "sha256": "4935edeeeb0e2e3b4faba43e292be1b699337f1dabf979f9cc8e30ac6c7f70fd",
+   "original_bytes": 3683,
+   "original_sha256": "b2a3f088285dc64f611c4f3af1460e5f052ee3cd8262d8fa6817b01ba100cbbc",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/factory80_v32_counts_v1.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/equipment_units.py",
+   "bytes": 9360,
+   "sha256": "2f422f45cf7f67b196cb4f683641b42f700224de477fdadcd412885022214493",
+   "original_bytes": 9382,
+   "original_sha256": "fe440e63ea76474ceb9e3f41cc3b34d3a6934f6ca30e0e5c602c69a58361e17c",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/factory80_v32_units_v1.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/floor_placement_audit.py",
+   "bytes": 10566,
+   "sha256": "ed247e7c5cf70226d2de2461004e85f197cadcca2946ce2c5ddd9b321ff10970",
+   "original_bytes": 10566,
+   "original_sha256": "ed247e7c5cf70226d2de2461004e85f197cadcca2946ce2c5ddd9b321ff10970",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/audit_v3_mezz_stairs_independent_v2.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/gpu_checks.py",
+   "bytes": 71853,
+   "sha256": "470fa285830e3ed597efd70e3d398fa43dc0376d9d8266fe1431038ce5c08373",
+   "original_bytes": 71847,
+   "original_sha256": "4dcf1e269d0795ef33c1e80121249f32af18e6d071eb3b81f9d8f72fa7f11059",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/checks_gpu_v13.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/gpu_checks_legacy.py",
+   "bytes": 71700,
+   "sha256": "4acf82ab312ab7093b45f0886f9322d83a54d574544a13b027e934dd796c03bb",
+   "original_bytes": 71693,
+   "original_sha256": "c0aad1478b55b429e8087578007820383c859d552c188c2a123de24ca57a2d38",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/checks_gpu_v12.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/gpu_identity_check.py",
+   "bytes": 2086,
+   "sha256": "00e9d28ebd9e536849225aeba4b9df2e76721b94bc0ad6ebe86d0302266e8584",
+   "original_bytes": 2086,
+   "original_sha256": "00e9d28ebd9e536849225aeba4b9df2e76721b94bc0ad6ebe86d0302266e8584",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/gpu_identity_v1.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/hall_layout.py",
+   "bytes": 206461,
+   "sha256": "24bbdb96565d4d300f0f856749414857ca0d717ef10db69f4e7347be1a4385b2",
+   "original_bytes": 206560,
+   "original_sha256": "a8c984aba96f581a51dd02444e1ec411292c982004eed6f178cd6d5f8425ea9b",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/layout_v7.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/hall_layout_legacy.py",
+   "bytes": 122031,
+   "sha256": "91fb69033e0a8d42af805347d476bbedc0889d29135103c078c0831480bd9158",
+   "original_bytes": 122121,
+   "original_sha256": "9032b678c23bf33e151dece85e2e75c511b3cd87caa38d1bf9a6ccedd8b86a0e",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/layout_v2.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/hall_lights.py",
+   "bytes": 23257,
+   "sha256": "d0d51d8a916f94fe8f74bfbe538bdf88228fd3c40f3d7659698359fb6e4f16c6",
+   "original_bytes": 23257,
+   "original_sha256": "d0d51d8a916f94fe8f74bfbe538bdf88228fd3c40f3d7659698359fb6e4f16c6",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/lights_v2.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/isaac_capsule_query.py",
+   "bytes": 10658,
+   "sha256": "d48d59c23dc9231045ef3f3ba71947b59f376092a4dcc0bda620ab0d6e84d28a",
+   "original_bytes": 10658,
+   "original_sha256": "d48d59c23dc9231045ef3f3ba71947b59f376092a4dcc0bda620ab0d6e84d28a",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/isaac_c5_v2.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/isaac_native_c5.py",
+   "bytes": 21071,
+   "sha256": "ca6d3989dde0654a200034ebe6da210dd57cea38f3f0fbbef9442cd3955b4599",
+   "original_bytes": 21070,
+   "original_sha256": "635dd65e1ed3011f48597c9601924c0dc8b2a7f7307c7b9abe4970ec7429eada",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/isaac_c5_v8.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/isaac_native_c5_legacy.py",
+   "bytes": 21495,
+   "sha256": "10214d0069050825a6575cdc37a74de9d2b359127e7bfb29a619673de3192cbe",
+   "original_bytes": 21487,
+   "original_sha256": "f7eb2ae0f311bda3e9336ecb71800b4dd217ca75cd3d71f44a0591cb5ef09b8d",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/isaac_c5_v6.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/layout_unit_audit.py",
+   "bytes": 7505,
+   "sha256": "c6f4a5e11ee98fe71f5f1f384e8ac036416d6dedd1b24672ac8e73ad1901fe4e",
+   "original_bytes": 7543,
+   "original_sha256": "9a6476583cd82fceff289cabfa8a81c70b723ec0972734dcb38d08e7d6149ed5",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/factory80_v32_layout_audit_v1.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/report_batch.py",
+   "bytes": 43453,
+   "sha256": "8b5f1032a30f1d55e34ee459ce787498068aa0fe831e768f68d2cc4cc2343a76",
+   "original_bytes": 43459,
+   "original_sha256": "934e16cb4dc9c57dde188663eaea9cf58a9039adef16ccd4a8d5ccc42c9e75dc",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/batch_report_v9.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/report_batch_legacy.py",
+   "bytes": 40108,
+   "sha256": "5d53979c7b452db51df8130f13468f4cce7aef7e216e1412a03a69adc1431fe2",
+   "original_bytes": 40111,
+   "original_sha256": "993ee2d26188055cb8898699c7cfcead1b77ee5a250b01cb9523b67133074c3c",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/batch_report_v7.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/resource_trial.py",
+   "bytes": 10007,
+   "sha256": "497ab260dd0538db71bc04b9d775b215bcc29827c170250826c118ee16c736d8",
+   "original_bytes": 10007,
+   "original_sha256": "497ab260dd0538db71bc04b9d775b215bcc29827c170250826c118ee16c736d8",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/resource_trial_v1.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/retain_architecture.py",
+   "bytes": 10742,
+   "sha256": "670d4c506941592d355666261708b494f4f02f07c4451f9eaf2c039e155814c0",
+   "original_bytes": 10742,
+   "original_sha256": "670d4c506941592d355666261708b494f4f02f07c4451f9eaf2c039e155814c0",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/retain_v3_sample_architecture_v2.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/revision_gate.py",
+   "bytes": 7109,
+   "sha256": "3d8721778e0563dd31f64c7a5a7661d854633e4cc0eaef71c8a45c2ee3de8dec",
+   "original_bytes": 7120,
+   "original_sha256": "7f4d5b1c2b2627532d92c9b9f6a52ffa7d2d1a83d81a862d375ee9fca39119f2",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/revision_runtime_v1.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/rgb_instance_wrappers.py",
+   "bytes": 9533,
+   "sha256": "b4016ccc2d8958fa53a6a673ad951acdc054f3bc07fb1f4b3144bc9bed669fdd",
+   "original_bytes": 9528,
+   "original_sha256": "0a7904538f17eb3a95cd8c53ba13b886c94e375a412e692f6a4b93fa5b424727",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/rgb_instance_wrappers_v1.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/rtx_render.py",
+   "bytes": 29258,
+   "sha256": "9395e1ab91d2788ecf28369ccda3249784c61c83ed3ab5f8eb4664117929efff",
+   "original_bytes": 29257,
+   "original_sha256": "af577b94ab95c13d61e43132b83759aac7631cee17060c1ec795df14b8c0e6a4",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/render_v7.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/rtx_render_legacy.py",
+   "bytes": 28518,
+   "sha256": "35e7b955d56e311d590253097334255a53f165c614696941267bf22051095790",
+   "original_bytes": 28507,
+   "original_sha256": "b6d4f90cc3f1f3cbd79526ec7338b2d0823470b1765d4bdab031a8ae9f0f2002",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/render_v5.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/run_batch.py",
+   "bytes": 90888,
+   "sha256": "329fbddc2771f4660d39433fe369a0755ef79c75d47b2e9f9647be342c35809a",
+   "original_bytes": 90845,
+   "original_sha256": "43fb3c7eab11cf448d719c1315f8489534434b1b1a3289cf88c17ded1f98a543",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/batch_run_v16.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/sample_floor_stairs.py",
+   "bytes": 30328,
+   "sha256": "1d463f551241732b77378fa5360ee8bf4ed46346c171f182e2c4cbe3ca67e26d",
+   "original_bytes": 30341,
+   "original_sha256": "f4230ef29fa9b90e67656d36e032f944e7726a178f137a06ef94dd92b6904606",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/author_v3_mezz_stairs_v4.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/scene_compose.py",
+   "bytes": 19854,
+   "sha256": "6b2fd1bb8a3f491fa63ea327c0cb1e5e4c5fe38e1c934a17dcf31a0b44c48d03",
+   "original_bytes": 19848,
+   "original_sha256": "f0f2f5d58aed90ed67bac4856cbee8facea123a4b624ec5e3310442acda89d9e",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/scene_v3.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/scene_package.py",
+   "bytes": 25958,
+   "sha256": "466bcecf525f652976a56d7241367480d624370ba764c5396fd609fce05970d9",
+   "original_bytes": 25958,
+   "original_sha256": "466bcecf525f652976a56d7241367480d624370ba764c5396fd609fce05970d9",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/package_v1.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/unit_geometry.py",
+   "bytes": 14498,
+   "sha256": "0d70cab46e2b321dc5c881fd4b79b26be46d959c554de95358c93ae2bbba584a",
+   "original_bytes": 14498,
+   "original_sha256": "0d70cab46e2b321dc5c881fd4b79b26be46d959c554de95358c93ae2bbba584a",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/factory80_v3_whole_unit_geometry_v2.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/voxel_extract.py",
+   "bytes": 5905,
+   "sha256": "2b12b6546c4121f95825c2af5d7f4c59aa92f68a7db54fcbcc9cadcbacf16e74",
+   "original_bytes": 5905,
+   "original_sha256": "2b12b6546c4121f95825c2af5d7f4c59aa92f68a7db54fcbcc9cadcbacf16e74",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/voxel_scene_v2.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/voxel_gpu.py",
+   "bytes": 32819,
+   "sha256": "868b7b6a74ebb8858907e5ec51809bd4f99a2b21e3610c4bc16936176725936a",
+   "original_bytes": 32828,
+   "original_sha256": "0fdeeb434b59611e5025b777d3cd8c3a9857a3dad9cb7f9fe1baf427e29acee7",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/voxel_gpu_v6.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/voxel_raster.py",
+   "bytes": 12363,
+   "sha256": "f838e580586ce8868e34c783731a283f108befa6af2965c92d8001fbd7020a65",
+   "original_bytes": 12364,
+   "original_sha256": "aa841d83a2bcd72da016d33a0b549fccb9a50bc6b033b07a9a701fac63a8799f",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/voxel_gpu_v3.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/voxel_scene.py",
+   "bytes": 3023,
+   "sha256": "421a209992180103ac3e732f45f376fbd3ee420cf2fe92c6d020da1206b4e269",
+   "original_bytes": 3024,
+   "original_sha256": "b96288706752446e7fc6a3c5323f9b128655f02c0f3f5cda3c6c09701ab8c9f6",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/voxel_scene_v3.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/wall_clock_policy.py",
+   "bytes": 1747,
+   "sha256": "cb069600661e6640f8197ad17f1a79e60e3d43d99435d4b3a051fbd26a2842bb",
+   "original_bytes": 1747,
+   "original_sha256": "cb069600661e6640f8197ad17f1a79e60e3d43d99435d4b3a051fbd26a2842bb",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/time_policy_v1.py",
+   "contract": null
+  },
+  {
+   "path": "generation/factory/welding_units.py",
+   "bytes": 6912,
+   "sha256": "8c7df4129d7763c2de1aa2ec0c74477b923e8dbdce1cd60abc605988dbd6bbc2",
+   "original_bytes": 6941,
+   "original_sha256": "3645d710bc6683762a59038b45fc79777741dfb9106e67abc0b5e03907d204b9",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/factory80_v32_batch_units_v1.py",
+   "contract": null
+  }
+ ],
+ "superseded": [
+  {
+   "file": "batch_report_v1.py",
+   "bytes": 15679,
+   "sha256": "d33b06f60d6dc94f625fb8d169a46128f943b29122f50f1fcc23ee9e9ef315bf",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/batch_report_v1.py",
+   "reason": "earlier revision of a Round 4 tool, recorded by at least one READY run; superseded by the tools in factory/ and not included"
+  },
+  {
+   "file": "batch_report_v3.py",
+   "bytes": 27436,
+   "sha256": "ac53587e362c9c44a4121808a62850e28dd6504d17b7935024d7c2147ec1ff29",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/batch_report_v3.py",
+   "reason": "earlier revision of a Round 4 tool, recorded by at least one READY run; superseded by the tools in factory/ and not included"
+  },
+  {
+   "file": "batch_report_v5.py",
+   "bytes": 33424,
+   "sha256": "d51a6a4ac34a07051701f1849cb0e0001a656cdc05090da1783d52c6ee11979d",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/batch_report_v5.py",
+   "reason": "earlier revision of a Round 4 tool, recorded by at least one READY run; superseded by the tools in factory/ and not included"
+  },
+  {
+   "file": "batch_run_v12.py",
+   "bytes": 81966,
+   "sha256": "b19c329f494b5834d1b0d35fe409e5fc52e5bded57e8334ccce8b2ab90f8ab03",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/batch_run_v12.py",
+   "reason": "earlier revision of a Round 4 tool, recorded by at least one READY run; superseded by the tools in factory/ and not included"
+  },
+  {
+   "file": "batch_run_v13.py",
+   "bytes": 82409,
+   "sha256": "31dd134e5a52ec54acd136b5ec49f07a8524fd9ca7205a33f36f87b877616d5c",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/batch_run_v13.py",
+   "reason": "earlier revision of a Round 4 tool, recorded by at least one READY run; superseded by the tools in factory/ and not included"
+  },
+  {
+   "file": "batch_run_v2.py",
+   "bytes": 22571,
+   "sha256": "5c05a832352a3973b9013349d9fe74133f2974c3fe2b16a150b504a6e831cc50",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/batch_run_v2.py",
+   "reason": "earlier revision of a Round 4 tool, recorded by at least one READY run; superseded by the tools in factory/ and not included"
+  },
+  {
+   "file": "batch_run_v3.py",
+   "bytes": 29621,
+   "sha256": "8bbe77e39ff7d2a7f969acc6ac517356a503416ed4ada08adb47c5909d153e3f",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/batch_run_v3.py",
+   "reason": "earlier revision of a Round 4 tool, recorded by at least one READY run; superseded by the tools in factory/ and not included"
+  },
+  {
+   "file": "batch_run_v5.py",
+   "bytes": 45932,
+   "sha256": "363570dc426dd6a65335363a8b1ffc11a64edb8f141b0558d3d3da28dd00a045",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/batch_run_v5.py",
+   "reason": "earlier revision of a Round 4 tool, recorded by at least one READY run; superseded by the tools in factory/ and not included"
+  },
+  {
+   "file": "batch_run_v8.py",
+   "bytes": 53206,
+   "sha256": "5dbc9c965e12c21aae9675007134757f39c839443e3c76034851c36d5296445e",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/batch_run_v8.py",
+   "reason": "earlier revision of a Round 4 tool, recorded by at least one READY run; superseded by the tools in factory/ and not included"
+  },
+  {
+   "file": "c4_alternative_v2.py",
+   "bytes": 20262,
+   "sha256": "d8c5d7d5ffa2d50d0ad691f9105bb66b80581d4f3571994186f2e5238e012b3d",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/c4_alternative_v2.py",
+   "reason": "earlier revision of a Round 4 tool, recorded by at least one READY run; superseded by the tools in factory/ and not included"
+  },
+  {
+   "file": "c4_alternative_v3.py",
+   "bytes": 21889,
+   "sha256": "17c58b0cd1768dedf7c515ee617fd9f6103bd9067005ebfc5575c523278cc3bd",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/c4_alternative_v3.py",
+   "reason": "earlier revision of a Round 4 tool, recorded by at least one READY run; superseded by the tools in factory/ and not included"
+  },
+  {
+   "file": "c4_alternative_v4.py",
+   "bytes": 22390,
+   "sha256": "eb56e94eae672242c08fb77b3b8fec590c3bb67d77f343a7c06089f3ba21d80d",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/c4_alternative_v4.py",
+   "reason": "earlier revision of a Round 4 tool, recorded by at least one READY run; superseded by the tools in factory/ and not included"
+  },
+  {
+   "file": "c4_alternative_v6.py",
+   "bytes": 23141,
+   "sha256": "79b52c4c681b5e57895dcb109874db6ad6900aae4e250df4db81d91fe857bee3",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/c4_alternative_v6.py",
+   "reason": "earlier revision of a Round 4 tool, recorded by at least one READY run; superseded by the tools in factory/ and not included"
+  },
+  {
+   "file": "checks_gpu_v10.py",
+   "bytes": 66631,
+   "sha256": "dd8019b7a0f772b14579f282e18f93ee1937849dafd6e981e05851933c895307",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/checks_gpu_v10.py",
+   "reason": "earlier revision of a Round 4 tool, recorded by at least one READY run; superseded by the tools in factory/ and not included"
+  },
+  {
+   "file": "checks_gpu_v11.py",
+   "bytes": 71492,
+   "sha256": "ee05b9bf6561e96e949340a24ae38d8d3b40052cbc3f8d614d84e189486e4047",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/checks_gpu_v11.py",
+   "reason": "earlier revision of a Round 4 tool, recorded by at least one READY run; superseded by the tools in factory/ and not included"
+  },
+  {
+   "file": "isaac_c5_v4.py",
+   "bytes": 15798,
+   "sha256": "34656d42ebc70998715c6b135bb1270fe84175264dbdda078a0d4b6751557ae9",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/isaac_c5_v4.py",
+   "reason": "earlier revision of a Round 4 tool, recorded by at least one READY run; superseded by the tools in factory/ and not included"
+  },
+  {
+   "file": "layout_v3.py",
+   "bytes": 146474,
+   "sha256": "0f955e8112e9e60949a31e9df84878eaaa37cf2bda175c24c0e37821f7c69216",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/layout_v3.py",
+   "reason": "earlier revision of a Round 4 tool, recorded by at least one READY run; superseded by the tools in factory/ and not included"
+  },
+  {
+   "file": "layout_v5.py",
+   "bytes": 166692,
+   "sha256": "d383f9ba220c3ebab87da71f5ce2cb0a7474331866a606a94da13404f5deb629",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/layout_v5.py",
+   "reason": "earlier revision of a Round 4 tool, recorded by at least one READY run; superseded by the tools in factory/ and not included"
+  },
+  {
+   "file": "render_v4.py",
+   "bytes": 11895,
+   "sha256": "bdf2a4038cfe6f7a4d1a7afd69179710152f610209902f5f819802bff85179c6",
+   "origin": "/cephfs/shared/yixing/outputs/factory80_20261011/pipeline/v4/render_v4.py",
+   "reason": "earlier revision of a Round 4 tool, recorded by at least one READY run; superseded by the tools in factory/ and not included"
   }
  ],
  "excluded": [
@@ -2301,268 +3662,283 @@
   },
   {
    "file": "official_download.py",
-   "group": "factory/sourcing",
+   "group": "archive/factory_pilots/sourcing",
    "reason": "verbatim copy of the MolmoSpaces downloader (allenai/molmospaces); use upstream"
   },
   {
    "file": "augment_parc_storage_crate.py",
-   "group": "factory/sourcing",
+   "group": "archive/factory_pilots/sourcing",
    "reason": "PARC prop insertion or PARC-bound delivery packaging; out of scope"
   },
   {
    "file": "select_parc_crate_placement.py",
-   "group": "factory/sourcing",
+   "group": "archive/factory_pilots/sourcing",
    "reason": "PARC prop insertion or PARC-bound delivery packaging; out of scope"
   },
   {
    "file": "probe_floor1_platform_assets.py",
-   "group": "factory/sourcing",
+   "group": "archive/factory_pilots/sourcing",
    "reason": "PARC prop insertion or PARC-bound delivery packaging; out of scope"
   },
   {
    "file": "run_factory10_stageb_cpu_r3_parc.sh",
-   "group": "factory/sourcing",
+   "group": "archive/factory_pilots/sourcing",
    "reason": "PARC prop insertion or PARC-bound delivery packaging; out of scope"
   },
   {
    "file": "assemble_factory10_delivery.py",
-   "group": "factory/sourcing",
+   "group": "archive/factory_pilots/sourcing",
    "reason": "PARC prop insertion or PARC-bound delivery packaging; out of scope"
   },
   {
    "file": "assemble_factory10_final_delivery.py",
-   "group": "factory/sourcing",
+   "group": "archive/factory_pilots/sourcing",
    "reason": "PARC prop insertion or PARC-bound delivery packaging; out of scope"
   },
   {
    "file": "transfer_*.py",
-   "group": "factory/sourcing",
+   "group": "archive/factory_pilots/sourcing",
    "reason": "data transfer, GPU scheduling and shared-card hold; operations, not generation"
   },
   {
    "file": "split_transfer_artifact.py",
-   "group": "factory/sourcing",
+   "group": "archive/factory_pilots/sourcing",
    "reason": "data transfer, GPU scheduling and shared-card hold; operations, not generation"
   },
   {
    "file": "assemble_verified_transfer.py",
-   "group": "factory/sourcing",
+   "group": "archive/factory_pilots/sourcing",
    "reason": "data transfer, GPU scheduling and shared-card hold; operations, not generation"
   },
   {
    "file": "bundle_verified_object_packages.py",
-   "group": "factory/sourcing",
+   "group": "archive/factory_pilots/sourcing",
    "reason": "data transfer, GPU scheduling and shared-card hold; operations, not generation"
   },
   {
    "file": "a40_full_idle_hold.sh",
-   "group": "factory/sourcing",
+   "group": "archive/factory_pilots/sourcing",
    "reason": "data transfer, GPU scheduling and shared-card hold; operations, not generation"
   },
   {
    "file": "run_factory10_*.sh",
-   "group": "factory/sourcing",
+   "group": "archive/factory_pilots/sourcing",
    "reason": "data transfer, GPU scheduling and shared-card hold; operations, not generation"
   },
   {
    "file": "resume_factory10_post_after_scratch.sh",
-   "group": "factory/sourcing",
+   "group": "archive/factory_pilots/sourcing",
    "reason": "data transfer, GPU scheduling and shared-card hold; operations, not generation"
   },
   {
    "file": "diagnose_*.py",
-   "group": "factory/sourcing",
+   "group": "archive/factory_pilots/sourcing",
    "reason": "one-off diagnosis and campaign book-keeping"
   },
   {
    "file": "compare_*.py",
-   "group": "factory/sourcing",
+   "group": "archive/factory_pilots/sourcing",
    "reason": "one-off diagnosis and campaign book-keeping"
   },
   {
    "file": "summarize_*.py",
-   "group": "factory/sourcing",
+   "group": "archive/factory_pilots/sourcing",
    "reason": "one-off diagnosis and campaign book-keeping"
   },
   {
    "file": "inspect_json_shape.py",
-   "group": "factory/sourcing",
+   "group": "archive/factory_pilots/sourcing",
    "reason": "one-off diagnosis and campaign book-keeping"
   },
   {
    "file": "record_h1_decision10_autonomous.py",
-   "group": "factory/sourcing",
+   "group": "archive/factory_pilots/sourcing",
    "reason": "one-off diagnosis and campaign book-keeping"
   },
   {
    "file": "make_protected_judgments_comparison.py",
-   "group": "factory/sourcing",
+   "group": "archive/factory_pilots/sourcing",
    "reason": "one-off diagnosis and campaign book-keeping"
   },
   {
    "file": "audit_stageb_v1_exclusion.py",
-   "group": "factory/sourcing",
+   "group": "archive/factory_pilots/sourcing",
    "reason": "one-off diagnosis and campaign book-keeping"
   },
   {
    "file": "audit_factory10_strict_mincut.py",
-   "group": "factory/sourcing",
+   "group": "archive/factory_pilots/sourcing",
    "reason": "one-off diagnosis and campaign book-keeping"
   },
   {
    "file": "prepare_factory10_final_a40_rerun.py",
-   "group": "factory/sourcing",
+   "group": "archive/factory_pilots/sourcing",
    "reason": "one-off diagnosis and campaign book-keeping"
   },
   {
    "file": "generate_parc_site_evidence.py",
-   "group": "factory/stacked_factory10",
+   "group": "archive/factory_pilots/stacked",
    "reason": "PARC site evidence; out of scope"
   },
   {
    "file": "prove_transformer_readable10.py",
-   "group": "factory/stacked_factory10",
+   "group": "archive/factory_pilots/stacked",
    "reason": "graph-token packing / capacity for a learned policy's input; a training interface, out of scope"
   },
   {
    "file": "gate12_graph_token_capacity10.py",
-   "group": "factory/stacked_factory10",
+   "group": "archive/factory_pilots/stacked",
    "reason": "graph-token packing / capacity for a learned policy's input; a training interface, out of scope"
   },
   {
    "file": "gate14_graph_token_release.py",
-   "group": "factory/stacked_factory10",
+   "group": "archive/factory_pilots/stacked",
    "reason": "graph-token packing / capacity for a learned policy's input; a training interface, out of scope"
   },
   {
    "file": "gate14_graph_token_release10.py",
-   "group": "factory/stacked_factory10",
+   "group": "archive/factory_pilots/stacked",
    "reason": "graph-token packing / capacity for a learned policy's input; a training interface, out of scope"
   },
   {
    "file": "assess_graph_token_capacity10.py",
-   "group": "factory/stacked_factory10",
+   "group": "archive/factory_pilots/stacked",
    "reason": "graph-token packing / capacity for a learned policy's input; a training interface, out of scope"
   },
   {
    "file": "scene_expansion_bulk_remote.py",
-   "group": "factory/tiled_factory80",
+   "group": "archive/factory_pilots/tiled",
    "reason": "bulk transfer, shutdown guard, milestone publication and archive re-hashing; operations, not generation"
   },
   {
    "file": "scene_expansion_critical_remote.py",
-   "group": "factory/tiled_factory80",
+   "group": "archive/factory_pilots/tiled",
    "reason": "bulk transfer, shutdown guard, milestone publication and archive re-hashing; operations, not generation"
   },
   {
    "file": "scene_expansion_milestone_remote.py",
-   "group": "factory/tiled_factory80",
+   "group": "archive/factory_pilots/tiled",
    "reason": "bulk transfer, shutdown guard, milestone publication and archive re-hashing; operations, not generation"
   },
   {
    "file": "scene_expansion_progress_summary.py",
-   "group": "factory/tiled_factory80",
+   "group": "archive/factory_pilots/tiled",
    "reason": "bulk transfer, shutdown guard, milestone publication and archive re-hashing; operations, not generation"
   },
   {
    "file": "scene_expansion_whole_raw_remote.py",
-   "group": "factory/tiled_factory80",
+   "group": "archive/factory_pilots/tiled",
    "reason": "bulk transfer, shutdown guard, milestone publication and archive re-hashing; operations, not generation"
   },
   {
    "file": "scene_expansion_object_completion_audit.py",
-   "group": "factory/tiled_factory80",
+   "group": "archive/factory_pilots/tiled",
    "reason": "bulk transfer, shutdown guard, milestone publication and archive re-hashing; operations, not generation"
   },
   {
    "file": "factory80_stage3_physics.py",
-   "group": "factory/tiled_factory80",
+   "group": "archive/factory_pilots/tiled",
    "reason": "spawns a humanoid (G1) in the factory through ProtoMotions; humanoid execution is out of scope"
   },
   {
    "file": "factory80_stage3_scene_load.py",
-   "group": "factory/tiled_factory80",
+   "group": "archive/factory_pilots/tiled",
    "reason": "spawns a humanoid (G1) in the factory through ProtoMotions; humanoid execution is out of scope"
   },
   {
    "file": "factory80_whitelist_complete_assets.py",
-   "group": "factory/tiled_factory80",
+   "group": "archive/factory_pilots/tiled",
    "reason": "batch queueing, retry and stop control around the whitelist generator"
   },
   {
    "file": "factory80_whitelist_selected_fragment.py",
-   "group": "factory/tiled_factory80",
+   "group": "archive/factory_pilots/tiled",
    "reason": "batch queueing, retry and stop control around the whitelist generator"
   },
   {
    "file": "factory80_whitelist_batch_*.py",
-   "group": "factory/tiled_factory80",
+   "group": "archive/factory_pilots/tiled",
    "reason": "batch queueing, retry and stop control around the whitelist generator"
   },
   {
    "file": "factory80_whitelist_retry_*.py",
-   "group": "factory/tiled_factory80",
+   "group": "archive/factory_pilots/tiled",
    "reason": "batch queueing, retry and stop control around the whitelist generator"
   },
   {
    "file": "factory80_whitelist_stop.py",
-   "group": "factory/tiled_factory80",
+   "group": "archive/factory_pilots/tiled",
    "reason": "batch queueing, retry and stop control around the whitelist generator"
   },
   {
    "file": "factory80_cpu_owner_*.py",
-   "group": "factory/tiled_factory80",
+   "group": "archive/factory_pilots/tiled",
    "reason": "process supervision, memory isolation, read-only probes and report publication"
   },
   {
    "file": "factory80_cpu_ram_*.py",
-   "group": "factory/tiled_factory80",
+   "group": "archive/factory_pilots/tiled",
    "reason": "process supervision, memory isolation, read-only probes and report publication"
   },
   {
    "file": "factory80_cpu_serial_pipeline_v*.py",
-   "group": "factory/tiled_factory80",
+   "group": "archive/factory_pilots/tiled",
    "reason": "process supervision, memory isolation, read-only probes and report publication"
   },
   {
    "file": "factory80_*readonly*.py",
-   "group": "factory/tiled_factory80",
+   "group": "archive/factory_pilots/tiled",
    "reason": "process supervision, memory isolation, read-only probes and report publication"
   },
   {
    "file": "factory80_*readback*.py",
-   "group": "factory/tiled_factory80",
+   "group": "archive/factory_pilots/tiled",
    "reason": "process supervision, memory isolation, read-only probes and report publication"
   },
   {
    "file": "factory80_root_*.py",
-   "group": "factory/tiled_factory80",
+   "group": "archive/factory_pilots/tiled",
    "reason": "process supervision, memory isolation, read-only probes and report publication"
   },
   {
    "file": "factory80_pilot_*.py",
-   "group": "factory/tiled_factory80",
+   "group": "archive/factory_pilots/tiled",
    "reason": "process supervision, memory isolation, read-only probes and report publication"
   },
   {
    "file": "~250 further campaign scripts",
-   "group": "factory/tiled_factory80",
+   "group": "archive/factory_pilots/tiled",
    "reason": "process supervision, memory isolation, read-only probes and report publication"
   },
   {
    "file": "equipment_density/industrial_source_geometry_v1.json (2.0 MB)",
-   "group": "factory/tiled_factory80",
+   "group": "archive/factory_pilots/tiled",
    "reason": "run data rather than code; regenerated by the scripts that produce them"
   },
   {
    "file": "TILING_PLAN.json (4.3 MB)",
-   "group": "factory/tiled_factory80",
+   "group": "archive/factory_pilots/tiled",
    "reason": "run data rather than code; regenerated by the scripts that produce them"
   },
   {
    "file": "SCENE_EXPANSION_600.json (6.4 MB)",
-   "group": "factory/tiled_factory80",
+   "group": "archive/factory_pilots/tiled",
    "reason": "run data rather than code; regenerated by the scripts that produce them"
+  },
+  {
+   "file": "batch_deliver_v1.py",
+   "group": "factory",
+   "reason": "delivery transport helper (copies finished archives to a workstation); names a private SSH host alias; not part of generation or acceptance"
+  },
+  {
+   "file": "batch_deliver_v3.py",
+   "group": "factory",
+   "reason": "delivery transport helper (copies finished archives to a workstation); names a private SSH host alias; not part of generation or acceptance"
+  },
+  {
+   "file": "batch_deliver_v5.py",
+   "group": "factory",
+   "reason": "delivery transport helper (copies finished archives to a workstation); names a private SSH host alias; not part of generation or acceptance"
   }
  ]
 }

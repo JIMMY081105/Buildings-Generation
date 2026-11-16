@@ -1,0 +1,258 @@
+{
+  "schema": "Museum29SpecV1",
+  "building_id": "M28",
+  "short_name": "palmhouse",
+  "style": "温室植物馆（棕榈屋）",
+  "style_family": "glasshouse",
+  "floors": 2,
+  "plan": "圆形铸铁玻璃",
+  "building_xy_m": [
+    44,
+    44
+  ],
+  "planned_floor_area_m2": 1520.53084433746,
+  "floor_height_m": 5.12,
+  "stair": {
+    "form": "H",
+    "assembly_description": "铸铁大螺旋 / 铸铁花格踏板（外观）/ 铸铁栏杆",
+    "rise_count_per_floor": 32,
+    "rise_m": 0.16,
+    "floor_height_m": 5.12,
+    "going_m": 0.32,
+    "handrail_height_m": 0.95,
+    "edge_guard_height_m": 1.08,
+    "max_clear_rail_gap_m": 0.095,
+    "design_headroom_m": 2.1,
+    "precise_collision": true,
+    "max_flight_rises": 36,
+    "inner_radius_m": 2.1,
+    "width_m": 1.6,
+    "landing_angle_deg": 35,
+    "bridge_width_m": 1.8,
+    "walking_radius_m": 2.9,
+    "placement": "offset within west side of central tropical atrium, actual bridge connects perimeter ring gallery",
+    "continuous_same_vertical_axis": true,
+    "tread_sweep_degrees": 202.31337317722864,
+    "total_rotation_including_top_landing_degrees": 237.31337317722864,
+    "next_floor_start_rotation_degrees": 237.31337317722864,
+    "landing_bridge_single_union_mesh": true,
+    "origin_xy_m": [
+      -14,
+      0
+    ]
+  },
+  "materials": {
+    "ground_floor": {
+      "key": "red_brick",
+      "description": "红砖",
+      "source_selection": "PENDING_LIBRARY_BINDING"
+    },
+    "walls_ceiling": {
+      "description": "铸铁玻璃"
+    },
+    "stair": {
+      "description": "铸铁大螺旋 / 铸铁花格踏板（外观）/ 铸铁栏杆"
+    },
+    "all_shader": "UsdPreviewSurface_with_textures",
+    "max_texture_resolution": 2048
+  },
+  "exhibition": {
+    "theme": "棕榈、蕨类、大树",
+    "min_exhibits_per_floor": 15,
+    "max_same_model_in_building": 3,
+    "painting_reuse_across_buildings": 0,
+    "clear_route_width_m": 1.2,
+    "asset_selection_status": "BOUND_CATEGORY_INVENTORY_NOT_AUTHORED_OR_ACCEPTED",
+    "items": [
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:jacaranda_tree",
+        "title": "jacaranda_tree",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/jacaranda_tree/jacaranda_tree_1k.gltf",
+        "source_sha256": "ba4aa8ab4c3e3741ce3699604d6ec1607cd6b126ae2d32abbcc0d98e8edb3be4",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "tree"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:potted_plant_02",
+        "title": "potted_plant_02",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/potted_plant_02/potted_plant_02_1k.gltf",
+        "source_sha256": "c533dcce0d1aa4379eb7db04601a04983f8df2422b28578de922655a416e64a9",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "plant"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:anthurium_botany_01",
+        "title": "anthurium_botany_01",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/anthurium_botany_01/anthurium_botany_01_1k.gltf",
+        "source_sha256": "6b3f6b8eda6cc0edfefd6a58f6758ef6538c35b2ca2a76189383f23b246dd8c6",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "plant"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:calathea_orbifolia_01",
+        "title": "calathea_orbifolia_01",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/calathea_orbifolia_01/calathea_orbifolia_01_1k.gltf",
+        "source_sha256": "399130c01bfff6b493f885652112c3c841c3814b024a3d3c87773e0c5ab4f156",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "plant"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:4ad9717b-8c81-4b9d-a843-025a60785170",
+        "title": "Cyathea furfuracea Baker",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/4ad9717b-8c81-4b9d-a843-025a60785170.glb",
+        "source_sha256": "09960dd0bdc7bad9dc87f13cd6cf24ca1a575cc569782e16c87393757fdd97ba",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "plant"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:10cd6993-9f80-47ef-8305-2a8eb5b2365f",
+        "title": "Melocactus communis (Aiton) Link & Otto",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/10cd6993-9f80-47ef-8305-2a8eb5b2365f.glb",
+        "source_sha256": "fbc9738e3a9afadb7ce98125b9aa1c75fa84977c0726d12c366f88bcdaf68246",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "plant"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:210e4c75-7312-412b-97fb-0fb7106e269c",
+        "title": "Lodoicea maldivica (J.F. Gmel.) Pers. ex H. Wendl.",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/210e4c75-7312-412b-97fb-0fb7106e269c.glb",
+        "source_sha256": "ffea7b1d1c80bd8987668d918f6afa9a2db7d996e8fc808928d48f0fb23479d3",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "plant"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:5ff6e90a-4ddb-4eea-a69c-40970f85fbcb",
+        "title": "Lycaste virginalis",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/5ff6e90a-4ddb-4eea-a69c-40970f85fbcb.glb",
+        "source_sha256": "3806e42f9dbbbd3845f99fc262a094d52ee15a0798924f223305b980ba7fc302",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "plant"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:potted_plant_01",
+        "title": "potted_plant_01",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/reused_museum_v1/polyhaven/potted_plant_01/potted_plant_01_1k.gltf",
+        "source_sha256": "23b30294407684b02f14800d6685bd8938da5d2111e17753ac8dd3c37d8c88a0",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "plant"
+        ]
+      }
+    ],
+    "source_keys": [
+      "Poly Haven:jacaranda_tree",
+      "Poly Haven:potted_plant_02",
+      "Poly Haven:anthurium_botany_01",
+      "Poly Haven:calathea_orbifolia_01",
+      "Poly Haven:potted_plant_01",
+      "Poly Haven:fern_02",
+      "Poly Haven:shrub_04",
+      "Poly Haven:crystalline_iceplant",
+      "Poly Haven:cheiridopsis_succulent"
+    ],
+    "theme_source_groups": {
+      "tree": [
+        "Poly Haven:jacaranda_tree"
+      ],
+      "plant": [
+        "Poly Haven:potted_plant_02",
+        "Poly Haven:anthurium_botany_01",
+        "Poly Haven:calathea_orbifolia_01",
+        "Poly Haven:potted_plant_01",
+        "Poly Haven:fern_02",
+        "Poly Haven:shrub_04",
+        "Poly Haven:crystalline_iceplant",
+        "Poly Haven:cheiridopsis_succulent"
+      ]
+    },
+    "binding_revision": "ADJUST07 explicit category coverage; source bytes/licences verified, each actual use<=3 still enforced by authoring",
+    "bound_source_count": 9
+  },
+  "lighting": {
+    "kelvin": 3800,
+    "blue_ambient": false,
+    "sun_sky_through_glass": true,
+    "spotlights_for_features": true,
+    "hdri_id": "kloofendal_43d_clear_puresky"
+  },
+  "seed": 2026110727,
+  "checks": {
+    "C2_radius_m": 0.25,
+    "C2_height_m": 1.6,
+    "C2_min_reachable": 0.95,
+    "C3_gap_m": 0,
+    "C3_top_error_max_m": 0.01,
+    "C3_sample_m": 0.01,
+    "C3_negative_shift_m": 0.6,
+    "C4_height_m": 1.6,
+    "C4_min_fraction": 0.9
+  },
+  "authorization_sha256": "8f2849b912a2994609faf01e4282d22c53326854826b7f9f61597b04143769b1",
+  "applied_adjustments": [
+    "ADJUST_01",
+    "ADJUST_07_0545_PILOT_DECISION.md"
+  ],
+  "library_manifest_sha256": "4cf142a80a2594a898fdf938d4828a942241d628e5468ecc877fe965d04bd6fa",
+  "library_manifest_snapshot": "/cephfs/shared/yixing/outputs/museum29_20261107/evidence/LIBRARY_MANIFEST_ADJUST07_BINDING_SNAPSHOT.json",
+  "glasshouse16": {
+    "living_collection": "Real official CC0 tree/potted plants/fern/shrub/succulents, max3 source bytes; authored feather palms/ferns declared procedural. Dried botanical seed/wood specimens removed from living beds.",
+    "source_scale_caps": "Potted plants <=.95m footprint/1.65m high; fern/shrub/groundcover bounded separately; beds fitted to source/root footprint.",
+    "glazing": "Explicit thin-sheet alpha opacity.065 approximation, no repeated zero-thickness refraction; must actually inspect.",
+    "photo01": "Actual world-vertex fit,6m camera,60–85% width, not circular floor bounding-box corners."
+  },
+  "glasshouse19": {
+    "authorization": "ADJUST_19_1300.md",
+    "min_tall_palm_height_m": 8,
+    "max_tall_plant_height_m": 12.5,
+    "planting": "large connected layered soil beds flanking real1.6m+ footpaths; no scattered exhibition plinths",
+    "main_entrance": "open iron-framed doorway, no wooden leaves",
+    "glass": "pale green visible roof pane reflection and transparency approximation; actual exterior review mandatory",
+    "collision_rule": "Exact trunks, soil, bed curbs and pots; actual leaves below2m exact or pruned from aisles. Leaves entirely above2m may be visual only, report explicit.",
+    "photo_plant_coverage": "06/07/08 each more than half actual image plant foliage, actual image review mandatory",
+    "central_void_radius_m": 16,
+    "upper_gallery": "Actual retained broad outer ring, additionally cut exact offset spiral stairwell; each floor>=600m² required, no hidden slabs."
+  },
+  "glasshouse22": {
+    "authorization": "ADJUST_22_1355.md",
+    "factory_route": "DISABLED_NO_REALIZE_INSTANCES_OR_NEW_SEED_RETRY",
+    "plants": "Cached actual CC0 botanical models plus original lightweight tapered-trunk feather palms/broad bananas/ferns, not scanned species",
+    "per_original_plant_triangle_limit": 50000,
+    "instance_reuse": "Shared Blender mesh data exported USD instanceable prototypes, max3 uses per canonical geometry",
+    "collision_rule": "Exact all-height trunks/beds/pots and low fern leaves; only tall leaves above local floor+2m visual-only, low leaves wholly contained in beds.",
+    "required_final_review": "06/07/08 each actual image more than half plants; correct stair connection05/11 and translucent green roof visible01; new C1–C5."
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "schema": "Museum29SpecV1",
+  "building_id": "M10",
+  "short_name": "industrial_contemporary",
+  "style": "老厂房改造（当代）",
+  "style_family": "industrial",
+  "floors": 2,
+  "plan": "L 形",
+  "building_xy_m": [
+    44,
+    36
+  ],
+  "planned_floor_area_m2": 1235.52,
+  "floor_height_m": 5.12,
+  "stair": {
+    "form": "C",
+    "assembly_description": "钢板踏步从砖墙伸出 / 钢踏面 / 细钢栏杆",
+    "rise_count_per_floor": 32,
+    "rise_m": 0.16,
+    "floor_height_m": 5.12,
+    "going_m": 0.33,
+    "handrail_height_m": 0.95,
+    "edge_guard_height_m": 1.08,
+    "max_clear_rail_gap_m": 0.095,
+    "design_headroom_m": 2.1,
+    "precise_collision": true,
+    "max_flight_rises": 18,
+    "width_m": 2.2,
+    "tread_thickness_m": 0.09,
+    "wall_embed_m": 0.08,
+    "wall_thickness_m": 0.35,
+    "landing_depth_m": 2.2,
+    "anchoring": "solid_loadbearing_wall_with_collision",
+    "wall_handrail": true,
+    "wall_handrail_center_clearance_from_wall_m": 0.08,
+    "wall_handrail_radius_m": 0.035,
+    "reason_for_widening": "Preserve >=90% actual tread C4 clearance with added wall handrail; 1.76m trial failed 89.6%"
+  },
+  "materials": {
+    "ground_floor": {
+      "key": "reclaimed_wood",
+      "description": "旧木地板",
+      "source_selection": "PENDING_LIBRARY_BINDING"
+    },
+    "walls_ceiling": {
+      "description": "砖墙，钢柱"
+    },
+    "stair": {
+      "description": "钢板踏步从砖墙伸出 / 钢踏面 / 细钢栏杆"
+    },
+    "all_shader": "UsdPreviewSurface_with_textures",
+    "max_texture_resolution": 2048
+  },
+  "exhibition": {
+    "theme": "当代雕塑、工业器物",
+    "min_exhibits_per_floor": 28,
+    "max_same_model_in_building": 3,
+    "painting_reuse_across_buildings": 0,
+    "clear_route_width_m": 1.2,
+    "asset_selection_status": "ADJUST11_DENSITY_POLICY_BOUND_NOT_BUILT",
+    "items": [
+      {
+        "kind": "original_procedural_inventory",
+        "template": "geometric_abstract_painting",
+        "count": 32,
+        "seed_base": 2026110709
+      },
+      {
+        "kind": "original_procedural_inventory",
+        "template": "unique_torus_knot_sculpture",
+        "count": 8,
+        "seed_base": 2026110709
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:old_drill_press",
+        "title": "old_drill_press",
+        "source_file_sha256": "b1ac11759c277e38fb0be776ba99802c131b9b7086141a5452398f91668bcfc2",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/old_drill_press/old_drill_press_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "industrial"
+        ]
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:portable_generator",
+        "title": "portable_generator",
+        "source_file_sha256": "d5afe27834f824dfe753391713c45be03479e8100831f320796030531f61b848",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/portable_generator/portable_generator_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "industrial"
+        ]
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:bench_vice_01",
+        "title": "bench_vice_01",
+        "source_file_sha256": "52e61b473f1a7840ddbdabf024cca8dd32e07f694bd247e3a74e8ef5d9a101e2",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/bench_vice_01/bench_vice_01_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "industrial"
+        ]
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:tool_cart",
+        "title": "tool_cart",
+        "source_file_sha256": "ba4290f62b37dc08d4f99da2b3c78d8cb584bd229e8805ce586ed3f3b5303759",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/tool_cart/tool_cart_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "industrial"
+        ]
+      }
+    ],
+    "painting_ids": [],
+    "source_keys": [
+      "Poly Haven:old_drill_press",
+      "Poly Haven:portable_generator",
+      "Poly Haven:bench_vice_01",
+      "Poly Haven:tool_cart"
+    ],
+    "theme_source_groups": {
+      "industrial": [
+        "Poly Haven:old_drill_press",
+        "Poly Haven:portable_generator",
+        "Poly Haven:bench_vice_01",
+        "Poly Haven:tool_cart"
+      ]
+    },
+    "binding_revision": "THEME10: remove school/barber furniture; explicit treasure/sculpture/candles, machinery, clocks, lamps, tea groups. Original art reservations unchanged.",
+    "industrial_density11": {
+      "design_minimum_per_floor": 28,
+      "GOAL_minimum_unchanged": 15,
+      "low_platform_exhibit_area_fraction_min": 0.5,
+      "small_items": "Actual glass cases, fitted to nominal-sized tools; never enlarge hand tools to fill giant low decks.",
+      "min_large_low_displays_per_floor": 12,
+      "physical_validation": "Fresh actual C2 and native C5 required on changed display collision geometry."
+    }
+  },
+  "lighting": {
+    "kelvin": 3800,
+    "blue_ambient": false,
+    "sun_sky_through_glass": false,
+    "spotlights_for_features": true,
+    "hdri_id": "kloofendal_43d_clear_puresky"
+  },
+  "seed": 2026110709,
+  "checks": {
+    "C2_radius_m": 0.25,
+    "C2_height_m": 1.6,
+    "C2_min_reachable": 0.95,
+    "C3_gap_m": 0,
+    "C3_top_error_max_m": 0.01,
+    "C3_sample_m": 0.01,
+    "C3_negative_shift_m": 0.6,
+    "C4_height_m": 1.6,
+    "C4_min_fraction": 0.9
+  },
+  "authorization_sha256": "8f2849b912a2994609faf01e4282d22c53326854826b7f9f61597b04143769b1",
+  "applied_adjustments": [
+    "ADJUST_01",
+    "ADJUST_11_0845.md"
+  ],
+  "library_manifest_sha256": "2ac3e509eff6640d577bf56773a114ab290af80178555fe82f51a63593afe585",
+  "industrial27": {
+    "exterior": "Exposed old red brick with actual metric mortar, steel frame glazing and open steel/glass double entry plus steel canopy.",
+    "roof": "Single clipped L-footprint sawtooth system,5.5m pitch/3.4m rise, real red brick tooth end caps, external hollow brick stack.",
+    "camera": "ADJUST16 height8m,55deg three-quarter side angle,60–85percent width; all12 native actually reviewed.",
+    "physics": "New roof/canopy/stack geometry requires full fresh C1-C5; preserve old v1 package, deliver v2."
+  }
+}

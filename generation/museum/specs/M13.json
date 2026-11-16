@@ -1,0 +1,103 @@
+{
+  "schema": "Museum29SpecV1",
+  "building_id": "M13",
+  "short_name": "modern_rotunda",
+  "style": "现代美术馆",
+  "style_family": "modern",
+  "floors": 4,
+  "plan": "圆形中庭",
+  "building_xy_m": [
+    42,
+    42
+  ],
+  "planned_floor_area_m2": 1385.442,
+  "floor_height_m": 5.12,
+  "stair": {
+    "form": "H",
+    "assembly_description": "白色钢板梁，踏步间透空 / 石踏面 / 玻璃栏板",
+    "rise_count_per_floor": 32,
+    "rise_m": 0.16,
+    "floor_height_m": 5.12,
+    "going_m": 0.32,
+    "handrail_height_m": 0.95,
+    "edge_guard_height_m": 1.08,
+    "max_clear_rail_gap_m": 0.095,
+    "design_headroom_m": 2.1,
+    "precise_collision": true,
+    "max_flight_rises": 36,
+    "inner_radius_m": 2.1,
+    "width_m": 1.6,
+    "landing_angle_deg": 35,
+    "bridge_width_m": 1.8,
+    "walking_radius_m": 2.9,
+    "placement": "center_of_circular_atrium_clear_all_around",
+    "continuous_same_vertical_axis": true,
+    "tread_sweep_degrees": 202.31337317722864,
+    "total_rotation_including_top_landing_degrees": 237.31337317722864,
+    "next_floor_start_rotation_degrees": 237.31337317722864,
+    "landing_bridge_single_union_mesh": true
+  },
+  "materials": {
+    "ground_floor": {
+      "key": "lightgrey_polished_concrete",
+      "description": "浅灰抛光混凝土",
+      "source_selection": "PENDING_LIBRARY_BINDING"
+    },
+    "walls_ceiling": {
+      "description": "白墙，环形天窗"
+    },
+    "stair": {
+      "description": "白色钢板梁，踏步间透空 / 石踏面 / 玻璃栏板"
+    },
+    "all_shader": "UsdPreviewSurface_with_textures",
+    "max_texture_resolution": 2048
+  },
+  "exhibition": {
+    "theme": "抽象画、雕塑",
+    "min_exhibits_per_floor": 15,
+    "max_same_model_in_building": 3,
+    "painting_reuse_across_buildings": 0,
+    "clear_route_width_m": 1.2,
+    "asset_selection_status": "M0_BOUND_INVENTORY_PLACEMENT_REVIEW_PENDING",
+    "items": [
+      {
+        "kind": "original_procedural_inventory",
+        "template": "geometric_abstract_painting",
+        "count": 64,
+        "seed_base": 2026110712
+      },
+      {
+        "kind": "original_procedural_inventory",
+        "template": "unique_torus_knot_sculpture",
+        "count": 16,
+        "seed_base": 2026110712
+      }
+    ],
+    "painting_ids": [],
+    "source_keys": []
+  },
+  "lighting": {
+    "kelvin": 3800,
+    "blue_ambient": false,
+    "sun_sky_through_glass": false,
+    "spotlights_for_features": true,
+    "hdri_id": "kloofendal_38d_partly_cloudy_puresky"
+  },
+  "seed": 2026110712,
+  "checks": {
+    "C2_radius_m": 0.25,
+    "C2_height_m": 1.6,
+    "C2_min_reachable": 0.95,
+    "C3_gap_m": 0,
+    "C3_top_error_max_m": 0.01,
+    "C3_sample_m": 0.01,
+    "C3_negative_shift_m": 0.6,
+    "C4_height_m": 1.6,
+    "C4_min_fraction": 0.9
+  },
+  "authorization_sha256": "8f2849b912a2994609faf01e4282d22c53326854826b7f9f61597b04143769b1",
+  "applied_adjustments": [
+    "ADJUST_01"
+  ],
+  "library_manifest_sha256": "2ac3e509eff6640d577bf56773a114ab290af80178555fe82f51a63593afe585"
+}
