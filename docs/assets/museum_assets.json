@@ -1,0 +1,7785 @@
+[
+ {
+  "source": "ambientCG",
+  "id": "Marble001",
+  "license": "CC0-1.0",
+  "url": "https://ambientcg.com/a/Marble001",
+  "buildings": [
+   "M01",
+   "M02",
+   "M03",
+   "M17",
+   "M18",
+   "M19"
+  ],
+  "used_for": [
+   "DecoMedallionLight",
+   "Ground",
+   "M02GrayMarble45",
+   "M02RoseMarble45",
+   "M02SageMarble45",
+   "Plinth",
+   "StairTread",
+   "UpperFloor"
+  ]
+ },
+ {
+  "source": "ambientCG",
+  "id": "Plaster001",
+  "license": "CC0-1.0",
+  "url": "https://ambientcg.com/a/Plaster001",
+  "buildings": [
+   "M01",
+   "M02",
+   "M03",
+   "M04",
+   "M05",
+   "M06",
+   "M07",
+   "M08",
+   "M09",
+   "M10",
+   "M11",
+   "M12",
+   "M13",
+   "M14",
+   "M17",
+   "M18",
+   "M19",
+   "M20",
+   "M21",
+   "M22",
+   "M23",
+   "M24",
+   "M25",
+   "M26",
+   "M28",
+   "M29"
+  ],
+  "used_for": [
+   "Ceiling",
+   "Deco13Accent",
+   "Deco13CoveStone",
+   "ExteriorStone",
+   "MediterraneanRoofLiner24",
+   "Plinth",
+   "Wall"
+  ]
+ },
+ {
+  "source": "ambientCG",
+  "id": "Metal001",
+  "license": "CC0-1.0",
+  "url": "https://ambientcg.com/a/Metal001",
+  "buildings": [
+   "M01",
+   "M02",
+   "M03",
+   "M04",
+   "M05",
+   "M06",
+   "M07",
+   "M08",
+   "M09",
+   "M10",
+   "M11",
+   "M12",
+   "M13",
+   "M14",
+   "M15",
+   "M16",
+   "M17",
+   "M18",
+   "M19",
+   "M20",
+   "M23",
+   "M24",
+   "M25",
+   "M26",
+   "M27",
+   "M28",
+   "M29"
+  ],
+  "used_for": [
+   "Brass",
+   "EngineEnamel_0",
+   "EngineEnamel_1",
+   "EngineEnamel_2",
+   "Fossil37RoofMetal",
+   "Industrial27_Roof",
+   "IndustrialDeck",
+   "IndustrialRoofLiner",
+   "Iron",
+   "MachineBronze",
+   "MachineCastIron",
+   "MachineEnamel",
+   "MarineBronze",
+   "StairTread",
+   "Steel"
+  ]
+ },
+ {
+  "source": "ambientCG",
+  "id": "Carpet001",
+  "license": "CC0-1.0",
+  "url": "https://ambientcg.com/a/Carpet001",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": [
+   "Carpet"
+  ]
+ },
+ {
+  "source": "Poly Haven",
+  "id": "cobblestone_floor_001",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/cobblestone_floor_001",
+  "buildings": [
+   "M01",
+   "M02",
+   "M03",
+   "M04",
+   "M05",
+   "M06",
+   "M07",
+   "M08",
+   "M09",
+   "M10",
+   "M11",
+   "M12",
+   "M13",
+   "M14",
+   "M15",
+   "M16",
+   "M17",
+   "M18",
+   "M19",
+   "M20",
+   "M21",
+   "M22",
+   "M23",
+   "M24",
+   "M25",
+   "M26",
+   "M27",
+   "M28",
+   "M29"
+  ],
+  "used_for": [
+   "Gothic18GuardStone",
+   "Plaza"
+  ]
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "131820",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1954.393",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "139730",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1963.503",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "105480",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1923.602",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "108555",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1926.26",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "111479",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1929.96",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "115394",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1936.18",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "115405",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1936.19",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "117774",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1938.392",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "118042",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1939.165",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "118159",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1939.269",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "118604",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1939.63",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "119697",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1940.534",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "119703",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1940.540",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "120286",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1941.14",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "121188",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1942.1065",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "121866",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1942.2.12",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "marble_bust_01",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/marble_bust_01",
+  "buildings": [
+   "M01",
+   "M02"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "121867",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1942.2.12.a",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "121868",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1942.2.12.b",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "121869",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1942.2.13",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "121870",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1942.2.13.a",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "121871",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1942.2.13.b",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "122166",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1942.49",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "122341",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1942.638",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "122347",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1942.643",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "124078",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1944.80",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "124084",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1944.86",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "124089",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1944.90",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "124256",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1945.25",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "124796",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1946.277",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "125091",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1946.71",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "125093",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1946.73",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "125104",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1946.83",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "125234",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1947.196",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "125249",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1947.209",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "125941",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1948.176",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "125942",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1948.176.1",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "125948",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1948.181",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "125949",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1948.181.1",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "125950",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1948.181.2",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "125951",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1948.183",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "126769",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1949.186",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "126773",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1949.189",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "128072",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1950.89",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "128363",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1951.323",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "128364",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1951.324",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "128371",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1951.330",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "128392",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1951.356",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "128838",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1951.453",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "chinese_chandelier",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/chinese_chandelier",
+  "buildings": [
+   "M01",
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "lantern_chandelier_01",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/lantern_chandelier_01",
+  "buildings": [
+   "M01",
+   "M07",
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "Chandelier_01",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/Chandelier_01",
+  "buildings": [
+   "M01",
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "ambientCG",
+  "id": "Marble002",
+  "license": "CC0-1.0",
+  "url": "https://ambientcg.com/a/Marble002",
+  "buildings": [
+   "M01"
+  ],
+  "used_for": [
+   "M01BlackInlay45"
+  ]
+ },
+ {
+  "source": "Poly Haven",
+  "id": "kloofendal_48d_partly_cloudy_puresky",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky",
+  "buildings": [
+   "M01",
+   "M02",
+   "M04",
+   "M06",
+   "M08",
+   "M09",
+   "M11",
+   "M12",
+   "M13",
+   "M15",
+   "M16",
+   "M19",
+   "M22",
+   "M24",
+   "M25",
+   "M26",
+   "M27",
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:082c87e9-1fe0-4772-b4c6-fe6d59bd6e74",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:082c87e9-1fe0-4772-b4c6-fe6d59bd6e74/Old_Arrow_Maker-150k-2048-medium.glb",
+  "buildings": [
+   "M02",
+   "M15",
+   "M16"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:789cf90a-4387-4ac1-9e96-c7d6a7b9d26f",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:789cf90a-4387-4ac1-9e96-c7d6a7b9d26f/george-washington-greenough-statue-(1840)-150k-2048-medium.glb",
+  "buildings": [
+   "M02",
+   "M15",
+   "M16"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:7f2659ba-2953-47a5-9358-921da9b0ce16",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:7f2659ba-2953-47a5-9358-921da9b0ce16/life-cast-of-left-forearm-and-hand-150k-2048-medium.glb",
+  "buildings": [
+   "M02"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:8edffe56-c358-4c3a-a61f-019f615ccef0",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:8edffe56-c358-4c3a-a61f-019f615ccef0/greek-slave-plaster-cast-150k-2048-medium.glb",
+  "buildings": [
+   "M02",
+   "M15"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:99ca3d6f-6d54-45a5-9b95-f8c245a662c2",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:99ca3d6f-6d54-45a5-9b95-f8c245a662c2/Old_Arrow_Maker-150k-2048-medium.glb",
+  "buildings": [
+   "M02",
+   "M15"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "bronze_ray_statue",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/bronze_ray_statue",
+  "buildings": [
+   "M02",
+   "M18",
+   "M26"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "bronze_shark_statue",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/bronze_shark_statue",
+  "buildings": [
+   "M02",
+   "M18",
+   "M26"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "bronze_whale_statue",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/bronze_whale_statue",
+  "buildings": [
+   "M02",
+   "M18",
+   "M26"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "bull_head",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/bull_head",
+  "buildings": [
+   "M02",
+   "M08"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "concrete_cat_statue",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/concrete_cat_statue",
+  "buildings": [
+   "M02",
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "gothic_statue",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/gothic_statue",
+  "buildings": [
+   "M02",
+   "M07",
+   "M08"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "horse_head",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/horse_head",
+  "buildings": [
+   "M02",
+   "M08"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "horse_statue_01",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/horse_statue_01",
+  "buildings": [
+   "M02",
+   "M08"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "lion_head",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/lion_head",
+  "buildings": [
+   "M02",
+   "M08"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "ambientCG",
+  "id": "Travertine001",
+  "license": "CC0-1.0",
+  "url": "https://ambientcg.com/a/Travertine001",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": [
+   "Ground"
+  ]
+ },
+ {
+  "source": "Poly Haven",
+  "id": "rosendal_park_sunset_puresky",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/rosendal_park_sunset_puresky",
+  "buildings": [
+   "M03",
+   "M05",
+   "M17",
+   "M18",
+   "M21"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "128842",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1951.454",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "128877",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1951.486",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "130163",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1952.542",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "130391",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1953.155",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "130392",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1953.156",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "130457",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1953.212",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "134933",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1957.489",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "135142",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1958.175",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "135143",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1958.175.1",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "135185",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1958.21",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "135214",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1958.23",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "135238",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1958.25",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "135265",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1958.28",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "135310",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1958.32",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "135336",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1958.34",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "135382",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1958.39",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "ArmChair_01",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/ArmChair_01",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "Rockingchair_01",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/Rockingchair_01",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "mantel_clock_01",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/mantel_clock_01",
+  "buildings": [
+   "M03",
+   "M17"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "painted_wooden_cabinet",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/painted_wooden_cabinet",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "135428",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1958.425",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "135480",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1958.47",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "135512",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1958.51",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "135517",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1958.56",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "135518",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1958.57",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "135875",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1959.38",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "136507",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1960.79",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "136510",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1960.81",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "136760",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1961.262",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "136844",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1961.334",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "137195",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1962.151",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "137259",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1962.2",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "138369",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1962.3",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "138430",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1962.35",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "138464",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1962.37",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "139729",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1963.502",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "painted_wooden_sofa",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/painted_wooden_sofa",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "vintage_cabinet_01",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/vintage_cabinet_01",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "vintage_grandfather_clock_01",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/vintage_grandfather_clock_01",
+  "buildings": [
+   "M03",
+   "M17"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "140078",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1963.91",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "140342",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1964.292",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "141168",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1964.420",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "141220",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1964.454",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "141328",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1964.54",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "141476",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1964.89",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "141728",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1965.310",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "142298",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1966.13",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "142659",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1966.382",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "143206",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1967.17",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "143761",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1968.20",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "144743",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1969.53",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "144756",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1969.54",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "145124",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1970.30",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "145135",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1970.31",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "145309",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1970.55",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "145473",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1971.102",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "145960",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1971.166",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "146148",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1971.47",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "146446",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1972.120",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "146725",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1972.17",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "146726",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1972.17.1",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "146727",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1972.17.2",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "146752",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1972.19",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "147020",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1972.50",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "147479",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1973.212",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "147521",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1973.31",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "147522",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1973.32",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "147523",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1973.33",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "147607",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1974.1",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "148297",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1975.263",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "148365",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1975.78",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "Chandelier_02",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/Chandelier_02",
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "M03_original_red_stucco_roundhead36",
+  "license": "procedural original",
+  "url": null,
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "M03_StoneEdge36",
+  "license": "procedural original",
+  "url": null,
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "ExistingambientCGTravertine001CC0photo",
+  "id": "M03_tiles40_1267",
+  "license": "CC0",
+  "url": null,
+  "buildings": [
+   "M03"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "ambientCG",
+  "id": "Bricks001",
+  "license": "CC0-1.0",
+  "url": "https://ambientcg.com/a/Bricks001",
+  "buildings": [
+   "M04",
+   "M05",
+   "M06",
+   "M09",
+   "M11"
+  ],
+  "used_for": [
+   "ExteriorStone",
+   "Terracotta"
+  ]
+ },
+ {
+  "source": "Poly Haven",
+  "id": "clay_roof_tiles",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/clay_roof_tiles",
+  "buildings": [
+   "M04"
+  ],
+  "used_for": [
+   "VictorianRoofTile"
+  ]
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:d8c623be-4ebc-11ea-b77f-2e728ce88125",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:d8c623be-4ebc-11ea-b77f-2e728ce88125/Triceratops_20M-150k-2048-medium.glb",
+  "buildings": [
+   "M04"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:5684573d-d264-4774-a0e2-8335d26c5761",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:5684573d-d264-4774-a0e2-8335d26c5761/Hoplophoneus_primaevus_latidens_Thorpe-150k-2048-medium.glb",
+  "buildings": [
+   "M04",
+   "M06"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:71fede81-9be4-4fc8-9422-402aeaa82c4d",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:71fede81-9be4-4fc8-9422-402aeaa82c4d/Dinictis_cyclops_-Cope-150k-2048-medium.glb",
+  "buildings": [
+   "M04",
+   "M06"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "moon_rock_01",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/moon_rock_01",
+  "buildings": [
+   "M04",
+   "M05",
+   "M06"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:46978059-5122-4ec7-92d5-a66fdc5fbe05",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:46978059-5122-4ec7-92d5-a66fdc5fbe05/Platygonus_intermedius_Gidley,_1920-150k-2048-medium.glb",
+  "buildings": [
+   "M04",
+   "M06"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:19a6f17f-7a14-479e-a143-9f02e5c6b139",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:19a6f17f-7a14-479e-a143-9f02e5c6b139/Albertocetus_meffordorum-150k-2048-medium.glb",
+  "buildings": [
+   "M04"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "moon_rock_02",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/moon_rock_02",
+  "buildings": [
+   "M04",
+   "M05",
+   "M06"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:5c65f6fb-9b73-4352-a76f-3ef0b4c5d030",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:5c65f6fb-9b73-4352-a76f-3ef0b4c5d030/Hoplophoneus_primaevus_latidens_Thorpe-150k-2048-medium.glb",
+  "buildings": [
+   "M04",
+   "M06"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:1e939def-c24c-4fd6-8b18-6a54c4bc7753",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:1e939def-c24c-4fd6-8b18-6a54c4bc7753/Coronula_diadema-150k-2048-medium.glb",
+  "buildings": [
+   "M04",
+   "M06"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:38ebfd39-b3ae-4d22-9965-6f44e20d259e",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:38ebfd39-b3ae-4d22-9965-6f44e20d259e/Tamiosoma_gregaria_Conrad-150k-2048-medium.glb",
+  "buildings": [
+   "M04",
+   "M06"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "moon_rock_03",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/moon_rock_03",
+  "buildings": [
+   "M04",
+   "M05",
+   "M06"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:542743f3-aa39-4269-98c4-2493d384c55f",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:542743f3-aa39-4269-98c4-2493d384c55f/Crassatellites_aquiana_Clark-150k-2048-medium.glb",
+  "buildings": [
+   "M04"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:5ce2b118-3342-4bfe-9cb8-1b865ca48cbe",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:5ce2b118-3342-4bfe-9cb8-1b865ca48cbe/Decadocrinus_coreyi_-Worthen-150k-2048-medium.glb",
+  "buildings": [
+   "M04",
+   "M06"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:36d41180-2a3d-4c0d-a397-fe77507009bf",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:36d41180-2a3d-4c0d-a397-fe77507009bf/Sterculia_snowii_Lesquereux-150k-2048-medium.glb",
+  "buildings": [
+   "M04",
+   "M06"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:2f1f8d49-0d8a-4ad8-a333-9c19a0fd6f27",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:2f1f8d49-0d8a-4ad8-a333-9c19a0fd6f27/Calamites_sp-150k-2048-medium.glb",
+  "buildings": [
+   "M04",
+   "M06"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:4d829cad-d08a-44a1-91ac-d7a4bb18ba54",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:4d829cad-d08a-44a1-91ac-d7a4bb18ba54/Unio_patelloides-150k-2048-medium.glb",
+  "buildings": [
+   "M04"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "M04StoneAntiSlip552",
+  "license": "procedural original",
+  "url": null,
+  "buildings": [
+   "M04"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:687b5a18-e20d-481c-bff3-698d506cd69b",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:687b5a18-e20d-481c-bff3-698d506cd69b/nmah-af_30714-cher_ami-150k-2048-medium.glb",
+  "buildings": [
+   "M05"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:62f8c22b-6122-487b-b158-fe6e4a907702",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:62f8c22b-6122-487b-b158-fe6e4a907702/Corydalus_affinis-150k-2048-medium.glb",
+  "buildings": [
+   "M05"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:0dff6ec4-bbff-4231-b0aa-2cb00e6dd643",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:0dff6ec4-bbff-4231-b0aa-2cb00e6dd643/Conus_gloriamaris-150k-2048-medium.glb",
+  "buildings": [
+   "M05",
+   "M26",
+   "M27"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:60b09a62-614b-4c95-8a5a-70f2b3c1b02c",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:60b09a62-614b-4c95-8a5a-70f2b3c1b02c/Conus_gloriamaris-150k-2048-medium.glb",
+  "buildings": [
+   "M05",
+   "M27"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:991f0339-b7bd-4fe1-8ab2-85cd5ae038fb",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:991f0339-b7bd-4fe1-8ab2-85cd5ae038fb/Psalidognathus_superbus-150k-2048-medium.glb",
+  "buildings": [
+   "M05"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:78dbfa2e-f031-4d60-a447-d61415823149",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:78dbfa2e-f031-4d60-a447-d61415823149/Chicoreus_cervicornis-150k-2048-medium.glb",
+  "buildings": [
+   "M05"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:2879dec0-1217-4f19-81e0-3c8dd915813f",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:2879dec0-1217-4f19-81e0-3c8dd915813f/Muracypraea_mus-150k-2048-medium.glb",
+  "buildings": [
+   "M05",
+   "M26",
+   "M27"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:701a39f3-c97a-4951-9de4-1125229eb703",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:701a39f3-c97a-4951-9de4-1125229eb703/usnm_1444w-20m-150k-2048-medium.glb",
+  "buildings": [
+   "M05",
+   "M27"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:002b9110-8388-4820-80c9-6363030943ce",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:002b9110-8388-4820-80c9-6363030943ce/Barycypraea_teulerei-150k-2048-medium.glb",
+  "buildings": [
+   "M05",
+   "M26",
+   "M27"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:4cc2228f-6772-4878-971d-04e4893c94cd",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:4cc2228f-6772-4878-971d-04e4893c94cd/Julodis_undetermined-150k-2048-medium.glb",
+  "buildings": [
+   "M05"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "slate_floor",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/slate_floor",
+  "buildings": [
+   "M06",
+   "M29"
+  ],
+  "used_for": [
+   "Ground",
+   "UpperFloor"
+  ]
+ },
+ {
+  "source": "ambientCG",
+  "id": "Concrete001",
+  "license": "CC0-1.0",
+  "url": "https://ambientcg.com/a/Concrete001",
+  "buildings": [
+   "M06",
+   "M09",
+   "M10",
+   "M11",
+   "M12",
+   "M15",
+   "M16",
+   "M26",
+   "M27"
+  ],
+  "used_for": [
+   "Aviation41Concrete",
+   "Ceiling",
+   "ExteriorStone",
+   "Ground",
+   "IndustrialConcrete",
+   "M27_CasePlinth1860",
+   "M27_Concrete1878",
+   "Plinth",
+   "StairTread",
+   "UpperFloor",
+   "Wall"
+  ]
+ },
+ {
+  "source": "Poly Haven",
+  "id": "large_sandstone_blocks",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/large_sandstone_blocks",
+  "buildings": [
+   "M06"
+  ],
+  "used_for": [
+   "Ground",
+   "UpperFloor"
+  ]
+ },
+ {
+  "source": "Poly Haven",
+  "id": "patterned_slate_tiles",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/patterned_slate_tiles",
+  "buildings": [
+   "M07",
+   "M08"
+  ],
+  "used_for": [
+   "Ground",
+   "RoofTile",
+   "UpperFloor"
+  ]
+ },
+ {
+  "source": "Poly Haven",
+  "id": "cobblestone_01",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/cobblestone_01",
+  "buildings": [
+   "M07"
+  ],
+  "used_for": [
+   "GothicCourtCobble",
+   "Wall"
+  ]
+ },
+ {
+  "source": "Poly Haven",
+  "id": "kloofendal_43d_clear_puresky",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/kloofendal_43d_clear_puresky",
+  "buildings": [
+   "M07",
+   "M10",
+   "M14",
+   "M20",
+   "M23",
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "ornate_medieval_mace",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/ornate_medieval_mace",
+  "buildings": [
+   "M07"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "ornate_war_hammer",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/ornate_war_hammer",
+  "buildings": [
+   "M07"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "antique_estoc",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/antique_estoc",
+  "buildings": [
+   "M07"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "kite_shield",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/kite_shield",
+  "buildings": [
+   "M07"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "treasure_chest",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/treasure_chest",
+  "buildings": [
+   "M07",
+   "M08"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "GothicCabinet_01",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/GothicCabinet_01",
+  "buildings": [
+   "M07",
+   "M08"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "GothicCommode_01",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/GothicCommode_01",
+  "buildings": [
+   "M07",
+   "M08"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "gothic_coffee_table",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/gothic_coffee_table",
+  "buildings": [
+   "M07"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "GothicBed_01",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/GothicBed_01",
+  "buildings": [
+   "M07"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "brass_goblets",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/brass_goblets",
+  "buildings": [
+   "M07",
+   "M08",
+   "M17",
+   "M24"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "brass_candleholders",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/brass_candleholders",
+  "buildings": [
+   "M07",
+   "M08",
+   "M24"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "wooden_candlestick",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/wooden_candlestick",
+  "buildings": [
+   "M07",
+   "M08",
+   "M21"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "Lantern_01",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/Lantern_01",
+  "buildings": [
+   "M07",
+   "M08",
+   "M19",
+   "M21"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "dutch_ship_large_01",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/dutch_ship_large_01",
+  "buildings": [
+   "M09",
+   "M25"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "dutch_ship_large_02",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/dutch_ship_large_02",
+  "buildings": [
+   "M09",
+   "M25"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "dutch_ship_medium",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/dutch_ship_medium",
+  "buildings": [
+   "M09",
+   "M25"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "ship_pinnace",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/ship_pinnace",
+  "buildings": [
+   "M09",
+   "M25"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:9172faae-dbbe-424a-a9e7-56f4428a06dd",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:9172faae-dbbe-424a-a9e7-56f4428a06dd/lincoln_patent_model-150k-2048-medium.glb",
+  "buildings": [
+   "M09"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "old_drill_press",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/old_drill_press",
+  "buildings": [
+   "M09",
+   "M10"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:1f7d20f0-6b3f-4780-b754-91c2f9f91602",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:1f7d20f0-6b3f-4780-b754-91c2f9f91602/henry-trough-battery-150k-2048-medium.glb",
+  "buildings": [
+   "M09",
+   "M11"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:40cf5b52-0b21-4063-95fc-aa07998eb4dd",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:40cf5b52-0b21-4063-95fc-aa07998eb4dd/page-induction-coil-150k-2048-medium.glb",
+  "buildings": [
+   "M09",
+   "M11"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "Camera_01",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/Camera_01",
+  "buildings": [
+   "M09",
+   "M11"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "adjustable_wrench",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/adjustable_wrench",
+  "buildings": [
+   "M09",
+   "M11"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "bench_vice_01",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/bench_vice_01",
+  "buildings": [
+   "M09",
+   "M11"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "filmstrip_projector_8mm",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/filmstrip_projector_8mm",
+  "buildings": [
+   "M09",
+   "M11"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "industrial_microscope",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/industrial_microscope",
+  "buildings": [
+   "M09",
+   "M11"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "retro_multimeter",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/retro_multimeter",
+  "buildings": [
+   "M09",
+   "M11"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "screwdrivers_02",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/screwdrivers_02",
+  "buildings": [
+   "M09",
+   "M11"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "tool_cart",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/tool_cart",
+  "buildings": [
+   "M09"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "vintage_microscope",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/vintage_microscope",
+  "buildings": [
+   "M09",
+   "M11",
+   "M17"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural_polished_concrete62",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M09",
+   "M13"
+  ],
+  "used_for": [
+   "Ground",
+   "UpperFloor"
+  ]
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M10_distinct17_000",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M10"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M10_distinct17_001",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M10"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M10_distinct17_002",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M10"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M10_distinct17_003",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M10"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M10_distinct17_004",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M10"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M10_distinct17_005",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M10"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M10_distinct17_006",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M10"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M10_distinct17_007",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M10"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M10_distinct17_008",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M10"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M10_distinct17_009",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M10"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M10_distinct17_010",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M10"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M10_distinct17_011",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M10"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M10_distinct17_012",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M10"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M10_distinct17_013",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M10"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M10_distinct17_014",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M10"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M10_distinct17_015",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M10"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M10_distinct17_016",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M10"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M10_distinct17_017",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M10"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M10_distinct17_018",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M10"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M10_distinct17_019",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M10"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M10_distinct17_020",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M10"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M10_distinct17_021",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M10"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M10_distinct17_022",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M10"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M10_distinct17_023",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M10"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M10_distinct17_024",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M10"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M10_distinct17_025",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M10"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M10_distinct17_026",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M10"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M10_distinct17_027",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M10"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M10_distinct17_028",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M10"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M10_distinct17_029",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M10"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M10_distinct17_030",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M10"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M10_distinct17_031",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M10"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "ambientCG",
+  "id": "Concrete002",
+  "license": "CC0-1.0",
+  "url": "https://ambientcg.com/a/Concrete002",
+  "buildings": [
+   "M11"
+  ],
+  "used_for": [
+   "Ground",
+   "UpperFloor"
+  ]
+ },
+ {
+  "source": "Poly Haven",
+  "id": "WoodenChair_01",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/WoodenChair_01",
+  "buildings": [
+   "M11"
+  ],
+  "used_for": [
+   "Aviation41WoodEdge"
+  ]
+ },
+ {
+  "source": "ambientCG",
+  "id": "Terrazzo001",
+  "license": "CC0-1.0",
+  "url": "https://ambientcg.com/a/Terrazzo001",
+  "buildings": [
+   "M12",
+   "M17",
+   "M18"
+  ],
+  "used_for": [
+   "DecoMedallionLight",
+   "Ground",
+   "UpperFloor"
+  ]
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_000",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_001",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_002",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_003",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_004",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_005",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_006",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_007",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_008",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_009",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_010",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_011",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_012",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_013",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_014",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_015",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_016",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_017",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_018",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_019",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_020",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_021",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_022",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_023",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_024",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_025",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_026",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_027",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_028",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_029",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_030",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_031",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_032",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_033",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_034",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_035",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_036",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_037",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_038",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_039",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_040",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_041",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_042",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_043",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_044",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_045",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_046",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M12_abstract_047",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M12"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "ambientCG",
+  "id": "Concrete003",
+  "license": "CC0-1.0",
+  "url": "https://ambientcg.com/a/Concrete003",
+  "buildings": [
+   "M13"
+  ],
+  "used_for": [
+   "Ground",
+   "UpperFloor"
+  ]
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_000",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_001",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_002",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_003",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_004",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_005",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_006",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_007",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_008",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_009",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_010",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_011",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_012",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_013",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_014",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_015",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_016",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_017",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_018",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_019",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_020",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_021",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_022",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_023",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_024",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_025",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_026",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_027",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_028",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_029",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_030",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_031",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_032",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_033",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_034",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_035",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_036",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_037",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_038",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_039",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_040",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_041",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_042",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_043",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_044",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_045",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_046",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_047",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_048",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_049",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_050",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_051",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_052",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_053",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_054",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_055",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_056",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_057",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_058",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_059",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_060",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_061",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_062",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M13_abstract_063",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M13"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M14_distinct17_000",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M14"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M14_distinct17_001",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M14"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M14_distinct17_002",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M14"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M14_distinct17_003",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M14"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M14_distinct17_004",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M14"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M14_distinct17_005",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M14"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M14_distinct17_006",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M14"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M14_distinct17_007",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M14"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M14_distinct17_008",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M14"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M14_distinct17_009",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M14"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M14_distinct17_010",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M14"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M14_distinct17_011",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M14"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M14_distinct17_012",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M14"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M14_distinct17_013",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M14"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M14_distinct17_014",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M14"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M14_distinct17_015",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M14"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M14_distinct17_016",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M14"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M14_distinct17_017",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M14"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M14_distinct17_018",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M14"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M14_distinct17_019",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M14"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M14_distinct17_020",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M14"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M14_distinct17_021",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M14"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M14_distinct17_022",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M14"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M14_distinct17_023",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M14"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M14_distinct17_024",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M14"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M14_distinct17_025",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M14"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M14_distinct17_026",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M14"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M14_distinct17_027",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M14"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M14_distinct17_028",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M14"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M14_distinct17_029",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M14"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M14_distinct17_030",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M14"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Museum29 procedural original art",
+  "id": "M14_distinct17_031",
+  "license": "procedural",
+  "url": null,
+  "buildings": [
+   "M14"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "SteelNosing32",
+  "license": "procedural original",
+  "url": null,
+  "buildings": [
+   "M14"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "M14_offset36_aluminium_curtain_steel",
+  "license": "procedural original",
+  "url": null,
+  "buildings": [
+   "M14"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "wood_textured_concrete",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/wood_textured_concrete",
+  "buildings": [
+   "M15"
+  ],
+  "used_for": [
+   "Ground",
+   "UpperFloor"
+  ]
+ },
+ {
+  "source": "Poly Haven",
+  "id": "ceramic_vase_01",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/ceramic_vase_01",
+  "buildings": [
+   "M15",
+   "M16",
+   "M17",
+   "M19",
+   "M21",
+   "M22",
+   "M23",
+   "M24",
+   "M25"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "ceramic_vase_02",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/ceramic_vase_02",
+  "buildings": [
+   "M15",
+   "M16",
+   "M17",
+   "M19",
+   "M21",
+   "M22",
+   "M23",
+   "M24",
+   "M25"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "ceramic_vase_03",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/ceramic_vase_03",
+  "buildings": [
+   "M15",
+   "M16",
+   "M17",
+   "M19",
+   "M21",
+   "M22",
+   "M23",
+   "M24",
+   "M25"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:349e8fa2-9461-4e33-bae9-5e9cdd3e72bb",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:349e8fa2-9461-4e33-bae9-5e9cdd3e72bb/chsdm-1986_61_53-ewer-master_model-20230112-150k-2048-medium.glb",
+  "buildings": [
+   "M15",
+   "M16",
+   "M24"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:547c78d1-620b-40c4-982e-01928870fef4",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:547c78d1-620b-40c4-982e-01928870fef4/kylix-150k-2048-medium.glb",
+  "buildings": [
+   "M15",
+   "M16",
+   "M24"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "antique_ceramic_vase_01",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/antique_ceramic_vase_01",
+  "buildings": [
+   "M15",
+   "M16",
+   "M17",
+   "M19",
+   "M21",
+   "M22",
+   "M23",
+   "M24",
+   "M25"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "ceramic_vase_04",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/ceramic_vase_04",
+  "buildings": [
+   "M15",
+   "M16",
+   "M17",
+   "M19",
+   "M21",
+   "M22",
+   "M23",
+   "M24",
+   "M25"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:727b4bb6-ce87-40de-b07d-d492c1404221",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:727b4bb6-ce87-40de-b07d-d492c1404221/f1921_2-high_res-150k-2048-medium.glb",
+  "buildings": [
+   "M15",
+   "M16"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:476ad7f6-6add-448d-af7f-9f2ca9ba9cb6",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:476ad7f6-6add-448d-af7f-9f2ca9ba9cb6/f1921_1-full_res-150k-2048-medium.glb",
+  "buildings": [
+   "M15",
+   "M16"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "ambientCG",
+  "id": "Granite001A",
+  "license": "CC0-1.0",
+  "url": "https://ambientcg.com/a/Granite001A",
+  "buildings": [
+   "M16",
+   "M22",
+   "M23"
+  ],
+  "used_for": [
+   "EastStoneBase",
+   "Ground",
+   "UpperFloor"
+  ]
+ },
+ {
+  "source": "procedural",
+  "id": "M16_StoneEdge36",
+  "license": "procedural original",
+  "url": null,
+  "buildings": [
+   "M16"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "seadogs_compass",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/seadogs_compass",
+  "buildings": [
+   "M17",
+   "M25"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "vintage_binocular",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/vintage_binocular",
+  "buildings": [
+   "M17"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "brass_vase_01",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/brass_vase_01",
+  "buildings": [
+   "M17",
+   "M24"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "brass_vase_02",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/brass_vase_02",
+  "buildings": [
+   "M17",
+   "M24",
+   "M25"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "brass_vase_03",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/brass_vase_03",
+  "buildings": [
+   "M17",
+   "M24",
+   "M25"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "ambientCG",
+  "id": "Onyx001",
+  "license": "CC0-1.0",
+  "url": "https://ambientcg.com/a/Onyx001",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": [
+   "Ground",
+   "UpperFloor"
+  ]
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "148860",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1976.97",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "148861",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1976.97.1",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "148862",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1976.97.2",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "148958",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1977.116",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "148961",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1977.119",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "148963",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1977.120",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "148966",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1977.123",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "148967",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1977.124",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "148969",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1977.126",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "148970",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1977.127",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "149029",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1977.171",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "149290",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1978.125",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "149396",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1978.51",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "149410",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1978.63",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "149421",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1978.73",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "149663",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1979.55",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "150016",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1980.232",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "150017",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1980.233",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "150021",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1980.237",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "150022",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1980.238",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "150023",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1980.238.1",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "150024",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1980.238.2",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "150028",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1980.242",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "150030",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1980.244",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "150035",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1980.249",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "150038",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1980.251",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "150051",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1980.262",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "150054",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1980.265",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "150055",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1980.266",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "150076",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1980.281",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "150077",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1980.282",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "150079",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1980.284",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "150082",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1980.287",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "150083",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1980.288",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "150088",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1980.292",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "150115",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1980.37",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "150118",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1980.4",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "150129",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1980.5",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "150389",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1981.18",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "150841",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1982.247",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "150851",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1982.256",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "151882",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1984.175",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "151904",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1927.1984",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "153382",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1986.68",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "153388",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1986.73",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "153927",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1988.108",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "154283",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1988.91",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "155626",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1990.7",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "ambientCG",
+  "id": "Marble009",
+  "license": "CC0-1.0",
+  "url": "https://ambientcg.com/a/Marble009",
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "M18_BronzeOctagon36",
+  "license": "procedural original",
+  "url": null,
+  "buildings": [
+   "M18"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "BrassNosing31",
+  "license": "procedural original",
+  "url": null,
+  "buildings": [
+   "M19"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "M19_JadeGlazedBrick35",
+  "license": "procedural original",
+  "url": null,
+  "buildings": [
+   "M19"
+  ],
+  "used_for": [
+   "DecoCream",
+   "ExteriorStone"
+  ]
+ },
+ {
+  "source": "Poly Haven",
+  "id": "brass_diya_lantern",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/brass_diya_lantern",
+  "buildings": [
+   "M19",
+   "M21",
+   "M22",
+   "M23"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "Ottoman_01",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/Ottoman_01",
+  "buildings": [
+   "M20"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "modern_coffee_table_01",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/modern_coffee_table_01",
+  "buildings": [
+   "M20"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:NordicDesign24:slatted_bench",
+  "license": "procedural original",
+  "url": null,
+  "buildings": [
+   "M20"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "folding_wooden_stool",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/folding_wooden_stool",
+  "buildings": [
+   "M20"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "modern_coffee_table_02",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/modern_coffee_table_02",
+  "buildings": [
+   "M20"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "mid_century_lounge_chair",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/mid_century_lounge_chair",
+  "buildings": [
+   "M20"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "modern_wooden_cabinet",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/modern_wooden_cabinet",
+  "buildings": [
+   "M20"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "round_wooden_table_01",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/round_wooden_table_01",
+  "buildings": [
+   "M20"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "modern_arm_chair_01",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/modern_arm_chair_01",
+  "buildings": [
+   "M20"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "desk_lamp_arm_01",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/desk_lamp_arm_01",
+  "buildings": [
+   "M20"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "round_wooden_table_02",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/round_wooden_table_02",
+  "buildings": [
+   "M20"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:NordicDesign24:bentwood_armchair",
+  "license": "procedural original",
+  "url": null,
+  "buildings": [
+   "M20"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "wooden_stool_01",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/wooden_stool_01",
+  "buildings": [
+   "M20"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "side_table_01",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/side_table_01",
+  "buildings": [
+   "M20"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:NordicDesign24:linen_settee",
+  "license": "procedural original",
+  "url": null,
+  "buildings": [
+   "M20"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "wooden_stool_02",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/wooden_stool_02",
+  "buildings": [
+   "M20"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M20:design_poster28:0",
+  "license": "procedural original",
+  "url": null,
+  "buildings": [
+   "M20"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M20:design_poster28:1",
+  "license": "procedural original",
+  "url": null,
+  "buildings": [
+   "M20"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M20:design_poster28:2",
+  "license": "procedural original",
+  "url": null,
+  "buildings": [
+   "M20"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M20:design_poster28:3",
+  "license": "procedural original",
+  "url": null,
+  "buildings": [
+   "M20"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M20:design_poster28:4",
+  "license": "procedural original",
+  "url": null,
+  "buildings": [
+   "M20"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M20:design_poster28:5",
+  "license": "procedural original",
+  "url": null,
+  "buildings": [
+   "M20"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M20:design_poster28:6",
+  "license": "procedural original",
+  "url": null,
+  "buildings": [
+   "M20"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M20:design_poster28:7",
+  "license": "procedural original",
+  "url": null,
+  "buildings": [
+   "M20"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M20:design_poster28:8",
+  "license": "procedural original",
+  "url": null,
+  "buildings": [
+   "M20"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M20:design_poster28:9",
+  "license": "procedural original",
+  "url": null,
+  "buildings": [
+   "M20"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M20:design_poster28:10",
+  "license": "procedural original",
+  "url": null,
+  "buildings": [
+   "M20"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M20:design_poster28:11",
+  "license": "procedural original",
+  "url": null,
+  "buildings": [
+   "M20"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "WoodNosing31",
+  "license": "procedural original",
+  "url": null,
+  "buildings": [
+   "M20"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "vintage_oil_lamp",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/vintage_oil_lamp",
+  "buildings": [
+   "M21"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "carved_wooden_plate",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/carved_wooden_plate",
+  "buildings": [
+   "M21",
+   "M23",
+   "M24"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "tea_set_01",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/tea_set_01",
+  "buildings": [
+   "M21",
+   "M22",
+   "M23",
+   "M24"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "wooden_bowl_02",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/wooden_bowl_02",
+  "buildings": [
+   "M21",
+   "M23"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "grey_roof_tiles",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/grey_roof_tiles",
+  "buildings": [
+   "M22",
+   "M23"
+  ],
+  "used_for": [
+   "RoofTile"
+  ]
+ },
+ {
+  "source": "Poly Haven",
+  "id": "chinese_cabinet",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/chinese_cabinet",
+  "buildings": [
+   "M22",
+   "M23"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "chinese_armchair",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/chinese_armchair",
+  "buildings": [
+   "M22",
+   "M23"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "chinese_console_table",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/chinese_console_table",
+  "buildings": [
+   "M22",
+   "M23"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "chinese_tea_table",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/chinese_tea_table",
+  "buildings": [
+   "M22",
+   "M23"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "chinese_stool",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/chinese_stool",
+  "buildings": [
+   "M22",
+   "M23"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "chinese_screen_panels",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/chinese_screen_panels",
+  "buildings": [
+   "M22",
+   "M23"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "katana_stand_01",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/katana_stand_01",
+  "buildings": [
+   "M22",
+   "M23"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "antique_katana_01",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/antique_katana_01",
+  "buildings": [
+   "M22",
+   "M23"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "carved_wooden_elephant",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/carved_wooden_elephant",
+  "buildings": [
+   "M22",
+   "M23"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "113945",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1933.220",
+  "buildings": [
+   "M22"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "130219",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1952.588",
+  "buildings": [
+   "M22"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "130361",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1953.126",
+  "buildings": [
+   "M22"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "130496",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1953.246",
+  "buildings": [
+   "M22"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "130940",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1953.629",
+  "buildings": [
+   "M22"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "132016",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1954.583",
+  "buildings": [
+   "M22"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "132834",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1955.302.1",
+  "buildings": [
+   "M22"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "132835",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1955.302.2",
+  "buildings": [
+   "M22"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "132836",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1955.302.3",
+  "buildings": [
+   "M22"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "132837",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1955.302.4",
+  "buildings": [
+   "M22"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "132838",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1955.302.5",
+  "buildings": [
+   "M22"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "132839",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1955.302.6",
+  "buildings": [
+   "M22"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "135333",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1958.337",
+  "buildings": [
+   "M23"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "136285",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1960.173",
+  "buildings": [
+   "M23"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "136666",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1961.204",
+  "buildings": [
+   "M23"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "139454",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1963.262",
+  "buildings": [
+   "M23"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "146211",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1972.10",
+  "buildings": [
+   "M23"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "146212",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1972.10.1",
+  "buildings": [
+   "M23"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "146213",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1972.10.2",
+  "buildings": [
+   "M23"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Cleveland Museum of Art",
+  "id": "148357",
+  "license": "CC0-1.0",
+  "url": "https://clevelandart.org/art/1975.71",
+  "buildings": [
+   "M23"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "EastWoodNosing35",
+  "license": "procedural original",
+  "url": null,
+  "buildings": [
+   "M23"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "M23_original_cedar_moon_windows36",
+  "license": "procedural original",
+  "url": null,
+  "buildings": [
+   "M23"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "jug_01",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/jug_01",
+  "buildings": [
+   "M24",
+   "M25"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "metal_jug",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/metal_jug",
+  "buildings": [
+   "M24",
+   "M25"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "brass_vase_04",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/brass_vase_04",
+  "buildings": [
+   "M24",
+   "M25"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "Mediterranean_FloralRiser23",
+  "license": "procedural original",
+  "url": null,
+  "buildings": [
+   "M24",
+   "M25"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "CeramicNosing29",
+  "license": "procedural original",
+  "url": null,
+  "buildings": [
+   "M24"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "ocean_buoy",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/ocean_buoy",
+  "buildings": [
+   "M25"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "binoculars",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/binoculars",
+  "buildings": [
+   "M25"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "lateral_sea_marker",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/lateral_sea_marker",
+  "buildings": [
+   "M25"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "life_jacket",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/life_jacket",
+  "buildings": [
+   "M25"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "clay_roof_tiles_02",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/clay_roof_tiles_02",
+  "buildings": [
+   "M25"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:4b9420ab-6c2d-432e-9140-ee866175dc87",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:4b9420ab-6c2d-432e-9140-ee866175dc87/Corallium_secundum-150k-2048-medium.glb",
+  "buildings": [
+   "M26",
+   "M27"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:4d6a5e3c-65a0-41e9-81d5-9f4116139471",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:4d6a5e3c-65a0-41e9-81d5-9f4116139471/USNM_111086-150k-2048-medium.glb",
+  "buildings": [
+   "M26"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:75c61f95-ae40-4572-bce6-c6b46cc6ac46",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:75c61f95-ae40-4572-bce6-c6b46cc6ac46/Corallium_gotoense-150k-2048-medium.glb",
+  "buildings": [
+   "M27"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:7fd1cb15-599b-44e5-8a14-579dfb749434",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:7fd1cb15-599b-44e5-8a14-579dfb749434/USNM_56807-150k-2048-medium.glb",
+  "buildings": [
+   "M27"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:76491916-bd81-412b-9df8-3e8735eb4cbc",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:76491916-bd81-412b-9df8-3e8735eb4cbc/Corallium_konojoi-150k-2048-medium.glb",
+  "buildings": [
+   "M27"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Smithsonian",
+  "id": "3d_package:66d91d50-c274-4270-a66f-24bcdc0afdc6",
+  "license": "CC0-1.0",
+  "url": "https://3d-api.si.edu/content/document/3d_package:66d91d50-c274-4270-a66f-24bcdc0afdc6/Corallium_bathyrubrum-150k-2048-medium.glb",
+  "buildings": [
+   "M27"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "potted_plant_02",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/potted_plant_02",
+  "buildings": [
+   "M28",
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "anthurium_botany_01",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/anthurium_botany_01",
+  "buildings": [
+   "M28",
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "calathea_orbifolia_01",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/calathea_orbifolia_01",
+  "buildings": [
+   "M28",
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "potted_plant_01",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/potted_plant_01",
+  "buildings": [
+   "M28",
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "fern_02",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/fern_02",
+  "buildings": [
+   "M28",
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "shrub_04",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/shrub_04",
+  "buildings": [
+   "M28",
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "crystalline_iceplant",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/crystalline_iceplant",
+  "buildings": [
+   "M28",
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "Poly Haven",
+  "id": "cheiridopsis_succulent",
+  "license": "CC0-1.0",
+  "url": "https://polyhaven.com/a/cheiridopsis_succulent",
+  "buildings": [
+   "M28",
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:palm:0",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:banana:0",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:palm:1",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:banana:1",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:palm:2",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:banana:2",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:palm:3",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:banana:3",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:0",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:1",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:2",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:0",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:1",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:3",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:4",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:5",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:2",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:3",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:6",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:7",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:8",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:4",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:5",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:9",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:10",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:11",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:6",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:7",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:12",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:13",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:14",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:8",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:9",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:15",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:16",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:17",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:10",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:11",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:18",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:19",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:20",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:12",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:13",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:21",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:22",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:23",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:14",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:15",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:24",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:25",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:26",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:16",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:17",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:27",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:28",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:29",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:18",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:19",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:30",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:31",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:32",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:20",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:21",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:33",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:34",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:35",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:22",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:23",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:36",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:37",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:38",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:24",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:25",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:broadleaf:39",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:26",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:27",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:28",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:29",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:30",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:31",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:32",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:33",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:34",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:35",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:36",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:37",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:38",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M28:light22:fern:39",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M28"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "BotanyPalm25",
+  "license": "procedural original",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "BotanyBanana25",
+  "license": "procedural original",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "BotanyBroadleaf25",
+  "license": "procedural original",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "BotanyFern25",
+  "license": "procedural original",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "BotanyTrunk25",
+  "license": "procedural original",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:palm:0",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:banana:0",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:palm:1",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:banana:1",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:palm:2",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:banana:2",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:palm:3",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:banana:3",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:0",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:1",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:2",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:0",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:1",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:3",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:4",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:5",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:2",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:3",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:6",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:7",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:8",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:4",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:5",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:9",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:10",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:11",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:6",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:7",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:12",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:13",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:14",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:8",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:9",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:15",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:16",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:17",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:10",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:11",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:18",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:19",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:20",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:12",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:13",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:21",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:22",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:23",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:14",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:15",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:24",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:25",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:26",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:16",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:17",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:27",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:28",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:29",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:18",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:19",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:30",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:31",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:32",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:20",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:21",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:33",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:34",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:35",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:22",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:23",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:36",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:37",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:38",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:24",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:25",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:broadleaf:39",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:26",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:27",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:28",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:29",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:30",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:31",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:32",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:33",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:34",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:35",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:36",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:37",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:38",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ },
+ {
+  "source": "procedural",
+  "id": "procedural:M29:light22:fern:39",
+  "license": "procedural original generated mesh",
+  "url": null,
+  "buildings": [
+   "M29"
+  ],
+  "used_for": []
+ }
+]

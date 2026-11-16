@@ -23,6 +23,8 @@ runs/
 # Source building corpora and generated stair assets are inputs/artifacts,
 # not source code.  Point at them with --source / --asset-root instead.
 assets/
+# ...except the asset records behind docs/assets.md, which are documentation.
+!docs/assets/
 corpora/
 *.usdz
 

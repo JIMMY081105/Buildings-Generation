@@ -2,10 +2,10 @@
 
 The JSON files are exported from the delivery metadata of the released buildings:
 
-* ``museum29_assets.json``  - union of ``ASSET_LICENSES.json`` over the 29
-  current Museum29 deliveries (one row per source asset, with the buildings that
+* ``museum_assets.json``  - union of ``ASSET_LICENSES.json`` over the 29
+  current museum deliveries (one row per source asset, with the buildings that
   use it).
-* ``factory80_assets.json`` - the user-confirmed Factory80 asset credits plus the
+* ``factory_assets.json`` - the user-confirmed industrial-hall asset credits plus the
   NVIDIA SimReady credit list written by the asset-library build.
 
 Nothing here is redistributed: every row points at the upstream source, and the
@@ -67,7 +67,7 @@ def museum_section(rows: list[dict]) -> list[str]:
     procedural = {k: v for k, v in by_source.items() if k not in third_party}
 
     out = [
-        "## Museum29 (29 museums, 12 architectural styles)",
+        "## Museums (29 buildings, 12 architectural styles)",
         "",
         f"{len(rows)} distinct asset records across the 29 current deliveries "
         f"({sum(len(v) for v in third_party.values())} third-party, "
@@ -118,7 +118,7 @@ def factory_section(data: dict) -> list[str]:
     eligible = [s for s in simready if s.get("status", "").strip() == "ELIGIBLE"]
     by_source = collections.Counter(a["source"] for a in confirmed)
     out = [
-        "## Factory80 (tiled industrial halls)",
+        "## Industrial halls (27 buildings, Round 4)",
         "",
         "| Source | Assets admitted to scenes | Licence |",
         "|---|---:|---|",
@@ -155,7 +155,7 @@ def factory_section(data: dict) -> list[str]:
         "</details>",
         "",
         "<details>",
-        f"<summary><b>Other Factory80 assets</b> - all {len(confirmed)} user-confirmed assets</summary>",
+        f"<summary><b>Other industrial-hall assets</b> - all {len(confirmed)} user-confirmed assets</summary>",
         "",
         "| Asset | Source | Class | Licence record |",
         "|---|---|---|---|",
@@ -175,8 +175,8 @@ def factory_section(data: dict) -> list[str]:
 
 
 def render() -> str:
-    museum = json.loads((DATA / "museum29_assets.json").read_text(encoding="utf-8"))
-    factory = json.loads((DATA / "factory80_assets.json").read_text(encoding="utf-8"))
+    museum = json.loads((DATA / "museum_assets.json").read_text(encoding="utf-8"))
+    factory = json.loads((DATA / "factory_assets.json").read_text(encoding="utf-8"))
     head = [
         "# Assets and data sources",
         "",
