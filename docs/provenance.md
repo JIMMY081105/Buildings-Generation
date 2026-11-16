@@ -25,6 +25,10 @@ Every module is in one of three categories. Keeping them separate is what makes
 | [Blender](https://www.blender.org) `bpy` | GPL-2.0-or-later | Runtime for Infinigen's staircase factories in `generation/`. Not vendored. |
 | [NVIDIA Isaac Sim](https://developer.nvidia.com/isaac/sim) | NVIDIA licence | PhysX validation and RTX rendering in `generation/`. Not vendored. |
 | ProtoMotions `simulator/base_simulator/` | Apache-2.0 | `scene_geometry_cache`, `standability`, `scene_storey_bands`, `free_space_topology`, `multistorey_topology` are imported by `generation/` gates. Not vendored there. |
+| [NVIDIA SimReady assets](https://huggingface.co/datasets/nvidia/simready-assets) | CC-BY-4.0 | Industrial equipment in Factory80 Round 4. Downloaded by `generation/`; not redistributed. |
+| NVIDIA Industrial / Warehouse / USD Explorer packs | NVIDIA Omniverse terms | Racking, structure and props in Factory80. Not redistributed. |
+| [Poly Haven](https://polyhaven.com), [ambientCG](https://ambientcg.com) | CC0-1.0 | Textures, HDRI skies and scanned props in Museum29. |
+| [Smithsonian 3D](https://3d.si.edu), [Cleveland Museum of Art](https://www.clevelandart.org/open-access) open access | CC0-1.0 | Scanned exhibits and artworks in Museum29. |
 
 ---
 

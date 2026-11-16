@@ -2,13 +2,29 @@
 
 [![ci](https://github.com/JIMMY081105/Buildings-Generation/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/JIMMY081105/Buildings-Generation/actions/workflows/ci.yml)
 
-**Simulation-ready multi-storey buildings in two styles — residential and
-industrial — with storey connection and falsifiable geometric acceptance.**
+**Simulation-ready multi-storey buildings in three styles — residential,
+industrial and museum — with storey connection and falsifiable geometric
+acceptance.**
+
+<p align="center">
+  <img src="https://img.shields.io/badge/buildings-54%20residential%20%C2%B7%2037%20industrial%20%C2%B7%2029%20museum-2b6cb0">
+  <img src="https://img.shields.io/badge/renderer-Isaac%20Sim%20RTX-76b900">
+  <img src="https://img.shields.io/badge/collision-exact%20triangle%20meshes-orange">
+  <img src="https://img.shields.io/badge/format-OpenUSD-555">
+  <img src="https://img.shields.io/badge/licence-Apache--2.0-blue">
+</p>
+
+<p align="center">
+  <img src="docs/media/museum/museum_facades.jpg" width="900" alt="Path-traced exteriors of all 29 generated museums">
+</p>
+<p align="center"><em><b>Figure 1.</b> All 29 museums of the Museum29 release, path-traced in Isaac Sim (RTX).
+Twelve architectural styles; the bracket gives the grand-staircase family —
+<b>H</b> helical, <b>A</b> arc, <b>I</b> imperial, <b>W</b> three-flight well, <b>C</b> cantilever.</em></p>
 
 <p align="center">
   <img src="docs/media/orbit_turntable.gif" width="680" alt="A 360 degree turntable of a two-storey residential building from the 54-building release">
 </p>
-<p align="center"><em><b>Figure 1.</b> A two-storey residential building from the 54-building release
+<p align="center"><em><b>Figure 2.</b> A two-storey residential building from the 54-building release
 (<code>home_train96_train99_straight_v001_h270</code>, after the material pass), path-traced in Isaac Sim.
 Upper-storey walls and ceilings are removed in a transient session layer so the staircase and the floor
 it serves stay visible; nothing is saved and no gate runs.
@@ -18,20 +34,36 @@ it serves stay visible; nothing is saved and no gate runs.
 
 Generating a building that *looks* right is easy; generating one in which a
 human-scale simulated body can actually move between storeys is not, and the
-failures are invisible in a render. This repository contains two building
+failures are invisible in a render. This repository contains three building
 generators and the acceptance machinery that decides whether their output is
 geometrically usable. The **residential** generator stacks two different
 single-storey scenes and joins them with a staircase synthesised for the
 measured storey height; it produced a release of 54 two-storey houses. The
 **industrial** generator tiles N × N source scenes into a single hall with a
-continuous floor, a column-and-truss structure, a partial mezzanine and
-several staircases, raising the walkable ground floor from about 0.1 × 10³ m²
-to 3.6–10.1 × 10³ m² per building; it is in progress, and none of its
-buildings is yet accepted. Both feed a building-type-agnostic library that
-detects storeys from geometry, designs and places staircases, bakes a 5 cm
-occupancy cache and runs seven acceptance gates, each paired with a negative
-control that is executed and must fail. Every result is reported with what was
-measured, what would have failed, and what it does not support.
+continuous floor, a column-and-truss structure, a partial mezzanine and several
+staircases, raising the walkable ground floor from about 0.1 × 10³ m² to
+3.6–10.1 × 10³ m² per building; its fourth round delivered 27 accepted halls
+furnished with NVIDIA SimReady equipment. The **museum** generator authors a
+building from a design spec — shell, one of five grand-staircase families,
+galleries and licensed scanned exhibits — and delivered 29 museums in twelve
+styles with 348 path-traced photographs. All three feed a building-type-agnostic
+library that detects storeys from geometry, designs and places staircases,
+bakes a 5 cm occupancy cache and runs acceptance gates, each paired with a
+negative control that is executed and must fail. Every result is reported with
+what was measured, what would have failed, and what it does not support.
+
+### At a glance
+
+| | Residential | Industrial (Factory80 Round 4) | Museum (Museum29) |
+|---|---:|---:|---:|
+| Buildings delivered | 54 | 27 tiled halls (+ 10 stacked) | 29 |
+| Storeys | 2 | 2 (ground + mezzanine) | 2–4 |
+| Staircase families | straight · L · U | straight · U, metal whitelist | helical · arc · imperial · three-flight well · cantilever |
+| Exact colliders per building | — | 9,354 – 217,277 (median 79,356) | per-object exact meshes |
+| Reachability (0.25 m × 1.6 m body) | G25 per storey | ≥ 95.27 % on all 108 floor × class measurements | ≥ 95 % per storey (C2) |
+| Physics | PhysX traversal | Isaac Sim capsule stand test (C5) | Isaac Sim drop-and-settle on treads, landings, floors (C5) |
+| Photographs | Cycles / RTX | 7 per building | 12 per building, 1920 × 1080 |
+| Generator snapshot | [`generation/house`](generation/house/README.md) | [`generation/factory`](generation/factory/README.md) | [`generation/museum`](generation/museum/README.md) |
 
 ## Quick start
 
@@ -57,22 +89,24 @@ for the generators.
 ## Contents
 
 1. [Contributions](#1-contributions)
-2. [Method](#2-method) — [residential](#21-residential-style) · [industrial](#22-industrial-style) · [connection and acceptance](#23-storey-connection-and-acceptance)
-3. [Results](#3-results) — [residential corpus](#31-residential-corpus) · [industrial pilots](#32-industrial-pilots) · [what the gates see](#33-what-the-gates-see)
+2. [Method](#2-method) — [residential](#21-residential-style) · [industrial](#22-industrial-style) · [museum](#23-museum-style) · [connection and acceptance](#24-storey-connection-and-acceptance)
+3. [Results](#3-results) — [residential corpus](#31-residential-corpus) · [industrial halls](#32-industrial-halls) · [museums](#33-museums) · [what the gates see](#34-what-the-gates-see)
 4. [Limitations](#4-limitations)
 5. [Using the library](#5-using-the-library)
 6. [Repository layout](#6-repository-layout)
-7. [Provenance and licence](#7-provenance-and-licence)
-8. [Citation](#8-citation)
+7. [Assets and data sources](#7-assets-and-data-sources)
+8. [Provenance and licence](#8-provenance-and-licence)
+9. [Citation](#9-citation)
 
 ---
 
 ## 1. Contributions
 
-1. **Two building generators, published verbatim.** The scripts that produced
-   the residential and industrial buildings are in [`generation/`](generation/README.md),
-   byte-identical to the code that ran, with a SHA-256 manifest; 107 of the 256
-   files also match a frozen contract manifest written by the original run.
+1. **Three building generators, published verbatim.** The scripts that produced
+   the residential, industrial and museum buildings are in [`generation/`](generation/README.md),
+   byte-identical to the code that ran, with a SHA-256 manifest of 400 files;
+   107 also match a frozen contract manifest written by the original run, and the
+   45 Factory80 Round 4 tools match the SHA-256 recorded by every accepted building.
 2. **A connection and acceptance library** ([`src/buildingsgen`](src/buildingsgen)):
    geometric storey detection, staircase design by riser-count search,
    placement that is verified by rasterising the flight and re-flooding before
@@ -105,21 +139,21 @@ fail.
 
 ## 2. Method
 
-```
- residential                          industrial
- ───────────                          ──────────
- scene pool (MolmoSpaces)             scene pool (MolmoSpaces, industrial screen)
-   │ pair two scenes                    │ plan an N×N grid, all tiles distinct
-   │ search a stair placement           │ author one root-layer overlay:
-   │ synthesise the flight (Infinigen)  │   tiles · floors · mezzanine · structure
-   │ stack, cut slabs, exact colliders  │   whitelisted stairs (Infinigen) · rails
-   ▼                                    ▼
- ┌─────────────────────────────────────────────────────────────────────┐
- │ connection and acceptance: storeys from geometry · 5 cm occupancy   │
- │ cache · standability · G1–G7 (+ the generators' own frozen gates)   │
- └─────────────────────────────────────────────────────────────────────┘
-                                    │
-                          evidence JSON per building
+```mermaid
+flowchart TB
+  subgraph R["Residential"]
+    R1["MolmoSpaces scene pool"] --> R2["pair two scenes,<br/>search a stair placement"] --> R3["Infinigen flight for the<br/>measured storey height"] --> R4["stack · cut slabs ·<br/>exact colliders"]
+  end
+  subgraph F["Industrial (Factory80)"]
+    F1["MolmoSpaces industrial screen +<br/>NVIDIA SimReady / Omniverse packs"] --> F2["N×N bay plan by function,<br/>mezzanine strip / L / island"] --> F3["whitelisted metal stairs,<br/>columns, trusses, guardrails"] --> F4["typed 5 cm CUDA voxel cache"]
+  end
+  subgraph M["Museum (Museum29)"]
+    M1["design spec<br/>(style, storeys, stair family)"] --> M2["parametric shell +<br/>H / A / I / W / C staircase"] --> M3["galleries, CC0 scans,<br/>Infinigen doors & windows"] --> M4["Blender → USD visual +<br/>exact collision USD"]
+  end
+  R4 --> A
+  F4 --> A
+  M4 --> A
+  A["connection & acceptance<br/>storeys from geometry · standability · reachability ·<br/>stair connectivity · headroom · Isaac Sim C5"] --> P["RTX path tracing · collision renders ·<br/>evidence JSON · SHA-256 package"]
 ```
 
 A source building is **never modified**. Every edit — stairs, slab cuts,
@@ -165,7 +199,42 @@ The whitelist checks all three material parameters, not only the one in the
 stair signature; a metal tread under a marble handrail has a compliant
 signature and is rejected. Both of its negative controls ran and failed.
 
-### 2.3 Storey connection and acceptance
+**Round 4**, the construction that produced the delivered halls
+([`generation/factory/`](generation/factory/README.md)), replaces
+"keep whatever equipment the tiles contain" with a deterministic plan: each bay
+is assigned a function (assembly, machining, paint and clean, power, warehouse,
+welding), the mezzanine takes one of three shapes (strip, L-shaped, central
+island), and equipment is placed from role pools of NVIDIA SimReady, NVIDIA
+Industrial and Warehouse pack and MolmoSpaces assets with aisles kept clear.
+C1–C4 run on one typed 5 cm CUDA occupancy grid, C5 in Isaac Sim, and each
+building ran the whole chain — assembly, voxels, C1–C5, photographs — in one
+clean pass under a one-hour limit.
+
+### 2.3 Museum style
+
+Museums are not assembled from existing scenes. Each of the 29 buildings starts
+from a design spec ([`generation/museum/specs/`](generation/museum/specs/)) that fixes
+its style, footprint, storey heights and one of five grand-staircase families;
+the shell, staircase, galleries and furniture are generated, and third-party
+content is limited to scanned exhibits, textures and HDRI skies.
+
+| Family | Geometry | Constraint |
+|---|---|---|
+| **H** grand helical | open central well, landing sectors and bridges to every slab | inner radius ≥ 1.8 m, width 1.4–1.8 m, 2.2 m between turns |
+| **A** grand arc | single or horseshoe (mirrored) arc, optional mid landing | walking-line radius ≥ 4 m, width 1.6–2.4 m, 90°–180° turn |
+| **I** imperial | one central flight to a landing, splitting into two return flights | centre ≥ 2.4 m wide, landing ≥ 1.6 m deep; both arrivals pass C3 |
+| **W** three-flight well | three flights and two turning landings around a square well | each flight ≥ 1.4 m, well ≥ 1.0 m, guarded |
+| **C** cantilever | treads built into a load-bearing collision wall, open side railed | tread 0.06–0.12 m thick; every tread an exact solid |
+
+Wedge and arc treads are exact triangle meshes, never boxes; a landing is
+required every 18 risers; every flight serves every storey. Galleries hold at
+least 15 exhibits per storey on physically supported plinths and cases, and
+twelve photographs per building are path-traced from the exact visual USD with
+one shared exposure and tone curve. Photographs 05 and 11 share a camera — the
+same stair-to-slab joint rendered and as collision geometry — so that
+"the staircase reaches the floor" is shown, not asserted.
+
+### 2.4 Storey connection and acceptance
 
 The library in `src/buildingsgen` works on any building type.
 
@@ -230,7 +299,7 @@ the first and last rise their own measurement because they are the two an
 
 <img src="docs/media/scenes/cutaway_overview.jpg" width="760">
 
-*Figure 2. Residential buildings (Cycles). Top: the three staircase families.
+*Figure 3. Residential buildings (Cycles). Top: the three staircase families.
 Bottom: a two-storey building with the upper slab cut away — the flight sits in
 a furnished storey and must still clear the body proxy.*
 
@@ -239,9 +308,28 @@ a furnished storey and must still clear the body proxy.*
 | <img src="docs/media/scenes/eyelevel_approach.jpg" width="370"> | <img src="docs/media/scenes/upper_arrival.jpg" width="370"> |
 | **Eye level, approaching the flight** — the camera sits at 1.62 m, close to the 1.60 m height of the body proxy. | **Upper-storey arrival** — where G6 measures the last rise and G7 asks whether the storey is usable from it. |
 
-### 3.2 Industrial pilots
+### 3.2 Industrial halls
 
-Six two-storey tiled pilots, as measured on 2026-10-13.
+**Round 4 (delivered).** 27 two-storey halls are READY: C1–C5 pass on every
+building, with the thresholds unchanged from the pilots.
+
+| Quantity | Measured over the 27 READY buildings | Does not support |
+|---|---|---|
+| Exact static colliders (C1) | 9,354 – 217,277, median 79,356; manifest count equals cooked count | — |
+| Placed equipment instances | 294 – 1,205, median 595 | that equipment is semantically arranged beyond its bay function |
+| Same-bay and cross-bay reachability (C2) | minimum 95.27 % over 108 floor × class measurements (threshold 95 %) | dynamic traversal by a controller |
+| Stair connectivity and headroom (C3, C4) | PASS on every staircase; ≥ 90 % of each tread with 1.6 m headroom | — |
+| Native capsule stand test (C5) | PASS on every building | balance or gait |
+| End-to-end clean run | 644 – 3,500 s, median 1,487 s, limit 3,600 s | — |
+
+<img src="docs/media/factory/factory80_gallery.jpg" width="900">
+
+*Figure 4. Three Round 4 halls (rows). From left: cutaway from above, ground
+floor (RTX), a staircase to the mezzanine, and the same building as pure
+collision geometry. Equipment is NVIDIA SimReady and Omniverse pack assets.*
+
+**Pilots (history).** Six two-storey tiled pilots, as measured on 2026-10-13,
+before Round 4.
 
 | Building | Grid / stairs | Slab area F1 / F2 (m²) | Mezzanine coverage | Distinct scenes / equipment | Columns / truss members / roof | Standable F1 / F2 (m²) | Frozen G25 |
 |---|---|---|---|---|---|---|---|
@@ -257,12 +345,11 @@ identity, not geometric similarity). **Does not support:** body-eroded routes,
 physics, image quality, or acceptance of any building. On the same pilots,
 Isaac Stage D passed 1 of 6 buildings, the image-quality gates excluded 34 of
 52 stills, and the hall was judged visually unconvincing in all six — a large
-open floor with sparse, small equipment. 0 of the 29 buildings in scope are
-READY.
+open floor with sparse, small equipment — the weakness Round 4 addressed.
 
 <img src="docs/media/factory/cutaway_5x5.jpg" width="760">
 
-*Figure 3. Pilot 003 (5 × 5 tiles, three staircases), RTX, roof removed.
+*Figure 5. Pilot 003 (5 × 5 tiles, three staircases), RTX, roof removed.
 Columns and truss lines on the half-pitch grid, the mezzanine and its
 guardrail, and three stairwells. The sparse equipment is the measured weakness
 noted above, not an artefact of the render.*
@@ -272,7 +359,45 @@ noted above, not an artefact of the render.*
 | <img src="docs/media/factory/topdown_4x4.jpg" width="370"> | <img src="docs/media/factory/voxel_occupancy_4x4.jpg" width="370"> |
 | **Pilot 002, top-down cut.** The L-shaped mezzanine over part of the hall, and the two stairwells cut through it. | **The same building as 5 cm occupancy.** Ground slab, mezzanine at 4 m, structure to 9 m. |
 
-### 3.3 What the gates see
+### 3.3 Museums
+
+29 museums, 2–4 storeys (12 × 2, 15 × 3, 2 × 4), twelve styles, staircase
+families H 6 · A 7 · I 5 · W 6 · C 5. Every building passes C1–C5; 348
+photographs are path-traced at 1920 × 1080.
+
+<img src="docs/media/museum/museum_stair_forms.jpg" width="900">
+
+*Figure 6. The five staircase families. Left: overview. Centre: the
+stair-to-slab joint, path-traced. Right: the same camera on the collision
+geometry — stairs orange, slabs blue, everything else grey. The top treads must
+visibly meet the slab in both.*
+
+<img src="docs/media/museum/museum_collision_cutaways.jpg" width="900">
+
+*Figure 7. Collision cut-aways through every storey (photograph 12): the
+staircase must be continuous from the ground slab to the top storey, and no
+visual mesh may leak into the collision render.*
+
+<img src="docs/media/museum/museum_galleries.jpg" width="900">
+
+*Figure 8. Galleries. Exhibits are CC0 scans (Smithsonian, Poly Haven), CC0
+artworks (Cleveland Museum of Art) and procedurally generated originals, on
+supported plinths and in 2 cm-framed glass cases.*
+
+| Quantity | Measured | Does not support |
+|---|---|---|
+| Buildings, all gates | 26 PASS; 3 PASS with user-approved exceptions (M21, M25, M29) | that interiors match the Blender lighting design (see §4) |
+| Colour exceptions | 10 exhibits, each failing only the saturation-ratio ≥ 0.5 gate; listed per item in `KNOWN_EXCEPTIONS.json` | — |
+| Photograph uniqueness | 348 / 348 PNG SHA-256 distinct | — |
+| Package integrity | 10,614 files, `sha256sum -c` OK on all 29 current packages | — |
+| Diversity (D1) | 29 distinct style × staircase × plan × ground-material combinations; each staircase family in ≥ 4 buildings | perceptual diversity |
+
+<img src="docs/media/museum/museum_pair_M25.jpg" width="900">
+
+*Figure 9. M25 (Mediterranean, imperial staircase): the stair-to-slab joint,
+path-traced (left) and as collision geometry from the same camera (right).*
+
+### 3.4 What the gates see
 
 <table>
 <tr>
@@ -288,7 +413,7 @@ hulls that turn a staircase into a ramp.
 
 <img src="docs/media/factory/stair_section_4x4.jpg" width="760">
 
-*Figure 4. Pilot 002 in section through its stairwells, in 5 cm voxel indices.
+*Figure 10. Pilot 002 in section through its stairwells, in 5 cm voxel indices.
 Gold: the ground slab and the mezzanine slab with its openings; green: stair
 geometry.*
 
@@ -315,10 +440,19 @@ are not *approximated* by a height map; they are unrepresentable in it.
 - **Geometric acceptance only.** No contact dynamics, no balance, no actuation.
   A PASS says the building is not disqualified by its geometry; it does not say
   that any controller can traverse it.
-- **Industrial buildings are not accepted.** The tiled pilots meet their area,
-  coverage, single-material and G25 targets but fail Isaac Stage D, the
-  image-quality gates and visual review (§3.2). Equipment density is the open
-  problem.
+- **Industrial pilots were not accepted; Round 4 was.** The six tiled pilots
+  met their area, coverage, single-material and G25 targets but failed Isaac
+  Stage D, the image-quality gates and visual review (§3.2). Round 4 changed the
+  construction and delivered 27 accepted halls; 13 further layouts were
+  excluded on real layout failures rather than re-run with looser rules.
+- **Museum interiors are under-lit by design lamps.** The legacy exporter
+  writes Blender AREA lights as USD `DiskLight` with `intensity = 1.5 × power`
+  and `normalize = false`, while Cycles normalises AREA power by emitter area.
+  In an unoccluded analytic model of five exhibit positions (M21) the
+  AREA-to-sky ratio in USD is about 2 % of the Blender design, so interiors
+  are lit mostly by the sky dome. This is not corrected in the release; it is
+  the stated cause of the 10 colour exceptions in §3.3, and it was not measured
+  directly in the renderer.
 - **A frozen check had a blind spot.** A negative control (N1-3) showed that
   removing every stair edge from the navigation graph does not prove that the
   storeys depend on the stairs: a non-stair opening plus a ramp kept them
@@ -441,16 +575,46 @@ src/buildingsgen/       the library
     profiles/           generic, house, factory, school, warehouse, office
 generation/             verbatim generator snapshot (read-only)
     house/              residential: pairing, staircases, assembly, validation, release
-    factory/            industrial: sourcing, stacked chain, tiled halls
+    factory/            industrial: bay layout, assembly, CUDA voxels, C1–C5, RTX, packaging
+    museum/             museums: specs, shell + five staircase families, galleries,
+                        USD export, Isaac C5 / RTX, static validators
+    archive/            earlier industrial pilots (sourcing, stacked, tiled)
     MANIFEST.json       size, SHA-256 and origin of every file; exclusions with reasons
 docs/                   architecture, building types, acceptance gates, provenance
+    assets.md           every third-party asset with source and licence (generated)
+    assets/             machine-readable asset records behind assets.md
+    media/              figures used in this README
+tools/
+    build_asset_catalog.py   regenerates docs/assets.md; --check fails when stale
 tests/
 ```
 
 Reading order: [docs/architecture.md](docs/architecture.md) for the library,
 [generation/README.md](generation/README.md) for the generators.
 
-## 7. Provenance and licence
+## 7. Assets and data sources
+
+No third-party asset is redistributed; the generators download each one at run
+time. [docs/assets.md](docs/assets.md) lists every asset with its source URL
+and licence.
+
+| Source | Used in | Count | Licence |
+|---|---|---:|---|
+| [MolmoSpaces](https://huggingface.co/datasets/allenai/molmospaces) (AI2; Holodeck / Objaverse scenes and objects) | residential and stacked-factory source scenes; Factory80 objects | 39 scenes (residential); 72 objects (Factory80) | per dataset card / per object |
+| [Infinigen](https://github.com/princeton-vl/infinigen) | residential and stacked-factory staircases; museum doors, casings, pillars, windows | — | BSD-3-Clause |
+| [NVIDIA SimReady assets](https://huggingface.co/datasets/nvidia/simready-assets) | Factory80 equipment | 190 eligible of 203 | CC-BY-4.0 |
+| NVIDIA Industrial / Warehouse / USD Explorer packs | Factory80 racking, structure, props | 84 | NVIDIA Omniverse terms |
+| [Cleveland Museum of Art](https://www.clevelandart.org/open-access) open access | Museum29 artworks | 180 | CC0-1.0 |
+| [Poly Haven](https://polyhaven.com) | Museum29 textures, HDRI skies, scanned props | 116 | CC0-1.0 |
+| [Smithsonian 3D](https://3d.si.edu) open access | Museum29 scanned exhibits | 41 | CC0-1.0 |
+| [ambientCG](https://ambientcg.com) | Museum29 materials | 15 | CC0-1.0 |
+| Project-authored | procedural geometry, baked textures, original artwork | 387 (museum) + 6 (factory) | this repository's licence |
+
+SimReady attribution: *"NVIDIA simready-assets", NVIDIA, CC-BY-4.0* — changed
+here by unit and axis normalisation, ground alignment, static collision proxies
+and disabled dynamic physics.
+
+## 8. Provenance and licence
 
 Apache-2.0. Parts of the voxel and standability code derive from NVIDIA
 ProtoMotions (Apache-2.0); the stair backends call Infinigen (BSD-3-Clause)
@@ -459,15 +623,15 @@ redistributed. [NOTICE](NOTICE) and [docs/provenance.md](docs/provenance.md)
 list every derived file and what changed; [generation/MANIFEST.json](generation/MANIFEST.json)
 gives the origin of every snapshot file.
 
-## 8. Citation
+## 9. Citation
 
 ```bibtex
 @software{ma2026buildingsgeneration,
   author  = {Ma, Yixing},
-  title   = {{Buildings-Generation}: Simulation-Ready Multi-Storey Residential and
-             Industrial Buildings with Falsifiable Geometric Acceptance},
+  title   = {{Buildings-Generation}: Simulation-Ready Multi-Storey Residential,
+             Industrial and Museum Buildings with Falsifiable Geometric Acceptance},
   year    = {2026},
-  version = {0.1.0},
+  version = {0.2.0},
   url     = {https://github.com/JIMMY081105/Buildings-Generation}
 }
 ```
@@ -486,3 +650,8 @@ This work builds on:
   layout and standability semantics.
 - **OpenUSD** — Pixar, <https://github.com/PixarAnimationStudios/OpenUSD>; and
   **NVIDIA Isaac Sim** for PhysX validation and RTX rendering.
+- **NVIDIA SimReady assets** — <https://huggingface.co/datasets/nvidia/simready-assets>,
+  CC-BY-4.0. Industrial equipment in Factory80.
+- **Poly Haven**, **ambientCG**, **Smithsonian 3D Digitization** and the
+  **Cleveland Museum of Art** open-access programme — CC0 textures, HDRIs,
+  scans and artworks in Museum29.

@@ -1,0 +1,227 @@
+{
+  "schema": "Museum29SpecV1",
+  "building_id": "M02",
+  "short_name": "neoclassical_sculpture",
+  "style": "新古典雕塑馆",
+  "style_family": "neoclassical",
+  "floors": 3,
+  "plan": "圆形大厅（rotunda）+ 两翼",
+  "building_xy_m": [
+    44,
+    40
+  ],
+  "planned_floor_area_m2": 1087.92,
+  "floor_height_m": 5.12,
+  "stair": {
+    "form": "A",
+    "assembly_description": "两侧对称弧形（马蹄形）/ 石灰岩实心 / 石栏柱",
+    "rise_count_per_floor": 32,
+    "rise_m": 0.16,
+    "floor_height_m": 5.12,
+    "going_m": 0.33,
+    "handrail_height_m": 0.95,
+    "edge_guard_height_m": 1.08,
+    "max_clear_rail_gap_m": 0.095,
+    "design_headroom_m": 2.1,
+    "precise_collision": true,
+    "max_flight_rises": 18,
+    "walking_radius_m": 5.4,
+    "width_m": 1.8,
+    "landing_depth_m": 1.6,
+    "mirrored_horseshoe": true,
+    "inner_radius_m": 4.5,
+    "placement": "mirrored_horseshoe",
+    "tread_sweep_degrees": 112.04507993669432,
+    "mid_landing_sweep_degrees": 16.9765272631355,
+    "total_rotation_including_mid_and_top_landings_degrees": 145.99813446296534,
+    "landing_bridge_single_union_mesh": true,
+    "pair_center_offset_m": 8.9
+  },
+  "materials": {
+    "ground_floor": {
+      "key": "polychrome_marble_concentric",
+      "description": "彩色大理石同心圆拼花",
+      "source_selection": "PENDING_LIBRARY_BINDING"
+    },
+    "walls_ceiling": {
+      "description": "暖色石灰岩，穹顶藻井，顶部天窗"
+    },
+    "stair": {
+      "description": "两侧对称弧形（马蹄形）/ 石灰岩实心 / 石栏柱"
+    },
+    "all_shader": "UsdPreviewSurface_with_textures",
+    "max_texture_resolution": 2048
+  },
+  "exhibition": {
+    "theme": "雕像、动物铜像",
+    "min_exhibits_per_floor": 15,
+    "max_same_model_in_building": 3,
+    "painting_reuse_across_buildings": 0,
+    "clear_route_width_m": 1.2,
+    "asset_selection_status": "M0_BOUND_INVENTORY_PLACEMENT_REVIEW_PENDING",
+    "items": [
+      {
+        "kind": "model_inventory",
+        "source_key": "Smithsonian:3d_package:082c87e9-1fe0-4772-b4c6-fe6d59bd6e74",
+        "title": "Old Arrow Maker",
+        "source_file_sha256": "243a32658b706985849311d062e5b464dc1f827325620c0ea827088204fe71ea",
+        "max_uses": 3
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Smithsonian:3d_package:789cf90a-4387-4ac1-9e96-c7d6a7b9d26f",
+        "title": "George Washington",
+        "source_file_sha256": "af27d3ddfe064e3e606115573173856397dd7b0c88a5a373b31381239273d6bc",
+        "max_uses": 3
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Smithsonian:3d_package:7f2659ba-2953-47a5-9358-921da9b0ce16",
+        "title": "Life Cast of Left Forearm and Hand (fragment, study for \"The Greek Slave\")",
+        "source_file_sha256": "eee8fe15f2c5e63d48fc586279cd885eaa2278339bbfc7212148e9d6c590075e",
+        "max_uses": 3
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Smithsonian:3d_package:8edffe56-c358-4c3a-a61f-019f615ccef0",
+        "title": "Model of the Greek Slave",
+        "source_file_sha256": "812ede1dd312f016e527afc190a2a9be11e55e720050e21ab4db77b0b0b3d747",
+        "max_uses": 3
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Smithsonian:3d_package:99ca3d6f-6d54-45a5-9b95-f8c245a662c2",
+        "title": "Old Arrow Maker",
+        "source_file_sha256": "7fe336ce11ac509eb58232c5a3295c9cc025336403132e0674ae35ddf67b2909",
+        "max_uses": 3
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:bronze_ray_statue",
+        "title": "bronze_ray_statue",
+        "source_file_sha256": "bb2cab3316b05935fd311e132298d15076af9d6ddd88980abca1dea790c6305e",
+        "max_uses": 3
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:bronze_shark_statue",
+        "title": "bronze_shark_statue",
+        "source_file_sha256": "c7b5b5bd094518489e7eed022006ce2901ec8799397eafd37f6ffd5562187ca0",
+        "max_uses": 3
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:bronze_whale_statue",
+        "title": "bronze_whale_statue",
+        "source_file_sha256": "97ff882e047f3415601437d6db43a7326a3fa1ac5bddb86ae119b74717888d18",
+        "max_uses": 3
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:bull_head",
+        "title": "bull_head",
+        "source_file_sha256": "02385d6be1cee95c1ee614cb01b619d3aeb9ea5e90504562ce4eb57f06e75947",
+        "max_uses": 3
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:concrete_cat_statue",
+        "title": "concrete_cat_statue",
+        "source_file_sha256": "898110387c632808e6c6ffe818f48eaf32fcf1c8817de939bef428abb659e813",
+        "max_uses": 3
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:gothic_statue",
+        "title": "gothic_statue",
+        "source_file_sha256": "eecbc67793a1e1efa1359d57fa497cb267fc7a4039823d3feecb6d0fcd2ad2db",
+        "max_uses": 3
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:horse_head",
+        "title": "horse_head",
+        "source_file_sha256": "bb46cbabf202aa1af209678619f912c5605477fa098a46c238cdc46b3696bb0d",
+        "max_uses": 3
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:horse_statue_01",
+        "title": "horse_statue_01",
+        "source_file_sha256": "64e33e68ef427d0e7e401808d605b7d24208ae72b63f97ddf6716bc423b374ba",
+        "max_uses": 3
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:lion_head",
+        "title": "lion_head",
+        "source_file_sha256": "979bd8c7668c02dc26dafb137f8e9e49ecba9eb74ad8bf79c045e9f48fb40cd8",
+        "max_uses": 3
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:marble_bust_01",
+        "title": "marble_bust_01",
+        "source_file_sha256": "b6f192fc01be4349470b66f6f6948bd37620267bdbc86f4568e4d078f97ff09b",
+        "max_uses": 3
+      }
+    ],
+    "source_keys": [
+      "Smithsonian:3d_package:082c87e9-1fe0-4772-b4c6-fe6d59bd6e74",
+      "Smithsonian:3d_package:789cf90a-4387-4ac1-9e96-c7d6a7b9d26f",
+      "Smithsonian:3d_package:7f2659ba-2953-47a5-9358-921da9b0ce16",
+      "Smithsonian:3d_package:8edffe56-c358-4c3a-a61f-019f615ccef0",
+      "Smithsonian:3d_package:99ca3d6f-6d54-45a5-9b95-f8c245a662c2",
+      "Poly Haven:bronze_ray_statue",
+      "Poly Haven:bronze_shark_statue",
+      "Poly Haven:bronze_whale_statue",
+      "Poly Haven:bull_head",
+      "Poly Haven:concrete_cat_statue",
+      "Poly Haven:gothic_statue",
+      "Poly Haven:horse_head",
+      "Poly Haven:horse_statue_01",
+      "Poly Haven:lion_head",
+      "Poly Haven:marble_bust_01"
+    ]
+  },
+  "lighting": {
+    "kelvin": 2900,
+    "blue_ambient": false,
+    "sun_sky_through_glass": false,
+    "spotlights_for_features": true,
+    "hdri_id": "rosendal_park_sunset_puresky"
+  },
+  "seed": 2026110701,
+  "checks": {
+    "C2_radius_m": 0.25,
+    "C2_height_m": 1.6,
+    "C2_min_reachable": 0.95,
+    "C3_gap_m": 0,
+    "C3_top_error_max_m": 0.01,
+    "C3_sample_m": 0.01,
+    "C3_negative_shift_m": 0.6,
+    "C4_height_m": 1.6,
+    "C4_min_fraction": 0.9
+  },
+  "authorization_sha256": "8f2849b912a2994609faf01e4282d22c53326854826b7f9f61597b04143769b1",
+  "dimension_decision": "Round hall enlarged within authorized 600–2500m2 range for two A flights and galleries; actual floor area pending building readback",
+  "applied_adjustments": [
+    "ADJUST_01"
+  ],
+  "library_manifest_sha256": "2ac3e509eff6640d577bf56773a114ab290af80178555fe82f51a63593afe585",
+  "guard_repair16": {
+    "repair_round": 1,
+    "trigger": "Actual V2 oldf1 two gallery guard rows separated.35–.38m around an unusable.4m central floor strip.",
+    "change": "Move both symmetric horseshoe stair centers outward.9m; rebuild actual slabs/voids so center gallery support strip2.2m wide, with genuine opposite guards over2m apart. All stair unit dimensions/form remain unchanged.",
+    "actual_new_checks_required": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "V1",
+      "V2",
+      "new_native12"
+    ]
+  }
+}

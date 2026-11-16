@@ -1,0 +1,950 @@
+{
+  "schema": "Museum29SpecV1",
+  "building_id": "M05",
+  "short_name": "natural_specimens",
+  "style": "自然史标本馆",
+  "style_family": "victorian_natural",
+  "floors": 3,
+  "plan": "L 形",
+  "building_xy_m": [
+    40,
+    34
+  ],
+  "planned_floor_area_m2": 1060.8,
+  "floor_height_m": 5.28,
+  "stair": {
+    "form": "W",
+    "assembly_description": "木楼梯，侧梁 / 橡木踏面 / 车削木栏杆",
+    "rise_count_per_floor": 33,
+    "rise_m": 0.16,
+    "floor_height_m": 5.28,
+    "going_m": 0.32,
+    "handrail_height_m": 0.95,
+    "edge_guard_height_m": 1.08,
+    "max_clear_rail_gap_m": 0.095,
+    "design_headroom_m": 2.1,
+    "precise_collision": true,
+    "max_flight_rises": 18,
+    "width_m": 1.6,
+    "well_min_m": 1.2,
+    "landing_depth_m": 1.6,
+    "flights_per_floor": 3
+  },
+  "materials": {
+    "ground_floor": {
+      "key": "oak_parquet",
+      "description": "橡木拼花",
+      "source_selection": "PENDING_LIBRARY_BINDING"
+    },
+    "walls_ceiling": {
+      "description": "深色胡桃木护墙，墙面标本柜"
+    },
+    "stair": {
+      "description": "木楼梯，侧梁 / 橡木踏面 / 车削木栏杆"
+    },
+    "all_shader": "UsdPreviewSurface_with_textures",
+    "max_texture_resolution": 2048
+  },
+  "exhibition": {
+    "theme": "鸟、甲虫、贝壳、矿物",
+    "min_exhibits_per_floor": 15,
+    "max_same_model_in_building": 3,
+    "painting_reuse_across_buildings": 0,
+    "clear_route_width_m": 1.2,
+    "asset_selection_status": "BOUND_CATEGORY_INVENTORY_NOT_AUTHORED_OR_ACCEPTED",
+    "items": [
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:687b5a18-e20d-481c-bff3-698d506cd69b",
+        "title": "Cher Ami",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/687b5a18-e20d-481c-bff3-698d506cd69b.glb",
+        "source_sha256": "e9ffea3431dd7725a7ebc9f64a0b49b0d50fc46565ec084a8d7e464c4c68496f",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "bird"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:991f0339-b7bd-4fe1-8ab2-85cd5ae038fb",
+        "title": "Psalidognathus superbus",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/991f0339-b7bd-4fe1-8ab2-85cd5ae038fb.glb",
+        "source_sha256": "9754f6ca33449d0af20c941acf4c184b4a672c14a991beca3b23e4f24fc3a682",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "insect"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:62f8c22b-6122-487b-b158-fe6e4a907702",
+        "title": "Corydalus affinis",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/62f8c22b-6122-487b-b158-fe6e4a907702.glb",
+        "source_sha256": "8f58a3eb52464219f2daa3674baa00df26923de7faafb63f0f38ea0965739cd6",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "insect"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:4cc2228f-6772-4878-971d-04e4893c94cd",
+        "title": "Julodis undetermined",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/4cc2228f-6772-4878-971d-04e4893c94cd.glb",
+        "source_sha256": "baa52fc0b1c1af4afba1dc8dca2c4746b358a0b32a05ba6bf00e95241f0abbbd",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "insect"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:6e2f027e-f89b-484b-b6c8-4a8df886ba8b",
+        "title": "Stylaster sanguineus",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/6e2f027e-f89b-484b-b6c8-4a8df886ba8b.glb",
+        "source_sha256": "940ac835c4f639a070406ad8a4f968d7c2b6a395e85ebd968b725b25059f85c9",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:21ff6c53-0946-4f27-8b81-48ce2fc69403",
+        "title": "Stylaster sanguineus: Detail View",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/21ff6c53-0946-4f27-8b81-48ce2fc69403.glb",
+        "source_sha256": "90e4efe7bf8fdba830eacc7ca0c42c487d8a8772b786bd843b6ec54552975f98",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:84ef65b1-2c1b-465d-aea5-30bd297aef6b",
+        "title": "Balanus crenatus",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/84ef65b1-2c1b-465d-aea5-30bd297aef6b.glb",
+        "source_sha256": "8f4019bd75277fc768aefdd2e061acb0fc5f8bc19cf0e378bb1e1abf87b9a15b",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:5c78483e-f115-4784-8f1f-6097c58e04d2",
+        "title": "Balanus crenatus",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/5c78483e-f115-4784-8f1f-6097c58e04d2.glb",
+        "source_sha256": "d68fa523315e4de309a4d26d5ba6d07288f922a5ade556e7e70a68efd61b00b9",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:38595f2e-2ad3-433a-b1fe-171fe82df909",
+        "title": "Scyllarus ciliatus",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/38595f2e-2ad3-433a-b1fe-171fe82df909.glb",
+        "source_sha256": "6245afed801efda5467d013dd7f4787a7cd404b3d0bdbb82d08aa641d68566b4",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:5c35630a-e5fe-484c-bd6f-4cb93616d263",
+        "title": "Scyllarus ciliatus",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/5c35630a-e5fe-484c-bd6f-4cb93616d263.glb",
+        "source_sha256": "bf04338bf1f67f645bfb2d943149be35e74d3486510600c7944d2d8120eaaa5a",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:5dbe459a-4a41-4ac7-b6c1-6de34ba0d907",
+        "title": "Mimachlamys senatoria crassicostata",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/5dbe459a-4a41-4ac7-b6c1-6de34ba0d907.glb",
+        "source_sha256": "578a2c5ecf94be8e7571675542d6494f86433d5e7c49e522abb310c5fc793db9",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:7f894585-c9b3-4be8-8610-caf3563a8516",
+        "title": "Mimachlamys senatoria crassicostata",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/7f894585-c9b3-4be8-8610-caf3563a8516.glb",
+        "source_sha256": "2c2b359f90e4de78f23420331f8765489a31a186c5ce05d7bf15f094ec7081cc",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:21b5ea1a-93be-440e-8406-71eb24a85c63",
+        "title": "Sessilia",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/21b5ea1a-93be-440e-8406-71eb24a85c63.glb",
+        "source_sha256": "00a7e551d572b0ed17a1fb2fc0293181795db6491e530555c3ab6c4202e0f4d4",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:8cd81303-17b2-413e-8804-93810f80b5a8",
+        "title": "Cypraecassis rufa",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/8cd81303-17b2-413e-8804-93810f80b5a8.glb",
+        "source_sha256": "8c657a753835ccc322e3a92a0e0d7c99ebbd22fe1e024c001766391b56ff4475",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:92c491e7-d31d-403d-b091-316d45dfbc2c",
+        "title": "Millepora alcicornis",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/92c491e7-d31d-403d-b091-316d45dfbc2c.glb",
+        "source_sha256": "a8542d12f81ff7afc06a7303c7481e8f984102d06505eab31933455a69c344a1",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:74dc5709-1808-4de3-bce5-bb9be8573d42",
+        "title": "Meandrina meandrites",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/74dc5709-1808-4de3-bce5-bb9be8573d42.glb",
+        "source_sha256": "089646ca9793db0bd9d160798b6106af46b7f0e99417382fc549a93b486fd55b",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:2e7bbd69-c355-473e-a024-d468c05d5a9f",
+        "title": "Leiopathes sp.",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/2e7bbd69-c355-473e-a024-d468c05d5a9f.glb",
+        "source_sha256": "1cd6ddba9eb47cea533163087017f8ecae57fbba189e9e3ae9904110cfb49df1",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:27de15d0-f1d8-48ff-8acc-5636212533b9",
+        "title": "Ancistrosyllis hartmanae: Anterior",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/27de15d0-f1d8-48ff-8acc-5636212533b9.glb",
+        "source_sha256": "5658253ff5d943876d5e4f7b7e5e1ab1fea0b581b6b2d3500961ffe0e7c226e0",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:838b6953-037b-4219-a488-e3779930d8b2",
+        "title": "Ancistrosyllis hartmanae: Posterior",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/838b6953-037b-4219-a488-e3779930d8b2.glb",
+        "source_sha256": "1c793e2c704ca1634f56807a3227bfad1c0d81ecda105d82906f8cc348ce5e9e",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:4a4396e0-0ed6-4b50-82ea-2402dedcdb56",
+        "title": "Lithoglyptes viatrix",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/4a4396e0-0ed6-4b50-82ea-2402dedcdb56.glb",
+        "source_sha256": "104f6c1731163f391e951b76b6a1c7c592c8f8b562e54a8f03844d0a6d371c93",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:733a6dc4-c32e-48f0-94a1-81ea97d5c592",
+        "title": "Lithoglyptes viatrix",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/733a6dc4-c32e-48f0-94a1-81ea97d5c592.glb",
+        "source_sha256": "f6894718ee912546d33daf27638ed7216d9adeaf12051461f8f678a97079df53",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:76c6ee9b-1dbd-420f-b04b-f6e4323a833d",
+        "title": "Harmothoe hartmanae: Anterior",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/76c6ee9b-1dbd-420f-b04b-f6e4323a833d.glb",
+        "source_sha256": "4e3e3c3015f71e2cb79085a53eb2833a72e9fcf8faf04fe206953baf84adfb6c",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:063deddc-581b-4377-8ed7-85b4ce9c238a",
+        "title": "Harmothoe hartmanae: Posterior",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/063deddc-581b-4377-8ed7-85b4ce9c238a.glb",
+        "source_sha256": "c896adc91df319ae93292d1b99b873bbb84dbb9dbcb11f1b66428719c36e0847",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:2bee7601-5c2b-4d34-852b-c16b4d44bc10",
+        "title": "Palmadusta asellus",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/2bee7601-5c2b-4d34-852b-c16b4d44bc10.glb",
+        "source_sha256": "4080b4d8e25a5ba7f155d80cdf3f6334f8ac232c8d0ce589e5db2bf26723b8d0",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:1d020ef8-cf0b-4265-b136-c7a2db69b0fc",
+        "title": "Pseudozonaria robertsi",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/1d020ef8-cf0b-4265-b136-c7a2db69b0fc.glb",
+        "source_sha256": "23b634017bbded32181b9a16d592950c447ad04afbe913571849856525905d80",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:909a77cc-2a60-40f8-8ed7-1dee95a13200",
+        "title": "Luria isabella",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/909a77cc-2a60-40f8-8ed7-1dee95a13200.glb",
+        "source_sha256": "d1402f57f925547086ad1f1fac3fad37290db745faf19d9cba969c891b3921eb",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:06626391-48df-4645-9393-b7a93db3345c",
+        "title": "Contradusta walkeri",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/06626391-48df-4645-9393-b7a93db3345c.glb",
+        "source_sha256": "bd6385572d5f6f0e73ef595b3e580b5d53c1c9d1297f2f98eb4ecfd9136ad448",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:002a4762-cc95-4bae-b129-fc75b71dc683",
+        "title": "Mauritia arabica",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/002a4762-cc95-4bae-b129-fc75b71dc683.glb",
+        "source_sha256": "5f5c3edd145358cfe632d5701a0abfbf486ce6e38c018f1ed4779e4db8a55b86",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:002b9110-8388-4820-80c9-6363030943ce",
+        "title": "Barycypraea teulerei",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/002b9110-8388-4820-80c9-6363030943ce.glb",
+        "source_sha256": "38a35991405f463e9e09b5115bdadd2f4fabbbf277d8bd964deddba8f4d7773c",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:2879dec0-1217-4f19-81e0-3c8dd915813f",
+        "title": "Muracypraea mus",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/2879dec0-1217-4f19-81e0-3c8dd915813f.glb",
+        "source_sha256": "3e28159cdedce648ff6a0071c54a5a86857e03e544071f47d54486ff0a74faa4",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:31e3fa5c-0502-4784-8168-cac46a671b24",
+        "title": "Balanus crenatus",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/31e3fa5c-0502-4784-8168-cac46a671b24.glb",
+        "source_sha256": "9310a64216a08c88b4722db33d68be58056a4a90179a347755a9755494892d8d",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:77353e4a-0560-43da-a98f-68065f1ccdfc",
+        "title": "Homarus americanus",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/77353e4a-0560-43da-a98f-68065f1ccdfc.glb",
+        "source_sha256": "7ebbd57d3762a435c617acf90e7af47e8f95ca9acc005eb0cde2920f141c1314",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:4d829cad-d08a-44a1-91ac-d7a4bb18ba54",
+        "title": "Unio patelloides",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/4d829cad-d08a-44a1-91ac-d7a4bb18ba54.glb",
+        "source_sha256": "e71196464003f59914deb509bd41aa134a68b0f45e422c77a18a4fcbbbf3ac41",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:451bcb49-01f9-4030-9d89-6f976b64572b",
+        "title": "Lithodidae",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/451bcb49-01f9-4030-9d89-6f976b64572b.glb",
+        "source_sha256": "8cfb6aede6c62aebffac737bd836da9cd31a7933a54884739db40df915b6b619",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:17e7bcb0-f113-4810-8065-485d99eb027a",
+        "title": "Ipsa childreni",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/17e7bcb0-f113-4810-8065-485d99eb027a.glb",
+        "source_sha256": "3d33d45f824038af01538a1a4f747a73d93184e143929b36611e8355d0502029",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:407a5ff5-c40b-414b-babc-39b51f7692cb",
+        "title": "Mimachlamys asperrima",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/407a5ff5-c40b-414b-babc-39b51f7692cb.glb",
+        "source_sha256": "487fccd7ded0554c3cc9106ddf0714700c6c616fc749881e3acdbbd510a01c03",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:42fba0a6-68c4-45a1-ad08-92b243104ea9",
+        "title": "Astrothorax waitei",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/42fba0a6-68c4-45a1-ad08-92b243104ea9.glb",
+        "source_sha256": "ac736792bf61903f663d0aaa5a6ef2cb6c7915fd3a1acc342dfe6a4cbdfda61f",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:6fadf547-1f01-43f9-8f44-19228806081c",
+        "title": "Cribrarula cribraria",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/6fadf547-1f01-43f9-8f44-19228806081c.glb",
+        "source_sha256": "62ad7e3c3aeaee9ace21bd69fdc9497ff86cb62c0aef4db297fd298bc0f22274",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:736dc41c-bcdc-4d52-82ca-4e9de35059bd",
+        "title": "Psychocidaris ohshimai",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/736dc41c-bcdc-4d52-82ca-4e9de35059bd.glb",
+        "source_sha256": "c25de631578a31a979f8c2b16012ccc4a842c37635193b5a134f0b4d277300a4",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:016da88d-1ec4-4df4-a72f-e3557131ec7a",
+        "title": "Plagiobrissus grandis",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/016da88d-1ec4-4df4-a72f-e3557131ec7a.glb",
+        "source_sha256": "0f8e42914d92994dedddc076a3b1400be0dff5be0d4d50f3928cb8cee3a45c11",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:1e58783e-e27b-4001-a643-692b5a1a73a0",
+        "title": "Madrepora teres",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/1e58783e-e27b-4001-a643-692b5a1a73a0.glb",
+        "source_sha256": "5883d11e7eec0da140b77d14b599213ddcf83025ec3aa9cab3ab151423efc9b3",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:703134b0-9284-424f-9b6a-f2dbee9a9069",
+        "title": "Porites tenuis",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/703134b0-9284-424f-9b6a-f2dbee9a9069.glb",
+        "source_sha256": "247ff3ea1464ddcc886792ab22687769471cdd8d3a7a6240c7fae3d906798674",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:7a365be2-5390-4dde-8274-f827993560d4",
+        "title": "Goniopora somaliensis",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/7a365be2-5390-4dde-8274-f827993560d4.glb",
+        "source_sha256": "442265f9eac2cc8b72f0f34bfd84e50f305de1d92c22b36baea55373ea7b3deb",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:009463d3-6f58-4f5b-8e60-915805a876ee",
+        "title": "Goniastrea favulus",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/009463d3-6f58-4f5b-8e60-915805a876ee.glb",
+        "source_sha256": "e99abd167730f6db403d65358893910a43e7847cb86e4918759178507720a59c",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:0dc22fa1-cf8c-4195-8f7c-e057e500b6c6",
+        "title": "Lasmigona subviridis",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/0dc22fa1-cf8c-4195-8f7c-e057e500b6c6.glb",
+        "source_sha256": "86bea79fc6647df0843aaa99e3e2b0c88df600eec98e6881c3281368709e3770",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:9fee6d66-8ad5-49d4-b257-2409aa0397e9",
+        "title": "Lopha cristagalli",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/9fee6d66-8ad5-49d4-b257-2409aa0397e9.glb",
+        "source_sha256": "8300a66a39340c601295ffeafe620ae3c5b1dd709681431bb89af957b0c002a4",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:701a39f3-c97a-4951-9de4-1125229eb703",
+        "title": "Tridacna (Flodacna) squamosa",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/701a39f3-c97a-4951-9de4-1125229eb703.glb",
+        "source_sha256": "c8ac8393b6e73622505930443f96cbf01032fa83314884b75452460bfd083773",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:60b09a62-614b-4c95-8a5a-70f2b3c1b02c",
+        "title": "Conus gloriamaris",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/60b09a62-614b-4c95-8a5a-70f2b3c1b02c.glb",
+        "source_sha256": "5b6eea3a4c4eb19ac2ee244b69ee9711f75790f79a15c1808a7e2251a2e41ca0",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:78dbfa2e-f031-4d60-a447-d61415823149",
+        "title": "Chicoreus cervicornis",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/78dbfa2e-f031-4d60-a447-d61415823149.glb",
+        "source_sha256": "716b8c08e3298bccd0bc745ffdbe46e930efdd4d196cb1c6f22afa1a5e796a6b",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:6e5ce6b4-ca94-4ae6-b367-62534fa079db",
+        "title": "Astraea heliotropium",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/6e5ce6b4-ca94-4ae6-b367-62534fa079db.glb",
+        "source_sha256": "7f6479b97fc1bbf4d72ce71f027415700c9ba471b3a5a9c528aeb1321710cb92",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:0dff6ec4-bbff-4231-b0aa-2cb00e6dd643",
+        "title": "Conus gloriamaris",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/0dff6ec4-bbff-4231-b0aa-2cb00e6dd643.glb",
+        "source_sha256": "b8942ceb4dd1fc8f9107574f9e625ddde144fa03bc77575e5a077ee9d999dd8b",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:61ac68a8-18ee-4dd5-a279-1c55db0dd392",
+        "title": "Epioblasma turgidula",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/61ac68a8-18ee-4dd5-a279-1c55db0dd392.glb",
+        "source_sha256": "6dc73f11bcb0fe30943a24b797b9ddc39255337b5e7fe07a4b817e85c68bfb69",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:7fd1cb15-599b-44e5-8a14-579dfb749434",
+        "title": "Pleurocorallium niveum",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/7fd1cb15-599b-44e5-8a14-579dfb749434.glb",
+        "source_sha256": "b4522bcd0a663ed3657810d77405a6778cc4b9369e78f315e1fb404b5fc39b0c",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:6fd30c79-3345-4d06-b27c-99d5b320ce5f",
+        "title": "Acropora palmata",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/6fd30c79-3345-4d06-b27c-99d5b320ce5f.glb",
+        "source_sha256": "b026166759e19e21062bd18add617a11ede840c11ad605ee9fbe5a0ab8a102bc",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:5c333899-0e37-4c2a-a978-9e32ac81b103",
+        "title": "Acropora tutuilensis",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/5c333899-0e37-4c2a-a978-9e32ac81b103.glb",
+        "source_sha256": "39cb6101a747c7dfc0b910307bcefdf6b88f55fa4d11d991c96e0d40f814ac53",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:4b9420ab-6c2d-432e-9140-ee866175dc87",
+        "title": "Corallium secundum",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/4b9420ab-6c2d-432e-9140-ee866175dc87.glb",
+        "source_sha256": "0c01f02dd1fca318f356b04cd2adcc5dbd7e5b0955f06a64c75320370e738f5d",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:1962a3ac-1335-4985-909b-0b3a403ed0c5",
+        "title": "Acropora tutuilensis",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/1962a3ac-1335-4985-909b-0b3a403ed0c5.glb",
+        "source_sha256": "daa02a46fafa446aa4fa0c7cb6520a2e0e65055df8d971720153d9a006741765",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:66d91d50-c274-4270-a66f-24bcdc0afdc6",
+        "title": "Corallium bathyrubrum",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/66d91d50-c274-4270-a66f-24bcdc0afdc6.glb",
+        "source_sha256": "4589328efe1ef6c4cfa062036d67b8ccbdad8f04b0a62d98f77d925b65ac7b46",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:9bde7feb-4ee9-4d19-8ce8-b2574fc7b4fe",
+        "title": "Acropora tutuilensis",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/9bde7feb-4ee9-4d19-8ce8-b2574fc7b4fe.glb",
+        "source_sha256": "9e523a285f83b88e61df0b3050fa24f238abbbc3a5caecd4a4ba4247fc2970df",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:31d1de41-2c76-46bd-8484-afb32e969431",
+        "title": "Acropora cervicornis",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/31d1de41-2c76-46bd-8484-afb32e969431.glb",
+        "source_sha256": "32edc038a4275380359f2880587890c1172a69bdc72f0f202d8c49332919b16f",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:8e3e67d1-591a-4488-b437-dee35e796d9e",
+        "title": "Acropora cervicornis",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/8e3e67d1-591a-4488-b437-dee35e796d9e.glb",
+        "source_sha256": "6ec57ac2efa983c618db6f95f8165d574e44f6bc2fdc089fbb0c6977e0da7be5",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:75c61f95-ae40-4572-bce6-c6b46cc6ac46",
+        "title": "Corallium gotoense",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/75c61f95-ae40-4572-bce6-c6b46cc6ac46.glb",
+        "source_sha256": "17f8032af2432c493a64c703d3ec3414e224e3a25289478db577366a79811029",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:0124ceca-2430-4b1c-b5e0-3f9ba32815fe",
+        "title": "Acropora prolifera",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/0124ceca-2430-4b1c-b5e0-3f9ba32815fe.glb",
+        "source_sha256": "fbb59b1a8818fa1ec00cf8be6f93a28df2ab7c010d112aa98282a3d98b238e3f",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:76491916-bd81-412b-9df8-3e8735eb4cbc",
+        "title": "Corallium konojoi",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/76491916-bd81-412b-9df8-3e8735eb4cbc.glb",
+        "source_sha256": "b4ca7288a7db07b59d5bd3cb4aa96f15b955d2e310e2d975a8c034cc550bcc11",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:moon_rock_01",
+        "title": "moon_rock_01",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/moon_rock_01/moon_rock_01_1k.gltf",
+        "source_sha256": "004cc353fa0c29572a9ba40535f3716c297466fdf2c650d36deaf9e27eed5ce7",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "geology"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:moon_rock_02",
+        "title": "moon_rock_02",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/moon_rock_02/moon_rock_02_1k.gltf",
+        "source_sha256": "fada2419ab6de440c24081bf06545f37c41c3d4f8bb57fc4d1ba45bdb35baf5d",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "geology"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:moon_rock_03",
+        "title": "moon_rock_03",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/moon_rock_03/moon_rock_03_1k.gltf",
+        "source_sha256": "aee7860497473cba4d06038abaa37e6da675cc97a4e7fa2fdee28ebf8844eea1",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "geology"
+        ]
+      }
+    ],
+    "source_keys": [
+      "Poly Haven:moon_rock_01",
+      "Poly Haven:moon_rock_02",
+      "Poly Haven:moon_rock_03",
+      "Smithsonian:3d_package:002b9110-8388-4820-80c9-6363030943ce",
+      "Smithsonian:3d_package:0dff6ec4-bbff-4231-b0aa-2cb00e6dd643",
+      "Smithsonian:3d_package:2879dec0-1217-4f19-81e0-3c8dd915813f",
+      "Smithsonian:3d_package:4cc2228f-6772-4878-971d-04e4893c94cd",
+      "Smithsonian:3d_package:60b09a62-614b-4c95-8a5a-70f2b3c1b02c",
+      "Smithsonian:3d_package:62f8c22b-6122-487b-b158-fe6e4a907702",
+      "Smithsonian:3d_package:687b5a18-e20d-481c-bff3-698d506cd69b",
+      "Smithsonian:3d_package:701a39f3-c97a-4951-9de4-1125229eb703",
+      "Smithsonian:3d_package:78dbfa2e-f031-4d60-a447-d61415823149",
+      "Smithsonian:3d_package:991f0339-b7bd-4fe1-8ab2-85cd5ae038fb"
+    ],
+    "theme_source_groups": {
+      "bird": [
+        "Smithsonian:3d_package:687b5a18-e20d-481c-bff3-698d506cd69b"
+      ],
+      "insect": [
+        "Smithsonian:3d_package:991f0339-b7bd-4fe1-8ab2-85cd5ae038fb",
+        "Smithsonian:3d_package:62f8c22b-6122-487b-b158-fe6e4a907702",
+        "Smithsonian:3d_package:4cc2228f-6772-4878-971d-04e4893c94cd"
+      ],
+      "shell": [
+        "Smithsonian:3d_package:002b9110-8388-4820-80c9-6363030943ce",
+        "Smithsonian:3d_package:78dbfa2e-f031-4d60-a447-d61415823149",
+        "Smithsonian:3d_package:0dff6ec4-bbff-4231-b0aa-2cb00e6dd643",
+        "Smithsonian:3d_package:60b09a62-614b-4c95-8a5a-70f2b3c1b02c",
+        "Smithsonian:3d_package:2879dec0-1217-4f19-81e0-3c8dd915813f",
+        "Smithsonian:3d_package:701a39f3-c97a-4951-9de4-1125229eb703"
+      ],
+      "geology": [
+        "Poly Haven:moon_rock_01",
+        "Poly Haven:moon_rock_02",
+        "Poly Haven:moon_rock_03"
+      ]
+    },
+    "binding_revision": "ADJUST07 explicit category coverage; source bytes/licences verified, each actual use<=3 still enforced by authoring",
+    "bound_source_count": 67,
+    "curation24": {
+      "authorization": "ADJUST_24_1745.md",
+      "prior_spec_sha256": "3d4bd235e4a59e00c346045cb42d3076cb8724b83d1e63e5bb8d307994385405",
+      "status": "CURATED_SOURCE_COLOR_PASS_NEW_BUILD_PHYSICS_NATIVE_REVIEW_REQUIRED",
+      "scope": "Replace marine-worm anterior/posterior fragments wrongly grouped as shells, including3 colorless scans, with whole actual colored mollusc scans. Keep colored Cher Ami/birds, insects and CC0 geology plus original quartz; source colors do not by themselves certify completeness."
+    }
+  },
+  "lighting": {
+    "kelvin": 3800,
+    "blue_ambient": false,
+    "sun_sky_through_glass": false,
+    "spotlights_for_features": true,
+    "hdri_id": "rosendal_park_sunset_puresky"
+  },
+  "seed": 2026110704,
+  "checks": {
+    "C2_radius_m": 0.25,
+    "C2_height_m": 1.6,
+    "C2_min_reachable": 0.95,
+    "C3_gap_m": 0,
+    "C3_top_error_max_m": 0.01,
+    "C3_sample_m": 0.01,
+    "C3_negative_shift_m": 0.6,
+    "C4_height_m": 1.6,
+    "C4_min_fraction": 0.9
+  },
+  "authorization_sha256": "8f2849b912a2994609faf01e4282d22c53326854826b7f9f61597b04143769b1",
+  "library_manifest_sha256": "4cf142a80a2594a898fdf938d4828a942241d628e5468ecc877fe965d04bd6fa",
+  "library_manifest_snapshot": "/cephfs/shared/yixing/outputs/museum29_20261107/evidence/LIBRARY_MANIFEST_ADJUST07_BINDING_SNAPSHOT.json",
+  "applied_adjustments": [
+    "ADJUST_07_0545_PILOT_DECISION.md"
+  ],
+  "natural24": {
+    "reason": "Actual f3 native01 fails Victorian frontage and native06-08 do not reliably identify5 exhibits through reflected cases/central column. Real stair05/11 and strict physics passed and retained as historical evidence.",
+    "architecture": "Real arched apertures with masonry corner infills, terracotta bands, one central pierced-oculus gable distinct from M04 twin towers, real iron/glass barrel roof over existing roof opening. All floor slabs retained.",
+    "case_material": "Explicit .018 thin-sheet alpha approximation, original exact glass/wood collision proxies retained.",
+    "gallery_plan": "Actual old-layout projection feasibility PASS7/6/7 sufficiently sized specimens; major sources rock03+beetle, cowrie+another shell, rock01+rock02. Cher Ami bird and original quartz still retained in collection. All area/count/column constraints unchanged; final actual new images still required.",
+    "validation": "Full new C1-C5/source negative/native12, no historical physics reuse claim.",
+    "source_camera_feasibility24": {
+      "path": "/cephfs/shared/yixing/outputs/museum29_20261107/buildings/M05/planning_natural24_test004/RESULT.json",
+      "sha256": "1bb9b20afffddb21166c279ed089174157d56ea3a0298210d47aba8ab7a682b2",
+      "required_hero_names": {
+        "6": "Theme_F1_05",
+        "7": "Theme_F2_03",
+        "8": "Theme_F3_08"
+      },
+      "method_scope": "Source projection only; bounded numeric-only search measured.060173GiB RSS and hard2GiB AS. Local SSH60s waiter timed out, source RESULT completed, later stdout BrokenPipe made wrapperFAIL; no processes remained, no re-run or fake nativePASS."
+    }
+  }
+}

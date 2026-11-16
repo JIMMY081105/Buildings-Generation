@@ -1,0 +1,1620 @@
+{
+  "schema": "Museum29SpecV1",
+  "building_id": "M12",
+  "short_name": "whitebox",
+  "style": "现代白盒子",
+  "style_family": "modern",
+  "floors": 3,
+  "plan": "长方形",
+  "building_xy_m": [
+    42,
+    30
+  ],
+  "planned_floor_area_m2": 1260,
+  "floor_height_m": 5.12,
+  "stair": {
+    "form": "C",
+    "assembly_description": "踏步从墙伸出 / 白橡木踏面 / 玻璃栏板",
+    "rise_count_per_floor": 32,
+    "rise_m": 0.16,
+    "floor_height_m": 5.12,
+    "going_m": 0.33,
+    "handrail_height_m": 0.95,
+    "edge_guard_height_m": 1.08,
+    "max_clear_rail_gap_m": 0.095,
+    "design_headroom_m": 2.1,
+    "precise_collision": true,
+    "max_flight_rises": 18,
+    "width_m": 2.2,
+    "tread_thickness_m": 0.09,
+    "wall_embed_m": 0.08,
+    "wall_thickness_m": 0.35,
+    "landing_depth_m": 2.2,
+    "anchoring": "solid_loadbearing_wall_with_collision",
+    "wall_handrail": true,
+    "wall_handrail_center_clearance_from_wall_m": 0.08,
+    "wall_handrail_radius_m": 0.035,
+    "reason_for_widening": "Preserve >=90% actual tread C4 clearance with added wall handrail; 1.76m trial failed 89.6%"
+  },
+  "materials": {
+    "ground_floor": {
+      "key": "white_terrazzo",
+      "description": "白色水磨石",
+      "source_selection": "PENDING_LIBRARY_BINDING"
+    },
+    "walls_ceiling": {
+      "description": "白墙，线形天窗"
+    },
+    "stair": {
+      "description": "踏步从墙伸出 / 白橡木踏面 / 玻璃栏板"
+    },
+    "all_shader": "UsdPreviewSurface_with_textures",
+    "max_texture_resolution": 2048
+  },
+  "exhibition": {
+    "theme": "抽象画、现代雕塑",
+    "min_exhibits_per_floor": 15,
+    "max_same_model_in_building": 3,
+    "painting_reuse_across_buildings": 0,
+    "clear_route_width_m": 1.2,
+    "asset_selection_status": "BOUND_TO_ACTUAL_PILOT_AUTHORING",
+    "items": [
+      {
+        "name": "MainDoor0",
+        "door_fixed_open_deg": 90,
+        "clear_opening_width_m": 2.6799999999999997,
+        "facade_glazed_portal_width_m": 8.0,
+        "center_xy_m": [
+          0.0,
+          -15.0
+        ],
+        "source": "infinigen GlassDoor and DoorCasingFactory with steel glazed vestibule"
+      },
+      {
+        "kind": "facade_kit",
+        "family": "modern",
+        "source": "Museum29 parametric authored geometry",
+        "residential_wood_windows": false
+      },
+      {
+        "name": "GalleryDoor_F1",
+        "kind": "internal_door",
+        "floor": 1,
+        "fixed_open_deg": 90,
+        "requested_opening_width_m": 2.4,
+        "center_xy_m": [
+          0,
+          12.0
+        ],
+        "direction_xy": [
+          1,
+          0
+        ],
+        "body_path_across_wall_normal_xy": [
+          0,
+          1
+        ],
+        "z_m": 0.0
+      },
+      {
+        "name": "Painting_F1_000",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_000",
+        "floor": 1,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -11.885000000000002,
+          -9.348,
+          1.55
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 0.8400000000000001,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F1_001",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_001",
+        "floor": 1,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -11.885000000000002,
+          -5.652,
+          1.55
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 0.8400000000000001,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F1_002",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_002",
+        "floor": 1,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -11.635000000000002,
+          -9.348,
+          1.55
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 0.8400000000000001,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F1_003",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_003",
+        "floor": 1,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -11.635000000000002,
+          -5.652,
+          1.55
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 0.8400000000000001,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F1_004",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_004",
+        "floor": 1,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -11.885000000000002,
+          5.652,
+          1.55
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 0.8400000000000001,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F1_005",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_005",
+        "floor": 1,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -11.885000000000002,
+          9.348,
+          1.55
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 0.8400000000000001,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F1_006",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_006",
+        "floor": 1,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -11.635000000000002,
+          5.652,
+          1.55
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 0.8400000000000001,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F1_007",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_007",
+        "floor": 1,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -11.635000000000002,
+          9.348,
+          1.55
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 0.8400000000000001,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F1_008",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_008",
+        "floor": 1,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          11.635000000000002,
+          -9.348,
+          1.55
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 0.8400000000000001,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F1_009",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_009",
+        "floor": 1,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          11.635000000000002,
+          -5.652,
+          1.55
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 0.8400000000000001,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F1_010",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_010",
+        "floor": 1,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          11.885000000000002,
+          -9.348,
+          1.55
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 0.8400000000000001,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F1_011",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_011",
+        "floor": 1,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          11.885000000000002,
+          -5.652,
+          1.55
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 0.8400000000000001,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F1_012",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_012",
+        "floor": 1,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          11.635000000000002,
+          5.652,
+          1.55
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 0.8400000000000001,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F1_013",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_013",
+        "floor": 1,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          11.635000000000002,
+          9.348,
+          1.55
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 0.8400000000000001,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F1_014",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_014",
+        "floor": 1,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          11.885000000000002,
+          5.652,
+          1.55
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 0.8400000000000001,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F1_015",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_015",
+        "floor": 1,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          11.885000000000002,
+          9.348,
+          1.55
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 0.8400000000000001,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Exhibit_F1_0",
+        "kind": "exhibit",
+        "source_key": "procedural:M12:sculpture:0",
+        "support_z_m": 0.88,
+        "actual_min_m": [
+          -16.215,
+          -5.62753353886433,
+          0.878
+        ],
+        "actual_max_m": [
+          -14.864999999999998,
+          -5.172466461135669,
+          2.2377532016961754
+        ],
+        "support_embed_m": 0.002,
+        "geometry_sha256": "6395a12d1eef36daef291cb09d9cdbf151177023c57a42b57032f55daa41bdb9",
+        "canonical_shape_sha256": "ea1e5ceaed9f01b26dbd2eec003fc4b2a813892e9041a6eb0484378670abda80",
+        "shape_parameters": {
+          "radial_amplitude": 0.2628101479190933,
+          "minor_depth": 0.3174924102155605,
+          "tube_radius": 0.12733354037880504
+        },
+        "floor": 1
+      },
+      {
+        "name": "Exhibit_F1_1",
+        "kind": "exhibit",
+        "source_key": "procedural:M12:sculpture:1",
+        "support_z_m": 0.88,
+        "actual_min_m": [
+          14.864999999999998,
+          -5.566807270897155,
+          0.8780000000000001
+        ],
+        "actual_max_m": [
+          16.215,
+          -5.233192729102844,
+          2.223302637950621
+        ],
+        "support_embed_m": 0.002,
+        "geometry_sha256": "f7b0f2df772a51dca04fde30155412f77860833ff1aba1a3e4d8198520e299fc",
+        "canonical_shape_sha256": "1f967757b2f9f31140f162a2abe665b4efe83236775f0419cf54c8931bcbe751",
+        "shape_parameters": {
+          "radial_amplitude": 0.2267903931003859,
+          "minor_depth": 0.1877461439056083,
+          "tube_radius": 0.13467137130839413
+        },
+        "floor": 1
+      },
+      {
+        "name": "Exhibit_F1_2",
+        "kind": "exhibit",
+        "source_key": "procedural:M12:sculpture:2",
+        "support_z_m": 0.88,
+        "actual_min_m": [
+          -16.215,
+          5.222830343523495,
+          0.8780000000000001
+        ],
+        "actual_max_m": [
+          -14.864999999999998,
+          5.577169656476504,
+          2.183954099308314
+        ],
+        "support_embed_m": 0.002,
+        "geometry_sha256": "ac3d351600aa02a73e0ebf03c6618dc2af2036a6781649c7a6271a7d5916491c",
+        "canonical_shape_sha256": "76313b5d9947b4021d6887e9a4a2471ed21229476a6007eee4cc656576ae6a06",
+        "shape_parameters": {
+          "radial_amplitude": 0.2650244765750074,
+          "minor_depth": 0.22676310411064732,
+          "tube_radius": 0.12339762278879854
+        },
+        "floor": 1
+      },
+      {
+        "name": "Exhibit_F1_3",
+        "kind": "exhibit",
+        "source_key": "procedural:M12:sculpture:3",
+        "support_z_m": 0.88,
+        "actual_min_m": [
+          14.864999999999998,
+          5.251867877914168,
+          0.878
+        ],
+        "actual_max_m": [
+          16.215,
+          5.548132122085831,
+          2.2155334104835616
+        ],
+        "support_embed_m": 0.002,
+        "geometry_sha256": "a8b158ef099e02fd34ac7c6d322fe57ab5d3322157e7068e9f8af683b13f8b90",
+        "canonical_shape_sha256": "730850fb111c20699dd268d09ec6a69a6fb1d0f9a976a2caf0fc44940590bbba",
+        "shape_parameters": {
+          "radial_amplitude": 0.16605423036696984,
+          "minor_depth": 0.17274721711675556,
+          "tube_radius": 0.09412313775656521
+        },
+        "floor": 1
+      },
+      {
+        "name": "GalleryDoor_F2",
+        "kind": "internal_door",
+        "floor": 2,
+        "fixed_open_deg": 90,
+        "requested_opening_width_m": 2.4,
+        "center_xy_m": [
+          0,
+          12.0
+        ],
+        "direction_xy": [
+          1,
+          0
+        ],
+        "body_path_across_wall_normal_xy": [
+          0,
+          1
+        ],
+        "z_m": 5.12
+      },
+      {
+        "name": "Painting_F2_016",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_016",
+        "floor": 2,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -11.885000000000002,
+          -9.348,
+          6.67
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 5.96,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F2_017",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_017",
+        "floor": 2,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -11.885000000000002,
+          -5.652,
+          6.67
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 5.96,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F2_018",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_018",
+        "floor": 2,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -11.635000000000002,
+          -9.348,
+          6.67
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 5.96,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F2_019",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_019",
+        "floor": 2,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -11.635000000000002,
+          -5.652,
+          6.67
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 5.96,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F2_020",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_020",
+        "floor": 2,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -11.885000000000002,
+          5.652,
+          6.67
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 5.96,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F2_021",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_021",
+        "floor": 2,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -11.885000000000002,
+          9.348,
+          6.67
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 5.96,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F2_022",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_022",
+        "floor": 2,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -11.635000000000002,
+          5.652,
+          6.67
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 5.96,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F2_023",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_023",
+        "floor": 2,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -11.635000000000002,
+          9.348,
+          6.67
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 5.96,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F2_024",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_024",
+        "floor": 2,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          11.635000000000002,
+          -9.348,
+          6.67
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 5.96,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F2_025",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_025",
+        "floor": 2,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          11.635000000000002,
+          -5.652,
+          6.67
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 5.96,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F2_026",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_026",
+        "floor": 2,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          11.885000000000002,
+          -9.348,
+          6.67
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 5.96,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F2_027",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_027",
+        "floor": 2,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          11.885000000000002,
+          -5.652,
+          6.67
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 5.96,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F2_028",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_028",
+        "floor": 2,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          11.635000000000002,
+          5.652,
+          6.67
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 5.96,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F2_029",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_029",
+        "floor": 2,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          11.635000000000002,
+          9.348,
+          6.67
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 5.96,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F2_030",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_030",
+        "floor": 2,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          11.885000000000002,
+          5.652,
+          6.67
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 5.96,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F2_031",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_031",
+        "floor": 2,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          11.885000000000002,
+          9.348,
+          6.67
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 5.96,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Exhibit_F2_0",
+        "kind": "exhibit",
+        "source_key": "procedural:M12:sculpture:4",
+        "support_z_m": 6.0,
+        "actual_min_m": [
+          -16.215,
+          -5.627565275329415,
+          5.998
+        ],
+        "actual_max_m": [
+          -14.864999999999998,
+          -5.172434724670584,
+          7.37971525285993
+        ],
+        "support_embed_m": 0.002,
+        "geometry_sha256": "599a26b0adfe210c1affaec53a56c8cbf5a9c299d1e6334aa2d0b8bae6a2fcb7",
+        "canonical_shape_sha256": "8392e8e8aca99c9d45966553322f2a968ea28e8c7c938ed30a0f476832df5268",
+        "shape_parameters": {
+          "radial_amplitude": 0.2681856032762716,
+          "minor_depth": 0.31099162396405394,
+          "tube_radius": 0.13173470106234475
+        },
+        "floor": 2
+      },
+      {
+        "name": "Exhibit_F2_1",
+        "kind": "exhibit",
+        "source_key": "procedural:M12:sculpture:5",
+        "support_z_m": 6.0,
+        "actual_min_m": [
+          14.864999999999998,
+          -5.570378545909364,
+          5.998
+        ],
+        "actual_max_m": [
+          16.215,
+          -5.229621454090635,
+          7.311004559509457
+        ],
+        "support_embed_m": 0.002,
+        "geometry_sha256": "f394eb4c98e24083098b5be34e580d6ef0bb23247d35de14b726e89b3a0bae27",
+        "canonical_shape_sha256": "c8148258a8ccf01977c8ce0529fb9ed3a0d5b25a5eaf619b6d4fcb7c24a67c11",
+        "shape_parameters": {
+          "radial_amplitude": 0.21523036484375996,
+          "minor_depth": 0.22026566908038772,
+          "tube_radius": 0.09906024873317654
+        },
+        "floor": 2
+      },
+      {
+        "name": "Exhibit_F2_2",
+        "kind": "exhibit",
+        "source_key": "procedural:M12:sculpture:6",
+        "support_z_m": 6.0,
+        "actual_min_m": [
+          -16.215,
+          5.204176962105417,
+          5.998
+        ],
+        "actual_max_m": [
+          -14.864999999999998,
+          5.595823037894582,
+          7.322301138554219
+        ],
+        "support_embed_m": 0.002,
+        "geometry_sha256": "eddd57911e50340884f53061d7f7d9dbfade20940b70821506de3690a634fba4",
+        "canonical_shape_sha256": "d0500810c2f8c33e9817a0ed831b764309a0df5244964b9155d585248ff2adc8",
+        "shape_parameters": {
+          "radial_amplitude": 0.201328786443701,
+          "minor_depth": 0.25548453395391313,
+          "tube_radius": 0.11233039766464688
+        },
+        "floor": 2
+      },
+      {
+        "name": "Exhibit_F2_3",
+        "kind": "exhibit",
+        "source_key": "procedural:M12:sculpture:7",
+        "support_z_m": 6.0,
+        "actual_min_m": [
+          14.864999999999998,
+          5.188316397093548,
+          5.998
+        ],
+        "actual_max_m": [
+          16.215,
+          5.611683602906451,
+          7.317980704596265
+        ],
+        "support_embed_m": 0.002,
+        "geometry_sha256": "acadc34a0f813693400b70d9d449663985918dacfd59584fa56e04c396493d38",
+        "canonical_shape_sha256": "557bf0ee12902a406103c5c6e98b19dc1d165c31c532874e2ee8cdedddb994ac",
+        "shape_parameters": {
+          "radial_amplitude": 0.2635943736268419,
+          "minor_depth": 0.31165083283303757,
+          "tube_radius": 0.09709987673522098
+        },
+        "floor": 2
+      },
+      {
+        "name": "GalleryDoor_F3",
+        "kind": "internal_door",
+        "floor": 3,
+        "fixed_open_deg": 90,
+        "requested_opening_width_m": 2.4,
+        "center_xy_m": [
+          0,
+          12.0
+        ],
+        "direction_xy": [
+          1,
+          0
+        ],
+        "body_path_across_wall_normal_xy": [
+          0,
+          1
+        ],
+        "z_m": 10.24
+      },
+      {
+        "name": "Painting_F3_032",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_032",
+        "floor": 3,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -11.885000000000002,
+          -9.348,
+          11.790000000000001
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 11.080000000000002,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F3_033",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_033",
+        "floor": 3,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -11.885000000000002,
+          -5.652,
+          11.790000000000001
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 11.080000000000002,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F3_034",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_034",
+        "floor": 3,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -11.635000000000002,
+          -9.348,
+          11.790000000000001
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 11.080000000000002,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F3_035",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_035",
+        "floor": 3,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -11.635000000000002,
+          -5.652,
+          11.790000000000001
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 11.080000000000002,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F3_036",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_036",
+        "floor": 3,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -11.885000000000002,
+          5.652,
+          11.790000000000001
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 11.080000000000002,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F3_037",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_037",
+        "floor": 3,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -11.885000000000002,
+          9.348,
+          11.790000000000001
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 11.080000000000002,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F3_038",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_038",
+        "floor": 3,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -11.635000000000002,
+          5.652,
+          11.790000000000001
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 11.080000000000002,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F3_039",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_039",
+        "floor": 3,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          -11.635000000000002,
+          9.348,
+          11.790000000000001
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 11.080000000000002,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F3_040",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_040",
+        "floor": 3,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          11.635000000000002,
+          -9.348,
+          11.790000000000001
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 11.080000000000002,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F3_041",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_041",
+        "floor": 3,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          11.635000000000002,
+          -5.652,
+          11.790000000000001
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 11.080000000000002,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F3_042",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_042",
+        "floor": 3,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          11.885000000000002,
+          -9.348,
+          11.790000000000001
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 11.080000000000002,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F3_043",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_043",
+        "floor": 3,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          11.885000000000002,
+          -5.652,
+          11.790000000000001
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 11.080000000000002,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F3_044",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_044",
+        "floor": 3,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          11.635000000000002,
+          5.652,
+          11.790000000000001
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 11.080000000000002,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F3_045",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_045",
+        "floor": 3,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          11.635000000000002,
+          9.348,
+          11.790000000000001
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 11.080000000000002,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F3_046",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_046",
+        "floor": 3,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          11.885000000000002,
+          5.652,
+          11.790000000000001
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 11.080000000000002,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Painting_F3_047",
+        "kind": "painting",
+        "source_key": "Museum29 procedural original art:M12_abstract_047",
+        "floor": 3,
+        "image_dimensions": [
+          1024,
+          768
+        ],
+        "canvas_dimensions_m": [
+          1.6266666666666665,
+          1.22
+        ],
+        "actual_aspect_error": 0.0,
+        "anchor_world_m": [
+          11.885000000000002,
+          9.348,
+          11.790000000000001
+        ],
+        "wall_supported": true,
+        "frame_concentric": true,
+        "lower_frame_z_m": 11.080000000000002,
+        "source_public_license": "procedural"
+      },
+      {
+        "name": "Exhibit_F3_0",
+        "kind": "exhibit",
+        "source_key": "procedural:M12:sculpture:8",
+        "support_z_m": 11.120000000000001,
+        "actual_min_m": [
+          -16.215,
+          -5.569524682737843,
+          11.118
+        ],
+        "actual_max_m": [
+          -14.864999999999998,
+          -5.230475317262156,
+          12.509620200289506
+        ],
+        "support_embed_m": 0.002,
+        "geometry_sha256": "9bf110790bdd2793ddb06c3bed405deb8b2d95d6cf3f7e47fd9115f271194d45",
+        "canonical_shape_sha256": "f089d6347fae46c878041d2fbbc8631c31e666f83119037e1758a69ff77bdeed",
+        "shape_parameters": {
+          "radial_amplitude": 0.3158706409680071,
+          "minor_depth": 0.21477938923948464,
+          "tube_radius": 0.11966577761602774
+        },
+        "floor": 3
+      },
+      {
+        "name": "Exhibit_F3_1",
+        "kind": "exhibit",
+        "source_key": "procedural:M12:sculpture:9",
+        "support_z_m": 11.120000000000001,
+        "actual_min_m": [
+          14.864999999999998,
+          -5.613819183066834,
+          11.118
+        ],
+        "actual_max_m": [
+          16.215,
+          -5.186180816933165,
+          12.498450180446584
+        ],
+        "support_embed_m": 0.002,
+        "geometry_sha256": "ec8f4a5bbaef136a5f4b2c47bb319883ec3ca12919d37b0f26aca1ac70540ca6",
+        "canonical_shape_sha256": "a7a7c2ff865caaad389c249833f404bba1178c314eaf6cb85e70220cb8fcb469",
+        "shape_parameters": {
+          "radial_amplitude": 0.17815662665366888,
+          "minor_depth": 0.2598474788838386,
+          "tube_radius": 0.13384913542476007
+        },
+        "floor": 3
+      },
+      {
+        "name": "Exhibit_F3_2",
+        "kind": "exhibit",
+        "source_key": "procedural:M12:sculpture:10",
+        "support_z_m": 11.120000000000001,
+        "actual_min_m": [
+          -16.215,
+          5.207757194401922,
+          11.118
+        ],
+        "actual_max_m": [
+          -14.864999999999998,
+          5.592242805598077,
+          12.428427302168144
+        ],
+        "support_embed_m": 0.002,
+        "geometry_sha256": "2ae610e35feb022672354b7c10eceda06b2c2113be01884293e1dd4d5636f746",
+        "canonical_shape_sha256": "068a959bf189521a5c910e4bd1bb90cf2f9a27b6c15b831012781458e2df68af",
+        "shape_parameters": {
+          "radial_amplitude": 0.27589430116153735,
+          "minor_depth": 0.25713250860649384,
+          "tube_radius": 0.12549261353733646
+        },
+        "floor": 3
+      },
+      {
+        "name": "Exhibit_F3_3",
+        "kind": "exhibit",
+        "source_key": "procedural:M12:sculpture:11",
+        "support_z_m": 11.120000000000001,
+        "actual_min_m": [
+          14.864999999999998,
+          5.194559995960408,
+          11.118
+        ],
+        "actual_max_m": [
+          16.215,
+          5.605440004039591,
+          12.449222425062564
+        ],
+        "support_embed_m": 0.002,
+        "geometry_sha256": "36c121b1fa6ea6719b17160f284352271a748781562ad2bf137f4e68c16714a0",
+        "canonical_shape_sha256": "b3a815b79a18e46f9bb1fd677993d551e9f960aba4e78cdcad7ee4de9ac3fe1b",
+        "shape_parameters": {
+          "radial_amplitude": 0.28991969148617425,
+          "minor_depth": 0.3014882613287142,
+          "tube_radius": 0.10245755212365576
+        },
+        "floor": 3
+      }
+    ],
+    "source_keys": [],
+    "painting_ids": [],
+    "authoring_parent": "/cephfs/shared/yixing/outputs/museum29_20261107/buildings/M12/furnished_candidate004"
+  },
+  "lighting": {
+    "kelvin": 3800,
+    "blue_ambient": false,
+    "sun_sky_through_glass": false,
+    "spotlights_for_features": true,
+    "hdri_id": "kloofendal_38d_partly_cloudy_puresky"
+  },
+  "seed": 2026110711,
+  "checks": {
+    "C2_radius_m": 0.25,
+    "C2_height_m": 1.6,
+    "C2_min_reachable": 0.95,
+    "C3_gap_m": 0,
+    "C3_top_error_max_m": 0.01,
+    "C3_sample_m": 0.01,
+    "C3_negative_shift_m": 0.6,
+    "C4_height_m": 1.6,
+    "C4_min_fraction": 0.9
+  },
+  "authorization_sha256": "8f2849b912a2994609faf01e4282d22c53326854826b7f9f61597b04143769b1",
+  "applied_adjustments": [
+    "ADJUST_01"
+  ],
+  "library_manifest_sha256": "2ac3e509eff6640d577bf56773a114ab290af80178555fe82f51a63593afe585"
+}

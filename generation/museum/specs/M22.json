@@ -1,0 +1,493 @@
+{
+  "schema": "Museum29SpecV1",
+  "building_id": "M22",
+  "short_name": "east_asian_art",
+  "style": "东亚艺术馆",
+  "style_family": "east_asian",
+  "floors": 3,
+  "plan": "带内院",
+  "building_xy_m": [
+    42,
+    38
+  ],
+  "planned_floor_area_m2": 1452,
+  "floor_height_m": 5.28,
+  "stair": {
+    "form": "W",
+    "assembly_description": "深色木 / 木踏面 / 木扶手 + 竖杆",
+    "rise_count_per_floor": 33,
+    "rise_m": 0.16,
+    "floor_height_m": 5.28,
+    "going_m": 0.32,
+    "handrail_height_m": 0.95,
+    "edge_guard_height_m": 1.08,
+    "max_clear_rail_gap_m": 0.095,
+    "design_headroom_m": 2.1,
+    "precise_collision": true,
+    "max_flight_rises": 18,
+    "width_m": 1.6,
+    "well_min_m": 1.2,
+    "landing_depth_m": 1.6,
+    "flights_per_floor": 3
+  },
+  "materials": {
+    "ground_floor": {
+      "key": "hinoki_wood",
+      "description": "桧木地板",
+      "source_selection": "PENDING_LIBRARY_BINDING"
+    },
+    "walls_ceiling": {
+      "description": "木格栅 + 白灰泥"
+    },
+    "stair": {
+      "description": "深色木 / 木踏面 / 木扶手 + 竖杆"
+    },
+    "all_shader": "UsdPreviewSurface_with_textures",
+    "max_texture_resolution": 2048
+  },
+  "exhibition": {
+    "theme": "中式家具、屏风、瓷器、刀",
+    "min_exhibits_per_floor": 15,
+    "max_same_model_in_building": 3,
+    "painting_reuse_across_buildings": 0,
+    "clear_route_width_m": 1.2,
+    "asset_selection_status": "ADJUST13_EXACT_MODELS_AND_DISTINCT_CC0_EAST_ASIAN_ART_BOUND_NOT_BUILT",
+    "items": [
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:chinese_cabinet",
+        "source_file_sha256": "f7875e583eb73798eed01e1b466bb4c3bc76a46c6bbade39091a01e5ba561293",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/chinese_cabinet/chinese_cabinet_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "furniture"
+        ]
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:chinese_armchair",
+        "source_file_sha256": "e0649ac9e63135627b824035e9a45a7c06411062589b971e633e5ab5f9e17f04",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/chinese_armchair/chinese_armchair_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "furniture"
+        ]
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:chinese_console_table",
+        "source_file_sha256": "d028085b14277ce3772445d5991572c95e8c80630bcb401f90129d3c972c5425",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/chinese_console_table/chinese_console_table_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "furniture"
+        ]
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:chinese_tea_table",
+        "source_file_sha256": "4c1987aa1978c4fe1dfd0f5f10739df399346fc4c9373315d8d4b0cc798d8b01",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/chinese_tea_table/chinese_tea_table_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "furniture"
+        ]
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:chinese_stool",
+        "source_file_sha256": "6db83b16076496830f956780890480d3cb1e34c80359b5ea8cb0e7afd42572c6",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/chinese_stool/chinese_stool_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "furniture"
+        ]
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:chinese_screen_panels",
+        "source_file_sha256": "80eea5b87ed1355f4628c791dc14d7c45ce77888ee9314aa97d92438d43b61a2",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/chinese_screen_panels/chinese_screen_panels_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "screen"
+        ]
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:antique_ceramic_vase_01",
+        "source_file_sha256": "c99f063c1ba4e649e87218265b5ca34f89e3c288ff6560c76b7d9d2dd46aa8cd",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/reused_museum_v1/polyhaven/antique_ceramic_vase_01/antique_ceramic_vase_01_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "ceramic"
+        ]
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:ceramic_vase_01",
+        "source_file_sha256": "4e2c69eb5bbccf86e9fbf92af438464669d804c1f0eae041ee28651a5b57d91e",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/reused_museum_v1/polyhaven/ceramic_vase_01/ceramic_vase_01_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "ceramic"
+        ]
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:ceramic_vase_02",
+        "source_file_sha256": "1bda047833b68c2c1b190ee53a55b1aa42d30748c84739909b6ca65b2f2d76c9",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/reused_museum_v1/polyhaven/ceramic_vase_02/ceramic_vase_02_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "ceramic"
+        ]
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:ceramic_vase_03",
+        "source_file_sha256": "72ea418ae3a761a651ea6bc4ce6daced649a2bd6c1c570227ba73af9e25d07f4",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/ceramic_vase_03/ceramic_vase_03_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "ceramic"
+        ]
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:ceramic_vase_04",
+        "source_file_sha256": "ca6461229bd6379b621396581e32400f93884fe77f7fa8abe6ddbeb64d57421b",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/ceramic_vase_04/ceramic_vase_04_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "ceramic"
+        ]
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:tea_set_01",
+        "source_file_sha256": "479b93c5e5f121994a5582b329132c70c2076b2990673f9169721541e5c389a2",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/reused_museum_v1/polyhaven/tea_set_01/tea_set_01_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "tea"
+        ]
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:antique_katana_01",
+        "source_file_sha256": "e54b4d289b86c8f61b13bd5ea64da0d8ef9a5f6a8225726ea0777832a49ef881",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/reused_museum_v1/polyhaven/antique_katana_01/antique_katana_01_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "blade"
+        ]
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:katana_stand_01",
+        "source_file_sha256": "d69057f6c0f06cc28622c3c827f783d32638bfc7488b416dd56c49d01e9aaab4",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/reused_museum_v1/polyhaven/katana_stand_01/katana_stand_01_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "blade"
+        ]
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:carved_wooden_elephant",
+        "source_file_sha256": "c2378354ecd283c5c8d9459b6829ef7e61bdefd6d0f7a6b2d628362bd9bbef25",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/reused_museum_v1/polyhaven/carved_wooden_elephant/carved_wooden_elephant_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "elephant"
+        ]
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:brass_diya_lantern",
+        "source_file_sha256": "6b908c48f0f5300ba561cbcfe38e938863e8d1d33569e9a1fab6c7e9c16f8e95",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/brass_diya_lantern/brass_diya_lantern_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "lantern"
+        ]
+      },
+      {
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:113945",
+        "source_image_sha256": "ce777ff589d61ed0b118ac41a5131e42b750199b771a4e7b2199283786dfd371",
+        "title": "Cloudy Mountains",
+        "culture": [
+          "China, Southern Song dynasty (1127–1279)"
+        ],
+        "license": "CC0-1.0",
+        "share_license_status": "CC0",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/cleveland/113945.jpg",
+        "usage_status": "RESERVED_NOT_YET_BUILT"
+      },
+      {
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:130219",
+        "source_image_sha256": "f6a2711ac4299a247ef96df5c097a9d6c453ab37e225f637043db9503bc67b09",
+        "title": "Landscape after Jing Hao and Guan Tong",
+        "culture": [
+          "China, Qing dynasty (1644–1911)"
+        ],
+        "license": "CC0-1.0",
+        "share_license_status": "CC0",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/cleveland/130219.jpg",
+        "usage_status": "RESERVED_NOT_YET_BUILT"
+      },
+      {
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:130361",
+        "source_image_sha256": "e64433faed89744cf601d6471ced2837b3e87e462ea2f4cd4ccd77598eed0b62",
+        "title": "Streams and Mountains without End",
+        "culture": [
+          "China, late Northern Song dynasty (960-1127) - Jin dynasty (1115-1234)"
+        ],
+        "license": "CC0-1.0",
+        "share_license_status": "CC0",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/cleveland/130361.jpg",
+        "usage_status": "RESERVED_NOT_YET_BUILT"
+      },
+      {
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:130496",
+        "source_image_sha256": "52ce9fdf2506a46167082bf80c28866b1bb628fbcd9f973faf5270625b718b25",
+        "title": "Bamboo in the Wind",
+        "culture": [
+          "China, Yuan dynasty (1271–1368)"
+        ],
+        "license": "CC0-1.0",
+        "share_license_status": "CC0",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/cleveland/130496.jpg",
+        "usage_status": "RESERVED_NOT_YET_BUILT"
+      },
+      {
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:130940",
+        "source_image_sha256": "a57d6b1f85948c3b8c87e9b6ddeca399032bf4bbac1f12521664aae8913a0e27",
+        "title": "Tall Bamboo and Distant Mountains, after Wang Meng",
+        "culture": [
+          "China, Qing dynasty (1644–1911)"
+        ],
+        "license": "CC0-1.0",
+        "share_license_status": "CC0",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/cleveland/130940.jpg",
+        "usage_status": "RESERVED_NOT_YET_BUILT"
+      },
+      {
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:132016",
+        "source_image_sha256": "0355c4e23fa7bd35e8788468a2972bd592d8cb63d2c9e76b369cb2338a9594d8",
+        "title": "Landscape after Ni Zan",
+        "culture": [
+          "China, Qing dynasty (1644–1911)"
+        ],
+        "license": "CC0-1.0",
+        "share_license_status": "CC0",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/cleveland/132016.jpg",
+        "usage_status": "RESERVED_NOT_YET_BUILT"
+      },
+      {
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:132834",
+        "source_image_sha256": "d2ebc310a90e81eadb9671d24ad96dc761dd3e00dcc6f1743e6996dbb661441f",
+        "title": "Album of Seasonal Landscapes, Leaf B (previous leaf 1)",
+        "culture": [
+          "China, Qing dynasty (1644–1911)"
+        ],
+        "license": "CC0-1.0",
+        "share_license_status": "CC0",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/cleveland/132834.jpg",
+        "usage_status": "RESERVED_NOT_YET_BUILT"
+      },
+      {
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:132835",
+        "source_image_sha256": "ebcbdf3d99d1def8dec113b19a1f569e980dba97583c4ed41e20ffed0fafc7be",
+        "title": "Album of Seasonal Landscapes, Leaf D (previous leaf 2)",
+        "culture": [
+          "China, Qing dynasty (1644-1911)"
+        ],
+        "license": "CC0-1.0",
+        "share_license_status": "CC0",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/cleveland/132835.jpg",
+        "usage_status": "RESERVED_NOT_YET_BUILT"
+      },
+      {
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:132836",
+        "source_image_sha256": "0918c8a148b710bc8cc54ab91141d6f7b2a2f70aa2f32e727e38c81a81204120",
+        "title": "Album of Seasonal Landscapes, Leaf E (previous leaf 3)",
+        "culture": [
+          "China, Qing dynasty (1644-1911)"
+        ],
+        "license": "CC0-1.0",
+        "share_license_status": "CC0",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/cleveland/132836.jpg",
+        "usage_status": "RESERVED_NOT_YET_BUILT"
+      },
+      {
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:132837",
+        "source_image_sha256": "852f0a74fcf2698828f005c37fe5ec3efa322c4f9e721c034c150d0fc423e5ea",
+        "title": "Album of Seasonal Landscapes, Leaf A (previous leaf 4)",
+        "culture": [
+          "China, Qing dynasty (1644-1911)"
+        ],
+        "license": "CC0-1.0",
+        "share_license_status": "CC0",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/cleveland/132837.jpg",
+        "usage_status": "RESERVED_NOT_YET_BUILT"
+      },
+      {
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:132838",
+        "source_image_sha256": "bfa93245c23fe2ee82575fbc0cb3ded50ab8f8c69844ed491eebc7765a5fba2a",
+        "title": "Album of Seasonal Landscapes, Leaf F (previous leaf 5)",
+        "culture": [
+          "China, Qing dynasty (1644–1911)"
+        ],
+        "license": "CC0-1.0",
+        "share_license_status": "CC0",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/cleveland/132838.jpg",
+        "usage_status": "RESERVED_NOT_YET_BUILT"
+      },
+      {
+        "kind": "painting",
+        "source_key": "Cleveland Museum of Art:132839",
+        "source_image_sha256": "6a23315c072c5f709bacdcd5f84594a94dae21193bf7a96bb986c1444e10d1a6",
+        "title": "Album of Seasonal Landscapes, Leaf C (previous leaf 6)",
+        "culture": [
+          "China, Qing dynasty (1644-1911)"
+        ],
+        "license": "CC0-1.0",
+        "share_license_status": "CC0",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/cleveland/132839.jpg",
+        "usage_status": "RESERVED_NOT_YET_BUILT"
+      }
+    ],
+    "source_keys": [
+      "Poly Haven:chinese_cabinet",
+      "Poly Haven:chinese_armchair",
+      "Poly Haven:chinese_console_table",
+      "Poly Haven:chinese_tea_table",
+      "Poly Haven:chinese_stool",
+      "Poly Haven:chinese_screen_panels",
+      "Poly Haven:antique_ceramic_vase_01",
+      "Poly Haven:ceramic_vase_01",
+      "Poly Haven:ceramic_vase_02",
+      "Poly Haven:ceramic_vase_03",
+      "Poly Haven:ceramic_vase_04",
+      "Poly Haven:tea_set_01",
+      "Poly Haven:antique_katana_01",
+      "Poly Haven:katana_stand_01",
+      "Poly Haven:carved_wooden_elephant",
+      "Poly Haven:brass_diya_lantern"
+    ],
+    "theme_source_groups": {
+      "furniture": [
+        "Poly Haven:chinese_cabinet",
+        "Poly Haven:chinese_armchair",
+        "Poly Haven:chinese_console_table",
+        "Poly Haven:chinese_tea_table",
+        "Poly Haven:chinese_stool"
+      ],
+      "screen": [
+        "Poly Haven:chinese_screen_panels"
+      ],
+      "ceramic": [
+        "Poly Haven:antique_ceramic_vase_01",
+        "Poly Haven:ceramic_vase_01",
+        "Poly Haven:ceramic_vase_02",
+        "Poly Haven:ceramic_vase_03",
+        "Poly Haven:ceramic_vase_04"
+      ],
+      "tea": [
+        "Poly Haven:tea_set_01"
+      ],
+      "blade": [
+        "Poly Haven:antique_katana_01",
+        "Poly Haven:katana_stand_01"
+      ],
+      "elephant": [
+        "Poly Haven:carved_wooden_elephant"
+      ],
+      "lantern": [
+        "Poly Haven:brass_diya_lantern"
+      ]
+    },
+    "binding_revision": "ADJUST07 explicit category coverage; source bytes/licences verified, each actual use<=3 still enforced by authoring",
+    "bound_source_count": 19,
+    "painting_ids": [
+      "113945",
+      "130219",
+      "130361",
+      "130496",
+      "130940",
+      "132016",
+      "132834",
+      "132835",
+      "132836",
+      "132837",
+      "132838",
+      "132839"
+    ]
+  },
+  "lighting": {
+    "kelvin": 3800,
+    "blue_ambient": false,
+    "sun_sky_through_glass": false,
+    "spotlights_for_features": true,
+    "hdri_id": "kloofendal_43d_clear_puresky"
+  },
+  "seed": 2026110721,
+  "checks": {
+    "C2_radius_m": 0.25,
+    "C2_height_m": 1.6,
+    "C2_min_reachable": 0.95,
+    "C3_gap_m": 0,
+    "C3_top_error_max_m": 0.01,
+    "C3_sample_m": 0.01,
+    "C3_negative_shift_m": 0.6,
+    "C4_height_m": 1.6,
+    "C4_min_fraction": 0.9
+  },
+  "authorization_sha256": "8f2849b912a2994609faf01e4282d22c53326854826b7f9f61597b04143769b1",
+  "library_manifest_sha256": "4cf142a80a2594a898fdf938d4828a942241d628e5468ecc877fe965d04bd6fa",
+  "library_manifest_snapshot": "/cephfs/shared/yixing/outputs/museum29_20261107/evidence/LIBRARY_MANIFEST_ADJUST07_BINDING_SNAPSHOT.json",
+  "applied_adjustments": [
+    "ADJUST_07_0545_PILOT_DECISION.md"
+  ],
+  "east_asian13": {
+    "palette": "red-brown timber / white plaster / dark grey tile",
+    "main_eaves_m": 2.2,
+    "roof_tile_source": "Poly Haven:grey_roof_tiles",
+    "structure": "white plaster, wood framing, stone base, exposed rafters/brackets and roofed entry porch",
+    "windows": "actual wood lattice frames and crossbars; no Western factory window",
+    "all_floor_finish": "straight long hinoki boards, no herringbone",
+    "displays": "dark wood tables/plinths/wood-framed glass cabinets; actual katana on licensed stand",
+    "wall_art": "4 distinct CC0 china paintings per floor, real wood frames",
+    "courtyard": "retain original open courtyard and show it in01",
+    "status": "BOUND_NOT_BUILT"
+  }
+}

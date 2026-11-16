@@ -1,0 +1,407 @@
+{
+  "schema": "Museum29SpecV1",
+  "building_id": "M09",
+  "short_name": "industrial_technology",
+  "style": "老厂房改造（科技）",
+  "style_family": "industrial",
+  "floors": 3,
+  "plan": "长方形大跨",
+  "building_xy_m": [
+    48,
+    32
+  ],
+  "planned_floor_area_m2": 1536,
+  "floor_height_m": 5.28,
+  "stair": {
+    "form": "W",
+    "assembly_description": "钢侧梁 / 钢格栅踏板（外观）/ 横杆钢栏杆",
+    "rise_count_per_floor": 33,
+    "rise_m": 0.16,
+    "floor_height_m": 5.28,
+    "going_m": 0.32,
+    "handrail_height_m": 0.95,
+    "edge_guard_height_m": 1.08,
+    "max_clear_rail_gap_m": 0.095,
+    "design_headroom_m": 2.1,
+    "precise_collision": true,
+    "max_flight_rises": 18,
+    "width_m": 1.6,
+    "well_min_m": 1.2,
+    "landing_depth_m": 1.6,
+    "flights_per_floor": 3
+  },
+  "materials": {
+    "ground_floor": {
+      "key": "polished_concrete",
+      "description": "抛光混凝土",
+      "source_selection": "PENDING_LIBRARY_BINDING"
+    },
+    "walls_ceiling": {
+      "description": "红砖墙，钢桁架，锯齿天窗"
+    },
+    "stair": {
+      "description": "钢侧梁 / 钢格栅踏板（外观）/ 横杆钢栏杆"
+    },
+    "all_shader": "UsdPreviewSurface_with_textures",
+    "max_texture_resolution": 2048
+  },
+  "exhibition": {
+    "theme": "船模、发动机、机器",
+    "min_exhibits_per_floor": 28,
+    "max_same_model_in_building": 3,
+    "painting_reuse_across_buildings": 0,
+    "clear_route_width_m": 1.2,
+    "asset_selection_status": "ADJUST11_DENSITY_POLICY_BOUND_NOT_BUILT",
+    "items": [
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:dutch_ship_large_01",
+        "title": "dutch_ship_large_01",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/dutch_ship_large_01/dutch_ship_large_01_1k.gltf",
+        "source_sha256": "fd17c359e618f0efba1c07b03742d9e896923c0797ed95ad8a57a7fccc0c7a78",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "ship"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:dutch_ship_large_02",
+        "title": "dutch_ship_large_02",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/dutch_ship_large_02/dutch_ship_large_02_1k.gltf",
+        "source_sha256": "93db4cfc0e0e5e8606041c7b69b7292ab2aa0a570f2e710bf0395393d60eb3a6",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "ship"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:dutch_ship_medium",
+        "title": "dutch_ship_medium",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/dutch_ship_medium/dutch_ship_medium_1k.gltf",
+        "source_sha256": "208112252d4f83a9c404563371053820a90963a53b465fd6c745b16868f4bade",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "ship"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:ship_pinnace",
+        "title": "ship_pinnace",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/ship_pinnace/ship_pinnace_1k.gltf",
+        "source_sha256": "668298cada1731ec93886bb7ec2f170bbbf45575d341b838a09580199fdf5ec5",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "ship"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:retro_multimeter",
+        "title": "retro_multimeter",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/retro_multimeter/retro_multimeter_1k.gltf",
+        "source_sha256": "47b51486a9fc1b5dab3449b3541e6bcbc3ae866e72372fcd8b67f3f45e803a97",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "machine",
+          "science"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:Camera_01",
+        "title": "Camera_01",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/Camera_01/Camera_01_1k.gltf",
+        "source_sha256": "9c5ca3104579c84ffcebdee5c6e5e09821fe8d4a5cd9ce95ed32d81507450ee3",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "machine"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:adjustable_wrench",
+        "title": "adjustable_wrench",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/adjustable_wrench/adjustable_wrench_1k.gltf",
+        "source_sha256": "1fc7df249bd4aa5f8cad48eb0b23381bad305b17a3095d06758d76ac1605fea1",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "machine"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:filmstrip_projector_8mm",
+        "title": "filmstrip_projector_8mm",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/filmstrip_projector_8mm/filmstrip_projector_8mm_1k.gltf",
+        "source_sha256": "dc30aca1cb04428207e92d6b3d2b032cc854fdb1a157aca5ea2570a75b883488",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "machine",
+          "science"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:screwdrivers_02",
+        "title": "screwdrivers_02",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/screwdrivers_02/screwdrivers_02_1k.gltf",
+        "source_sha256": "9ca01adafef10d8abd0e8bca4672c874e3d3950c8c81b1b74627a47fe152de23",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "machine"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:industrial_microscope",
+        "title": "industrial_microscope",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/industrial_microscope/industrial_microscope_1k.gltf",
+        "source_sha256": "91151cd484cf8f991c822f53a48487b8fa0a228cd7ccf63fbba625e1d70abb2a",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "machine",
+          "science"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:bench_vice_01",
+        "title": "bench_vice_01",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/bench_vice_01/bench_vice_01_1k.gltf",
+        "source_sha256": "52e61b473f1a7840ddbdabf024cca8dd32e07f694bd247e3a74e8ef5d9a101e2",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "machine"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:old_drill_press",
+        "title": "old_drill_press",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/old_drill_press/old_drill_press_1k.gltf",
+        "source_sha256": "b1ac11759c277e38fb0be776ba99802c131b9b7086141a5452398f91668bcfc2",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "machine"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:tool_cart",
+        "title": "tool_cart",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/tool_cart/tool_cart_1k.gltf",
+        "source_sha256": "ba4290f62b37dc08d4f99da2b3c78d8cb584bd229e8805ce586ed3f3b5303759",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "machine"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:portable_generator",
+        "title": "portable_generator",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/portable_generator/portable_generator_1k.gltf",
+        "source_sha256": "d5afe27834f824dfe753391713c45be03479e8100831f320796030531f61b848",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "machine"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:vintage_microscope",
+        "title": "vintage_microscope",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/reused_museum_v1/polyhaven/vintage_microscope/vintage_microscope_1k.gltf",
+        "source_sha256": "f7b748cb95f0b1c8eaf88b827a568347cfbd25f750e27efd52c59029d92e3345",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "machine",
+          "science"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:1f7d20f0-6b3f-4780-b754-91c2f9f91602",
+        "title": "Henry trough battery",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/1f7d20f0-6b3f-4780-b754-91c2f9f91602.glb",
+        "source_sha256": "34d1bd810d1ef321191f25079eff51c961a0eee6f5b3989660f10708184d6310",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "science"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:6c69a6bb-55e6-4356-8725-120ff7f8d652",
+        "title": "Bell X-1",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/6c69a6bb-55e6-4356-8725-120ff7f8d652.glb",
+        "source_sha256": "4a527490bd60f1c50dca9fbe319ec8c637955e84b573e9b33f288bf239e66065",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "science"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:40cf5b52-0b21-4063-95fc-aa07998eb4dd",
+        "title": "patent model, Page induction coil, US #76654",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/40cf5b52-0b21-4063-95fc-aa07998eb4dd.glb",
+        "source_sha256": "2a1ca274a1bc39de1c2610749a76b2be33bf90ecae0ef709187d425452fc81a8",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "science"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Smithsonian:3d_package:9172faae-dbbe-424a-a9e7-56f4428a06dd",
+        "title": "Abraham Lincoln's Patent Model",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/9172faae-dbbe-424a-a9e7-56f4428a06dd.glb",
+        "source_sha256": "e24342fd9e21c206d1d45718834a4d4720d0612fc01b1f89518ed2b9b9c3f9d0",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "science"
+        ]
+      },
+      {
+        "kind": "original_procedural_inventory",
+        "template": "engine",
+        "count": 18,
+        "provenance": "original full-size teaching study, no historical artifact claim"
+      },
+      {
+        "kind": "original_procedural_inventory",
+        "template": "steam_boiler",
+        "count": 9,
+        "provenance": "original full-size teaching study, no historical artifact claim"
+      },
+      {
+        "kind": "original_procedural_inventory",
+        "template": "gear_drive",
+        "count": 6,
+        "provenance": "original full-size teaching study, no historical artifact claim"
+      },
+      {
+        "kind": "original_procedural_inventory",
+        "template": "marine_propeller",
+        "count": 3,
+        "provenance": "original full-size teaching study, no historical artifact claim"
+      }
+    ],
+    "source_keys": [
+      "Poly Haven:dutch_ship_large_01",
+      "Poly Haven:dutch_ship_large_02",
+      "Poly Haven:dutch_ship_medium",
+      "Poly Haven:ship_pinnace",
+      "Poly Haven:retro_multimeter",
+      "Poly Haven:Camera_01",
+      "Poly Haven:adjustable_wrench",
+      "Poly Haven:filmstrip_projector_8mm",
+      "Poly Haven:screwdrivers_02",
+      "Poly Haven:industrial_microscope",
+      "Poly Haven:bench_vice_01",
+      "Poly Haven:old_drill_press",
+      "Poly Haven:tool_cart",
+      "Poly Haven:portable_generator",
+      "Poly Haven:vintage_microscope",
+      "Smithsonian:3d_package:1f7d20f0-6b3f-4780-b754-91c2f9f91602",
+      "Smithsonian:3d_package:6c69a6bb-55e6-4356-8725-120ff7f8d652",
+      "Smithsonian:3d_package:40cf5b52-0b21-4063-95fc-aa07998eb4dd",
+      "Smithsonian:3d_package:9172faae-dbbe-424a-a9e7-56f4428a06dd"
+    ],
+    "theme_source_groups": {
+      "ship": [
+        "Poly Haven:dutch_ship_large_01",
+        "Poly Haven:dutch_ship_large_02",
+        "Poly Haven:dutch_ship_medium",
+        "Poly Haven:ship_pinnace"
+      ],
+      "machine": [
+        "Poly Haven:retro_multimeter",
+        "Poly Haven:Camera_01",
+        "Poly Haven:adjustable_wrench",
+        "Poly Haven:filmstrip_projector_8mm",
+        "Poly Haven:screwdrivers_02",
+        "Poly Haven:industrial_microscope",
+        "Poly Haven:bench_vice_01",
+        "Poly Haven:old_drill_press",
+        "Poly Haven:tool_cart",
+        "Poly Haven:portable_generator",
+        "Poly Haven:vintage_microscope"
+      ],
+      "science": [
+        "Poly Haven:retro_multimeter",
+        "Poly Haven:filmstrip_projector_8mm",
+        "Poly Haven:industrial_microscope",
+        "Smithsonian:3d_package:1f7d20f0-6b3f-4780-b754-91c2f9f91602",
+        "Smithsonian:3d_package:6c69a6bb-55e6-4356-8725-120ff7f8d652",
+        "Smithsonian:3d_package:40cf5b52-0b21-4063-95fc-aa07998eb4dd",
+        "Smithsonian:3d_package:9172faae-dbbe-424a-a9e7-56f4428a06dd",
+        "Poly Haven:vintage_microscope"
+      ]
+    },
+    "binding_revision": "ADJUST07 explicit category coverage; source bytes/licences verified, each actual use<=3 still enforced by authoring",
+    "bound_source_count": 19,
+    "industrial_density11": {
+      "design_minimum_per_floor": 28,
+      "GOAL_minimum_unchanged": 15,
+      "low_platform_exhibit_area_fraction_min": 0.5,
+      "small_items": "Actual glass cases, fitted to nominal-sized tools; never enlarge hand tools to fill giant low decks.",
+      "min_large_low_displays_per_floor": 18,
+      "physical_validation": "Fresh actual C2 and native C5 required on changed display collision geometry."
+    },
+    "density11_repair": {
+      "cause": "Actual f6 USD: ship02 near1.34m; drill press1.11–1.27m due narrow target depth; portable generator .98–1.29m. Occupancy>=.60 and spacing>=1.2 already PASS, strict1.4m large display target FAIL. No thresholds changed.",
+      "actual_fix": "Workshop drill press fit1.65x1.65x2.05m envelope; naval display model envelope3.1x1.9x2.5m; replace three portable low-deck generators by original full-size boiler teaching assemblies.28/floor,18large/floor target unchanged.",
+      "status": "SPEC_BOUND_NOT_BUILT"
+    }
+  },
+  "lighting": {
+    "kelvin": 3800,
+    "blue_ambient": false,
+    "sun_sky_through_glass": false,
+    "spotlights_for_features": true,
+    "hdri_id": "kloofendal_43d_clear_puresky"
+  },
+  "seed": 2026110708,
+  "checks": {
+    "C2_radius_m": 0.25,
+    "C2_height_m": 1.6,
+    "C2_min_reachable": 0.95,
+    "C3_gap_m": 0,
+    "C3_top_error_max_m": 0.01,
+    "C3_sample_m": 0.01,
+    "C3_negative_shift_m": 0.6,
+    "C4_height_m": 1.6,
+    "C4_min_fraction": 0.9
+  },
+  "authorization_sha256": "8f2849b912a2994609faf01e4282d22c53326854826b7f9f61597b04143769b1",
+  "library_manifest_sha256": "4cf142a80a2594a898fdf938d4828a942241d628e5468ecc877fe965d04bd6fa",
+  "library_manifest_snapshot": "/cephfs/shared/yixing/outputs/museum29_20261107/evidence/LIBRARY_MANIFEST_ADJUST07_BINDING_SNAPSHOT.json",
+  "applied_adjustments": [
+    "ADJUST_07_0545_PILOT_DECISION.md",
+    "ADJUST_11_0845.md"
+  ]
+}

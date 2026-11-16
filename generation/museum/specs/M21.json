@@ -1,0 +1,251 @@
+{
+  "schema": "Museum29SpecV1",
+  "building_id": "M21",
+  "short_name": "nordic_craft",
+  "style": "北欧工艺馆",
+  "style_family": "nordic",
+  "floors": 2,
+  "plan": "L 形",
+  "building_xy_m": [
+    38,
+    32
+  ],
+  "planned_floor_area_m2": 948.48,
+  "floor_height_m": 5.12,
+  "stair": {
+    "form": "A",
+    "assembly_description": "双木梁，踏步间透空 / 木踏面 / 木栏杆",
+    "rise_count_per_floor": 32,
+    "rise_m": 0.16,
+    "floor_height_m": 5.12,
+    "going_m": 0.33,
+    "handrail_height_m": 0.95,
+    "edge_guard_height_m": 1.08,
+    "max_clear_rail_gap_m": 0.095,
+    "design_headroom_m": 2.1,
+    "precise_collision": true,
+    "max_flight_rises": 18,
+    "walking_radius_m": 5.4,
+    "width_m": 1.8,
+    "landing_depth_m": 1.6,
+    "mirrored_horseshoe": false,
+    "inner_radius_m": 4.5,
+    "placement": "side_of_hall",
+    "tread_sweep_degrees": 112.04507993669432,
+    "mid_landing_sweep_degrees": 16.9765272631355,
+    "total_rotation_including_mid_and_top_landings_degrees": 145.99813446296534,
+    "landing_bridge_single_union_mesh": true
+  },
+  "materials": {
+    "ground_floor": {
+      "key": "ash_wood",
+      "description": "白蜡木地板",
+      "source_selection": "PENDING_LIBRARY_BINDING"
+    },
+    "walls_ceiling": {
+      "description": "木格栅墙"
+    },
+    "stair": {
+      "description": "双木梁，踏步间透空 / 木踏面 / 木栏杆"
+    },
+    "all_shader": "UsdPreviewSurface_with_textures",
+    "max_texture_resolution": 2048
+  },
+  "exhibition": {
+    "theme": "器物、灯具",
+    "min_exhibits_per_floor": 15,
+    "max_same_model_in_building": 3,
+    "painting_reuse_across_buildings": 0,
+    "clear_route_width_m": 1.2,
+    "asset_selection_status": "BOUND_THEME10_CACHED_LICENSED_INVENTORY_NOT_YET_BUILT",
+    "items": [
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:vintage_oil_lamp",
+        "title": "vintage_oil_lamp",
+        "source_file_sha256": "ae570b98ea30b0337f62d8e7f551c03a05de00b238f3fac8f1ca5a1f1dbd1add",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/vintage_oil_lamp/vintage_oil_lamp_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "lamp"
+        ]
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:Lantern_01",
+        "title": "Lantern_01",
+        "source_file_sha256": "d3f8d7a7afec96d55d3b7f20c3e329c909d19d37047902a826bc157f77c27819",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/Lantern_01/Lantern_01_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "lamp"
+        ]
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:wooden_bowl_02",
+        "title": "wooden_bowl_02",
+        "source_file_sha256": "18ba4fb40b1880d9b776f6d98eefdaa9e01e41fbe362ba1dc40a831422e38336",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/wooden_bowl_02/wooden_bowl_02_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "craft"
+        ]
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:carved_wooden_plate",
+        "title": "carved_wooden_plate",
+        "source_file_sha256": "90ec83004a3fd256fb846c7b04fbf0b2514f0e99b2bb7aeb586f62b844ed9219",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/carved_wooden_plate/carved_wooden_plate_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "craft"
+        ]
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:wooden_candlestick",
+        "title": "wooden_candlestick",
+        "source_file_sha256": "fea19adb5e06397d654d089c2852e599bd313063fec38912089f19d607220ca3",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/wooden_candlestick/wooden_candlestick_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "craft"
+        ]
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:tea_set_01",
+        "title": "tea_set_01",
+        "source_file_sha256": "479b93c5e5f121994a5582b329132c70c2076b2990673f9169721541e5c389a2",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/reused_museum_v1/polyhaven/tea_set_01/tea_set_01_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "craft"
+        ]
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:antique_ceramic_vase_01",
+        "title": "antique_ceramic_vase_01",
+        "source_file_sha256": "c99f063c1ba4e649e87218265b5ca34f89e3c288ff6560c76b7d9d2dd46aa8cd",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/reused_museum_v1/polyhaven/antique_ceramic_vase_01/antique_ceramic_vase_01_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "craft"
+        ]
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:ceramic_vase_01",
+        "title": "ceramic_vase_01",
+        "source_file_sha256": "4e2c69eb5bbccf86e9fbf92af438464669d804c1f0eae041ee28651a5b57d91e",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/reused_museum_v1/polyhaven/ceramic_vase_01/ceramic_vase_01_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "craft"
+        ]
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:ceramic_vase_02",
+        "title": "ceramic_vase_02",
+        "source_file_sha256": "1bda047833b68c2c1b190ee53a55b1aa42d30748c84739909b6ca65b2f2d76c9",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/reused_museum_v1/polyhaven/ceramic_vase_02/ceramic_vase_02_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "craft"
+        ]
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:ceramic_vase_03",
+        "title": "ceramic_vase_03",
+        "source_file_sha256": "72ea418ae3a761a651ea6bc4ce6daced649a2bd6c1c570227ba73af9e25d07f4",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/ceramic_vase_03/ceramic_vase_03_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "craft"
+        ]
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:ceramic_vase_04",
+        "title": "ceramic_vase_04",
+        "source_file_sha256": "ca6461229bd6379b621396581e32400f93884fe77f7fa8abe6ddbeb64d57421b",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/ceramic_vase_04/ceramic_vase_04_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "craft"
+        ]
+      }
+    ],
+    "source_keys": [
+      "Poly Haven:vintage_oil_lamp",
+      "Poly Haven:Lantern_01",
+      "Poly Haven:wooden_bowl_02",
+      "Poly Haven:carved_wooden_plate",
+      "Poly Haven:wooden_candlestick",
+      "Poly Haven:tea_set_01",
+      "Poly Haven:antique_ceramic_vase_01",
+      "Poly Haven:ceramic_vase_01",
+      "Poly Haven:ceramic_vase_02",
+      "Poly Haven:ceramic_vase_03",
+      "Poly Haven:ceramic_vase_04"
+    ],
+    "theme_source_groups": {
+      "lamp": [
+        "Poly Haven:vintage_oil_lamp",
+        "Poly Haven:Lantern_01"
+      ],
+      "craft": [
+        "Poly Haven:wooden_bowl_02",
+        "Poly Haven:carved_wooden_plate",
+        "Poly Haven:wooden_candlestick",
+        "Poly Haven:tea_set_01",
+        "Poly Haven:antique_ceramic_vase_01",
+        "Poly Haven:ceramic_vase_01",
+        "Poly Haven:ceramic_vase_02",
+        "Poly Haven:ceramic_vase_03",
+        "Poly Haven:ceramic_vase_04"
+      ]
+    },
+    "binding_revision": "THEME10: remove school/barber furniture; explicit treasure/sculpture/candles, machinery, clocks, lamps, tea groups. Original art reservations unchanged."
+  },
+  "lighting": {
+    "kelvin": 3800,
+    "blue_ambient": false,
+    "sun_sky_through_glass": false,
+    "spotlights_for_features": true,
+    "hdri_id": "kloofendal_43d_clear_puresky"
+  },
+  "seed": 2026110720,
+  "checks": {
+    "C2_radius_m": 0.25,
+    "C2_height_m": 1.6,
+    "C2_min_reachable": 0.95,
+    "C3_gap_m": 0,
+    "C3_top_error_max_m": 0.01,
+    "C3_sample_m": 0.01,
+    "C3_negative_shift_m": 0.6,
+    "C4_height_m": 1.6,
+    "C4_min_fraction": 0.9
+  },
+  "authorization_sha256": "8f2849b912a2994609faf01e4282d22c53326854826b7f9f61597b04143769b1",
+  "applied_adjustments": [
+    "ADJUST_01"
+  ],
+  "library_manifest_sha256": "2ac3e509eff6640d577bf56773a114ab290af80178555fe82f51a63593afe585"
+}

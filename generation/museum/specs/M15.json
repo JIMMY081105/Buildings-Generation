@@ -1,0 +1,372 @@
+{
+  "schema": "Museum29SpecV1",
+  "building_id": "M15",
+  "short_name": "brutalist",
+  "style": "粗野主义博物馆",
+  "style_family": "brutalist",
+  "floors": 3,
+  "plan": "方形",
+  "building_xy_m": [
+    38,
+    38
+  ],
+  "planned_floor_area_m2": 1444,
+  "floor_height_m": 5.28,
+  "stair": {
+    "form": "W",
+    "assembly_description": "实心清水混凝土 / 混凝土踏面 / 混凝土实体栏板 + 木扶手",
+    "rise_count_per_floor": 33,
+    "rise_m": 0.16,
+    "floor_height_m": 5.28,
+    "going_m": 0.32,
+    "handrail_height_m": 0.95,
+    "edge_guard_height_m": 1.08,
+    "max_clear_rail_gap_m": 0.095,
+    "design_headroom_m": 2.1,
+    "precise_collision": true,
+    "max_flight_rises": 18,
+    "width_m": 1.6,
+    "well_min_m": 1.2,
+    "landing_depth_m": 1.6,
+    "flights_per_floor": 3
+  },
+  "materials": {
+    "ground_floor": {
+      "key": "boardform_concrete",
+      "description": "混凝土",
+      "source_selection": "PENDING_LIBRARY_BINDING"
+    },
+    "walls_ceiling": {
+      "description": "板模混凝土墙，混凝土格子天花"
+    },
+    "stair": {
+      "description": "实心清水混凝土 / 混凝土踏面 / 混凝土实体栏板 + 木扶手"
+    },
+    "all_shader": "UsdPreviewSurface_with_textures",
+    "max_texture_resolution": 2048
+  },
+  "exhibition": {
+    "theme": "雕塑、陶器",
+    "min_exhibits_per_floor": 15,
+    "max_same_model_in_building": 3,
+    "painting_reuse_across_buildings": 0,
+    "clear_route_width_m": 1.2,
+    "asset_selection_status": "CACHED_METADATA_CURATED_NOT_YET_BUILT",
+    "items": [
+      {
+        "kind": "model_inventory",
+        "source_key": "Smithsonian:3d_package:082c87e9-1fe0-4772-b4c6-fe6d59bd6e74",
+        "title": "Old Arrow Maker",
+        "source_file_sha256": "243a32658b706985849311d062e5b464dc1f827325620c0ea827088204fe71ea",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "sculpture"
+        ],
+        "actual_cached_medium": "carved marble",
+        "medium_evidence": {
+          "metadata_file": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/082c87e9-1fe0-4772-b4c6-fe6d59bd6e74.license.json",
+          "metadata_sha256": "2dee2d4c8f1fe6dc6ecfde08a175d10e54ea1b48a6edcb7ca1541bcf45f15ef3",
+          "type": "sculpture",
+          "medium": "carved marble"
+        }
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Smithsonian:3d_package:0dc68216-3651-44c7-99cf-18e5d4d1eb9f",
+        "title": "Kneeling winged monster",
+        "source_file_sha256": "1dd74b677bffda002d6abac7659c4945e74f4cd662e2494d262eca233beadbc5",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "sculpture"
+        ],
+        "actual_cached_medium": "Limestone freestanding sculpture",
+        "medium_evidence": {
+          "metadata_file": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/0dc68216-3651-44c7-99cf-18e5d4d1eb9f.license.json",
+          "metadata_sha256": "3a070921de4cde97a69bd977f2a97024fce194e8687367cc8c7b668b380d2964",
+          "type": "sculpture",
+          "medium": "Limestone freestanding sculpture"
+        }
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Smithsonian:3d_package:476ad7f6-6add-448d-af7f-9f2ca9ba9cb6",
+        "title": "Gathering of Buddhas and bodhisattvas",
+        "source_file_sha256": "690d5d206944b7447dc9917e5ed97d84e5355da0870b5863cfb1a2dd41df2e2f",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "sculpture"
+        ],
+        "actual_cached_medium": "Limestone with traces of pigment",
+        "medium_evidence": {
+          "metadata_file": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/476ad7f6-6add-448d-af7f-9f2ca9ba9cb6.license.json",
+          "metadata_sha256": "ebd046bf8bd78ad9b18f9d3af933ace4f2c59d9a2023f0fab543c220bea804a8",
+          "type": "sculpture",
+          "medium": "Limestone with traces of pigment"
+        }
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Smithsonian:3d_package:727b4bb6-ce87-40de-b07d-d492c1404221",
+        "title": "Western Paradise of the Buddha Amitabha",
+        "source_file_sha256": "a5e742eec78df553190fade74810a26ff96f7c31ed578b7300edf3e5fe627ff0",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "sculpture"
+        ],
+        "actual_cached_medium": "Limestone with traces of pigment",
+        "medium_evidence": {
+          "metadata_file": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/727b4bb6-ce87-40de-b07d-d492c1404221.license.json",
+          "metadata_sha256": "3d5ac3ea6409da2a6bc3dfe9d662ffd4277f2ca78f2c0850140e36a3064b2b9d",
+          "type": "sculpture",
+          "medium": "Limestone with traces of pigment"
+        }
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Smithsonian:3d_package:789cf90a-4387-4ac1-9e96-c7d6a7b9d26f",
+        "title": "George Washington",
+        "source_file_sha256": "af27d3ddfe064e3e606115573173856397dd7b0c88a5a373b31381239273d6bc",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "sculpture"
+        ],
+        "actual_cached_medium": "marble",
+        "medium_evidence": {
+          "metadata_file": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/789cf90a-4387-4ac1-9e96-c7d6a7b9d26f.license.json",
+          "metadata_sha256": "529d15dfbda3c84a3122d5648b282a59fb77976d19540304d62a7829bf03c624",
+          "type": "sculpture",
+          "medium": "marble"
+        }
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Smithsonian:3d_package:7f2659ba-2953-47a5-9358-921da9b0ce16",
+        "title": "Life Cast of Left Forearm and Hand (fragment, study for \"The Greek Slave\")",
+        "source_file_sha256": "eee8fe15f2c5e63d48fc586279cd885eaa2278339bbfc7212148e9d6c590075e",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "sculpture"
+        ],
+        "actual_cached_medium": "plaster",
+        "medium_evidence": {
+          "metadata_file": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/7f2659ba-2953-47a5-9358-921da9b0ce16.license.json",
+          "metadata_sha256": "24fed481446be86cbc5b71757f51fab1067c174d9840f3617ba3f6bd4870072d",
+          "type": "sculpture",
+          "medium": "plaster"
+        }
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Smithsonian:3d_package:8edffe56-c358-4c3a-a61f-019f615ccef0",
+        "title": "Model of the Greek Slave",
+        "source_file_sha256": "812ede1dd312f016e527afc190a2a9be11e55e720050e21ab4db77b0b0b3d747",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "sculpture"
+        ],
+        "actual_cached_medium": "plaster and metal pins",
+        "medium_evidence": {
+          "metadata_file": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/8edffe56-c358-4c3a-a61f-019f615ccef0.license.json",
+          "metadata_sha256": "4c2b56b81e1a856de8c98f37a2eb36bb687fa3cbdde05a6bddc2c9c13ad2cec7",
+          "type": "sculpture",
+          "medium": "plaster and metal pins"
+        }
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Smithsonian:3d_package:99ca3d6f-6d54-45a5-9b95-f8c245a662c2",
+        "title": "Old Arrow Maker",
+        "source_file_sha256": "7fe336ce11ac509eb58232c5a3295c9cc025336403132e0674ae35ddf67b2909",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "sculpture"
+        ],
+        "actual_cached_medium": "marble",
+        "medium_evidence": {
+          "metadata_file": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/99ca3d6f-6d54-45a5-9b95-f8c245a662c2.license.json",
+          "metadata_sha256": "a8ed5381fab97df7dabca2de04b0359b101526b6a06e37135c406b3e959e0a15",
+          "type": "sculpture",
+          "medium": "marble"
+        }
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:antique_ceramic_vase_01",
+        "title": "antique_ceramic_vase_01",
+        "source_file_sha256": "c99f063c1ba4e649e87218265b5ca34f89e3c288ff6560c76b7d9d2dd46aa8cd",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "ceramic"
+        ],
+        "actual_cached_medium": null,
+        "medium_evidence": null
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:ceramic_vase_01",
+        "title": "ceramic_vase_01",
+        "source_file_sha256": "4e2c69eb5bbccf86e9fbf92af438464669d804c1f0eae041ee28651a5b57d91e",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "ceramic"
+        ],
+        "actual_cached_medium": null,
+        "medium_evidence": null
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:ceramic_vase_02",
+        "title": "ceramic_vase_02",
+        "source_file_sha256": "1bda047833b68c2c1b190ee53a55b1aa42d30748c84739909b6ca65b2f2d76c9",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "ceramic"
+        ],
+        "actual_cached_medium": null,
+        "medium_evidence": null
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:ceramic_vase_03",
+        "title": "ceramic_vase_03",
+        "source_file_sha256": "72ea418ae3a761a651ea6bc4ce6daced649a2bd6c1c570227ba73af9e25d07f4",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "ceramic"
+        ],
+        "actual_cached_medium": null,
+        "medium_evidence": null
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:ceramic_vase_04",
+        "title": "ceramic_vase_04",
+        "source_file_sha256": "ca6461229bd6379b621396581e32400f93884fe77f7fa8abe6ddbeb64d57421b",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "ceramic"
+        ],
+        "actual_cached_medium": null,
+        "medium_evidence": null
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Smithsonian:3d_package:349e8fa2-9461-4e33-bae9-5e9cdd3e72bb",
+        "title": "Ewer",
+        "source_file_sha256": "5e98d0907345e73f4de6c04993e69c9ceeb1b1e1566cb32e84e5777ba46a66e4",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "ceramic"
+        ],
+        "actual_cached_medium": "Tin-glazed earthenware",
+        "medium_evidence": {
+          "metadata_file": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/349e8fa2-9461-4e33-bae9-5e9cdd3e72bb.license.json",
+          "metadata_sha256": "56180a0312c21d183575ea55a78c9956a6a92af81ab66fb857003fc1a5e0a0b5",
+          "type": "ceramics decorative arts ewer ewer",
+          "medium": "Tin-glazed earthenware"
+        }
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Smithsonian:3d_package:547c78d1-620b-40c4-982e-01928870fef4",
+        "title": "Kylix",
+        "source_file_sha256": "065b82d2034583712542714d093ac057de2459e0e6796859fc2af0b715dc962b",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "ceramic"
+        ],
+        "actual_cached_medium": "Painted earthenware",
+        "medium_evidence": {
+          "metadata_file": "/cephfs/shared/yixing/outputs/museum29_20261107/library/smithsonian/547c78d1-620b-40c4-982e-01928870fef4.license.json",
+          "metadata_sha256": "3b3a9ced8e82ab421c86594a1418997e5e13ca9cd734161dc6ee341de2b1d790",
+          "type": "ceramics decorative arts kylix",
+          "medium": "Painted earthenware"
+        }
+      }
+    ],
+    "source_keys": [
+      "Smithsonian:3d_package:082c87e9-1fe0-4772-b4c6-fe6d59bd6e74",
+      "Smithsonian:3d_package:0dc68216-3651-44c7-99cf-18e5d4d1eb9f",
+      "Smithsonian:3d_package:476ad7f6-6add-448d-af7f-9f2ca9ba9cb6",
+      "Smithsonian:3d_package:727b4bb6-ce87-40de-b07d-d492c1404221",
+      "Smithsonian:3d_package:789cf90a-4387-4ac1-9e96-c7d6a7b9d26f",
+      "Smithsonian:3d_package:7f2659ba-2953-47a5-9358-921da9b0ce16",
+      "Smithsonian:3d_package:8edffe56-c358-4c3a-a61f-019f615ccef0",
+      "Smithsonian:3d_package:99ca3d6f-6d54-45a5-9b95-f8c245a662c2",
+      "Poly Haven:antique_ceramic_vase_01",
+      "Poly Haven:ceramic_vase_01",
+      "Poly Haven:ceramic_vase_02",
+      "Poly Haven:ceramic_vase_03",
+      "Poly Haven:ceramic_vase_04",
+      "Smithsonian:3d_package:349e8fa2-9461-4e33-bae9-5e9cdd3e72bb",
+      "Smithsonian:3d_package:547c78d1-620b-40c4-982e-01928870fef4"
+    ],
+    "theme_source_groups": {
+      "sculpture": [
+        "Smithsonian:3d_package:082c87e9-1fe0-4772-b4c6-fe6d59bd6e74",
+        "Smithsonian:3d_package:0dc68216-3651-44c7-99cf-18e5d4d1eb9f",
+        "Smithsonian:3d_package:476ad7f6-6add-448d-af7f-9f2ca9ba9cb6",
+        "Smithsonian:3d_package:727b4bb6-ce87-40de-b07d-d492c1404221",
+        "Smithsonian:3d_package:789cf90a-4387-4ac1-9e96-c7d6a7b9d26f",
+        "Smithsonian:3d_package:7f2659ba-2953-47a5-9358-921da9b0ce16",
+        "Smithsonian:3d_package:8edffe56-c358-4c3a-a61f-019f615ccef0",
+        "Smithsonian:3d_package:99ca3d6f-6d54-45a5-9b95-f8c245a662c2"
+      ],
+      "ceramic": [
+        "Poly Haven:antique_ceramic_vase_01",
+        "Poly Haven:ceramic_vase_01",
+        "Poly Haven:ceramic_vase_02",
+        "Poly Haven:ceramic_vase_03",
+        "Poly Haven:ceramic_vase_04",
+        "Smithsonian:3d_package:349e8fa2-9461-4e33-bae9-5e9cdd3e72bb",
+        "Smithsonian:3d_package:547c78d1-620b-40c4-982e-01928870fef4"
+      ]
+    },
+    "binding_revision": "STONE_CERAMIC10: chairs removed; M16 actual cached Medium requires stone/marble/limestone/sandstone. Original pottery may supplement capacity."
+  },
+  "lighting": {
+    "kelvin": 3800,
+    "blue_ambient": false,
+    "sun_sky_through_glass": false,
+    "spotlights_for_features": true,
+    "hdri_id": "kloofendal_43d_clear_puresky"
+  },
+  "seed": 2026110714,
+  "checks": {
+    "C2_radius_m": 0.25,
+    "C2_height_m": 1.6,
+    "C2_min_reachable": 0.95,
+    "C3_gap_m": 0,
+    "C3_top_error_max_m": 0.01,
+    "C3_sample_m": 0.01,
+    "C3_negative_shift_m": 0.6,
+    "C4_height_m": 1.6,
+    "C4_min_fraction": 0.9
+  },
+  "authorization_sha256": "8f2849b912a2994609faf01e4282d22c53326854826b7f9f61597b04143769b1",
+  "library_manifest_sha256": "2ac3e509eff6640d577bf56773a114ab290af80178555fe82f51a63593afe585",
+  "brutalist26": {
+    "authorization": "ADJUST26_1830",
+    "massing": "M15 three true inset footprints 2.4/1.2/0m, each upper storey larger",
+    "material": "Original board_concrete26 true2048/4.8m, linear gray.39/.40/.39, 200mm horizontal formboards,1.2x.6m form panels, baked tie-hole shading; no displacement",
+    "windows": "One sparse window/face/storey, actual950mm solid walls, glass350mm inward from wall center gives825mm true outer reveal",
+    "entrance": "Deep undercroft,2.7m concrete canopy, floor-level pad plus3.6m-wide3.35m-long150mm ramp from actual-.15m exterior grade",
+    "lighting": "Official clear43d HDRI plus actual directional Sun;01 linear median.18 replaces obsolete white-target1.5",
+    "validation": "New full C1-C5 and all12 native images, old white M15f2 source negative, actual01 mass/reveals/pattern/shadow review before PASS. M15 is mandatory first M3 revision; M16 first build distinct."
+  }
+}

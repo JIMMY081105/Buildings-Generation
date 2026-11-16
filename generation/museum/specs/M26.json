@@ -1,0 +1,946 @@
+{
+  "schema": "Museum29SpecV1",
+  "building_id": "M26",
+  "short_name": "ocean",
+  "style": "海洋馆",
+  "style_family": "marine",
+  "floors": 3,
+  "plan": "圆形",
+  "building_xy_m": [
+    40,
+    40
+  ],
+  "planned_floor_area_m2": 1256.637,
+  "floor_height_m": 5.12,
+  "stair": {
+    "form": "H",
+    "assembly_description": "钢梁，踏步间透空 / 钢或石踏面 / 玻璃栏板",
+    "rise_count_per_floor": 32,
+    "rise_m": 0.16,
+    "floor_height_m": 5.12,
+    "going_m": 0.32,
+    "handrail_height_m": 0.95,
+    "edge_guard_height_m": 1.08,
+    "max_clear_rail_gap_m": 0.095,
+    "design_headroom_m": 2.1,
+    "precise_collision": true,
+    "max_flight_rises": 36,
+    "inner_radius_m": 2.1,
+    "width_m": 1.6,
+    "landing_angle_deg": 35,
+    "bridge_width_m": 1.8,
+    "walking_radius_m": 2.9,
+    "placement": "center_of_circular_atrium_clear_all_around",
+    "continuous_same_vertical_axis": true,
+    "tread_sweep_degrees": 202.31337317722864,
+    "total_rotation_including_top_landing_degrees": 237.31337317722864,
+    "next_floor_start_rotation_degrees": 237.31337317722864,
+    "landing_bridge_single_union_mesh": true
+  },
+  "materials": {
+    "ground_floor": {
+      "key": "blue_mosaic",
+      "description": "蓝色马赛克或蓝色水磨石",
+      "source_selection": "PENDING_LIBRARY_BINDING"
+    },
+    "walls_ceiling": {
+      "description": "深蓝墙，展柜灯"
+    },
+    "stair": {
+      "description": "钢梁，踏步间透空 / 钢或石踏面 / 玻璃栏板"
+    },
+    "all_shader": "UsdPreviewSurface_with_textures",
+    "max_texture_resolution": 2048
+  },
+  "exhibition": {
+    "theme": "珊瑚、水母、鱼群、铜鲸鲨鳐",
+    "min_exhibits_per_floor": 15,
+    "max_same_model_in_building": 3,
+    "painting_reuse_across_buildings": 0,
+    "clear_route_width_m": 1.2,
+    "asset_selection_status": "BOUND_TO_ACTUAL_PILOT_AUTHORING",
+    "items": [
+      {
+        "name": "MainDoor0",
+        "door_fixed_open_deg": 90,
+        "clear_opening_width_m": 3.08,
+        "center_xy_m": [
+          1.950903220161284,
+          -19.807852804032304
+        ],
+        "source": "infinigen panel/glass leaf and DoorCasingFactory"
+      },
+      {
+        "name": "MainDoor1",
+        "door_fixed_open_deg": 90,
+        "clear_opening_width_m": 3.08,
+        "center_xy_m": [
+          -1.9509032201612813,
+          -19.807852804032304
+        ],
+        "source": "infinigen panel/glass leaf and DoorCasingFactory"
+      },
+      {
+        "kind": "facade_kit",
+        "family": "marine",
+        "source": "Museum29 parametric authored geometry",
+        "residential_wood_windows": false
+      },
+      {
+        "name": "GalleryDoor_F1",
+        "kind": "internal_door",
+        "floor": 1,
+        "fixed_open_deg": 90,
+        "requested_opening_width_m": 2.4,
+        "center_xy_m": [
+          0,
+          16.0
+        ],
+        "direction_xy": [
+          1,
+          0
+        ],
+        "body_path_across_wall_normal_xy": [
+          0,
+          1
+        ],
+        "z_m": 0.0
+      },
+      {
+        "name": "Marine_F1_00",
+        "kind": "exhibit",
+        "source_key": "Smithsonian:3d_package:002b9110-8388-4820-80c9-6363030943ce",
+        "theme": "珊瑚、水母、鱼群、铜鲸鲨鳐",
+        "actual_min_m": [
+          12.706871032714844,
+          2.0587193965911865,
+          0.8579999804496765
+        ],
+        "actual_max_m": [
+          13.774332046508789,
+          3.208719491958618,
+          2.442289352416992
+        ],
+        "support_z_m": 0.86,
+        "support_embed_m": 0.002000019550323473,
+        "yaw_rad": 1.7671458676442586,
+        "scale": 32.377550278947574,
+        "collision": "exact_same_evaluated_visual_mesh",
+        "source_model_use_count_in_building": 1,
+        "floor": 1
+      },
+      {
+        "name": "Marine_F1_01",
+        "kind": "exhibit",
+        "source_key": "Smithsonian:3d_package:0dff6ec4-bbff-4231-b0aa-2cb00e6dd643",
+        "theme": "珊瑚、水母、鱼群、铜鲸鲨鳐",
+        "actual_min_m": [
+          10.815998077392578,
+          7.194058895111084,
+          0.8579999804496765
+        ],
+        "actual_max_m": [
+          11.633682250976562,
+          7.806337833404541,
+          2.507999897003174
+        ],
+        "support_z_m": 0.86,
+        "support_embed_m": 0.002000019550323473,
+        "yaw_rad": 2.1598449493429825,
+        "scale": 18.180156652304845,
+        "collision": "exact_same_evaluated_visual_mesh",
+        "source_model_use_count_in_building": 1,
+        "floor": 1
+      },
+      {
+        "name": "Marine_F1_02",
+        "kind": "exhibit",
+        "source_key": "Smithsonian:3d_package:2879dec0-1217-4f19-81e0-3c8dd915813f",
+        "theme": "珊瑚、水母、鱼群、铜鲸鲨鳐",
+        "actual_min_m": [
+          6.875339508056641,
+          10.770820617675781,
+          0.8579999804496765
+        ],
+        "actual_max_m": [
+          8.125057220458984,
+          11.67885971069336,
+          2.507999897003174
+        ],
+        "support_z_m": 0.86,
+        "support_embed_m": 0.002000019550323473,
+        "yaw_rad": 2.552544031041707,
+        "scale": 35.992568596743396,
+        "collision": "exact_same_evaluated_visual_mesh",
+        "source_model_use_count_in_building": 1,
+        "floor": 1
+      },
+      {
+        "name": "Marine_F1_03",
+        "kind": "exhibit",
+        "source_key": "Smithsonian:3d_package:4b9420ab-6c2d-432e-9140-ee866175dc87",
+        "theme": "珊瑚、水母、鱼群、铜鲸鲨鳐",
+        "actual_min_m": [
+          1.8587194681167603,
+          12.74260139465332,
+          0.8579999804496765
+        ],
+        "actual_max_m": [
+          3.408719539642334,
+          13.738600730895996,
+          1.8682589530944824
+        ],
+        "support_z_m": 0.86,
+        "support_embed_m": 0.002000019550323473,
+        "yaw_rad": 2.945243112740431,
+        "scale": 8.587045621771306,
+        "collision": "exact_same_evaluated_visual_mesh",
+        "source_model_use_count_in_building": 1,
+        "floor": 1
+      },
+      {
+        "name": "Marine_F1_04",
+        "kind": "exhibit",
+        "source_key": "Smithsonian:3d_package:4d6a5e3c-65a0-41e9-81d5-9f4116139471",
+        "theme": "珊瑚、水母、鱼群、铜鲸鲨鳐",
+        "actual_min_m": [
+          -2.8744215965270996,
+          13.183151245117188,
+          0.8579999804496765
+        ],
+        "actual_max_m": [
+          -2.393017292022705,
+          13.298051834106445,
+          2.507999897003174
+        ],
+        "support_z_m": 0.86,
+        "support_embed_m": 0.002000019550323473,
+        "yaw_rad": 3.3379421944391554,
+        "scale": 6.312948720872424,
+        "collision": "exact_same_evaluated_visual_mesh",
+        "source_model_use_count_in_building": 1,
+        "floor": 1
+      },
+      {
+        "name": "Marine_F1_05",
+        "kind": "exhibit",
+        "floor": 1,
+        "source_key": "procedural:M26:fish:5",
+        "support": "visible steel museum-specimen mount touching actual body underside",
+        "body_width_ratio": 0.13,
+        "theme": "marine fish"
+      },
+      {
+        "name": "Marine_F1_06",
+        "kind": "exhibit",
+        "floor": 1,
+        "source_key": "procedural:M26:fish:6",
+        "support": "visible steel museum-specimen mount touching actual body underside",
+        "body_width_ratio": 0.148,
+        "theme": "marine fish"
+      },
+      {
+        "name": "Marine_F1_07",
+        "kind": "exhibit",
+        "floor": 1,
+        "source_key": "procedural:M26:fish:7",
+        "support": "visible steel museum-specimen mount touching actual body underside",
+        "body_width_ratio": 0.166,
+        "theme": "marine fish"
+      },
+      {
+        "name": "Marine_F1_08",
+        "kind": "exhibit",
+        "floor": 1,
+        "source_key": "procedural:M26:fish:8",
+        "support": "visible steel museum-specimen mount touching actual body underside",
+        "body_width_ratio": 0.184,
+        "theme": "marine fish"
+      },
+      {
+        "name": "Marine_F1_09",
+        "kind": "exhibit",
+        "floor": 1,
+        "source_key": "procedural:M26:fish:9",
+        "support": "visible steel museum-specimen mount touching actual body underside",
+        "body_width_ratio": 0.202,
+        "theme": "marine fish"
+      },
+      {
+        "name": "Marine_F1_10",
+        "kind": "exhibit",
+        "floor": 1,
+        "source_key": "procedural:M26:jelly:0:10",
+        "support": "clear suspension to case roof",
+        "theme": "jellyfish"
+      },
+      {
+        "name": "Marine_F1_11",
+        "kind": "exhibit",
+        "floor": 1,
+        "source_key": "procedural:M26:jelly:0:11",
+        "support": "clear suspension to case roof",
+        "theme": "jellyfish"
+      },
+      {
+        "name": "Marine_F1_12",
+        "kind": "exhibit",
+        "floor": 1,
+        "source_key": "procedural:M26:jelly:0:12",
+        "support": "clear suspension to case roof",
+        "theme": "jellyfish"
+      },
+      {
+        "name": "Marine_F1_13",
+        "kind": "exhibit",
+        "source_key": "Poly Haven:bronze_whale_statue",
+        "theme": "whale bronze",
+        "actual_min_m": [
+          7.107840538024902,
+          -11.799839973449707,
+          0.8579999804496765
+        ],
+        "actual_max_m": [
+          7.892556190490723,
+          -10.649840354919434,
+          1.761362075805664
+        ],
+        "support_z_m": 0.86,
+        "support_embed_m": 0.002000019550323473,
+        "yaw_rad": 6.872233929727672,
+        "scale": 0.8419664114121111,
+        "collision": "exact_same_evaluated_visual_mesh",
+        "source_model_use_count_in_building": 1,
+        "floor": 1
+      },
+      {
+        "name": "Marine_F1_14",
+        "kind": "exhibit",
+        "source_key": "Poly Haven:bronze_shark_statue",
+        "theme": "shark bronze",
+        "actual_min_m": [
+          10.958480834960938,
+          -8.07519817352295,
+          0.8579999804496765
+        ],
+        "actual_max_m": [
+          11.491199493408203,
+          -6.925198554992676,
+          1.5112649202346802
+        ],
+        "support_z_m": 0.86,
+        "support_embed_m": 0.002000019550323473,
+        "yaw_rad": 7.264933011426397,
+        "scale": 1.5135818126033713,
+        "collision": "exact_same_evaluated_visual_mesh",
+        "source_model_use_count_in_building": 1,
+        "floor": 1
+      },
+      {
+        "name": "Marine_F1_15",
+        "kind": "exhibit",
+        "source_key": "Poly Haven:bronze_ray_statue",
+        "theme": "ray bronze",
+        "actual_min_m": [
+          12.480989456176758,
+          -3.208719491958618,
+          0.8579999804496765
+        ],
+        "actual_max_m": [
+          14.000213623046875,
+          -2.0587193965911865,
+          2.12416934967041
+        ],
+        "support_z_m": 0.86,
+        "support_embed_m": 0.002000019550323473,
+        "yaw_rad": 7.6576320931251205,
+        "scale": 2.1473318783173307,
+        "collision": "exact_same_evaluated_visual_mesh",
+        "source_model_use_count_in_building": 1,
+        "floor": 1
+      },
+      {
+        "name": "GalleryDoor_F2",
+        "kind": "internal_door",
+        "floor": 2,
+        "fixed_open_deg": 90,
+        "requested_opening_width_m": 2.4,
+        "center_xy_m": [
+          0,
+          16.0
+        ],
+        "direction_xy": [
+          1,
+          0
+        ],
+        "body_path_across_wall_normal_xy": [
+          0,
+          1
+        ],
+        "z_m": 5.12
+      },
+      {
+        "name": "Marine_F2_00",
+        "kind": "exhibit",
+        "source_key": "Smithsonian:3d_package:002b9110-8388-4820-80c9-6363030943ce",
+        "theme": "珊瑚、水母、鱼群、铜鲸鲨鳐",
+        "actual_min_m": [
+          12.706871032714844,
+          2.0587193965911865,
+          5.978000164031982
+        ],
+        "actual_max_m": [
+          13.774332046508789,
+          3.208719491958618,
+          7.562289237976074
+        ],
+        "support_z_m": 5.98,
+        "support_embed_m": 0.0019998359680180045,
+        "yaw_rad": 1.7671458676442586,
+        "scale": 32.377550278947574,
+        "collision": "exact_same_evaluated_visual_mesh",
+        "source_model_use_count_in_building": 2,
+        "floor": 2
+      },
+      {
+        "name": "Marine_F2_01",
+        "kind": "exhibit",
+        "source_key": "Smithsonian:3d_package:0dff6ec4-bbff-4231-b0aa-2cb00e6dd643",
+        "theme": "珊瑚、水母、鱼群、铜鲸鲨鳐",
+        "actual_min_m": [
+          10.815998077392578,
+          7.194058895111084,
+          5.978000164031982
+        ],
+        "actual_max_m": [
+          11.633682250976562,
+          7.806337833404541,
+          7.628000259399414
+        ],
+        "support_z_m": 5.98,
+        "support_embed_m": 0.0019998359680180045,
+        "yaw_rad": 2.1598449493429825,
+        "scale": 18.180156652304845,
+        "collision": "exact_same_evaluated_visual_mesh",
+        "source_model_use_count_in_building": 2,
+        "floor": 2
+      },
+      {
+        "name": "Marine_F2_02",
+        "kind": "exhibit",
+        "source_key": "Smithsonian:3d_package:2879dec0-1217-4f19-81e0-3c8dd915813f",
+        "theme": "珊瑚、水母、鱼群、铜鲸鲨鳐",
+        "actual_min_m": [
+          6.875339508056641,
+          10.770820617675781,
+          5.978000164031982
+        ],
+        "actual_max_m": [
+          8.125057220458984,
+          11.67885971069336,
+          7.628000259399414
+        ],
+        "support_z_m": 5.98,
+        "support_embed_m": 0.0019998359680180045,
+        "yaw_rad": 2.552544031041707,
+        "scale": 35.992568596743396,
+        "collision": "exact_same_evaluated_visual_mesh",
+        "source_model_use_count_in_building": 2,
+        "floor": 2
+      },
+      {
+        "name": "Marine_F2_03",
+        "kind": "exhibit",
+        "source_key": "Smithsonian:3d_package:4b9420ab-6c2d-432e-9140-ee866175dc87",
+        "theme": "珊瑚、水母、鱼群、铜鲸鲨鳐",
+        "actual_min_m": [
+          1.8587194681167603,
+          12.74260139465332,
+          5.978000164031982
+        ],
+        "actual_max_m": [
+          3.408719539642334,
+          13.738600730895996,
+          6.988259315490723
+        ],
+        "support_z_m": 5.98,
+        "support_embed_m": 0.0019998359680180045,
+        "yaw_rad": 2.945243112740431,
+        "scale": 8.587045621771306,
+        "collision": "exact_same_evaluated_visual_mesh",
+        "source_model_use_count_in_building": 2,
+        "floor": 2
+      },
+      {
+        "name": "Marine_F2_04",
+        "kind": "exhibit",
+        "source_key": "Smithsonian:3d_package:4d6a5e3c-65a0-41e9-81d5-9f4116139471",
+        "theme": "珊瑚、水母、鱼群、铜鲸鲨鳐",
+        "actual_min_m": [
+          -2.8744215965270996,
+          13.183151245117188,
+          5.978000164031982
+        ],
+        "actual_max_m": [
+          -2.393017292022705,
+          13.298051834106445,
+          7.628000259399414
+        ],
+        "support_z_m": 5.98,
+        "support_embed_m": 0.0019998359680180045,
+        "yaw_rad": 3.3379421944391554,
+        "scale": 6.312948720872424,
+        "collision": "exact_same_evaluated_visual_mesh",
+        "source_model_use_count_in_building": 2,
+        "floor": 2
+      },
+      {
+        "name": "Marine_F2_05",
+        "kind": "exhibit",
+        "floor": 2,
+        "source_key": "procedural:M26:fish:5",
+        "support": "visible steel museum-specimen mount touching actual body underside",
+        "body_width_ratio": 0.13,
+        "theme": "marine fish"
+      },
+      {
+        "name": "Marine_F2_06",
+        "kind": "exhibit",
+        "floor": 2,
+        "source_key": "procedural:M26:fish:6",
+        "support": "visible steel museum-specimen mount touching actual body underside",
+        "body_width_ratio": 0.148,
+        "theme": "marine fish"
+      },
+      {
+        "name": "Marine_F2_07",
+        "kind": "exhibit",
+        "floor": 2,
+        "source_key": "procedural:M26:fish:7",
+        "support": "visible steel museum-specimen mount touching actual body underside",
+        "body_width_ratio": 0.166,
+        "theme": "marine fish"
+      },
+      {
+        "name": "Marine_F2_08",
+        "kind": "exhibit",
+        "floor": 2,
+        "source_key": "procedural:M26:fish:8",
+        "support": "visible steel museum-specimen mount touching actual body underside",
+        "body_width_ratio": 0.184,
+        "theme": "marine fish"
+      },
+      {
+        "name": "Marine_F2_09",
+        "kind": "exhibit",
+        "floor": 2,
+        "source_key": "procedural:M26:fish:9",
+        "support": "visible steel museum-specimen mount touching actual body underside",
+        "body_width_ratio": 0.202,
+        "theme": "marine fish"
+      },
+      {
+        "name": "Marine_F2_10",
+        "kind": "exhibit",
+        "floor": 2,
+        "source_key": "procedural:M26:jelly:1:10",
+        "support": "clear suspension to case roof",
+        "theme": "jellyfish"
+      },
+      {
+        "name": "Marine_F2_11",
+        "kind": "exhibit",
+        "floor": 2,
+        "source_key": "procedural:M26:jelly:1:11",
+        "support": "clear suspension to case roof",
+        "theme": "jellyfish"
+      },
+      {
+        "name": "Marine_F2_12",
+        "kind": "exhibit",
+        "floor": 2,
+        "source_key": "procedural:M26:jelly:1:12",
+        "support": "clear suspension to case roof",
+        "theme": "jellyfish"
+      },
+      {
+        "name": "Marine_F2_13",
+        "kind": "exhibit",
+        "source_key": "Poly Haven:bronze_whale_statue",
+        "theme": "whale bronze",
+        "actual_min_m": [
+          7.107840538024902,
+          -11.799839973449707,
+          5.978000164031982
+        ],
+        "actual_max_m": [
+          7.892556190490723,
+          -10.649840354919434,
+          6.881361961364746
+        ],
+        "support_z_m": 5.98,
+        "support_embed_m": 0.0019998359680180045,
+        "yaw_rad": 6.872233929727672,
+        "scale": 0.8419664114121111,
+        "collision": "exact_same_evaluated_visual_mesh",
+        "source_model_use_count_in_building": 2,
+        "floor": 2
+      },
+      {
+        "name": "Marine_F2_14",
+        "kind": "exhibit",
+        "source_key": "Poly Haven:bronze_shark_statue",
+        "theme": "shark bronze",
+        "actual_min_m": [
+          10.958480834960938,
+          -8.07519817352295,
+          5.978000164031982
+        ],
+        "actual_max_m": [
+          11.491199493408203,
+          -6.925198554992676,
+          6.631265163421631
+        ],
+        "support_z_m": 5.98,
+        "support_embed_m": 0.0019998359680180045,
+        "yaw_rad": 7.264933011426397,
+        "scale": 1.5135818126033713,
+        "collision": "exact_same_evaluated_visual_mesh",
+        "source_model_use_count_in_building": 2,
+        "floor": 2
+      },
+      {
+        "name": "Marine_F2_15",
+        "kind": "exhibit",
+        "source_key": "Poly Haven:bronze_ray_statue",
+        "theme": "ray bronze",
+        "actual_min_m": [
+          12.480989456176758,
+          -3.208719491958618,
+          5.978000164031982
+        ],
+        "actual_max_m": [
+          14.000213623046875,
+          -2.0587193965911865,
+          7.24416971206665
+        ],
+        "support_z_m": 5.98,
+        "support_embed_m": 0.0019998359680180045,
+        "yaw_rad": 7.6576320931251205,
+        "scale": 2.1473318783173307,
+        "collision": "exact_same_evaluated_visual_mesh",
+        "source_model_use_count_in_building": 2,
+        "floor": 2
+      },
+      {
+        "name": "GalleryDoor_F3",
+        "kind": "internal_door",
+        "floor": 3,
+        "fixed_open_deg": 90,
+        "requested_opening_width_m": 2.4,
+        "center_xy_m": [
+          0,
+          16.0
+        ],
+        "direction_xy": [
+          1,
+          0
+        ],
+        "body_path_across_wall_normal_xy": [
+          0,
+          1
+        ],
+        "z_m": 10.24
+      },
+      {
+        "name": "Marine_F3_00",
+        "kind": "exhibit",
+        "source_key": "Smithsonian:3d_package:002b9110-8388-4820-80c9-6363030943ce",
+        "theme": "珊瑚、水母、鱼群、铜鲸鲨鳐",
+        "actual_min_m": [
+          12.706871032714844,
+          2.0587193965911865,
+          11.097999572753906
+        ],
+        "actual_max_m": [
+          13.774332046508789,
+          3.208719491958618,
+          12.682289123535156
+        ],
+        "support_z_m": 11.1,
+        "support_embed_m": 0.0020004272460933947,
+        "yaw_rad": 1.7671458676442586,
+        "scale": 32.377550278947574,
+        "collision": "exact_same_evaluated_visual_mesh",
+        "source_model_use_count_in_building": 3,
+        "floor": 3
+      },
+      {
+        "name": "Marine_F3_01",
+        "kind": "exhibit",
+        "source_key": "Smithsonian:3d_package:0dff6ec4-bbff-4231-b0aa-2cb00e6dd643",
+        "theme": "珊瑚、水母、鱼群、铜鲸鲨鳐",
+        "actual_min_m": [
+          10.815998077392578,
+          7.194058895111084,
+          11.097999572753906
+        ],
+        "actual_max_m": [
+          11.633682250976562,
+          7.806337833404541,
+          12.74799919128418
+        ],
+        "support_z_m": 11.1,
+        "support_embed_m": 0.0020004272460933947,
+        "yaw_rad": 2.1598449493429825,
+        "scale": 18.180156652304845,
+        "collision": "exact_same_evaluated_visual_mesh",
+        "source_model_use_count_in_building": 3,
+        "floor": 3
+      },
+      {
+        "name": "Marine_F3_02",
+        "kind": "exhibit",
+        "source_key": "Smithsonian:3d_package:2879dec0-1217-4f19-81e0-3c8dd915813f",
+        "theme": "珊瑚、水母、鱼群、铜鲸鲨鳐",
+        "actual_min_m": [
+          6.875339508056641,
+          10.770820617675781,
+          11.097999572753906
+        ],
+        "actual_max_m": [
+          8.125057220458984,
+          11.67885971069336,
+          12.74799919128418
+        ],
+        "support_z_m": 11.1,
+        "support_embed_m": 0.0020004272460933947,
+        "yaw_rad": 2.552544031041707,
+        "scale": 35.992568596743396,
+        "collision": "exact_same_evaluated_visual_mesh",
+        "source_model_use_count_in_building": 3,
+        "floor": 3
+      },
+      {
+        "name": "Marine_F3_03",
+        "kind": "exhibit",
+        "source_key": "Smithsonian:3d_package:4b9420ab-6c2d-432e-9140-ee866175dc87",
+        "theme": "珊瑚、水母、鱼群、铜鲸鲨鳐",
+        "actual_min_m": [
+          1.8587194681167603,
+          12.74260139465332,
+          11.097999572753906
+        ],
+        "actual_max_m": [
+          3.408719539642334,
+          13.738600730895996,
+          12.108258247375488
+        ],
+        "support_z_m": 11.1,
+        "support_embed_m": 0.0020004272460933947,
+        "yaw_rad": 2.945243112740431,
+        "scale": 8.587045621771306,
+        "collision": "exact_same_evaluated_visual_mesh",
+        "source_model_use_count_in_building": 3,
+        "floor": 3
+      },
+      {
+        "name": "Marine_F3_04",
+        "kind": "exhibit",
+        "source_key": "Smithsonian:3d_package:4d6a5e3c-65a0-41e9-81d5-9f4116139471",
+        "theme": "珊瑚、水母、鱼群、铜鲸鲨鳐",
+        "actual_min_m": [
+          -2.8744215965270996,
+          13.183151245117188,
+          11.097999572753906
+        ],
+        "actual_max_m": [
+          -2.393017292022705,
+          13.298051834106445,
+          12.74799919128418
+        ],
+        "support_z_m": 11.1,
+        "support_embed_m": 0.0020004272460933947,
+        "yaw_rad": 3.3379421944391554,
+        "scale": 6.312948720872424,
+        "collision": "exact_same_evaluated_visual_mesh",
+        "source_model_use_count_in_building": 3,
+        "floor": 3
+      },
+      {
+        "name": "Marine_F3_05",
+        "kind": "exhibit",
+        "floor": 3,
+        "source_key": "procedural:M26:fish:5",
+        "support": "visible steel museum-specimen mount touching actual body underside",
+        "body_width_ratio": 0.13,
+        "theme": "marine fish"
+      },
+      {
+        "name": "Marine_F3_06",
+        "kind": "exhibit",
+        "floor": 3,
+        "source_key": "procedural:M26:fish:6",
+        "support": "visible steel museum-specimen mount touching actual body underside",
+        "body_width_ratio": 0.148,
+        "theme": "marine fish"
+      },
+      {
+        "name": "Marine_F3_07",
+        "kind": "exhibit",
+        "floor": 3,
+        "source_key": "procedural:M26:fish:7",
+        "support": "visible steel museum-specimen mount touching actual body underside",
+        "body_width_ratio": 0.166,
+        "theme": "marine fish"
+      },
+      {
+        "name": "Marine_F3_08",
+        "kind": "exhibit",
+        "floor": 3,
+        "source_key": "procedural:M26:fish:8",
+        "support": "visible steel museum-specimen mount touching actual body underside",
+        "body_width_ratio": 0.184,
+        "theme": "marine fish"
+      },
+      {
+        "name": "Marine_F3_09",
+        "kind": "exhibit",
+        "floor": 3,
+        "source_key": "procedural:M26:fish:9",
+        "support": "visible steel museum-specimen mount touching actual body underside",
+        "body_width_ratio": 0.202,
+        "theme": "marine fish"
+      },
+      {
+        "name": "Marine_F3_10",
+        "kind": "exhibit",
+        "floor": 3,
+        "source_key": "procedural:M26:jelly:2:10",
+        "support": "clear suspension to case roof",
+        "theme": "jellyfish"
+      },
+      {
+        "name": "Marine_F3_11",
+        "kind": "exhibit",
+        "floor": 3,
+        "source_key": "procedural:M26:jelly:2:11",
+        "support": "clear suspension to case roof",
+        "theme": "jellyfish"
+      },
+      {
+        "name": "Marine_F3_12",
+        "kind": "exhibit",
+        "floor": 3,
+        "source_key": "procedural:M26:jelly:2:12",
+        "support": "clear suspension to case roof",
+        "theme": "jellyfish"
+      },
+      {
+        "name": "Marine_F3_13",
+        "kind": "exhibit",
+        "source_key": "Poly Haven:bronze_whale_statue",
+        "theme": "whale bronze",
+        "actual_min_m": [
+          7.107840538024902,
+          -11.799839973449707,
+          11.097999572753906
+        ],
+        "actual_max_m": [
+          7.892556190490723,
+          -10.649840354919434,
+          12.001361846923828
+        ],
+        "support_z_m": 11.1,
+        "support_embed_m": 0.0020004272460933947,
+        "yaw_rad": 6.872233929727672,
+        "scale": 0.8419664114121111,
+        "collision": "exact_same_evaluated_visual_mesh",
+        "source_model_use_count_in_building": 3,
+        "floor": 3
+      },
+      {
+        "name": "Marine_F3_14",
+        "kind": "exhibit",
+        "source_key": "Poly Haven:bronze_shark_statue",
+        "theme": "shark bronze",
+        "actual_min_m": [
+          10.958480834960938,
+          -8.07519817352295,
+          11.097999572753906
+        ],
+        "actual_max_m": [
+          11.491199493408203,
+          -6.925198554992676,
+          11.751264572143555
+        ],
+        "support_z_m": 11.1,
+        "support_embed_m": 0.0020004272460933947,
+        "yaw_rad": 7.264933011426397,
+        "scale": 1.5135818126033713,
+        "collision": "exact_same_evaluated_visual_mesh",
+        "source_model_use_count_in_building": 3,
+        "floor": 3
+      },
+      {
+        "name": "Marine_F3_15",
+        "kind": "exhibit",
+        "source_key": "Poly Haven:bronze_ray_statue",
+        "theme": "ray bronze",
+        "actual_min_m": [
+          12.480989456176758,
+          -3.208719491958618,
+          11.097999572753906
+        ],
+        "actual_max_m": [
+          14.000213623046875,
+          -2.0587193965911865,
+          12.364169120788574
+        ],
+        "support_z_m": 11.1,
+        "support_embed_m": 0.0020004272460933947,
+        "yaw_rad": 7.6576320931251205,
+        "scale": 2.1473318783173307,
+        "collision": "exact_same_evaluated_visual_mesh",
+        "source_model_use_count_in_building": 3,
+        "floor": 3
+      }
+    ],
+    "source_keys": [
+      "Poly Haven:bronze_ray_statue",
+      "Poly Haven:bronze_shark_statue",
+      "Poly Haven:bronze_whale_statue",
+      "Smithsonian:3d_package:002b9110-8388-4820-80c9-6363030943ce",
+      "Smithsonian:3d_package:0dff6ec4-bbff-4231-b0aa-2cb00e6dd643",
+      "Smithsonian:3d_package:2879dec0-1217-4f19-81e0-3c8dd915813f",
+      "Smithsonian:3d_package:4b9420ab-6c2d-432e-9140-ee866175dc87",
+      "Smithsonian:3d_package:4d6a5e3c-65a0-41e9-81d5-9f4116139471"
+    ],
+    "painting_ids": [],
+    "authoring_parent": "/cephfs/shared/yixing/outputs/museum29_20261107/buildings/M26/furnished_candidate005"
+  },
+  "lighting": {
+    "kelvin": 3800,
+    "blue_ambient": true,
+    "sun_sky_through_glass": false,
+    "spotlights_for_features": true,
+    "hdri_id": "kloofendal_48d_partly_cloudy_puresky"
+  },
+  "seed": 2026110725,
+  "checks": {
+    "C2_radius_m": 0.25,
+    "C2_height_m": 1.6,
+    "C2_min_reachable": 0.95,
+    "C3_gap_m": 0,
+    "C3_top_error_max_m": 0.01,
+    "C3_sample_m": 0.01,
+    "C3_negative_shift_m": 0.6,
+    "C4_height_m": 1.6,
+    "C4_min_fraction": 0.9
+  },
+  "authorization_sha256": "8f2849b912a2994609faf01e4282d22c53326854826b7f9f61597b04143769b1",
+  "applied_adjustments": [
+    "ADJUST_01"
+  ],
+  "library_manifest_sha256": "2ac3e509eff6640d577bf56773a114ab290af80178555fe82f51a63593afe585"
+}

@@ -1,0 +1,371 @@
+{
+  "schema": "Museum29SpecV1",
+  "building_id": "M07",
+  "short_name": "gothic_cloister",
+  "style": "哥特修道院博物馆",
+  "style_family": "gothic",
+  "floors": 3,
+  "plan": "带内院回廊",
+  "building_xy_m": [
+    42,
+    40
+  ],
+  "planned_floor_area_m2": 1536,
+  "floor_height_m": 5.28,
+  "stair": {
+    "form": "W",
+    "assembly_description": "石砌实心 / 磨损石踏面 / 石栏板",
+    "rise_count_per_floor": 33,
+    "rise_m": 0.16,
+    "floor_height_m": 5.28,
+    "going_m": 0.32,
+    "handrail_height_m": 0.95,
+    "edge_guard_height_m": 1.08,
+    "max_clear_rail_gap_m": 0.095,
+    "design_headroom_m": 2.1,
+    "precise_collision": true,
+    "max_flight_rises": 18,
+    "width_m": 1.6,
+    "well_min_m": 1.2,
+    "landing_depth_m": 1.6,
+    "flights_per_floor": 3
+  },
+  "materials": {
+    "ground_floor": {
+      "key": "worn_stone_slab",
+      "description": "磨损石板；内院鹅卵石",
+      "source_selection": "PENDING_LIBRARY_BINDING"
+    },
+    "walls_ceiling": {
+      "description": "石块墙，尖拱，木梁天花"
+    },
+    "stair": {
+      "description": "石砌实心 / 磨损石踏面 / 石栏板"
+    },
+    "all_shader": "UsdPreviewSurface_with_textures",
+    "max_texture_resolution": 2048
+  },
+  "exhibition": {
+    "theme": "宗教雕像、兵器、盾牌",
+    "min_exhibits_per_floor": 15,
+    "max_same_model_in_building": 3,
+    "painting_reuse_across_buildings": 0,
+    "clear_route_width_m": 1.2,
+    "asset_selection_status": "BOUND_CATEGORY_INVENTORY_NOT_AUTHORED_OR_ACCEPTED",
+    "items": [
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:gothic_statue",
+        "title": "gothic_statue",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/reused_museum_v1/polyhaven/gothic_statue/gothic_statue_1k.gltf",
+        "source_sha256": "eecbc67793a1e1efa1359d57fa497cb267fc7a4039823d3feecb6d0fcd2ad2db",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "religious",
+          "medieval"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:ornate_medieval_mace",
+        "title": "ornate_medieval_mace",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/reused_museum_v1/polyhaven/ornate_medieval_mace/ornate_medieval_mace_1k.gltf",
+        "source_sha256": "e79fb8f805fd52d5e5b33e94c290be2a2b195adc01d1b4bbafad815f55ada5de",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "weapon"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:antique_estoc",
+        "title": "antique_estoc",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/reused_museum_v1/polyhaven/antique_estoc/antique_estoc_1k.gltf",
+        "source_sha256": "8b89790cb865aade4992cafc6310292318528a6bad6b2445b194733a1ba924e8",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "weapon"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:antique_katana_01",
+        "title": "antique_katana_01",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/reused_museum_v1/polyhaven/antique_katana_01/antique_katana_01_1k.gltf",
+        "source_sha256": "e54b4d289b86c8f61b13bd5ea64da0d8ef9a5f6a8225726ea0777832a49ef881",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "weapon"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:kite_shield",
+        "title": "kite_shield",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/reused_museum_v1/polyhaven/kite_shield/kite_shield_1k.gltf",
+        "source_sha256": "269a2467ca0c52df75bc5272a5246e2bcaf6cfe128eecf801542696a7bfef61d",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "shield"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:lantern_chandelier_01",
+        "title": "lantern_chandelier_01",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/lantern_chandelier_01/lantern_chandelier_01_1k.gltf",
+        "source_sha256": "dc5480e03b82d12521fc46bdb73d4a0291641cfa0d4e4c0fe21f3a087bc69468",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "medieval"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:Lantern_01",
+        "title": "Lantern_01",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/Lantern_01/Lantern_01_1k.gltf",
+        "source_sha256": "d3f8d7a7afec96d55d3b7f20c3e329c909d19d37047902a826bc157f77c27819",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "medieval"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:GothicCabinet_01",
+        "title": "GothicCabinet_01",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/GothicCabinet_01/GothicCabinet_01_1k.gltf",
+        "source_sha256": "1b3506f78e263c66e90d4a84b9efa883fe0bb02a13ff8ead2b3a265024e045ce",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "medieval"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:brass_goblets",
+        "title": "brass_goblets",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/brass_goblets/brass_goblets_1k.gltf",
+        "source_sha256": "f78416e66ef2dc2de3aadfbd3bcd5da78902bc129764bc92bf62436cea6c4c65",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "medieval"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:gothic_coffee_table",
+        "title": "gothic_coffee_table",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/gothic_coffee_table/gothic_coffee_table_1k.gltf",
+        "source_sha256": "4368fa0a0d81cd8651bfcc8a6b48bf43576e1549770c1057eea71eea3d99d54b",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "medieval"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:GothicBed_01",
+        "title": "GothicBed_01",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/GothicBed_01/GothicBed_01_1k.gltf",
+        "source_sha256": "67df189dd3a645936827f3cc123fb9e97ca9d2201d1e4090762bf477cab82fc0",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "medieval"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:GothicCommode_01",
+        "title": "GothicCommode_01",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/GothicCommode_01/GothicCommode_01_1k.gltf",
+        "source_sha256": "290602a9d999ddff0073288758e162fbfbb69834c0cd93e83f6691996e94d775",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "medieval"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:treasure_chest",
+        "title": "treasure_chest",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/reused_museum_v1/polyhaven/treasure_chest/treasure_chest_1k.gltf",
+        "source_sha256": "5edb8df3a45d2709b9407102ba4dd63025adff401ed8eba939d0117a74dd8dd5",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "medieval"
+        ]
+      },
+      {
+        "kind": "model_candidate",
+        "source_key": "Poly Haven:brass_candleholders",
+        "title": "brass_candleholders",
+        "path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/reused_museum_v1/polyhaven/brass_candleholders/brass_candleholders_1k.gltf",
+        "source_sha256": "a1de928d1c7d2241f0727dbad2c9b52d49c3245e1f7dd0c45a9a6482bc5c9101",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "medieval"
+        ]
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:wooden_candlestick",
+        "title": "Wooden candlestick, medieval/liturgical display context",
+        "source_file_sha256": "fea19adb5e06397d654d089c2852e599bd313063fec38912089f19d607220ca3",
+        "source_path": "/cephfs/shared/yixing/outputs/museum29_20261107/library/ph_models/wooden_candlestick/wooden_candlestick_1k.gltf",
+        "license": "CC0-1.0",
+        "max_uses": 3,
+        "theme_categories": [
+          "medieval"
+        ]
+      }
+    ],
+    "source_keys": [
+      "Poly Haven:gothic_statue",
+      "Poly Haven:ornate_medieval_mace",
+      "Poly Haven:ornate_war_hammer",
+      "Poly Haven:antique_estoc",
+      "Poly Haven:kite_shield",
+      "Poly Haven:treasure_chest",
+      "Poly Haven:GothicCabinet_01",
+      "Poly Haven:GothicCommode_01",
+      "Poly Haven:gothic_coffee_table",
+      "Poly Haven:GothicBed_01",
+      "Poly Haven:brass_goblets",
+      "Poly Haven:brass_candleholders",
+      "Poly Haven:wooden_candlestick",
+      "Poly Haven:lantern_chandelier_01",
+      "Poly Haven:Lantern_01"
+    ],
+    "theme_source_groups": {
+      "religious": [
+        "Poly Haven:gothic_statue"
+      ],
+      "weapon": [
+        "Poly Haven:ornate_medieval_mace",
+        "Poly Haven:ornate_war_hammer",
+        "Poly Haven:antique_estoc"
+      ],
+      "shield": [
+        "Poly Haven:kite_shield"
+      ],
+      "medieval": [
+        "Poly Haven:treasure_chest",
+        "Poly Haven:GothicCabinet_01",
+        "Poly Haven:GothicCommode_01",
+        "Poly Haven:gothic_coffee_table",
+        "Poly Haven:GothicBed_01",
+        "Poly Haven:brass_goblets",
+        "Poly Haven:brass_candleholders",
+        "Poly Haven:wooden_candlestick",
+        "Poly Haven:lantern_chandelier_01",
+        "Poly Haven:Lantern_01"
+      ]
+    },
+    "binding_revision": "ADJUST07 explicit category coverage; source bytes/licences verified, each actual use<=3 still enforced by authoring",
+    "bound_source_count": 14,
+    "capacity_repair13": "Initial14 distinct cached models support at most42 placements for45required. Added existing CC0 wooden candlestick, now15distinct source-byte hashes and capacity45. No reuse limit or floor minimum relaxed.",
+    "gothic14_fixed_sequence": [
+      "Poly Haven:gothic_statue",
+      "Poly Haven:ornate_medieval_mace",
+      "Poly Haven:ornate_war_hammer",
+      "Poly Haven:antique_estoc",
+      "Poly Haven:kite_shield",
+      "Poly Haven:treasure_chest",
+      "Poly Haven:GothicCabinet_01",
+      "Poly Haven:GothicCommode_01",
+      "Poly Haven:gothic_coffee_table",
+      "Poly Haven:GothicBed_01",
+      "Poly Haven:brass_goblets",
+      "Poly Haven:brass_candleholders",
+      "Poly Haven:wooden_candlestick",
+      "Poly Haven:lantern_chandelier_01",
+      "Poly Haven:Lantern_01"
+    ]
+  },
+  "lighting": {
+    "kelvin": 3800,
+    "blue_ambient": false,
+    "sun_sky_through_glass": false,
+    "spotlights_for_features": true,
+    "hdri_id": "kloofendal_43d_clear_puresky"
+  },
+  "seed": 2026110706,
+  "checks": {
+    "C2_radius_m": 0.25,
+    "C2_height_m": 1.6,
+    "C2_min_reachable": 0.95,
+    "C3_gap_m": 0,
+    "C3_top_error_max_m": 0.01,
+    "C3_sample_m": 0.01,
+    "C3_negative_shift_m": 0.6,
+    "C4_height_m": 1.6,
+    "C4_min_fraction": 0.9
+  },
+  "authorization_sha256": "8f2849b912a2994609faf01e4282d22c53326854826b7f9f61597b04143769b1",
+  "library_manifest_sha256": "4cf142a80a2594a898fdf938d4828a942241d628e5468ecc877fe965d04bd6fa",
+  "library_manifest_snapshot": "/cephfs/shared/yixing/outputs/museum29_20261107/evidence/LIBRARY_MANIFEST_ADJUST07_BINDING_SNAPSHOT.json",
+  "applied_adjustments": [
+    "ADJUST_07_0545_PILOT_DECISION.md"
+  ],
+  "gothic14": {
+    "facade": "Actual pointed stone tracery windows; stepped buttresses; steep slate roofs, gables and bell turret; pointed entrance portal",
+    "ceiling": "Dark oak king-post/diagonal timber trusses supported by actual gallery ceiling regions, excluding stair headroom",
+    "display_supports": "Honed limestone plinths, dark oak supports and wood-framed glass weapon/candle/goblet cases",
+    "court": "Original courtyard retained with open ground-floor pointed cloister arcades and cobble court;02 actual courtyard view",
+    "status": "BOUND_NOT_BUILT"
+  },
+  "gothic16": {
+    "authorization": "ADJUST_16_1150.md",
+    "minimum_actual_window_height_m": 3.6,
+    "buttress_ground_projection_m": 0.95,
+    "buttress_stepped_projection_m": [
+      0.95,
+      0.75,
+      0.6
+    ],
+    "minimum_spire_height_over_actual_main_roof_m": 6.0,
+    "entrance_rose_radius_m": 1.1,
+    "entry_gable_half_width_m": 4.3,
+    "photo01_height_m": 6.0,
+    "photo01_width_fraction_range": [
+      0.6,
+      0.85
+    ],
+    "photo05_last_treads_and_joint": "centered from upper landing,05/11 same optics"
+  },
+  "gothic18": {
+    "authorization": "ADJUST_18_1240.md",
+    "tower_base_z_m": 0,
+    "actual_belfry_openings": 8,
+    "minimum_spire_clearance_over_real_ridge_m": 6.0,
+    "tread": "one monolithic slab per step, subtle2percent original grain with no masonry joints",
+    "tread_base_color_linear": [
+      0.65,
+      0.64,
+      0.59
+    ],
+    "riser_base_color_linear": [
+      0.34,
+      0.35,
+      0.32
+    ],
+    "actual_bevel_m": 0.005,
+    "camera05": "Actual upper floor oblique view back at last4–6 treads plus joint;11 exact same optics; actual review mandatory"
+  }
+}

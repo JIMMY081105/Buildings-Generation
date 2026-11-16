@@ -1,0 +1,433 @@
+{
+  "schema": "Museum29SpecV1",
+  "building_id": "M18",
+  "short_name": "deco_sculpture",
+  "style": "Art Deco 雕塑馆",
+  "style_family": "art_deco",
+  "floors": 3,
+  "plan": "长方形",
+  "building_xy_m": [
+    46,
+    32
+  ],
+  "planned_floor_area_m2": 1472,
+  "floor_height_m": 5.12,
+  "stair": {
+    "form": "I",
+    "assembly_description": "实心 / 黑色大理石踏面 / 黄铜几何花栏",
+    "rise_count_per_floor": 32,
+    "rise_m": 0.16,
+    "floor_height_m": 5.12,
+    "going_m": 0.32,
+    "handrail_height_m": 0.95,
+    "edge_guard_height_m": 1.08,
+    "max_clear_rail_gap_m": 0.095,
+    "design_headroom_m": 2.1,
+    "precise_collision": true,
+    "max_flight_rises": 18,
+    "central_width_m": 2.6,
+    "branch_width_m": 1.6,
+    "landing_depth_m": 1.8,
+    "both_exits_required": true,
+    "shared_solid_newels": true,
+    "cross_section_rail_intersection_check_required": true,
+    "negative_rail_reference": "stair_tests/attempt002/I/collision_only.usdc",
+    "branch_layout": "symmetric outward-splayed 45 degrees each, 90 degrees between arms",
+    "upper_groups_rotation_deg": 90,
+    "opening_xy_m": [
+      17.6,
+      17.6
+    ],
+    "upper_group_offset_xy_m": [
+      7.0,
+      0.0
+    ],
+    "upper_clearance_design_note": "Upper I rotates90deg and moves7m east, with actual floor-specific opening and floor2 entry support; transfer of M01 validated repair, still requires this building full fresh checks."
+  },
+  "materials": {
+    "ground_floor": {
+      "key": "onyx_blackmarble",
+      "description": "缟玛瑙 + 黑色大理石",
+      "source_selection": "PENDING_LIBRARY_BINDING"
+    },
+    "walls_ceiling": {
+      "description": "金色灰泥，阶梯形天花"
+    },
+    "stair": {
+      "description": "实心 / 黑色大理石踏面 / 黄铜几何花栏"
+    },
+    "all_shader": "UsdPreviewSurface_with_textures",
+    "max_texture_resolution": 2048
+  },
+  "exhibition": {
+    "theme": "雕塑、画作",
+    "min_exhibits_per_floor": 15,
+    "max_same_model_in_building": 3,
+    "painting_reuse_across_buildings": 0,
+    "clear_route_width_m": 1.2,
+    "asset_selection_status": "M0_BOUND_INVENTORY_PLACEMENT_REVIEW_PENDING",
+    "items": [
+      {
+        "source_key": "Cleveland Museum of Art:148860",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:148861",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:148862",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:148958",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:148961",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:148963",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:148966",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:148967",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:148969",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:148970",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:149029",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:149290",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:149396",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:149410",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:149421",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:149663",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:150016",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:150017",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:150021",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:150022",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:150023",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:150024",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:150028",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:150030",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:150035",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:150038",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:150051",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:150054",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:150055",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:150076",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:150077",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:150079",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:150082",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:150083",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:150088",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:150115",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:150118",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:150129",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:150389",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:150841",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:150851",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:151882",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:151904",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:153382",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:153388",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:153927",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:154283",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "source_key": "Cleveland Museum of Art:155626",
+        "kind": "painting",
+        "license": "CC0"
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:bronze_ray_statue",
+        "max_uses": 3
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:bronze_shark_statue",
+        "max_uses": 3
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:bronze_whale_statue",
+        "max_uses": 3
+      },
+      {
+        "kind": "model_inventory",
+        "source_key": "Poly Haven:concrete_cat_statue",
+        "max_uses": 3
+      }
+    ],
+    "painting_ids": [
+      "148860",
+      "148861",
+      "148862",
+      "148958",
+      "148961",
+      "148963",
+      "148966",
+      "148967",
+      "148969",
+      "148970",
+      "149029",
+      "149290",
+      "149396",
+      "149410",
+      "149421",
+      "149663",
+      "150016",
+      "150017",
+      "150021",
+      "150022",
+      "150023",
+      "150024",
+      "150028",
+      "150030",
+      "150035",
+      "150038",
+      "150051",
+      "150054",
+      "150055",
+      "150076",
+      "150077",
+      "150079",
+      "150082",
+      "150083",
+      "150088",
+      "150115",
+      "150118",
+      "150129",
+      "150389",
+      "150841",
+      "150851",
+      "151882",
+      "151904",
+      "153382",
+      "153388",
+      "153927",
+      "154283",
+      "155626"
+    ],
+    "source_keys": [
+      "Poly Haven:bronze_ray_statue",
+      "Poly Haven:bronze_shark_statue",
+      "Poly Haven:bronze_whale_statue",
+      "Poly Haven:concrete_cat_statue",
+      "Poly Haven:chinese_chandelier",
+      "Poly Haven:lantern_chandelier_01"
+    ]
+  },
+  "lighting": {
+    "kelvin": 2900,
+    "blue_ambient": false,
+    "sun_sky_through_glass": false,
+    "spotlights_for_features": true,
+    "hdri_id": "rosendal_park_sunset_puresky"
+  },
+  "seed": 2026110717,
+  "checks": {
+    "C2_radius_m": 0.25,
+    "C2_height_m": 1.6,
+    "C2_min_reachable": 0.95,
+    "C3_gap_m": 0,
+    "C3_top_error_max_m": 0.01,
+    "C3_sample_m": 0.01,
+    "C3_negative_shift_m": 0.6,
+    "C4_height_m": 1.6,
+    "C4_min_fraction": 0.9
+  },
+  "authorization_sha256": "8f2849b912a2994609faf01e4282d22c53326854826b7f9f61597b04143769b1",
+  "applied_adjustments": [
+    "ADJUST_01"
+  ],
+  "library_manifest_sha256": "2ac3e509eff6640d577bf56773a114ab290af80178555fe82f51a63593afe585",
+  "deco12": {
+    "main_door_height_m": 3.95,
+    "facade": "cream limestone, fluted ribs, continuous window bands, central4.62m ziggurat crown, recessed portal, raised fan relief",
+    "floor": "single8m hall medallion; calm elsewhere with6m fine metal grid",
+    "wainscot": "1.12m vertical walnut veneer; light upper walls and stepped metal cornice",
+    "palette": "silver and blue",
+    "status": "BOUND_NOT_BUILT"
+  },
+  "deco24": {
+    "revision": "ACTUAL_M18_NATIVE_F1_STYLE_FAILURE_REBUILD",
+    "features": [
+      "walnut veneer exhibit bases",
+      "closed exact protective brass rods and geometric diamonds",
+      "4 real stepped cove bands and8 powered hidden warm upward lights per floor",
+      "large metal sunburst above real entrance on dark backing",
+      "M18 golden plaster and source black marble preserved"
+    ],
+    "validation": "Fresh all C1-C5, source oldM18 negative and all12 final native actual review required. Not a camera-only or material-only physics reuse."
+  }
+}

@@ -50,3 +50,18 @@ Generation snapshot (generation/)
     NVIDIA Isaac Sim                       PhysX validation and RTX rendering.
     NVIDIA ProtoMotions (Apache-2.0)       simulator geometry modules, imported
         at run time and not included in generation/.
+
+--------------------------------------------------------------------------------
+Third-party assets referenced by the generation snapshot (not redistributed)
+
+  The generators download these at run time; docs/assets.md lists every asset
+  with its source URL and licence.
+    NVIDIA simready-assets       https://huggingface.co/datasets/nvidia/simready-assets
+        CC-BY-4.0.  Attribution: "NVIDIA simready-assets", NVIDIA.  Used by
+        Factory80; project changes are unit/axis normalisation, ground
+        alignment, static collision proxies and disabled dynamic physics.
+    NVIDIA Industrial, Warehouse and USD Explorer asset packs
+        NVIDIA Omniverse licence terms; used for research and not redistributed.
+    Poly Haven (CC0-1.0), ambientCG (CC0-1.0), Smithsonian 3D Digitization
+        open access (CC0-1.0), Cleveland Museum of Art open access (CC0-1.0)
+        textures, HDRIs, scanned objects and artworks used by Museum29.

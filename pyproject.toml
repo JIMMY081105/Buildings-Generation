@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "buildingsgen"
-version = "0.1.0"
+version = "0.2.0"
 description = "Generate, connect and accept multi-storey simulation-ready buildings of any type"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -65,3 +65,8 @@ select = ["E", "F", "W", "I", "UP", "B", "SIM"]
 # dataclass.  The rule exists for mutable defaults; an immutable one is the
 # clearest way to say "the pinned body proxy unless you say otherwise".
 ignore = ["B905", "B008"]
+
+[tool.ruff.lint.per-file-ignores]
+# Emits Markdown table rows, which cannot wrap; splitting them in source only
+# hides the row a reader is trying to match against docs/assets.md.
+"tools/build_asset_catalog.py" = ["E501"]
