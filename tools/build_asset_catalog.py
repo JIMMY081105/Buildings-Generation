@@ -46,6 +46,15 @@ SOURCE_HOME = {
 }
 
 
+MOLMO_OBJECTS = (
+    "https://huggingface.co/datasets/allenai/molmospaces/tree/main/isaac/objects/objaverse/20260128"
+)
+MOLMO_INDEX = (
+    "https://huggingface.co/datasets/allenai/molmospaces/resolve/main"
+    "/isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet"
+)
+
+
 def _cell(text: object) -> str:
     return str(text if text not in (None, "") else "-").replace("|", "\\|").replace("\n", " ")
 
@@ -154,11 +163,29 @@ def factory_section(data: dict) -> list[str]:
         "",
         "</details>",
         "",
+        "### Downloading the MolmoSpaces objects",
+        "",
+        "Each MolmoSpaces object is one zstd-compressed tar member inside a shard of the",
+        f"[MolmoSpaces Objaverse objects]({MOLMO_OBJECTS}) (version 20260128). The table below gives,",
+        "for every object, its shard and byte range, so one HTTP range request fetches only that",
+        "object:",
+        "",
+        "```bash",
+        'curl -L -H "Range: bytes=<first>-<last>" -o <package> <shard URL>',
+        "tar --zstd -xf <package>",
+        "```",
+        "",
+        "The shard, offset and size of each package come from the dataset's own index",
+        f"[`pkgs-00000-of-00001.parquet`]({MOLMO_INDEX}); every range",
+        "was checked to start with a zstd frame. The *Original* column credits the creator of the",
+        "Objaverse source model, as its CC-BY licence requires. The NVIDIA pack assets are named as",
+        "in their pack; download the pack once and resolve them by name.",
+        "",
         "<details>",
         f"<summary><b>Other industrial-hall assets</b> - all {len(confirmed)} user-confirmed assets</summary>",
         "",
-        "| Asset | Source | Class | Licence record |",
-        "|---|---|---|---|",
+        "| Asset | Source | Class | Licence record | Download (MolmoSpaces shard, bytes) | Original |",
+        "|---|---|---|---|---|---|",
     ]
     for a in sorted(confirmed, key=lambda a: (a["source"], a["asset_id"])):
         lic = (
@@ -166,9 +193,20 @@ def factory_section(data: dict) -> list[str]:
             or a.get("license_code_from_metadata")
             or a.get("license_bucket")
         )
+        dl = a.get("molmospaces_download")
+        if dl:
+            last = dl["offset"] + dl["size"] - 1
+            shard = dl["shard_url"].rsplit("/", 1)[-1]
+            download = f"[{shard}]({dl['shard_url']}) `{dl['offset']}-{last}`"
+        else:
+            download = "-"
+        original = a.get("asset_original_url")
+        credit = _link("Sketchfab", original) if original else "-"
+        if original and a.get("creator"):
+            credit += f" ({_cell(a['creator'])})"
         out.append(
-            f"| {_link(a['asset_id'], a.get('asset_original_url'))} | {_cell(a['source'])} | "
-            f"{_cell(a.get('user_class'))} | {_cell(lic)} |"
+            f"| {_cell(a['asset_id'])} | {_cell(a['source'])} | "
+            f"{_cell(a.get('user_class'))} | {_cell(lic)} | {download} | {credit} |"
         )
     out += ["", "</details>", ""]
     return out

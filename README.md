@@ -596,7 +596,8 @@ Reading order: [docs/architecture.md](docs/architecture.md) for the library,
 
 No third-party asset is redistributed; the generators download each one at run
 time. [docs/assets.md](docs/assets.md) lists every asset with its source URL
-and licence.
+and licence; for each MolmoSpaces object it also gives the Hugging Face shard
+and byte range, so one request fetches exactly that object.
 
 | Source | Used in | Count | Licence |
 |---|---|---:|---|

@@ -645,173 +645,191 @@ collision proxies, original dynamic physics disabled.
 
 </details>
 
+### Downloading the MolmoSpaces objects
+
+Each MolmoSpaces object is one zstd-compressed tar member inside a shard of the
+[MolmoSpaces Objaverse objects](https://huggingface.co/datasets/allenai/molmospaces/tree/main/isaac/objects/objaverse/20260128) (version 20260128). The table below gives,
+for every object, its shard and byte range, so one HTTP range request fetches only that
+object:
+
+```bash
+curl -L -H "Range: bytes=<first>-<last>" -o <package> <shard URL>
+tar --zstd -xf <package>
+```
+
+The shard, offset and size of each package come from the dataset's own index
+[`pkgs-00000-of-00001.parquet`](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/pkgs-00000-of-00001.parquet); every range
+was checked to start with a zstd frame. The *Original* column credits the creator of the
+Objaverse source model, as its CC-BY licence requires. The NVIDIA pack assets are named as
+in their pack; download the pack once and resolve them by name.
+
 <details>
 <summary><b>Other industrial-hall assets</b> - all 162 user-confirmed assets</summary>
 
-| Asset | Source | Class | Licence record |
-|---|---|---|---|
-| [M_01858d5edc344ff4ab11d0edce645223](https://sketchfab.com/3d-models/sci-fi-machine-replicator-01858d5edc344ff4ab11d0edce645223) | MolmoSpaces | MACHINE | by |
-| [M_05ace13ccbd048eb9c6c55ac3c3d8501](https://sketchfab.com/3d-models/sci-fi-computer-console-05ace13ccbd048eb9c6c55ac3c3d8501) | MolmoSpaces | DRESSING | by |
-| [M_08d3e2e9b7dd4b2db6bb98ccc8b36f32](https://sketchfab.com/3d-models/low-poly-robot-arm-animated-08d3e2e9b7dd4b2db6bb98ccc8b36f32) | MolmoSpaces | MACHINE | by |
-| [M_100bb912e7b345348bd34cfbe6a488e9](https://sketchfab.com/3d-models/generatore-elettrico-100bb912e7b345348bd34cfbe6a488e9) | MolmoSpaces | MACHINE | by |
-| [M_11b2bf7ec7824a32b5fe25e2c7eefd42](https://sketchfab.com/3d-models/hl2-inspired-laundry-machine-1-11b2bf7ec7824a32b5fe25e2c7eefd42) | MolmoSpaces | STORAGE | by |
-| [M_129fb7392430401bbe0bc180c26f3044](https://sketchfab.com/3d-models/industrial-robot-129fb7392430401bbe0bc180c26f3044) | MolmoSpaces | MACHINE | by |
-| [M_161218a97ad64e609fc59f143bb67c88](https://sketchfab.com/3d-models/emilcin-abduction-ufo-by-vegan-pete-161218a97ad64e609fc59f143bb67c88) | MolmoSpaces | STORAGE | by |
-| [M_1bf2ac5bf98b494aa0976698a1c635ee](https://sketchfab.com/3d-models/transmissor-scifi-1bf2ac5bf98b494aa0976698a1c635ee) | MolmoSpaces | DRESSING | by |
-| [M_1cdd1db557b8428892af4773bdada913](https://sketchfab.com/3d-models/spaceship-corridor-1cdd1db557b8428892af4773bdada913) | MolmoSpaces | DRESSING | by |
-| [M_21a79117cd9e476e8bb49f92517495df](https://sketchfab.com/3d-models/robot-arm-21a79117cd9e476e8bb49f92517495df) | MolmoSpaces | MACHINE | by |
-| [M_2270059391764e93aa01ad5d6a3000c1](https://sketchfab.com/3d-models/widowx-mkii-robotic-arm-2270059391764e93aa01ad5d6a3000c1) | MolmoSpaces | MACHINE | by |
-| [M_23c0cfc4e06b4bd9a6b9b7d1b77fc37c](https://sketchfab.com/3d-models/oranzeriaxml-23c0cfc4e06b4bd9a6b9b7d1b77fc37c) | MolmoSpaces | DRESSING | by |
-| [M_2bfb7b6c9bfd450884a6eaa82410a840](https://api.sketchfab.com/v3/models/2bfb7b6c9bfd450884a6eaa82410a840) | MolmoSpaces | DRESSING | by |
-| [M_2c7c0f0b03314a7591bcdba960ce4306](https://sketchfab.com/3d-models/irizar-agw-1-c-compact-version-2c7c0f0b03314a7591bcdba960ce4306) | MolmoSpaces | MACHINE | by |
-| [M_2ccb9ed45a734a639d0ccfc6a1ebf6c4](https://sketchfab.com/3d-models/rectificador-de-vapor-de-mercurio-2ccb9ed45a734a639d0ccfc6a1ebf6c4) | MolmoSpaces | DRESSING | by |
-| [M_3191125f65534f54820145e1bb64c74a](https://sketchfab.com/3d-models/haas-umc-750-3191125f65534f54820145e1bb64c74a) | MolmoSpaces | MACHINE | by |
-| [M_347d16f0dab4421d835492adb4956d05](https://sketchfab.com/3d-models/water-capsule-347d16f0dab4421d835492adb4956d05) | MolmoSpaces | MACHINE | by |
-| [M_37d55c97fa644126874452996f73ec84](https://sketchfab.com/3d-models/encartonadora-37d55c97fa644126874452996f73ec84) | MolmoSpaces | MACHINE | by |
-| [M_39b1c722361f419380919f67a82dc681](https://sketchfab.com/3d-models/irb1600idaw-39b1c722361f419380919f67a82dc681) | MolmoSpaces | MACHINE | by |
-| [M_3af0451021dd4e3ca4d4c30d4ffd60dc](https://sketchfab.com/3d-models/220525-apartment-3af0451021dd4e3ca4d4c30d4ffd60dc) | MolmoSpaces | STORAGE | by |
-| [M_3cc9a6b649194a2ba0c698dc345e2205](https://sketchfab.com/3d-models/helicarrier-bay-from-reference-practical-work-3cc9a6b649194a2ba0c698dc345e2205) | MolmoSpaces | DRESSING | by |
-| [M_48028077e5b04abbae54d6f88cc9b396](https://api.sketchfab.com/v3/models/48028077e5b04abbae54d6f88cc9b396) | MolmoSpaces | DRESSING | by |
-| [M_4843c9a5c0414be38c2d019d80cdaf15](https://sketchfab.com/3d-models/estrutural-portico-4843c9a5c0414be38c2d019d80cdaf15) | MolmoSpaces | DRESSING | by |
-| [M_5037b5bea4bf4bd7bf53d581d478bd90](https://sketchfab.com/3d-models/industrial-toolbox-5037b5bea4bf4bd7bf53d581d478bd90) | MolmoSpaces | DRESSING | by |
-| [M_504fd8dba7c44de3afb819f4a883ccaa](https://sketchfab.com/3d-models/robotic-arm-504fd8dba7c44de3afb819f4a883ccaa) | MolmoSpaces | MACHINE | by |
-| [M_50b265158cc545e4803a7f3209a103b9](https://sketchfab.com/3d-models/aus-tinyh-8mv2-25-09-20-50b265158cc545e4803a7f3209a103b9) | MolmoSpaces | DRESSING | by |
-| [M_5a9434fade0d47dca6afd6adedbbba70](https://sketchfab.com/3d-models/tp-2-music-box-5a9434fade0d47dca6afd6adedbbba70) | MolmoSpaces | MACHINE | by |
-| [M_5bb667c4aedd4d4a988aa7d142190adc](https://sketchfab.com/3d-models/galpao-comercial-5bb667c4aedd4d4a988aa7d142190adc) | MolmoSpaces | DRESSING | by |
-| [M_5bddb9b303ad4c448421aea21a1f6311](https://sketchfab.com/3d-models/big-ol-generator-5bddb9b303ad4c448421aea21a1f6311) | MolmoSpaces | DRESSING | by |
-| [M_5c7ba4bab60d48f5803bedd75dbc07f6](https://sketchfab.com/3d-models/lr86-3bd-plw-80-60-15-hoh-103-5c7ba4bab60d48f5803bedd75dbc07f6) | MolmoSpaces | STORAGE | by |
-| [M_64bf235933084a62a3bf7001b9d8da00](https://sketchfab.com/3d-models/animation-robot-11-64bf235933084a62a3bf7001b9d8da00) | MolmoSpaces | MACHINE | by |
-| [M_65df992aac564d0d8718788967842221](https://sketchfab.com/3d-models/r-shed-65df992aac564d0d8718788967842221) | MolmoSpaces | DRESSING | by |
-| [M_686634679a644787b2de748e8c28b747](https://sketchfab.com/3d-models/scp-control-room-686634679a644787b2de748e8c28b747) | MolmoSpaces | MACHINE | by |
-| [M_771fcf3c9d7b450b9eaa763902b41622](https://sketchfab.com/3d-models/rust-pipe-tank-771fcf3c9d7b450b9eaa763902b41622) | MolmoSpaces | DRESSING | by |
-| [M_77326c45609b48c687ac76c611406c25](https://sketchfab.com/3d-models/broken-bridge-77326c45609b48c687ac76c611406c25) | MolmoSpaces | DRESSING | by |
-| [M_7751621b3aa64f53bc54e0d397b82b87](https://sketchfab.com/3d-models/cama-necropsia-7751621b3aa64f53bc54e0d397b82b87) | MolmoSpaces | DRESSING | by |
-| [M_78895d416b2a41be9f700f92a12d79ec](https://sketchfab.com/3d-models/armario-mecanico-78895d416b2a41be9f700f92a12d79ec) | MolmoSpaces | DRESSING | by |
-| [M_80ae6fd2e8f24415be5e1680237e73ce](https://sketchfab.com/3d-models/halo-4-cryo-chamber-diorama-80ae6fd2e8f24415be5e1680237e73ce) | MolmoSpaces | DRESSING | by |
-| [M_8412cac778034473ac18deeaafd01779](https://sketchfab.com/3d-models/generator-8412cac778034473ac18deeaafd01779) | MolmoSpaces | MACHINE | by |
-| [M_86caf03649104a5ba7a6443ac0663a0a](https://sketchfab.com/3d-models/brick-maker-86caf03649104a5ba7a6443ac0663a0a) | MolmoSpaces | MACHINE | by |
-| [M_89d9b1875b7b49b08bec7b697f8b59f4](https://sketchfab.com/3d-models/p07701-d02-89d9b1875b7b49b08bec7b697f8b59f4) | MolmoSpaces | STORAGE | by |
-| [M_8c66093ab50d4f54be665b6f0699e2ef](https://sketchfab.com/3d-models/water-tank-8c66093ab50d4f54be665b6f0699e2ef) | MolmoSpaces | STORAGE | by |
-| [M_8e80addcf52f4880b9414c3fadc3c850](https://api.sketchfab.com/v3/models/8e80addcf52f4880b9414c3fadc3c850) | MolmoSpaces | MACHINE | by |
-| [M_90dceee838b74104b2bdae09255e40a3](https://sketchfab.com/3d-models/cabinado3d-90dceee838b74104b2bdae09255e40a3) | MolmoSpaces | MACHINE | by |
-| [M_933646cfa22649abaa1922d34bdc41b4](https://sketchfab.com/3d-models/lite450-933646cfa22649abaa1922d34bdc41b4) | MolmoSpaces | MACHINE | by |
-| [M_9920b87c6cdd4e08a28976e6ba366b3b](https://sketchfab.com/3d-models/industrial-gas-cylinder-machine-9920b87c6cdd4e08a28976e6ba366b3b) | MolmoSpaces | MACHINE | by |
-| [M_9d0d63528aa249af96f103501bf94e40](https://sketchfab.com/3d-models/kuka-mimic-9d0d63528aa249af96f103501bf94e40) | MolmoSpaces | MACHINE | by |
-| [M_9df6da13eea144a9ba8f00026887ac53](https://sketchfab.com/3d-models/robot-arm-9df6da13eea144a9ba8f00026887ac53) | MolmoSpaces | MACHINE | by |
-| [M_aa6923a3a31340c4a3ea8f65ee45fd68](https://sketchfab.com/3d-models/generator-with-annotations-aa6923a3a31340c4a3ea8f65ee45fd68) | MolmoSpaces | DRESSING | by |
-| [M_afb2b82a934f441ba5f71a90af7823ed](https://sketchfab.com/3d-models/automaton-texturing-afb2b82a934f441ba5f71a90af7823ed) | MolmoSpaces | MACHINE | by |
-| [M_b18e62dda2e04e97a95312bb6a284f1c](https://sketchfab.com/3d-models/gpu-aiport-ground-power-unit-b18e62dda2e04e97a95312bb6a284f1c) | MolmoSpaces | DRESSING | by |
-| [M_bd5d5a1fdbc7470fab575738d1741a3d](https://sketchfab.com/3d-models/cryotube-bd5d5a1fdbc7470fab575738d1741a3d) | MolmoSpaces | MACHINE | by |
-| [M_bd738722878c4ba4bbe4fa1e4ba2b431](https://sketchfab.com/3d-models/manipulator-bd738722878c4ba4bbe4fa1e4ba2b431) | MolmoSpaces | MACHINE | by |
-| [M_c07a679eadb64c15b26cb063b8a736ae](https://sketchfab.com/3d-models/generator-trailer-c07a679eadb64c15b26cb063b8a736ae) | MolmoSpaces | MACHINE | by |
-| [M_c1193111c2e449939db3c592daac6654](https://sketchfab.com/3d-models/haas-tm-2p-c1193111c2e449939db3c592daac6654) | MolmoSpaces | MACHINE | by |
-| [M_c9e685c4affd40c9ab4ce2fea549b7ce](https://sketchfab.com/3d-models/robotic-arm-c9e685c4affd40c9ab4ce2fea549b7ce) | MolmoSpaces | MACHINE | by |
-| [M_cfc37d0aff454f29a27c8ab3325f445b](https://sketchfab.com/3d-models/rusted-industrial-water-tank-cfc37d0aff454f29a27c8ab3325f445b) | MolmoSpaces | DRESSING | by |
-| [M_d0b95c089b814984934af45c1b8223aa](https://sketchfab.com/3d-models/industrial-barrel-big-d0b95c089b814984934af45c1b8223aa) | MolmoSpaces | STORAGE | by |
-| [M_d225389de8c24d1c9cf7102c740eccf9](https://sketchfab.com/3d-models/game-asset-generator-d225389de8c24d1c9cf7102c740eccf9) | MolmoSpaces | MACHINE | by |
-| [M_d7a5f83635e44554b78e17ddeef94247](https://sketchfab.com/3d-models/heating-machine-d7a5f83635e44554b78e17ddeef94247) | MolmoSpaces | MACHINE | by |
-| [M_d92b9b0aad144887b4d25479902b6f7b](https://sketchfab.com/3d-models/caja-d92b9b0aad144887b4d25479902b6f7b) | MolmoSpaces | STORAGE | by |
-| [M_da23635737e44da6a57a7323637e9bde](https://sketchfab.com/3d-models/3d-estrutural-casa-fazenda-da23635737e44da6a57a7323637e9bde) | MolmoSpaces | STORAGE | by |
-| [M_e26be8de4f134c1bb9d8eafab0ad8720](https://sketchfab.com/3d-models/test-robot-1-e26be8de4f134c1bb9d8eafab0ad8720) | MolmoSpaces | MACHINE | by |
-| [M_e5e6703e7788417e9761eb4dc516de5a](https://api.sketchfab.com/v3/models/e5e6703e7788417e9761eb4dc516de5a) | MolmoSpaces | MACHINE | by |
-| [M_e8e4671463fd4bb68fdf3495debb5380](https://sketchfab.com/3d-models/robot-manufacturing-arm-e8e4671463fd4bb68fdf3495debb5380) | MolmoSpaces | MACHINE | by |
-| [M_ee5316d1e26640dcacdb0c9813eadc3f](https://sketchfab.com/3d-models/electric-meter-ee5316d1e26640dcacdb0c9813eadc3f) | MolmoSpaces | DRESSING | by |
-| [M_f07c0b4e77454cd6acca537a8f4187c7](https://sketchfab.com/3d-models/penumatic-mechanism-f07c0b4e77454cd6acca537a8f4187c7) | MolmoSpaces | MACHINE | by |
-| [M_f09302a50d6e47198f533dfd6743dce8](https://sketchfab.com/3d-models/aoi-v6-f09302a50d6e47198f533dfd6743dce8) | MolmoSpaces | DRESSING | by |
-| [M_f2500abd8bbb4c12905b8e00cf2499a8](https://sketchfab.com/3d-models/tp2-mechanic-object-nand136-n01-va-langevin-f2500abd8bbb4c12905b8e00cf2499a8) | MolmoSpaces | MACHINE | by |
-| [M_f85f78194e69404888f8c6c40207c819](https://api.sketchfab.com/v3/models/f85f78194e69404888f8c6c40207c819) | MolmoSpaces | STORAGE | by |
-| [M_fbf142c588cc4b57a143e524f5a0bc11](https://sketchfab.com/3d-models/kuka-fbf142c588cc4b57a143e524f5a0bc11) | MolmoSpaces | MACHINE | by |
-| [M_fea6b5de87a343fb9e453c39f5cf1696](https://sketchfab.com/3d-models/ensacadora-fea6b5de87a343fb9e453c39f5cf1696) | MolmoSpaces | MACHINE | by |
-| N_I_Cardbox_A1 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_Cardbox_A2 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_Cardbox_A3 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_Cardbox_B1 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_Cardbox_B2 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_Cardbox_B3 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_Cardbox_C1 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_Cardbox_C2 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_Cardbox_C3 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_Cardbox_D1 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_Cardbox_D3 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_CornerRail_A1 | NVIDIA Industrial Assets Pack | STRUCTURE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_MetalFencing_A1 | NVIDIA Industrial Assets Pack | DRESSING | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_MetalFencing_A2 | NVIDIA Industrial Assets Pack | DRESSING | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_MetalFencing_A3 | NVIDIA Industrial Assets Pack | DRESSING | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_Pallet_A1 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_Pallet_B1 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_Pallet_C1 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_Pallets_A1 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_Pallets_A2 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_Pallets_A3 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_Pallets_A4 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_Pallets_A5 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_RackLarge_A2 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_RackLarge_A3 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_RackLarge_A4 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_RackLarge_A5 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_RackLarge_A6 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_RackLarge_A7 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_RackLarge_A9 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_RackLongEmpty_A1 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_RackLongEmpty_A2 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_RackLong_A1 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_RackLong_A2 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_RackLong_A3 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_RackLong_A4 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_RackLong_A5 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_RackLong_A6 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_RackLong_A7 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_RackLong_A8 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_RackLong_A9 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_RackSmallEmpty_A1 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_RackSmallEmpty_A2 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_RackSmall_A1 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_RackSmall_A2 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_RackSmall_A3 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_RackSmall_A4 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_RackSmall_A5 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_RackSmall_A6 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_RackSmall_A7 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_RackSmall_A8 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_RackSmall_A9 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_RampLong_A1 | NVIDIA Industrial Assets Pack | DRESSING | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_RampShort_A1 | NVIDIA Industrial Assets Pack | DRESSING | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_WarehousePile_A2 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_WarehousePile_A3 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_WarehousePile_A4 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_WarehousePile_A5 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_WarehousePile_A6 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_WarehousePile_A7 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_WoodenCrate_A1 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_WoodenCrate_A2 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_WoodenCrate_B1 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_WoodenCrate_B2 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_I_WoodenCrate_C1 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_E_KukaArm1 | NVIDIA USD Explorer Sample | MACHINE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_E_Safety_Gate | NVIDIA USD Explorer Sample | DRESSING | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_E_ground_junction_box | NVIDIA USD Explorer Sample | DRESSING | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_E_hood | NVIDIA USD Explorer Sample | DRESSING | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_E_junctionbox | NVIDIA USD Explorer Sample | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_E_s_pedestal | NVIDIA USD Explorer Sample | DRESSING | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_E_vehicle_hanger | NVIDIA USD Explorer Sample | DRESSING | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_W_ConveyorBelt_A01_PR_NVD_01 | NVIDIA Warehouse Assets Pack | MACHINE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_W_ConveyorBelt_A02_PR_NVD_01 | NVIDIA Warehouse Assets Pack | MACHINE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_W_ConveyorBelt_A04_PR_NVD_01 | NVIDIA Warehouse Assets Pack | MACHINE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_W_ConveyorBelt_A05_PR_NVD_01 | NVIDIA Warehouse Assets Pack | MACHINE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_W_ConveyorBelt_A06_PR_NVD_01 | NVIDIA Warehouse Assets Pack | DRESSING | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_W_ConveyorBelt_A07_PR_NVD_01 | NVIDIA Warehouse Assets Pack | MACHINE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_W_ConveyorBelt_A08_PR_NVD_01 | NVIDIA Warehouse Assets Pack | MACHINE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_W_ConveyorBelt_A09_PR_NVD_01 | NVIDIA Warehouse Assets Pack | MACHINE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_W_Forklift_A01_PR_V_NVD_01 | NVIDIA Warehouse Assets Pack | MACHINE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_W_Forklift_B01_PR_V_NVD_01 | NVIDIA Warehouse Assets Pack | MACHINE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_W_IBCTank_A01_PR_NVD_01 | NVIDIA Warehouse Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| N_W_StainlessSteelIBCTank_A01_PR_NVD_01 | NVIDIA Warehouse Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS |
-| P_CABLE_TRAY_3M | Procedural project-authored | STRUCTURE | PROJECT_AUTHORED_INTERNAL |
-| P_TANK_D1p6 | Procedural project-authored | STORAGE | PROJECT_AUTHORED_INTERNAL |
-| P_TANK_D2p0 | Procedural project-authored | STORAGE | PROJECT_AUTHORED_INTERNAL |
-| P_TANK_D2p4 | Procedural project-authored | STORAGE | PROJECT_AUTHORED_INTERNAL |
-| P_TRUSS_6M | Procedural project-authored | STRUCTURE | PROJECT_AUTHORED_INTERNAL |
-| P_TRUSS_9M | Procedural project-authored | STRUCTURE | PROJECT_AUTHORED_INTERNAL |
+| Asset | Source | Class | Licence record | Download (MolmoSpaces shard, bytes) | Original |
+|---|---|---|---|---|---|
+| M_01858d5edc344ff4ab11d0edce645223 | MolmoSpaces | MACHINE | by | [00000.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00000.tar) `931982848-932625692` | [Sketchfab](https://sketchfab.com/3d-models/sci-fi-machine-replicator-01858d5edc344ff4ab11d0edce645223) (Stan) |
+| M_05ace13ccbd048eb9c6c55ac3c3d8501 | MolmoSpaces | DRESSING | by | [00001.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00001.tar) `1457360384-1458527805` | [Sketchfab](https://sketchfab.com/3d-models/sci-fi-computer-console-05ace13ccbd048eb9c6c55ac3c3d8501) (TheoClarke) |
+| M_08d3e2e9b7dd4b2db6bb98ccc8b36f32 | MolmoSpaces | MACHINE | by | [00002.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00002.tar) `1346311680-1346562490` | [Sketchfab](https://sketchfab.com/3d-models/low-poly-robot-arm-animated-08d3e2e9b7dd4b2db6bb98ccc8b36f32) (Myjato) |
+| M_100bb912e7b345348bd34cfbe6a488e9 | MolmoSpaces | MACHINE | by | [00004.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00004.tar) `1535770112-1536970867` | [Sketchfab](https://sketchfab.com/3d-models/generatore-elettrico-100bb912e7b345348bd34cfbe6a488e9) (pedrina.riccardo) |
+| M_11b2bf7ec7824a32b5fe25e2c7eefd42 | MolmoSpaces | STORAGE | by | [00005.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00005.tar) `442934784-446653779` | [Sketchfab](https://sketchfab.com/3d-models/hl2-inspired-laundry-machine-1-11b2bf7ec7824a32b5fe25e2c7eefd42) (Kidney_02) |
+| M_129fb7392430401bbe0bc180c26f3044 | MolmoSpaces | MACHINE | by | [00005.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00005.tar) `1060436480-1063764877` | [Sketchfab](https://sketchfab.com/3d-models/industrial-robot-129fb7392430401bbe0bc180c26f3044) (24je4296) |
+| M_161218a97ad64e609fc59f143bb67c88 | MolmoSpaces | STORAGE | by | [00006.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00006.tar) `1139968512-1141418972` | [Sketchfab](https://sketchfab.com/3d-models/emilcin-abduction-ufo-by-vegan-pete-161218a97ad64e609fc59f143bb67c88) (pawinc) |
+| M_1bf2ac5bf98b494aa0976698a1c635ee | MolmoSpaces | DRESSING | by | [00008.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00008.tar) `563302912-564570432` | [Sketchfab](https://sketchfab.com/3d-models/transmissor-scifi-1bf2ac5bf98b494aa0976698a1c635ee) (lucasgjandrey) |
+| M_1cdd1db557b8428892af4773bdada913 | MolmoSpaces | DRESSING | by | [00008.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00008.tar) `1134972416-1137449192` | [Sketchfab](https://sketchfab.com/3d-models/spaceship-corridor-1cdd1db557b8428892af4773bdada913) (the_table) |
+| M_21a79117cd9e476e8bb49f92517495df | MolmoSpaces | MACHINE | by | [00009.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00009.tar) `2087092224-2088580218` | [Sketchfab](https://sketchfab.com/3d-models/robot-arm-21a79117cd9e476e8bb49f92517495df) (_k_o_b_e_) |
+| M_2270059391764e93aa01ad5d6a3000c1 | MolmoSpaces | MACHINE | by | [00010.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00010.tar) `446436864-448252982` | [Sketchfab](https://sketchfab.com/3d-models/widowx-mkii-robotic-arm-2270059391764e93aa01ad5d6a3000c1) (Interbotix) |
+| M_23c0cfc4e06b4bd9a6b9b7d1b77fc37c | MolmoSpaces | DRESSING | by | [00010.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00010.tar) `1247178752-1247789100` | [Sketchfab](https://sketchfab.com/3d-models/oranzeriaxml-23c0cfc4e06b4bd9a6b9b7d1b77fc37c) (Rafał Link) |
+| M_2bfb7b6c9bfd450884a6eaa82410a840 | MolmoSpaces | DRESSING | by | [00012.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00012.tar) `2141489664-2143477757` | [Sketchfab](https://api.sketchfab.com/v3/models/2bfb7b6c9bfd450884a6eaa82410a840) (Thunder) |
+| M_2c7c0f0b03314a7591bcdba960ce4306 | MolmoSpaces | MACHINE | by | [00013.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00013.tar) `280951808-282768039` | [Sketchfab](https://sketchfab.com/3d-models/irizar-agw-1-c-compact-version-2c7c0f0b03314a7591bcdba960ce4306) (Jesus Irizar) |
+| M_2ccb9ed45a734a639d0ccfc6a1ebf6c4 | MolmoSpaces | DRESSING | by | [00013.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00013.tar) `467902976-470632579` | [Sketchfab](https://sketchfab.com/3d-models/rectificador-de-vapor-de-mercurio-2ccb9ed45a734a639d0ccfc6a1ebf6c4) (museoETSII) |
+| M_3191125f65534f54820145e1bb64c74a | MolmoSpaces | MACHINE | by | [00014.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00014.tar) `1197789184-1198276105` | [Sketchfab](https://sketchfab.com/3d-models/haas-umc-750-3191125f65534f54820145e1bb64c74a) (FrikiWiki3d) |
+| M_347d16f0dab4421d835492adb4956d05 | MolmoSpaces | MACHINE | by | [00015.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00015.tar) `773715968-775230601` | [Sketchfab](https://sketchfab.com/3d-models/water-capsule-347d16f0dab4421d835492adb4956d05) (bvbwork510524) |
+| M_37d55c97fa644126874452996f73ec84 | MolmoSpaces | MACHINE | by | [00016.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00016.tar) `679839744-680659539` | [Sketchfab](https://sketchfab.com/3d-models/encartonadora-37d55c97fa644126874452996f73ec84) (AlexGuerra) |
+| M_39b1c722361f419380919f67a82dc681 | MolmoSpaces | MACHINE | by | [00016.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00016.tar) `1765417472-1766102147` | [Sketchfab](https://sketchfab.com/3d-models/irb1600idaw-39b1c722361f419380919f67a82dc681) (tommyysvensson) |
+| M_3af0451021dd4e3ca4d4c30d4ffd60dc | MolmoSpaces | STORAGE | by | [00017.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00017.tar) `523824128-524188254` | [Sketchfab](https://sketchfab.com/3d-models/220525-apartment-3af0451021dd4e3ca4d4c30d4ffd60dc) (きいぷらん) |
+| M_3cc9a6b649194a2ba0c698dc345e2205 | MolmoSpaces | DRESSING | by | [00017.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00017.tar) `1678700032-1680622655` | [Sketchfab](https://sketchfab.com/3d-models/helicarrier-bay-from-reference-practical-work-3cc9a6b649194a2ba0c698dc345e2205) (TadenStar) |
+| M_48028077e5b04abbae54d6f88cc9b396 | MolmoSpaces | DRESSING | by | [00021.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00021.tar) `50306560-50692218` | [Sketchfab](https://api.sketchfab.com/v3/models/48028077e5b04abbae54d6f88cc9b396) (ILDST) |
+| M_4843c9a5c0414be38c2d019d80cdaf15 | MolmoSpaces | DRESSING | by | [00021.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00021.tar) `238538240-238885031` | [Sketchfab](https://sketchfab.com/3d-models/estrutural-portico-4843c9a5c0414be38c2d019d80cdaf15) (r3engenhariafoz) |
+| M_5037b5bea4bf4bd7bf53d581d478bd90 | MolmoSpaces | DRESSING | by | [00023.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00023.tar) `953887232-956351058` | [Sketchfab](https://sketchfab.com/3d-models/industrial-toolbox-5037b5bea4bf4bd7bf53d581d478bd90) (LuddePudde) |
+| M_504fd8dba7c44de3afb819f4a883ccaa | MolmoSpaces | MACHINE | by | [00023.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00023.tar) `1015107072-1015472538` | [Sketchfab](https://sketchfab.com/3d-models/robotic-arm-504fd8dba7c44de3afb819f4a883ccaa) (honzaJEnej) |
+| M_50b265158cc545e4803a7f3209a103b9 | MolmoSpaces | DRESSING | by | [00023.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00023.tar) `1239474176-1240231647` | [Sketchfab](https://sketchfab.com/3d-models/aus-tinyh-8mv2-25-09-20-50b265158cc545e4803a7f3209a103b9) (ISF&T) |
+| M_5a9434fade0d47dca6afd6adedbbba70 | MolmoSpaces | MACHINE | by | [00026.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00026.tar) `947290624-947824355` | [Sketchfab](https://sketchfab.com/3d-models/tp-2-music-box-5a9434fade0d47dca6afd6adedbbba70) (Gabrielle Côté) |
+| M_5bb667c4aedd4d4a988aa7d142190adc | MolmoSpaces | DRESSING | by | [00026.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00026.tar) `1668699136-1669448189` | [Sketchfab](https://sketchfab.com/3d-models/galpao-comercial-5bb667c4aedd4d4a988aa7d142190adc) (Duplo A Soluções em Engenharia) |
+| M_5bddb9b303ad4c448421aea21a1f6311 | MolmoSpaces | DRESSING | by | [00026.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00026.tar) `1751543808-1753910249` | [Sketchfab](https://sketchfab.com/3d-models/big-ol-generator-5bddb9b303ad4c448421aea21a1f6311) (tboiston) |
+| M_5c7ba4bab60d48f5803bedd75dbc07f6 | MolmoSpaces | STORAGE | by | [00026.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00026.tar) `2132665344-2132977551` | [Sketchfab](https://sketchfab.com/3d-models/lr86-3bd-plw-80-60-15-hoh-103-5c7ba4bab60d48f5803bedd75dbc07f6) (Van 't Wout) |
+| M_64bf235933084a62a3bf7001b9d8da00 | MolmoSpaces | MACHINE | by | [00029.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00029.tar) `927626240-927854850` | [Sketchfab](https://sketchfab.com/3d-models/animation-robot-11-64bf235933084a62a3bf7001b9d8da00) (darkfrei) |
+| M_65df992aac564d0d8718788967842221 | MolmoSpaces | DRESSING | by | [00029.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00029.tar) `1607531008-1607728805` | [Sketchfab](https://sketchfab.com/3d-models/r-shed-65df992aac564d0d8718788967842221) (Steel Frame Solutions Limited) |
+| M_686634679a644787b2de748e8c28b747 | MolmoSpaces | MACHINE | by | [00030.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00030.tar) `1052272640-1053075991` | [Sketchfab](https://sketchfab.com/3d-models/scp-control-room-686634679a644787b2de748e8c28b747) (Maxime66410) |
+| M_771fcf3c9d7b450b9eaa763902b41622 | MolmoSpaces | DRESSING | by | [00034.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00034.tar) `1771623424-1773456265` | [Sketchfab](https://sketchfab.com/3d-models/rust-pipe-tank-771fcf3c9d7b450b9eaa763902b41622) (NaN_4aki) |
+| M_77326c45609b48c687ac76c611406c25 | MolmoSpaces | DRESSING | by | [00034.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00034.tar) `1833729536-1834348356` | [Sketchfab](https://sketchfab.com/3d-models/broken-bridge-77326c45609b48c687ac76c611406c25) (CollinPatrick) |
+| M_7751621b3aa64f53bc54e0d397b82b87 | MolmoSpaces | DRESSING | by | [00034.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00034.tar) `1898774016-1899048274` | [Sketchfab](https://sketchfab.com/3d-models/cama-necropsia-7751621b3aa64f53bc54e0d397b82b87) (JoDanMo) |
+| M_78895d416b2a41be9f700f92a12d79ec | MolmoSpaces | DRESSING | by | [00035.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00035.tar) `580421632-581212231` | [Sketchfab](https://sketchfab.com/3d-models/armario-mecanico-78895d416b2a41be9f700f92a12d79ec) (BStab) |
+| M_80ae6fd2e8f24415be5e1680237e73ce | MolmoSpaces | DRESSING | by | [00037.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00037.tar) `1298228736-1300164304` | [Sketchfab](https://sketchfab.com/3d-models/halo-4-cryo-chamber-diorama-80ae6fd2e8f24415be5e1680237e73ce) (Nicolas Gutierrez) |
+| M_8412cac778034473ac18deeaafd01779 | MolmoSpaces | MACHINE | by | [00038.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00038.tar) `1267904512-1271217715` | [Sketchfab](https://sketchfab.com/3d-models/generator-8412cac778034473ac18deeaafd01779) (chrisstahlart) |
+| M_86caf03649104a5ba7a6443ac0663a0a | MolmoSpaces | MACHINE | by | [00039.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00039.tar) `873081344-873411367` | [Sketchfab](https://sketchfab.com/3d-models/brick-maker-86caf03649104a5ba7a6443ac0663a0a) (Donnevanhk) |
+| M_89d9b1875b7b49b08bec7b697f8b59f4 | MolmoSpaces | STORAGE | by | [00040.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00040.tar) `729448960-729631490` | [Sketchfab](https://sketchfab.com/3d-models/p07701-d02-89d9b1875b7b49b08bec7b697f8b59f4) (jacek2) |
+| M_8c66093ab50d4f54be665b6f0699e2ef | MolmoSpaces | STORAGE | by | [00041.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00041.tar) `304694784-304942622` | [Sketchfab](https://sketchfab.com/3d-models/water-tank-8c66093ab50d4f54be665b6f0699e2ef) (stharun2407) |
+| M_8e80addcf52f4880b9414c3fadc3c850 | MolmoSpaces | MACHINE | by | [00041.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00041.tar) `1725370880-1728023172` | [Sketchfab](https://api.sketchfab.com/v3/models/8e80addcf52f4880b9414c3fadc3c850) (ananthswamy) |
+| M_90dceee838b74104b2bdae09255e40a3 | MolmoSpaces | MACHINE | by | [00042.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00042.tar) `1060261888-1060850171` | [Sketchfab](https://sketchfab.com/3d-models/cabinado3d-90dceee838b74104b2bdae09255e40a3) (Alpie) |
+| M_933646cfa22649abaa1922d34bdc41b4 | MolmoSpaces | MACHINE | by | [00043.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00043.tar) `528654848-528838415` | [Sketchfab](https://sketchfab.com/3d-models/lite450-933646cfa22649abaa1922d34bdc41b4) (ningss) |
+| M_9920b87c6cdd4e08a28976e6ba366b3b | MolmoSpaces | MACHINE | by | [00044.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00044.tar) `2130157056-2131415291` | [Sketchfab](https://sketchfab.com/3d-models/industrial-gas-cylinder-machine-9920b87c6cdd4e08a28976e6ba366b3b) (DanishWin) |
+| M_9d0d63528aa249af96f103501bf94e40 | MolmoSpaces | MACHINE | by | [00046.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00046.tar) `281288192-283817688` | [Sketchfab](https://sketchfab.com/3d-models/kuka-mimic-9d0d63528aa249af96f103501bf94e40) (EntropyNine) |
+| M_9df6da13eea144a9ba8f00026887ac53 | MolmoSpaces | MACHINE | by | [00046.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00046.tar) `847505920-849121276` | [Sketchfab](https://sketchfab.com/3d-models/robot-arm-9df6da13eea144a9ba8f00026887ac53) (moriyork) |
+| M_aa6923a3a31340c4a3ea8f65ee45fd68 | MolmoSpaces | DRESSING | by | [00050.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00050.tar) `327455744-328800055` | [Sketchfab](https://sketchfab.com/3d-models/generator-with-annotations-aa6923a3a31340c4a3ea8f65ee45fd68) (Plague) |
+| M_afb2b82a934f441ba5f71a90af7823ed | MolmoSpaces | MACHINE | by | [00051.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00051.tar) `1741112832-1743873472` | [Sketchfab](https://sketchfab.com/3d-models/automaton-texturing-afb2b82a934f441ba5f71a90af7823ed) (LunaticFlaw) |
+| M_b18e62dda2e04e97a95312bb6a284f1c | MolmoSpaces | DRESSING | by | [00052.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00052.tar) `758246912-760213820` | [Sketchfab](https://sketchfab.com/3d-models/gpu-aiport-ground-power-unit-b18e62dda2e04e97a95312bb6a284f1c) (omri_ha_muglob) |
+| M_bd5d5a1fdbc7470fab575738d1741a3d | MolmoSpaces | MACHINE | by | [00055.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00055.tar) `1932665856-1934710340` | [Sketchfab](https://sketchfab.com/3d-models/cryotube-bd5d5a1fdbc7470fab575738d1741a3d) (bsichterman) |
+| M_bd738722878c4ba4bbe4fa1e4ba2b431 | MolmoSpaces | MACHINE | by | [00055.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00055.tar) `1989636608-1991012926` | [Sketchfab](https://sketchfab.com/3d-models/manipulator-bd738722878c4ba4bbe4fa1e4ba2b431) (Artyom Scheredin) |
+| M_c07a679eadb64c15b26cb063b8a736ae | MolmoSpaces | MACHINE | by | [00056.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00056.tar) `1903440384-1905059980` | [Sketchfab](https://sketchfab.com/3d-models/generator-trailer-c07a679eadb64c15b26cb063b8a736ae) (Batuhan13) |
+| M_c1193111c2e449939db3c592daac6654 | MolmoSpaces | MACHINE | by | [00057.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00057.tar) `106803200-107206843` | [Sketchfab](https://sketchfab.com/3d-models/haas-tm-2p-c1193111c2e449939db3c592daac6654) (FrikiWiki3d) |
+| M_c9e685c4affd40c9ab4ce2fea549b7ce | MolmoSpaces | MACHINE | by | [00059.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00059.tar) `1337596416-1339357070` | [Sketchfab](https://sketchfab.com/3d-models/robotic-arm-c9e685c4affd40c9ab4ce2fea549b7ce) (Patrick Gallagher) |
+| M_cfc37d0aff454f29a27c8ab3325f445b | MolmoSpaces | DRESSING | by | [00061.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00061.tar) `815889920-818082041` | [Sketchfab](https://sketchfab.com/3d-models/rusted-industrial-water-tank-cfc37d0aff454f29a27c8ab3325f445b) (Arghanion's PuzzleBox) |
+| M_d0b95c089b814984934af45c1b8223aa | MolmoSpaces | STORAGE | by | [00061.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00061.tar) `1388242432-1388521395` | [Sketchfab](https://sketchfab.com/3d-models/industrial-barrel-big-d0b95c089b814984934af45c1b8223aa) (KrayDay) |
+| M_d225389de8c24d1c9cf7102c740eccf9 | MolmoSpaces | MACHINE | by | [00062.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00062.tar) `143160320-144485147` | [Sketchfab](https://sketchfab.com/3d-models/game-asset-generator-d225389de8c24d1c9cf7102c740eccf9) (Daniel_Bakunin) |
+| M_d7a5f83635e44554b78e17ddeef94247 | MolmoSpaces | MACHINE | by | [00063.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00063.tar) `1383433216-1385396989` | [Sketchfab](https://sketchfab.com/3d-models/heating-machine-d7a5f83635e44554b78e17ddeef94247) (KendeMrena) |
+| M_d92b9b0aad144887b4d25479902b6f7b | MolmoSpaces | STORAGE | by | [00064.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00064.tar) `137703936-137852668` | [Sketchfab](https://sketchfab.com/3d-models/caja-d92b9b0aad144887b4d25479902b6f7b) (Rodrigo.Puerres) |
+| M_da23635737e44da6a57a7323637e9bde | MolmoSpaces | STORAGE | by | [00064.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00064.tar) `761814528-762223945` | [Sketchfab](https://sketchfab.com/3d-models/3d-estrutural-casa-fazenda-da23635737e44da6a57a7323637e9bde) (jefferson.engcivil16) |
+| M_e26be8de4f134c1bb9d8eafab0ad8720 | MolmoSpaces | MACHINE | by | [00066.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00066.tar) `1709090304-1710912578` | [Sketchfab](https://sketchfab.com/3d-models/test-robot-1-e26be8de4f134c1bb9d8eafab0ad8720) (EntropyNine) |
+| M_e5e6703e7788417e9761eb4dc516de5a | MolmoSpaces | MACHINE | by | [00067.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00067.tar) `1745631232-1747486553` | [Sketchfab](https://api.sketchfab.com/v3/models/e5e6703e7788417e9761eb4dc516de5a) (jacuo777) |
+| M_e8e4671463fd4bb68fdf3495debb5380 | MolmoSpaces | MACHINE | by | [00068.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00068.tar) `1419788800-1421600583` | [Sketchfab](https://sketchfab.com/3d-models/robot-manufacturing-arm-e8e4671463fd4bb68fdf3495debb5380) (Arion Digital) |
+| M_ee5316d1e26640dcacdb0c9813eadc3f | MolmoSpaces | DRESSING | by | [00070.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00070.tar) `430161920-432161674` | [Sketchfab](https://sketchfab.com/3d-models/electric-meter-ee5316d1e26640dcacdb0c9813eadc3f) (Sousinho) |
+| M_f07c0b4e77454cd6acca537a8f4187c7 | MolmoSpaces | MACHINE | by | [00070.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00070.tar) `1702138368-1703480710` | [Sketchfab](https://sketchfab.com/3d-models/penumatic-mechanism-f07c0b4e77454cd6acca537a8f4187c7) (Lalo Cardosa) |
+| M_f09302a50d6e47198f533dfd6743dce8 | MolmoSpaces | DRESSING | by | [00070.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00070.tar) `1760302080-1762015882` | [Sketchfab](https://sketchfab.com/3d-models/aoi-v6-f09302a50d6e47198f533dfd6743dce8) (txiong) |
+| M_f2500abd8bbb4c12905b8e00cf2499a8 | MolmoSpaces | MACHINE | by | [00071.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00071.tar) `642644992-645518388` | [Sketchfab](https://sketchfab.com/3d-models/tp2-mechanic-object-nand136-n01-va-langevin-f2500abd8bbb4c12905b8e00cf2499a8) (Viktor Amarok Langevin) |
+| M_f85f78194e69404888f8c6c40207c819 | MolmoSpaces | STORAGE | by | [00073.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00073.tar) `222238208-222868433` | [Sketchfab](https://api.sketchfab.com/v3/models/f85f78194e69404888f8c6c40207c819) (xetrybeck) |
+| M_fbf142c588cc4b57a143e524f5a0bc11 | MolmoSpaces | MACHINE | by | [00074.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00074.tar) `307468288-308834390` | [Sketchfab](https://sketchfab.com/3d-models/kuka-fbf142c588cc4b57a143e524f5a0bc11) (Keivan H) |
+| M_fea6b5de87a343fb9e453c39f5cf1696 | MolmoSpaces | MACHINE | by | [00074.tar](https://huggingface.co/datasets/allenai/molmospaces/resolve/main/isaac/objects/objaverse/20260128/shards/00074.tar) `2124677632-2124954681` | [Sketchfab](https://sketchfab.com/3d-models/ensacadora-fea6b5de87a343fb9e453c39f5cf1696) (EPSAMX) |
+| N_I_Cardbox_A1 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_Cardbox_A2 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_Cardbox_A3 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_Cardbox_B1 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_Cardbox_B2 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_Cardbox_B3 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_Cardbox_C1 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_Cardbox_C2 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_Cardbox_C3 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_Cardbox_D1 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_Cardbox_D3 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_CornerRail_A1 | NVIDIA Industrial Assets Pack | STRUCTURE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_MetalFencing_A1 | NVIDIA Industrial Assets Pack | DRESSING | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_MetalFencing_A2 | NVIDIA Industrial Assets Pack | DRESSING | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_MetalFencing_A3 | NVIDIA Industrial Assets Pack | DRESSING | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_Pallet_A1 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_Pallet_B1 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_Pallet_C1 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_Pallets_A1 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_Pallets_A2 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_Pallets_A3 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_Pallets_A4 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_Pallets_A5 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_RackLarge_A2 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_RackLarge_A3 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_RackLarge_A4 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_RackLarge_A5 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_RackLarge_A6 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_RackLarge_A7 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_RackLarge_A9 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_RackLongEmpty_A1 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_RackLongEmpty_A2 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_RackLong_A1 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_RackLong_A2 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_RackLong_A3 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_RackLong_A4 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_RackLong_A5 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_RackLong_A6 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_RackLong_A7 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_RackLong_A8 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_RackLong_A9 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_RackSmallEmpty_A1 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_RackSmallEmpty_A2 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_RackSmall_A1 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_RackSmall_A2 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_RackSmall_A3 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_RackSmall_A4 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_RackSmall_A5 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_RackSmall_A6 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_RackSmall_A7 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_RackSmall_A8 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_RackSmall_A9 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_RampLong_A1 | NVIDIA Industrial Assets Pack | DRESSING | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_RampShort_A1 | NVIDIA Industrial Assets Pack | DRESSING | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_WarehousePile_A2 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_WarehousePile_A3 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_WarehousePile_A4 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_WarehousePile_A5 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_WarehousePile_A6 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_WarehousePile_A7 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_WoodenCrate_A1 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_WoodenCrate_A2 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_WoodenCrate_B1 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_WoodenCrate_B2 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_I_WoodenCrate_C1 | NVIDIA Industrial Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_E_KukaArm1 | NVIDIA USD Explorer Sample | MACHINE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_E_Safety_Gate | NVIDIA USD Explorer Sample | DRESSING | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_E_ground_junction_box | NVIDIA USD Explorer Sample | DRESSING | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_E_hood | NVIDIA USD Explorer Sample | DRESSING | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_E_junctionbox | NVIDIA USD Explorer Sample | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_E_s_pedestal | NVIDIA USD Explorer Sample | DRESSING | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_E_vehicle_hanger | NVIDIA USD Explorer Sample | DRESSING | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_W_ConveyorBelt_A01_PR_NVD_01 | NVIDIA Warehouse Assets Pack | MACHINE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_W_ConveyorBelt_A02_PR_NVD_01 | NVIDIA Warehouse Assets Pack | MACHINE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_W_ConveyorBelt_A04_PR_NVD_01 | NVIDIA Warehouse Assets Pack | MACHINE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_W_ConveyorBelt_A05_PR_NVD_01 | NVIDIA Warehouse Assets Pack | MACHINE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_W_ConveyorBelt_A06_PR_NVD_01 | NVIDIA Warehouse Assets Pack | DRESSING | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_W_ConveyorBelt_A07_PR_NVD_01 | NVIDIA Warehouse Assets Pack | MACHINE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_W_ConveyorBelt_A08_PR_NVD_01 | NVIDIA Warehouse Assets Pack | MACHINE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_W_ConveyorBelt_A09_PR_NVD_01 | NVIDIA Warehouse Assets Pack | MACHINE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_W_Forklift_A01_PR_V_NVD_01 | NVIDIA Warehouse Assets Pack | MACHINE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_W_Forklift_B01_PR_V_NVD_01 | NVIDIA Warehouse Assets Pack | MACHINE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_W_IBCTank_A01_PR_NVD_01 | NVIDIA Warehouse Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| N_W_StainlessSteelIBCTank_A01_PR_NVD_01 | NVIDIA Warehouse Assets Pack | STORAGE | NVIDIA_OMNIVERSE_BUNDLE_TERMS | - | - |
+| P_CABLE_TRAY_3M | Procedural project-authored | STRUCTURE | PROJECT_AUTHORED_INTERNAL | - | - |
+| P_TANK_D1p6 | Procedural project-authored | STORAGE | PROJECT_AUTHORED_INTERNAL | - | - |
+| P_TANK_D2p0 | Procedural project-authored | STORAGE | PROJECT_AUTHORED_INTERNAL | - | - |
+| P_TANK_D2p4 | Procedural project-authored | STORAGE | PROJECT_AUTHORED_INTERNAL | - | - |
+| P_TRUSS_6M | Procedural project-authored | STRUCTURE | PROJECT_AUTHORED_INTERNAL | - | - |
+| P_TRUSS_9M | Procedural project-authored | STRUCTURE | PROJECT_AUTHORED_INTERNAL | - | - |
 
 </details>
 
